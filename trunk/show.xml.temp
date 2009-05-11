@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="GB2312"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=GB2312" />
+    <title>Google</title>
+    <script>window.google={kEI:"BdoHSq3yDIOYkQXq3YHwBA",kEXPI:"17259",kHL:"zh-CN"};
+window.google.sn="webhp";window.google.timers={load:{t:{start:(new Date).getTime()}}};try{window.google.pt=window.gtbExternal&amp;&amp;window.gtbExternal.pageT()||window.external&amp;&amp;window.external.pageT}catch(b){}
+window.google.jsrt_kill=1;
+var _gjwl=location;function _gjuc(){var e=_gjwl.href.indexOf("#");if(e&gt;=0){var a=_gjwl.href.substring(e);if(a.indexOf("&amp;q=")&gt;0||a.indexOf("#q=")&gt;=0){a=a.substring(1);if(a.indexOf("#")==-1){for(var c=0;c&lt;a.length;){var d=c;if(a.charAt(d)=="&amp;")++d;var b=a.indexOf("&amp;",d);if(b==-1)b=a.length;var f=a.substring(d,b);if(f.indexOf("fp=")==0){a=a.substring(0,c)+a.substring(b,a.length);b=c}else if(f=="cad=h")return 0;c=b}_gjwl.href="/search?"+a+"&amp;cad=h";return 1}}}return 0}function _gjp(){!(window._gjwl.hash&amp;&amp;
+window._gjuc())&amp;&amp;setTimeout(_gjp,500)};
+window._gjp &amp;&amp; _gjp();</script>
+    <style>body,td,a,p,.h{font-family:arial,sans-serif}.h{color:#36c;font-size:20px}.q{color:#00c}.ts td{padding:0}.ts{border-collapse:collapse}#gbar{height:22px;padding-left:2px}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}#guser{padding-bottom:7px !important;text-align:right}#gbar,#guser{font-size:13px;padding-top:1px !important}@media all{.gb1,.gb3{height:22px;margin-right:.73em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb3{color:#00c !important}.gb3{text-decoration:none}</style>
+    <script>google.y={};google.x=function(e,g){google.y[e.id]=[e,g];return false};</script>
+  </head>
+  <body bgcolor="#ffffff" text="#000000" link="#0000cc" vlink="#551a8b" alink="#ff0000" onload="document.f.q.focus();if(document.images)new Image().src='/images/nav_logo4.png'" topmargin="3" marginheight="3">
+    <textarea id="csi" style="display:none" />
+    <div id="gbar">
+      <nobr>
+        <b class="gb1">网页</b>
+        <a shape="rect" class="gb1" href="http://images.google.cn/imghp?hl=zh-CN&amp;tab=wi">图片</a>
+        <a shape="rect" class="gb1" href="http://ditu.google.cn/maps?hl=zh-CN&amp;tab=wl">地图</a>
+        <a shape="rect" class="gb1" href="http://news.google.cn/nwshp?hl=zh-CN&amp;tab=wn">资讯</a>
+        <a shape="rect" class="gb1" href="http://video.google.cn/?hl=zh-CN&amp;tab=wv">视频</a>
+        <a shape="rect" class="gb1" href="http://www.google.cn/music?hl=zh-CN&amp;tab=wU">音乐</a>
+        <a shape="rect" class="gb3" href="http://www.google.cn/intl/zh-CN/options/">
+          <u>更多</u>
+          &#xbb;
+        </a>
+      </nobr>
+    </div>
+    <div class="gbh" style="left:0" />
+    <div class="gbh" style="right:0" />
+    <div align="right" id="guser" style="font-size:84%;padding:0 0 4px" width="100%">
+      <nobr>
+        <a shape="rect" href="/url?sa=p&amp;pref=ig&amp;pval=3&amp;q=http://www.google.cn/ig/china%3Fhl%3Dzh-CN%26source%3Diglk&amp;usg=AFQjCNGNYfgta9G_BNut0SFGzavY4Y2pjQ">个性化首页</a>
+        |
+        <a shape="rect" href="https://www.google.com/accounts/Login?continue=http://www.google.cn/&amp;hl=zh-CN">登录</a>
+      </nobr>
+    </div>
+    <center>
+      <br clear="all" id="lgpd" />
+      <img src="/intl/zh-CN/images/logo_cn.gif" width="276" height="110" border="0" alt="Google" title="Google" />
+      <br clear="none" />
+      <br clear="none" />
+      <form enctype="application/x-www-form-urlencoded" method="get" action="/search" name="f">
+        <table cellpadding="0" cellspacing="0">
+          <tr valign="top">
+            <td colspan="1" rowspan="1" width="25%">&#xa0;</td>
+            <td align="center" colspan="1" nowrap="nowrap" rowspan="1">
+              <input type="hidden" name="hl" value="zh-CN" />
+              <input type="hidden" name="ie" value="GB2312" />
+              <input maxlength="2048" type="text" autocomplete="off" name="q" size="55" title="Google 搜索" value="" />
+              <br clear="none" />
+              <input type="submit" name="btnG" value="Google 搜索" />
+              <input type="submit" name="btnI" value="&#xa0;手气不错&#xa0;" />
+            </td>
+            <td colspan="1" nowrap="nowrap" rowspan="1" width="25%">
+              <font size="-1">
+                &#xa0;&#xa0;
+                <a shape="rect" href="/advanced_search?hl=zh-CN">高级搜索</a>
+                <br clear="none" />
+                &#xa0;&#xa0;
+                <a shape="rect" href="/preferences?hl=zh-CN">使用偏好</a>
+                <br clear="none" />
+                &#xa0;&#xa0;
+                <a shape="rect" href="/language_tools?hl=zh-CN">语言工具</a>
+              </font>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" colspan="3" rowspan="1">
+              <font size="-1">
+                <span style="text-align:left">
+                  <input checked="checked" type="radio" id="all" name="meta" value="" />
+                  <label for="all">所有网页 &#xa0;</label>
+                  <input type="radio" id="ch" name="meta" value="lr=lang_zh-CN|lang_zh-TW" />
+                  <label for="ch">中文网页 &#xa0;</label>
+                  <input type="radio" id="lgr" name="meta" value="lr=lang_zh-CN" />
+                  <label for="lgr">简体中文网页 &#xa0;</label>
+                  <input type="radio" id="cty" name="meta" value="cr=countryCN" />
+                  <label for="cty">中国的网页 &#xa0;</label>
+                </span>
+              </font>
+            </td>
+          </tr>
+        </table>
+      </form>
+      <br clear="none" />
+      <br clear="none" />
+      <font size="-1">
+        <a shape="rect" href="/intl/zh-CN/ads/">广告计划</a>
+        -
+        <a shape="rect" href="/intl/zh-CN/about.html">Google 大全</a>
+        -
+        <a shape="rect" href="http://www.google.com/ncr">Google.com in English</a>
+      </font>
+      <p>
+        <font size="-1">
+          &#xa9;2009 -
+          <a shape="rect" href="/intl/zh-CN/privacy.html">隐私权政策</a>
+          -
+          <font size="-2">
+            <a shape="rect" href="http://www.miibeian.gov.cn/" target="_blank">ICP证合字B2-20070004号</a>
+            &#xa0;&#xa0;
+            <img align="absmiddle" src="/intl/zh-CN_cn/images/cn_icp.gif" width="15" height="16" alt="icp" />
+          </font>
+        </font>
+      </p>
+    </center>
+    <div id="xjsd" />
+    <div id="xjsi">
+      <script>if(google.y)google.y.first=[];if(google.y)google.y.first=[];google.dstr=[];google.rein=[];window.setTimeout(function(){var xjs=document.createElement('script');xjs.src='/extern_js/f/CgV6aC1DThICY24gDiswCjgbQAIsKzAOOAUsKzAYOAQsKzAlOMmIASwrMCY4BCwrMCc4ACw/-lhUSTgRkeE.js';(document.getElementById('xjsd') || document.body).appendChild(xjs)},0);;google.y.first.push(function(){google.ac.i(document.f,document.f.q,'','')});google.xjs&amp;&amp;google.j&amp;&amp;google.j.xi&amp;&amp;google.j.xi()</script>
+    </div>
+    <script>(function(){
+function a(){google.timers.load.t.ol=(new Date).getTime();google.report&amp;&amp;google.report(google.timers.load,{ei:google.kEI,e:google.kEXPI})}if(window.addEventListener)window.addEventListener("load",a,false);else if(window.attachEvent)window.attachEvent("onload",a);google.timers.load.t.prt=(new Date).getTime();
+})();</script>
+  </body>
+</html>
+
