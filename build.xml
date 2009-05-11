@@ -1,0 +1,30 @@
+<project name="Test" default="testCompile">
+    <target name="testCompile">
+        <javac srcdir="E:/TestWork/Test/src"
+            destdir="E:/TestWork/Test/classes"
+            debug="true"
+            encoding="utf-8">
+            <!--<compilerarg value="-Xlint:unchecked"/>-->
+            <classpath refid="testpath" />
+        </javac>
+    </target>
+
+    <path id="testpath">
+        <fileset dir="E:/TestWork/Test/lib">
+            <include name="**/*.jar"/>
+        </fileset>
+        <pathelement location="E:/TestWork/Test/classes/"/>
+    </path>
+    <target name="run">
+        <java classname="XMLFixer" classpath="./classes">
+            <!--<arg value="-h"/>-->
+            <classpath refid="testpath" />
+        </java>
+    </target>
+    <target name="test">
+        <java classname="XMLUpdateTimer" classpath="./classes" fork="on" >
+            <!--<arg value="-h"/>-->
+            <classpath refid="testpath" />
+        </java>
+    </target>
+</project>
