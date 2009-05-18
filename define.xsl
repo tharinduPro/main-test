@@ -4,7 +4,9 @@
 	<xsl:template match="/">
         <html>
 			<body>
-                <img xhtml:src='<xsl:value-of select="//xhtml:body/xhtml:center/xhtml:img/@src"/>'/>
+                <img>
+                    <xsl:attribute name="src"><xsl:value-of select="//xhtml:body/xhtml:center/xhtml:img/@src"/></xsl:attribute>
+                </img>
 			</body>
 		</html>
 	</xsl:template>
