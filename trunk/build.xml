@@ -1,7 +1,8 @@
 <project name="Test" default="testCompile">
+    <property name="dist.classes" value="E:/TestWork/Test/target/classes" />
     <target name="testCompile">
         <javac srcdir="E:/TestWork/Test/src"
-            destdir="E:/TestWork/Test/classes"
+            destdir="${dist.classes}"
             debug="true"
             encoding="utf-8">
             <!--<compilerarg value="-Xlint:unchecked"/>-->
@@ -13,7 +14,7 @@
         <fileset dir="E:/TestWork/Test/lib">
             <include name="**/*.jar"/>
         </fileset>
-        <pathelement location="E:/TestWork/Test/classes/"/>
+        <pathelement location="${dist.classes}"/>
     </path>
     <target name="run">
         <java classname="XMLFixer" classpath="./classes">
@@ -22,7 +23,7 @@
         </java>
     </target>
     <target name="test">
-        <java classname="XMLUpdateTimer" classpath="./classes" fork="on" >
+        <java classname="ocr.OCR" classpath="./target/classes" fork="true" >
             <!--<arg value="-h"/>-->
             <classpath refid="testpath" />
         </java>
