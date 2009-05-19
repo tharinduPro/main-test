@@ -27,7 +27,7 @@
         </java>
     </target>
     <target name="test">
-        <java classname="net.dgie.xmltask.XMLToHTML" classpath="./target/classes" fork="true" >
+        <java classname="net.dgie.xmltask.MainTimer" classpath="./target/classes" fork="true" >
             <!--<arg value="-h"/>-->
             <classpath refid="testpath" />
         </java>
