@@ -1,6 +1,6 @@
 <project name="Test" default="testCompile">
-    <property name="dist.classes" value="E:/TestWork/Test/target/classes" />
-    <property name="src.base" value="E:/TestWork/Test/src" />
+    <property name="dist.classes" value="F:/TestWork/Test/target/classes" />
+    <property name="src.base" value="F:/TestWork/Test/src" />
     <target name="testCompile">
         <javac srcdir="${src.base}"
             destdir="${dist.classes}"
@@ -15,7 +15,7 @@
     </target>
 
     <path id="testpath">
-        <fileset dir="E:/TestWork/Test/lib">
+        <fileset dir="F:/TestWork/Test/lib">
             <include name="**/*.jar"/>
         </fileset>
         <pathelement location="${dist.classes}"/>
@@ -26,8 +26,14 @@
             <classpath refid="testpath" />
         </java>
     </target>
+    <!--<target name="test">-->
+        <!--<java classname="net.dgie.xmltask.MainTimer" classpath="./target/classes" fork="true" >-->
+            <!--[><arg value="-h"/><]-->
+            <!--<classpath refid="testpath" />-->
+        <!--</java>-->
+    <!--</target>-->
     <target name="test">
-        <java classname="net.dgie.xmltask.MainTimer" classpath="./target/classes" fork="true" >
+        <java classname="HelloCsdn" classpath="./target/classes" fork="true" >
             <!--<arg value="-h"/>-->
             <classpath refid="testpath" />
         </java>
