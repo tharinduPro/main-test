@@ -70,6 +70,7 @@ class XMLUpdateTask extends TimerTask {
             tempFile.delete(); 
 
             //如果是xslt类型的把xml结合xslt输出成html
+            
         }
     }
 }
