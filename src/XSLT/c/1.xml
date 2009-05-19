@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+    <title>Google</title>
+    <script>window.google={kEI:"J3MSSqmFDcGdkAXWw-CpDw",kEXPI:"17259,20429",kHL:"en"};
+window.google.sn="webhp";window.google.timers={load:{t:{start:(new Date).getTime()}}};try{window.google.pt=window.gtbExternal&amp;&amp;window.gtbExternal.pageT()||window.external&amp;&amp;window.external.pageT}catch(b){}
+window.google.jsrt_kill=1;
+var _gjwl=location;function _gjuc(){var e=_gjwl.href.indexOf("#");if(e&gt;=0){var a=_gjwl.href.substring(e);if(a.indexOf("&amp;q=")&gt;0||a.indexOf("#q=")&gt;=0){a=a.substring(1);if(a.indexOf("#")==-1){for(var c=0;c&lt;a.length;){var d=c;if(a.charAt(d)=="&amp;")++d;var b=a.indexOf("&amp;",d);if(b==-1)b=a.length;var f=a.substring(d,b);if(f.indexOf("fp=")==0){a=a.substring(0,c)+a.substring(b,a.length);b=c}else if(f=="cad=h")return 0;c=b}_gjwl.href="http://www.google.com/search?"+a+"&amp;cad=h";return 1}}}return 0}function _gjp(){!(window._gjwl.hash&amp;&amp;
+window._gjuc())&amp;&amp;setTimeout(_gjp,500)};
+window._gjp &amp;&amp; _gjp();</script>
+    <style>body,td,a,p,.h{font-family:arial,sans-serif}.h{color:#36c;font-size:20px}.q{color:#00c}.ts td{padding:0}.ts{border-collapse:collapse}#gbar{height:22px;padding-left:0px}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}#guser{padding-bottom:7px !important;text-align:right}#gbar,#guser{font-size:13px;padding-top:1px !important}@media all{.gb1,.gb3{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb3{color:#00c !important}.gb3{text-decoration:none}</style>
+    <script>google.y={};google.x=function(e,g){google.y[e.id]=[e,g];return false};</script>
+  </head>
+  <body bgcolor="#ffffff" text="#000000" link="#0000cc" vlink="#551a8b" alink="#ff0000" onload="document.f.q.focus();if(document.images)new Image().src='/images/nav_logo4.png'" topmargin="3" marginheight="3">
+    <textarea id="csi" style="display:none" />
+    <div id="gbar">
+      <nobr>
+        <b class="gb1">Web</b>
+        <a shape="rect" class="gb1" href="http://images.google.com/imghp?hl=en&amp;tab=wi">Images</a>
+        <a shape="rect" class="gb1" href="http://video.google.com/?hl=en&amp;tab=wv">Video</a>
+        <a shape="rect" class="gb1" href="http://maps.google.com/maps?hl=en&amp;tab=wl">Maps</a>
+        <a shape="rect" class="gb1" href="http://news.google.com/nwshp?hl=en&amp;tab=wn">News</a>
+        <a shape="rect" class="gb1" href="http://www.google.com/prdhp?hl=en&amp;tab=wf">Shopping</a>
+        <a shape="rect" class="gb1" href="http://mail.google.com/mail/?hl=en&amp;tab=wm">Gmail</a>
+        <a shape="rect" class="gb3" href="http://www.google.com/intl/en/options/">
+          <u>more</u>
+          »
+        </a>
+      </nobr>
+    </div>
+    <div class="gbh" style="left:0" />
+    <div class="gbh" style="right:0" />
+    <div align="right" id="guser" style="font-size:84%;padding:0 0 4px" width="100%">
+      <nobr>
+        <a shape="rect" href="http://www.google.com/url?sa=p&amp;pref=ig&amp;pval=3&amp;q=http://www.google.com/ig%3Fhl%3Den%26source%3Diglk&amp;usg=AFQjCNFA18XPfgb7dKnXfKz7x7g1GDH1tg">iGoogle</a>
+        |
+        <a shape="rect" href="http://www.google.com/https://www.google.com/accounts/Login?continue=http://www.google.com/&amp;hl=en">Sign in</a>
+      </nobr>
+    </div>
+    <center>
+      <br clear="all" id="lgpd" />
+      <img id="logo" alt="Google" height="110" src="http://www.google.com/intl/en_ALL/images/logo.gif" width="276" onload="window.lol&amp;&amp;lol()" />
+      <br clear="none" />
+      <br clear="none" />
+      <form enctype="application/x-www-form-urlencoded" method="get" action="http://www.google.com/search" name="f">
+        <table cellpadding="0" cellspacing="0">
+          <tr valign="top">
+            <td colspan="1" rowspan="1" width="25%"> </td>
+            <td align="center" colspan="1" nowrap="nowrap" rowspan="1">
+              <input type="hidden" name="hl" value="en" />
+              <input type="hidden" name="ie" value="ISO-8859-1" />
+              <input maxlength="2048" type="text" autocomplete="off" name="q" size="55" title="Google Search" value="" />
+              <br clear="none" />
+              <input type="submit" name="btnG" value="Google Search" />
+              <input type="submit" name="btnI" value="I'm Feeling Lucky" />
+            </td>
+            <td colspan="1" nowrap="nowrap" rowspan="1" width="25%">
+              <font size="-2">
+                  
+                <a shape="rect" href="http://www.google.com/advanced_search?hl=en">Advanced Search</a>
+                <br clear="none" />
+                  
+                <a shape="rect" href="http://www.google.com/preferences?hl=en">Preferences</a>
+                <br clear="none" />
+                  
+                <a shape="rect" href="http://www.google.com/language_tools?hl=en">Language Tools</a>
+              </font>
+            </td>
+          </tr>
+        </table>
+      </form>
+      <br clear="none" />
+      <br clear="none" />
+      <font size="-1">
+        <a shape="rect" href="http://www.google.com/intl/en/ads/">Advertising Programs</a>
+        -
+        <a shape="rect" href="http://www.google.com/services/">Business Solutions</a>
+        -
+        <a shape="rect" href="http://www.google.com/intl/en/about.html">About Google</a>
+        -
+        <b>
+          <a shape="rect" href="http://www.google.cn/">Go to Google China</a>
+        </b>
+      </font>
+      <p>
+        <font size="-2">
+          ©2009 -
+          <a shape="rect" href="http://www.google.com/intl/en/privacy.html">Privacy</a>
+        </font>
+      </p>
+    </center>
+    <div id="xjsd" />
+    <div id="xjsi">
+      <script>if(google.y)google.y.first=[];if(google.y)google.y.first=[];google.dstr=[];google.rein=[];window.setTimeout(function(){var xjs=document.createElement('script');xjs.src='/extern_js/f/CgJlbiAAKzAKOBssKzAOOAUsKzAYOAQsKzAlOMmIASwrMCY4BCwrMCc4ACw/iwpEH9IXoR8.js';(document.getElementById('xjsd') || document.body).appendChild(xjs)},0);;google.y.first.push(function(){google.ac.i(document.f,document.f.q,'','')});google.xjs&amp;&amp;google.j&amp;&amp;google.j.xi&amp;&amp;google.j.xi()</script>
+    </div>
+    <script>(function(){
+function a(){google.timers.load.t.ol=(new Date).getTime();google.report&amp;&amp;google.report(google.timers.load,{ei:google.kEI,e:google.kEXPI})}if(window.addEventListener)window.addEventListener("load",a,false);else if(window.attachEvent)window.attachEvent("onload",a);google.timers.load.t.prt=(new Date).getTime();
+})();</script>
+  </body>
+</html>
+
