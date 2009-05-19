@@ -1,3 +1,5 @@
+package net.dgie.xmltask;
+
 import java.io.IOException;
 
 import java.util.Timer;
