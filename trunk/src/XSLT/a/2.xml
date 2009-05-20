@@ -58,7 +58,7 @@
       <p style="height:60px">
         <table id="lk" cellpadding="0" cellspacing="0">
           <tr>
-            <td colspan="1" rowspan="1" id="link" />
+            <td colspan="1" rowspan="1" />
           </tr>
         </table>
       </p>
@@ -85,8 +85,8 @@
       </map>
     </center>
   </body>
-  <script>if(!!external.max_version){document.getElementById("link").innerHTML="";}var w=document.f.wd;function s(o){if(w.value.length&gt;0){var h=o.href;var q=encodeURIComponent(w.value);if(h.indexOf("q=")!=-1){o.href=h.replace(new RegExp("q=[^&amp;$]*"),"q="+q)}else{o.href+="?q="+q}}};(function(){if(new RegExp("q=([^&amp;]+)").test(location.search)){w.value=decodeURIComponent(RegExp.$1)}})();if(navigator.cookieEnabled &amp;&amp; !/sug?=0/.test(document.cookie)){document.write('&lt;script src=http://www.baidu.com/js/bdsug.js?v=1.1.0.2&gt;&lt;\/script&gt;')};window.onunload=function(){};</script>
+  <script>var w=document.f.wd;function s(o){if(w.value.length&gt;0){var h=o.href;var q=encodeURIComponent(w.value);if(h.indexOf("q=")!=-1){o.href=h.replace(new RegExp("q=[^&amp;$]*"),"q="+q)}else{o.href+="?q="+q}}};(function(){if(new RegExp("q=([^&amp;]+)").test(location.search)){w.value=decodeURIComponent(RegExp.$1)}})();if(navigator.cookieEnabled &amp;&amp; !/sug?=0/.test(document.cookie)){document.write('&lt;script src=http://www.baidu.com/js/bdsug.js?v=1.1.0.2&gt;&lt;\/script&gt;')};window.onunload=function(){};</script>
   <script>w.focus()</script>
-  <!--92ea2a5e892786f5-->
+  <!--6254f2bf2508697d-->
 </html>
 

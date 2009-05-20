@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
     <title>Google</title>
-    <script>window.google={kEI:"JnMSSpyJOMmHkQWVjPSkDw",kEXPI:"17259,20429",kHL:"en"};
+    <script>window.google={kEI:"GskTSqiZGdCAkQXku-GyDw",kEXPI:"17259",kHL:"en"};
 window.google.sn="webhp";window.google.timers={load:{t:{start:(new Date).getTime()}}};try{window.google.pt=window.gtbExternal&amp;&amp;window.gtbExternal.pageT()||window.external&amp;&amp;window.external.pageT}catch(b){}
 window.google.jsrt_kill=1;
 var _gjwl=location;function _gjuc(){var e=_gjwl.href.indexOf("#");if(e&gt;=0){var a=_gjwl.href.substring(e);if(a.indexOf("&amp;q=")&gt;0||a.indexOf("#q=")&gt;=0){a=a.substring(1);if(a.indexOf("#")==-1){for(var c=0;c&lt;a.length;){var d=c;if(a.charAt(d)=="&amp;")++d;var b=a.indexOf("&amp;",d);if(b==-1)b=a.length;var f=a.substring(d,b);if(f.indexOf("fp=")==0){a=a.substring(0,c)+a.substring(b,a.length);b=c}else if(f=="cad=h")return 0;c=b}_gjwl.href="http://www.google.com/search?"+a+"&amp;cad=h";return 1}}}return 0}function _gjp(){!(window._gjwl.hash&amp;&amp;
