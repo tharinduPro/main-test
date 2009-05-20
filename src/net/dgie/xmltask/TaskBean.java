@@ -7,8 +7,24 @@ public class TaskBean {
     private String taskName;
     private String remoteURL;
     private String localXSLT;
+    private String localOutput;
     private String type;
     private Date scheduleDate; 
+
+	/**
+	 * get the value of localOutput
+	 * @return the value of localOutput
+	 */
+	public String getLocalOutput(){
+		return this.localOutput;
+	}
+	/**
+	 * set a new value to localOutput
+	 * @param localOutput the new value to be used
+	 */
+	public void setLocalOutput(String localOutput) {
+		this.localOutput=localOutput;
+	}
 	/**
 	 * get the value of taskId
 	 * @return the value of taskId
