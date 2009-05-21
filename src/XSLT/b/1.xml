@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="GB2312"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="content-type" content="text/html; charset=GB2312" />
     <title>Google</title>
-    <script>window.google={kEI:"GskTSpCfIMmBkQX9m62xDw",kEXPI:"17259,20579",kHL:"en"};
+    <script>window.google={kEI:"gP4USsjXHJGgkQWizoXkDA",kEXPI:"17259,20573,20579",kHL:"zh-CN"};
 window.google.sn="webhp";window.google.timers={load:{t:{start:(new Date).getTime()}}};try{window.google.pt=window.gtbExternal&amp;&amp;window.gtbExternal.pageT()||window.external&amp;&amp;window.external.pageT}catch(b){}
 window.google.jsrt_kill=1;
-var _gjwl=location;function _gjuc(){var e=_gjwl.href.indexOf("#");if(e&gt;=0){var a=_gjwl.href.substring(e);if(a.indexOf("&amp;q=")&gt;0||a.indexOf("#q=")&gt;=0){a=a.substring(1);if(a.indexOf("#")==-1){for(var c=0;c&lt;a.length;){var d=c;if(a.charAt(d)=="&amp;")++d;var b=a.indexOf("&amp;",d);if(b==-1)b=a.length;var f=a.substring(d,b);if(f.indexOf("fp=")==0){a=a.substring(0,c)+a.substring(b,a.length);b=c}else if(f=="cad=h")return 0;c=b}_gjwl.href="http://www.google.com/search?"+a+"&amp;cad=h";return 1}}}return 0}function _gjp(){!(window._gjwl.hash&amp;&amp;
+var _gjwl=location;function _gjuc(){var e=_gjwl.href.indexOf("#");if(e&gt;=0){var a=_gjwl.href.substring(e);if(a.indexOf("&amp;q=")&gt;0||a.indexOf("#q=")&gt;=0){a=a.substring(1);if(a.indexOf("#")==-1){for(var c=0;c&lt;a.length;){var d=c;if(a.charAt(d)=="&amp;")++d;var b=a.indexOf("&amp;",d);if(b==-1)b=a.length;var f=a.substring(d,b);if(f.indexOf("fp=")==0){a=a.substring(0,c)+a.substring(b,a.length);b=c}else if(f=="cad=h")return 0;c=b}_gjwl.href="http://www.google.cn/search?"+a+"&amp;cad=h";return 1}}}return 0}function _gjp(){!(window._gjwl.hash&amp;&amp;
 window._gjuc())&amp;&amp;setTimeout(_gjp,500)};
 window._gjp &amp;&amp; _gjp();</script>
     <style>body,td,a,p,.h{font-family:arial,sans-serif}.h{color:#36c;font-size:20px}.q{color:#00c}.ts td{padding:0}.ts{border-collapse:collapse}#gbar{height:22px;padding-left:0px}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}#guser{padding-bottom:7px !important;text-align:right}#gbar,#guser{font-size:13px;padding-top:1px !important}@media all{.gb1,.gb3{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb3{color:#00c !important}.gb3{text-decoration:none}</style>
@@ -16,16 +16,16 @@ window._gjp &amp;&amp; _gjp();</script>
     <textarea id="csi" style="display:none" />
     <div id="gbar">
       <nobr>
-        <b class="gb1">Web</b>
-        <a shape="rect" class="gb1" href="http://images.google.com/imghp?hl=en&amp;tab=wi">Images</a>
-        <a shape="rect" class="gb1" href="http://video.google.com/?hl=en&amp;tab=wv">Video</a>
-        <a shape="rect" class="gb1" href="http://maps.google.com/maps?hl=en&amp;tab=wl">Maps</a>
-        <a shape="rect" class="gb1" href="http://news.google.com/nwshp?hl=en&amp;tab=wn">News</a>
-        <a shape="rect" class="gb1" href="http://www.google.com/prdhp?hl=en&amp;tab=wf">Shopping</a>
-        <a shape="rect" class="gb1" href="http://mail.google.com/mail/?hl=en&amp;tab=wm">Gmail</a>
-        <a shape="rect" class="gb3" href="http://www.google.com/intl/en/options/">
-          <u>more</u>
-          »
+        <b class="gb1">ÍøÒ³</b>
+        <a shape="rect" class="gb1" href="http://images.google.cn/imghp?hl=zh-CN&amp;tab=wi">Í¼Æ¬</a>
+        <a shape="rect" class="gb1" href="http://video.google.cn/?hl=zh-CN&amp;tab=wv">ÊÓÆµ</a>
+        <a shape="rect" class="gb1" href="http://ditu.google.cn/maps?hl=zh-CN&amp;tab=wl">µØÍ¼</a>
+        <a shape="rect" class="gb1" href="http://news.google.cn/nwshp?hl=zh-CN&amp;tab=wn">×ÊÑ¶</a>
+        <a shape="rect" class="gb1" href="http://www.google.cn/music?hl=zh-CN&amp;tab=wU">ÒôÀÖ</a>
+        <a shape="rect" class="gb1" href="http://www.google.cn/finance?hl=zh-CN&amp;tab=we">²Æ¾­</a>
+        <a shape="rect" class="gb3" href="http://www.google.cn/intl/zh-CN/options/">
+          <u>¸ü¶à</u>
+          &#xbb;
         </a>
       </nobr>
     </div>
@@ -33,38 +33,54 @@ window._gjp &amp;&amp; _gjp();</script>
     <div class="gbh" style="right:0" />
     <div align="right" id="guser" style="font-size:84%;padding:0 0 4px" width="100%">
       <nobr>
-        <a shape="rect" href="http://www.google.com/url?sa=p&amp;pref=ig&amp;pval=3&amp;q=http://www.google.com/ig%3Fhl%3Den%26source%3Diglk&amp;usg=AFQjCNFA18XPfgb7dKnXfKz7x7g1GDH1tg">iGoogle</a>
+        <a shape="rect" href="http://www.google.cn/url?sa=p&amp;pref=ig&amp;pval=3&amp;q=http://www.google.cn/ig/china%3Fhl%3Dzh-CN%26source%3Diglk&amp;usg=AFQjCNGNYfgta9G_BNut0SFGzavY4Y2pjQ">¸öÐÔ»¯Ê×Ò³</a>
         |
-        <a shape="rect" href="http://www.google.com/https://www.google.com/accounts/Login?continue=http://www.google.com/&amp;hl=en">Sign in</a>
+        <a shape="rect" href="http://www.google.cn/https://www.google.com/accounts/Login?continue=http://www.google.cn/&amp;hl=zh-CN">µÇÂ¼</a>
       </nobr>
     </div>
     <center>
       <br clear="all" id="lgpd" />
-      <img id="logo" alt="Google" height="110" src="http://www.google.com/intl/en_ALL/images/logo.gif" width="276" onload="window.lol&amp;&amp;lol()" />
+      <img src="http://www.google.cn/intl/zh-CN/images/logo_cn.gif" width="276" height="110" border="0" alt="Google" title="Google" />
       <br clear="none" />
       <br clear="none" />
-      <form enctype="application/x-www-form-urlencoded" method="get" action="http://www.google.com/search" name="f">
+      <form enctype="application/x-www-form-urlencoded" method="get" action="http://www.google.cn/search" name="f">
         <table cellpadding="0" cellspacing="0">
           <tr valign="top">
-            <td colspan="1" rowspan="1" width="25%"> </td>
+            <td colspan="1" rowspan="1" width="25%">&#xa0;</td>
             <td align="center" colspan="1" nowrap="nowrap" rowspan="1">
-              <input type="hidden" name="hl" value="en" />
-              <input type="hidden" name="ie" value="ISO-8859-1" />
-              <input maxlength="2048" type="text" autocomplete="off" name="q" size="55" title="Google Search" value="" />
+              <input type="hidden" name="hl" value="zh-CN" />
+              <input type="hidden" name="ie" value="GB2312" />
+              <input maxlength="2048" type="text" autocomplete="off" name="q" size="55" title="Google ËÑË÷" value="" />
               <br clear="none" />
-              <input type="submit" name="btnG" value="Google Search" />
-              <input type="submit" name="btnI" value="I'm Feeling Lucky" />
+              <input type="submit" name="btnG" value="Google ËÑË÷" />
+              <input type="submit" name="btnI" value="&#xa0;ÊÖÆø²»´í&#xa0;" />
             </td>
             <td colspan="1" nowrap="nowrap" rowspan="1" width="25%">
-              <font size="-2">
-                  
-                <a shape="rect" href="http://www.google.com/advanced_search?hl=en">Advanced Search</a>
+              <font size="-1">
+                &#xa0;&#xa0;
+                <a shape="rect" href="http://www.google.cn/advanced_search?hl=zh-CN">¸ß¼¶ËÑË÷</a>
                 <br clear="none" />
-                  
-                <a shape="rect" href="http://www.google.com/preferences?hl=en">Preferences</a>
+                &#xa0;&#xa0;
+                <a shape="rect" href="http://www.google.cn/preferences?hl=zh-CN">Ê¹ÓÃÆ«ºÃ</a>
                 <br clear="none" />
-                  
-                <a shape="rect" href="http://www.google.com/language_tools?hl=en">Language Tools</a>
+                &#xa0;&#xa0;
+                <a shape="rect" href="http://www.google.cn/language_tools?hl=zh-CN">ÓïÑÔ¹¤¾ß</a>
+              </font>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" colspan="3" rowspan="1">
+              <font size="-1">
+                <span style="text-align:left">
+                  <input checked="checked" type="radio" id="all" name="meta" value="" />
+                  <label for="all">ËùÓÐÍøÒ³ &#xa0;</label>
+                  <input type="radio" id="ch" name="meta" value="lr=lang_zh-CN|lang_zh-TW" />
+                  <label for="ch">ÖÐÎÄÍøÒ³ &#xa0;</label>
+                  <input type="radio" id="lgr" name="meta" value="lr=lang_zh-CN" />
+                  <label for="lgr">¼òÌåÖÐÎÄÍøÒ³ &#xa0;</label>
+                  <input type="radio" id="cty" name="meta" value="cr=countryCN" />
+                  <label for="cty">ÖÐ¹úµÄÍøÒ³ &#xa0;</label>
+                </span>
               </font>
             </td>
           </tr>
@@ -73,26 +89,28 @@ window._gjp &amp;&amp; _gjp();</script>
       <br clear="none" />
       <br clear="none" />
       <font size="-1">
-        <a shape="rect" href="http://www.google.com/intl/en/ads/">Advertising Programs</a>
+        <a shape="rect" href="http://www.google.cn/intl/zh-CN/ads/">¹ã¸æ¼Æ»®</a>
         -
-        <a shape="rect" href="http://www.google.com/services/">Business Solutions</a>
+        <a shape="rect" href="http://www.google.cn/intl/zh-CN/about.html">Google ´óÈ«</a>
         -
-        <a shape="rect" href="http://www.google.com/intl/en/about.html">About Google</a>
-        -
-        <b>
-          <a shape="rect" href="http://www.google.cn/">Go to Google China</a>
-        </b>
+        <a shape="rect" href="http://www.google.com/ncr">Google.com in English</a>
       </font>
       <p>
-        <font size="-2">
-          ©2009 -
-          <a shape="rect" href="http://www.google.com/intl/en/privacy.html">Privacy</a>
+        <font size="-1">
+          &#xa9;2009 -
+          <a shape="rect" href="http://www.google.cn/intl/zh-CN/privacy.html">ÒþË½È¨Õþ²ß</a>
+          -
+          <font size="-2">
+            <a shape="rect" href="http://www.miibeian.gov.cn/" target="_blank">ICPÖ¤ºÏ×ÖB2-20070004ºÅ</a>
+            &#xa0;&#xa0;
+            <img align="absmiddle" src="http://www.google.cn/intl/zh-CN_cn/images/cn_icp.gif" width="15" height="16" alt="icp" />
+          </font>
         </font>
       </p>
     </center>
     <div id="xjsd" />
     <div id="xjsi">
-      <script>if(google.y)google.y.first=[];if(google.y)google.y.first=[];google.dstr=[];google.rein=[];window.setTimeout(function(){var xjs=document.createElement('script');xjs.src='/extern_js/f/CgJlbiAAKzAKOBssKzAOOAUsKzAYOAQsKzAlOMmIASwrMCY4BCwrMCc4ACw/iwpEH9IXoR8.js';(document.getElementById('xjsd') || document.body).appendChild(xjs)},0);;google.y.first.push(function(){google.ac.i(document.f,document.f.q,'','')});google.xjs&amp;&amp;google.j&amp;&amp;google.j.xi&amp;&amp;google.j.xi()</script>
+      <script>if(google.y)google.y.first=[];if(google.y)google.y.first=[];google.dstr=[];google.rein=[];window.setTimeout(function(){var xjs=document.createElement('script');xjs.src='/extern_js/f/CgV6aC1DThICY24gDiswCjgbQAIsKzAOOAUsKzAYOAQsKzAlOMmIASwrMCY4BCwrMCc4ACw/-lhUSTgRkeE.js';(document.getElementById('xjsd') || document.body).appendChild(xjs)},0);;google.y.first.push(function(){google.ac.i(document.f,document.f.q,'','')});google.xjs&amp;&amp;google.j&amp;&amp;google.j.xi&amp;&amp;google.j.xi()</script>
     </div>
     <script>(function(){
 function a(){google.timers.load.t.ol=(new Date).getTime();google.report&amp;&amp;google.report(google.timers.load,{ei:google.kEI,e:google.kEXPI})}if(window.addEventListener)window.addEventListener("load",a,false);else if(window.attachEvent)window.attachEvent("onload",a);google.timers.load.t.prt=(new Date).getTime();

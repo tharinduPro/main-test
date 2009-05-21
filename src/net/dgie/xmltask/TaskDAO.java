@@ -59,6 +59,6 @@ public class TaskDAO {
     }
 
     public void htmlCreated( String taskId ) {
-       updateTask( "update maintasklist set localoutput = " + Constants.LOCAL_OUTPUT_YES + "where taskid = " + taskId ); 
+       updateTask( "update maintasklist set localoutput = " + Constants.LOCAL_OUTPUT_YES + " where taskid = " + taskId ); 
     }
 }
