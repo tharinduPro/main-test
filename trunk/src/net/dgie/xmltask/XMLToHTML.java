@@ -55,9 +55,7 @@ public class XMLToHTML {
         StringBuilder sb = new StringBuilder();
         sb.append("<html><head><meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>");
         sb.append("<title></title></head><body>");
-        sb.append("<div align='center'>");
         sb.append(transform(xml, xslt));
-        sb.append("</div>");
         sb.append("</body></html>");
         PrintStream printStream = new PrintStream(new FileOutputStream(file), true, "UTF-8");//用UTF-8进行编码解决乱码问题
         printStream.println(sb.toString());//将字符串写入文件

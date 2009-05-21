@@ -3,12 +3,12 @@
     <xsl:output method="html" version="1.0" indent="yes"/>
 	<xsl:template match="/">
         <html>
-            <body>
+			<body>
                 <img>
                     <xsl:attribute name="src"><xsl:value-of select="//xhtml:body/xhtml:center/xhtml:img/@src"/></xsl:attribute>
                 </img>
-            </body>
-        </html>
+			</body>
+		</html>
 	</xsl:template>
 </xsl:stylesheet>
 
