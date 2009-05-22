@@ -8,11 +8,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class TaskDAO {
-    public List<TaskBean> queryTask( String intervalTime ) {
+    public List<TaskBean> queryTask( String intervalTime ) throws SQLException {
         List<TaskBean> taskList = new ArrayList<TaskBean>();
+        Statement s = null;
         try {
             PropertyReader pr = new PropertyReader();
-            Statement s = DBHelper.getConn().createStatement();
+            s = DBHelper.getConn().createStatement();
             ResultSet rs = s.executeQuery( "select mtl.taskid, taskname, remoteurl, localxslt, type, " + 
                     "to_date( to_char( sysdate, 'yyyy-mm-dd' ) || tasktime, 'yyyy-mm-dd hh24:mi' ), " + "localoutput " +
                     "from maintaskList mtl, subtasklist  stl where mtl.taskid = stl.taskid and " +
@@ -35,33 +36,42 @@ public class TaskDAO {
             ex.printStackTrace();
         }
         finally {
+            try {
+                s.close();
+            }
+            catch( Exception e ) {
+                e.printStackTrace();
+            }
             return taskList;
         }
     }
 
     public List<TaskBean> queryManualTask( List<String> taskIdList) {
         List<TaskBean> taskList = new ArrayList<TaskBean>();
+        Statement sta = null;
         try {
             String taskIdSet = new String();
             for( String s: taskIdList ) {
                 taskIdSet += s;
             }
             PropertyReader pr = new PropertyReader();
-            Statement s = DBHelper.getConn().createStatement();
-            ResultSet rs = s.executeQuery( "select mtl.taskid, taskname, remoteurl, localxslt, type, " +
-                    "to_date( to_char( sysdate, 'yyyy-mm-dd' ) || tasktime, 'yyyy-mm-dd hh24:mi' ), " + "localoutput " +
-                    "from maintaskList mtl, subtasklist  stl where mtl.taskid = stl.taskid and " +
-                    "mtl.taskid in( " + taskIdSet  + " )" );
-            while(rs.next()) {
-                TaskBean tb = new TaskBean();
-                tb.setTaskId( rs.getString(1) );
-                tb.setTaskName( rs.getString(2) );
-                tb.setRemoteURL( rs.getString(3) );
-                tb.setLocalXSLT( rs.getString(4) );
-                tb.setType( rs.getString(5) );
-                tb.setScheduleDate( rs.getTime(6) );
-                tb.setLocalOutput( rs.getString(7) );
-                taskList.add( tb );
+            sta = DBHelper.getConn().createStatement();
+            if( !taskIdSet.isEmpty() ) {
+                ResultSet rs = sta.executeQuery( "select mtl.taskid, taskname, remoteurl, localxslt, type, " +
+                        "to_date( to_char( sysdate, 'yyyy-mm-dd' ) || tasktime, 'yyyy-mm-dd hh24:mi' ), " + "localoutput " +
+                        "from maintaskList mtl, subtasklist  stl where mtl.taskid = stl.taskid and " +
+                        "mtl.taskid in( " + taskIdSet  + " )" );
+                while(rs.next()) {
+                    TaskBean tb = new TaskBean();
+                    tb.setTaskId( rs.getString(1) );
+                    tb.setTaskName( rs.getString(2) );
+                    tb.setRemoteURL( rs.getString(3) );
+                    tb.setLocalXSLT( rs.getString(4) );
+                    tb.setType( rs.getString(5) );
+                    tb.setScheduleDate( rs.getTime(6) );
+                    tb.setLocalOutput( rs.getString(7) );
+                    taskList.add( tb );
+                }
             }
             return taskList;
         }
@@ -69,15 +79,22 @@ public class TaskDAO {
             ex.printStackTrace();
         }
         finally {
+             try {
+                sta.close();
+            }
+            catch( Exception e ) {
+                e.printStackTrace();
+            }
             return taskList;
         }
     }
 
    public List<TaskBean> queryAllTask() {
         List<TaskBean> taskList = new ArrayList<TaskBean>();
+        Statement s = null;
         try {
             PropertyReader pr = new PropertyReader();
-            Statement s = DBHelper.getConn().createStatement();
+            s = DBHelper.getConn().createStatement();
             ResultSet rs = s.executeQuery( "select mtl.taskid, taskname, remoteurl, localxslt, type, " +
                     "to_date( to_char( sysdate, 'yyyy-mm-dd' ) || tasktime, 'yyyy-mm-dd hh24:mi' ), " + "localoutput " +
                     "from maintaskList mtl, subtasklist  stl where mtl.taskid = stl.taskid " );
@@ -98,6 +115,12 @@ public class TaskDAO {
             ex.printStackTrace();
         }
         finally {
+             try {
+                s.close();
+            }
+            catch( Exception e ) {
+                e.printStackTrace();
+            }
             return taskList;
         }
     }
