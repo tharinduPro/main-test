@@ -76,9 +76,9 @@ class XMLUpdateTask extends TimerTask {
     @Override
     public void run() {
         try {
-        XMLFixer xf = new XMLFixer( taskBean.getRemoteURL() );
-        XMLToHTML xth = new XMLToHTML();
-        PropertyReader pr = new PropertyReader();
+            XMLFixer xf = new XMLFixer( taskBean.getRemoteURL() );
+            XMLToHTML xth = new XMLToHTML();
+            PropertyReader pr = new PropertyReader();
             for( String fp: filePaths ) {
                 File xhtmlFile = new File( fp );
                 if( "html".equals( taskBean.getType() ) ) {
@@ -92,16 +92,16 @@ class XMLUpdateTask extends TimerTask {
                 else {
                     xth.saveRssToLocale( taskBean.getRemoteURL(), xhtmlFile ); 
                 }
-               String outputFile = pr.getProperty( pr.getProperty( "htmlPathConfig" ) ) + taskBean.getTaskId() +  ".html";
-               xth.transformToHtml( outputFile, fp, pr.getProperty( pr.getProperty( "xsltPathConfig" ) ) + taskBean.getLocalXSLT() ); 
-               //是否保存生成的xml
-               if( !Constants.XML_KEEP.equals( pr.getProperty( "xmlKeep" ) ) ) {
-                   xhtmlFile.delete(); 
-               }
-               //如果是第一次生成
-               if( Constants.LOCAL_OUTPUT_NO.equals( taskBean.getLocalOutput() ) ) {
-                   new TaskDAO().htmlCreated( taskBean.getTaskId() );
-               }
+                String outputFile = pr.getProperty( pr.getProperty( "htmlPathConfig" ) ) + taskBean.getTaskId() +  ".html";
+                xth.transformToHtml( outputFile, fp, pr.getProperty( pr.getProperty( "xsltPathConfig" ) ) + taskBean.getLocalXSLT() ); 
+                //是否保存生成的xml
+                if( !Constants.XML_KEEP.equals( pr.getProperty( "xmlKeep" ) ) ) {
+                    xhtmlFile.delete(); 
+                }
+                //如果是第一次生成
+                if( Constants.LOCAL_OUTPUT_NO.equals( taskBean.getLocalOutput() ) ) {
+                    new TaskDAO().htmlCreated( taskBean.getTaskId() );
+                }
             }
         }
         catch (Exception e ) {
