@@ -37,7 +37,7 @@
         <!--</java>-->
     <!--</target>-->
     <target name="test" depends="testCompile">
-        <java classname="exam.Heap" classpath="./target/classes" fork="true" >
+        <java classname="net.dgie.dginfo.Run" classpath="./target/classes" fork="true" >
             <!--<arg value="-h"/>-->
             <classpath refid="testpath" />
         </java>
