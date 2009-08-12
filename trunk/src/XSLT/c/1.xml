@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=GB2312" />
     <title>Google</title>
-    <script>window.google={kEI:"gP4USofBK8eAkQXJyZzkDA",kEXPI:"20579",kHL:"zh-CN"};
+    <script>window.google={kEI:"D_EVSunGAsmHkQXLo43mDA",kEXPI:"17259,20579,20620",kHL:"zh-CN"};
 window.google.sn="webhp";window.google.timers={load:{t:{start:(new Date).getTime()}}};try{window.google.pt=window.gtbExternal&amp;&amp;window.gtbExternal.pageT()||window.external&amp;&amp;window.external.pageT}catch(b){}
 window.google.jsrt_kill=1;
 var _gjwl=location;function _gjuc(){var e=_gjwl.href.indexOf("#");if(e&gt;=0){var a=_gjwl.href.substring(e);if(a.indexOf("&amp;q=")&gt;0||a.indexOf("#q=")&gt;=0){a=a.substring(1);if(a.indexOf("#")==-1){for(var c=0;c&lt;a.length;){var d=c;if(a.charAt(d)=="&amp;")++d;var b=a.indexOf("&amp;",d);if(b==-1)b=a.length;var f=a.substring(d,b);if(f.indexOf("fp=")==0){a=a.substring(0,c)+a.substring(b,a.length);b=c}else if(f=="cad=h")return 0;c=b}_gjwl.href="http://www.google.cn/search?"+a+"&amp;cad=h";return 1}}}return 0}function _gjp(){!(window._gjwl.hash&amp;&amp;
@@ -40,7 +40,9 @@ window._gjp &amp;&amp; _gjp();</script>
     </div>
     <center>
       <br clear="all" id="lgpd" />
-      <img src="http://www.google.cn/intl/zh-CN/images/logo_cn.gif" width="276" height="110" border="0" alt="Google" title="Google" />
+      <a shape="rect" href="http://www.google.cn/search?q=%E9%99%88%E6%99%AF%E6%B6%A6&amp;hl=zh-CN&amp;ct=jingrun09&amp;oi=ddle" target="_blank">
+        <img src="http://www.google.cn/logos/jingrun09.gif" width="366" height="138" border="0" alt="陈景润诞辰" title="陈景润诞辰" />
+      </a>
       <br clear="none" />
       <br clear="none" />
       <form enctype="application/x-www-form-urlencoded" method="get" action="http://www.google.cn/search" name="f">

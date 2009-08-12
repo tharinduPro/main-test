@@ -1,34 +1,40 @@
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import java.io.IOException;
+import java.io.*;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 
 import org.apache.commons.httpclient.HttpClient;
+import org.apache.commons.httpclient.DefaultHttpMethodRetryHandler;
+import org.apache.commons.httpclient.params.HttpMethodParams;
 import org.apache.commons.httpclient.methods.GetMethod;
 
 public class HttpClientTest {
 
+    private String URL = "http://19.16.8.123/auth.asp?url=/index/index/transform.asp?default=9&threeblockcode=001801&blockcode=YBQAA";
     public static void main(String[] args) throws UnsupportedEncodingException, IOException {
-        HttpClient client = new HttpClient();   
-        GetMethod method = new GetMethod("http://www.baidu.com");
-        client.executeMethod(method);
-        System.out.println( method.getResponseCharSet() );
-        //BufferedReader in = new BufferedReader( new InputStreamReader( method.getResponseBodyAsStream(), method.getResponseCharSet() ) );
+    }
+
+    //public test( File file ) {
+        //HttpClient client = new HttpClient();   
+        //GetMethod method = new GetMethod( this.URL );
+        //client.executeMethod(method);
+        //String encoding = method.getResponseCharSet();
+        //BufferedReader in = new BufferedReader( new InputStreamReader( method.getResponseBodyAsStream(), encoding ) );
         //String inputLine = null;
-        //Pattern p = Pattern.compile("\\s+<input\\stype=\"hidden\"\\sname=\"lt\"\\svalue=\"([-A-Za-z0-9_]+)\"\\s\\/>");
+        //StringBuilder sb = new StringBuilder();
         //while ((inputLine = in.readLine()) != null) {
-            //System.out.println( inputLine );
-            //Matcher m = p.matcher( inputLine );
-            //if( m.matches() ) {
-                //System.out.println( m.group(1) );
-                //break;
-            //}
+            //sb.append( inputLine );
         //}
 
-        method.releaseConnection();
-
-    }
+        //File file = new File( file );
+        //file.createNewFile();//创建文件
+        //PrintStream printStream = new PrintStream(new FileOutputStream(file), true, encoding );
+        //printStream.println( sb.toString() );//将字符串写入文件
+        //printStream.close();//写入完成关闭
+        //method.releaseConnection();
+    //}
 }
 
