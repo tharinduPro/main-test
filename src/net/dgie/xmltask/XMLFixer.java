@@ -60,7 +60,6 @@ public class XMLFixer{
 
             XMLOutputter outToFile = new XMLOutputter();
             outToFile.setFormat( format );
-
             // Create an instance of Tagsoup
             SAXBuilder builder = new SAXBuilder("org.ccil.cowan.tagsoup.Parser"); 
             // Parse my (HTML) URL into a well-formed document
@@ -73,6 +72,9 @@ public class XMLFixer{
             jde.printStackTrace();
         }
         catch ( IOException ioe ) {
+            ioe.printStackTrace();
+        }
+        catch ( Exception ioe ) {
             ioe.printStackTrace();
         }
         finally {
