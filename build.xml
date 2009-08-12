@@ -1,7 +1,7 @@
 <project name="Test" default="testCompile">
     <property name="dist.classes" value="E:/TestWork/Test/target/classes" />
     <property name="src.base" value="E:/TestWork/Test/src" />
-    <target name="testCompile">
+    <target name="testCompile" depends="createDir">
         <javac srcdir="${src.base}"
             destdir="${dist.classes}"
             debug="true"
@@ -12,6 +12,10 @@
         <copy  todir="${dist.classes}/net/dgie/xmltask">
             <fileset dir="${src.base}/net/dgie/xmltask/config"/>
         </copy>
+    </target>
+
+    <target name="createDir">
+        <mkdir dir="${dist.classes}"/>  
     </target>
 
     <path id="testpath">
@@ -33,7 +37,7 @@
         <!--</java>-->
     <!--</target>-->
     <target name="test" depends="testCompile">
-        <java classname="HttpClientTest" classpath="./target/classes" fork="true" >
+        <java classname="exam.Heap" classpath="./target/classes" fork="true" >
             <!--<arg value="-h"/>-->
             <classpath refid="testpath" />
         </java>
