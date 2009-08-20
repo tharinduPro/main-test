@@ -5,50 +5,42 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.InputStreamReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.URL;
-import java.util.Iterator;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import javax.xml.transform.stream.StreamSource;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-
-import org.apache.commons.httpclient.HttpClient;
-import org.apache.commons.httpclient.methods.GetMethod;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.util.EntityUtils;
 import org.jdom.Document;
-import org.jdom.Element;
-import org.jdom.input.SAXBuilder;
 import org.jdom.JDOMException;
+import org.jdom.input.SAXBuilder;
 import org.jdom.output.Format;
 import org.jdom.output.XMLOutputter;
-import org.jdom.transform.JDOMResult;
-import org.jdom.transform.JDOMSource;
-import org.jdom.transform.JDOMSource;
 
 public class XMLFixer{
     private String encoding;
     private String URL;
     public XMLFixer( String URL ) {
-        GetMethod method = null;
+    	HttpGet httpGet = new HttpGet(URL);
+        HttpClient client = new DefaultHttpClient();   
         try {
             this.URL = URL;
             //获得response 的编码
-            HttpClient client = new HttpClient();   
-            method = new GetMethod( URL );
-            client.executeMethod(method);
-            encoding = method.getResponseCharSet();
-            method.releaseConnection();
+            HttpResponse  httpResponse = client.execute(httpGet);
+            encoding = EntityUtils.getContentCharSet(httpResponse.getEntity());
+            client.getConnectionManager().shutdown();   
         }
         catch( IOException ioe ) {
             ioe.printStackTrace();
         }
         finally {
-            method.releaseConnection();
+        	client.getConnectionManager().shutdown();  
         }
     }
 
