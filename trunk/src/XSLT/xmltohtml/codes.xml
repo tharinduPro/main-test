@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<currencies>
+	<currency>
+		<code>eur</code>
+		<name>Euros</name>
+	</currency>
+	<currency>
+		<code>usd</code>
+		<name>Dollars</name>
+	</currency>
+	<currency>
+		<code>cad</code>
+		<name>Canadian dollars</name>
+	</currency>
+</currencies>

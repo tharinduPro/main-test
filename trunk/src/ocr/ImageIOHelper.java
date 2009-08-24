@@ -34,18 +34,17 @@ import javax.swing.JOptionPane;
 import com.sun.media.imageio.plugins.tiff.TIFFImageWriteParam;
 
 public class ImageIOHelper {
-	public ImageIOHelper() {
-	}
-
 	public static File createImage(File imageFile, String imageFormat) {
 		File tempFile = null;
 		try {
+			//返回包含所有当前已注册 ImageReader 的 Iterator，这些 ImageReader 声称能够解码指定格式。 
 			Iterator<ImageReader> readers = ImageIO.getImageReadersByFormatName(imageFormat);
+			
+			ImageInputStream imageInputStream = ImageIO.createImageInputStream(imageFile);
 			ImageReader reader = readers.next();
-
-			ImageInputStream iis = ImageIO.createImageInputStream(imageFile);
-			reader.setInput(iis);
-			// Read the stream metadata
+			reader.setInput(imageInputStream);
+			
+			// 它表示作为一个整体与输入源关联的元数据（即不与任何特定图像关联）；
 			IIOMetadata streamMetadata = reader.getStreamMetadata();
 
 			// Set up the writeParam
