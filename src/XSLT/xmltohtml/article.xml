@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="E:\TestWork\Test\src\XSLT\xmltohtml\simpleArticle.xslt"?>
+<db:article xmlns:db="http://ananas.org/2002/docbook/subset">
+	<db:title>XSLT, JSP and PHP</db:title>
+	<db:section>
+		<db:title>Is there a difference?</db:title>
+		<db:para>Yes there is! XSLT is a pure XML technology that 
+    traces its roots to <db:emphasis>tree manipulation 
+    algorithms</db:emphasis>. JSP and PHP offer an ingenious 
+    solution to combine scripting languages with HTML/XML 
+    tagging.</db:para>
+		<db:para>The difference may not be obvious when you're first 
+    learning XSLT (after all, it offers tags and instructions), 
+    but understanding the difference will make you a 
+    <db:emphasis role="bold">stronger and better</db:emphasis> 
+    developer.</db:para>
+	</db:section>
+	<db:section>
+		<db:title>How do I learn the difference?</db:title>
+		<db:para>Interestingly enough, you can code the XSLT algorithm 
+    in XSLT... one cool way to experiment with the 
+    difference.</db:para>
+	</db:section>
+	<db:test>ok</db:test>
+</db:article>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="E:\TestWork\Test\src\XSLT\xmltohtml\products.xslt"?>
+<products>
+	<product href="http://www.playfield.com/text">
+		<name>Playfield Text</name>
+		<price currency="usd">299</price>
+		<description>Faster than the competition.</description>
+		<version>1.0</version>
+	</product>
+	<product href="http://www.playfield.com/virus">
+		<name>Playfield Virus</name>
+		<price currency="eur">199</price>
+		<description>Protect yourself against malicious code.
+		</description>
+		<version>5.0</version>
+	</product>
+	<product href="http://www.playfield.com/calc">
+		<name>Playfield Calc</name>
+		<price currency="usd">299</price>
+		<description>Clear picture on your data.</description>
+		<version>1.5</version>
+	</product>
+	<product href="http://www.playfield.com/db">
+		<name>Playfield DB</name>
+		<price currency="cad">599</price>
+		<description>Organize your data.</description>
+	</product>
+</products>

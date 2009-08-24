@@ -22,59 +22,72 @@ public class ImageFilter {
 	protected transient final Logger logger = LogManager.getLogger(this.getClass());
 	private BufferedImage image;
 
-	private int iw, ih;
+	private int imageWidth, imageHeight;
 
-	private int[] pixels;
+	//保存从图像中检索的 RGB 像素的整数数组
+	private int[] pixArray;
 
 	public ImageFilter(BufferedImage image) {
 		this.image = image;
-		iw = image.getWidth();
-		ih = image.getHeight();
-		pixels = new int[iw * ih];
+		imageWidth = image.getWidth();
+		imageHeight = image.getHeight();
+		pixArray = new int[imageWidth * imageHeight];
 	}
 
-	/** 图像二值化 */
+	/** 图像二值化即变为灰度图片 */
 	public BufferedImage changeGrey() {
-		PixelGrabber pg = new PixelGrabber(image.getSource(), 0, 0, iw, ih, pixels, 0, iw);
+		int topLeftX = 0;
+		int topLeftY = 0;
+		int startPixIndex = 0;
+		//数组中一行像素到下一行像素之间的距离
+		int scanSize = imageWidth;
+		PixelGrabber pixGrabber = new PixelGrabber(image.getSource(), topLeftX, topLeftY, 
+				imageWidth, imageHeight, pixArray, startPixIndex, scanSize);
 		try {
-			pg.grabPixels();
+			//请求 Image 或 ImageProducer 开始传递像素，并等待传递完相关矩形中的所有像素。
+			pixGrabber.grabPixels();
 		} catch (InterruptedException e) {
 			logger.error("异常:", e);
+			e.printStackTrace();
 		}
+		
+		
 		// 设定二值化的域值，默认值为100
-		int grey = 100;
+		int threshold = 100;
+		
+		
 		// 对图像进行二值化处理，Alpha值保持不变
-		ColorModel cm = ColorModel.getRGBdefault();
-		for (int i = 0; i < iw * ih; i++) {
+		ColorModel colorModel = ColorModel.getRGBdefault();
+		for (int i = 0; i < imageWidth * imageHeight; i++) {
 			int red, green, blue;
-			int alpha = cm.getAlpha(pixels[i]);
-			if (cm.getRed(pixels[i]) > grey) {
+			int alpha = colorModel.getAlpha(pixArray[i]);
+			if (colorModel.getRed(pixArray[i]) > threshold) {
 				red = 255;
 			} else {
 				red = 0;
 			}
 
-			if (cm.getGreen(pixels[i]) > grey) {
+			if (colorModel.getGreen(pixArray[i]) > threshold) {
 				green = 255;
 			} else {
 				green = 0;
 			}
 
-			if (cm.getBlue(pixels[i]) > grey) {
+			if (colorModel.getBlue(pixArray[i]) > threshold) {
 				blue = 255;
 			} else {
 				blue = 0;
 			}
 
-			pixels[i] = alpha << 24 | red << 16 | green << 8 | blue;
+			pixArray[i] = alpha << 24 | red << 16 | green << 8 | blue;
 		}
 		// 将数组中的象素产生一个图像
-		return ImageIOHelper.imageProducerToBufferedImage(new MemoryImageSource(iw, ih, pixels, 0, iw));
+		return ImageIOHelper.imageProducerToBufferedImage(new MemoryImageSource(imageWidth, imageHeight, pixArray, 0, imageWidth));
 	}
 
 	/** 提升清晰度,进行锐化 */
 	public BufferedImage sharp() {
-		PixelGrabber pg = new PixelGrabber(image.getSource(), 0, 0, iw, ih, pixels, 0, iw);
+		PixelGrabber pg = new PixelGrabber(image.getSource(), 0, 0, imageWidth, imageHeight, pixArray, 0, imageWidth);
 		try {
 			pg.grabPixels();
 		} catch (InterruptedException e) {
@@ -82,30 +95,30 @@ public class ImageFilter {
 		}
 
 		// 象素的中间变量
-		int tempPixels[] = new int[iw * ih];
-		for (int i = 0; i < iw * ih; i++) {
-			tempPixels[i] = pixels[i];
+		int tempPixels[] = new int[imageWidth * imageHeight];
+		for (int i = 0; i < imageWidth * imageHeight; i++) {
+			tempPixels[i] = pixArray[i];
 		}
 		// 对图像进行尖锐化处理，Alpha值保持不变
 		ColorModel cm = ColorModel.getRGBdefault();
-		for (int i = 1; i < ih - 1; i++) {
-			for (int j = 1; j < iw - 1; j++) {
-				int alpha = cm.getAlpha(pixels[i * iw + j]);
+		for (int i = 1; i < imageHeight - 1; i++) {
+			for (int j = 1; j < imageWidth - 1; j++) {
+				int alpha = cm.getAlpha(pixArray[i * imageWidth + j]);
 
 				// 对图像进行尖锐化
-				int red6 = cm.getRed(pixels[i * iw + j + 1]);
-				int red5 = cm.getRed(pixels[i * iw + j]);
-				int red8 = cm.getRed(pixels[(i + 1) * iw + j]);
+				int red6 = cm.getRed(pixArray[i * imageWidth + j + 1]);
+				int red5 = cm.getRed(pixArray[i * imageWidth + j]);
+				int red8 = cm.getRed(pixArray[(i + 1) * imageWidth + j]);
 				int sharpRed = Math.abs(red6 - red5) + Math.abs(red8 - red5);
 
-				int green5 = cm.getGreen(pixels[i * iw + j]);
-				int green6 = cm.getGreen(pixels[i * iw + j + 1]);
-				int green8 = cm.getGreen(pixels[(i + 1) * iw + j]);
+				int green5 = cm.getGreen(pixArray[i * imageWidth + j]);
+				int green6 = cm.getGreen(pixArray[i * imageWidth + j + 1]);
+				int green8 = cm.getGreen(pixArray[(i + 1) * imageWidth + j]);
 				int sharpGreen = Math.abs(green6 - green5) + Math.abs(green8 - green5);
 
-				int blue5 = cm.getBlue(pixels[i * iw + j]);
-				int blue6 = cm.getBlue(pixels[i * iw + j + 1]);
-				int blue8 = cm.getBlue(pixels[(i + 1) * iw + j]);
+				int blue5 = cm.getBlue(pixArray[i * imageWidth + j]);
+				int blue6 = cm.getBlue(pixArray[i * imageWidth + j + 1]);
+				int blue8 = cm.getBlue(pixArray[(i + 1) * imageWidth + j]);
 				int sharpBlue = Math.abs(blue6 - blue5) + Math.abs(blue8 - blue5);
 
 				if (sharpRed > 255) {
@@ -118,17 +131,17 @@ public class ImageFilter {
 					sharpBlue = 255;
 				}
 
-				tempPixels[i * iw + j] = alpha << 24 | sharpRed << 16 | sharpGreen << 8 | sharpBlue;
+				tempPixels[i * imageWidth + j] = alpha << 24 | sharpRed << 16 | sharpGreen << 8 | sharpBlue;
 			}
 		}
 
 		// 将数组中的象素产生一个图像
-		return ImageIOHelper.imageProducerToBufferedImage(new MemoryImageSource(iw, ih, tempPixels, 0, iw));
+		return ImageIOHelper.imageProducerToBufferedImage(new MemoryImageSource(imageWidth, imageHeight, tempPixels, 0, imageWidth));
 	}
 
 	/** 中值滤波 */
 	public BufferedImage median() {
-		PixelGrabber pg = new PixelGrabber(image.getSource(), 0, 0, iw, ih, pixels, 0, iw);
+		PixelGrabber pg = new PixelGrabber(image.getSource(), 0, 0, imageWidth, imageHeight, pixArray, 0, imageWidth);
 		try {
 			pg.grabPixels();
 		} catch (InterruptedException e) {
@@ -136,15 +149,15 @@ public class ImageFilter {
 		}
 		// 对图像进行中值滤波，Alpha值保持不变
 		ColorModel cm = ColorModel.getRGBdefault();
-		for (int i = 1; i < ih - 1; i++) {
-			for (int j = 1; j < iw - 1; j++) {
+		for (int i = 1; i < imageHeight - 1; i++) {
+			for (int j = 1; j < imageWidth - 1; j++) {
 				int red, green, blue;
-				int alpha = cm.getAlpha(pixels[i * iw + j]);
+				int alpha = cm.getAlpha(pixArray[i * imageWidth + j]);
 
 				// int red2 = cm.getRed(pixels[(i - 1) * iw + j]);
-				int red4 = cm.getRed(pixels[i * iw + j - 1]);
-				int red5 = cm.getRed(pixels[i * iw + j]);
-				int red6 = cm.getRed(pixels[i * iw + j + 1]);
+				int red4 = cm.getRed(pixArray[i * imageWidth + j - 1]);
+				int red5 = cm.getRed(pixArray[i * imageWidth + j]);
+				int red6 = cm.getRed(pixArray[i * imageWidth + j + 1]);
 				// int red8 = cm.getRed(pixels[(i + 1) * iw + j]);
 
 				// 水平方向进行中值滤波
@@ -171,9 +184,9 @@ public class ImageFilter {
 				}
 
 				// int green2 = cm.getGreen(pixels[(i - 1) * iw + j]);
-				int green4 = cm.getGreen(pixels[i * iw + j - 1]);
-				int green5 = cm.getGreen(pixels[i * iw + j]);
-				int green6 = cm.getGreen(pixels[i * iw + j + 1]);
+				int green4 = cm.getGreen(pixArray[i * imageWidth + j - 1]);
+				int green5 = cm.getGreen(pixArray[i * imageWidth + j]);
+				int green6 = cm.getGreen(pixArray[i * imageWidth + j + 1]);
 				// int green8 = cm.getGreen(pixels[(i + 1) * iw + j]);
 
 				// 水平方向进行中值滤波
@@ -200,9 +213,9 @@ public class ImageFilter {
 				}
 
 				// int blue2 = cm.getBlue(pixels[(i - 1) * iw + j]);
-				int blue4 = cm.getBlue(pixels[i * iw + j - 1]);
-				int blue5 = cm.getBlue(pixels[i * iw + j]);
-				int blue6 = cm.getBlue(pixels[i * iw + j + 1]);
+				int blue4 = cm.getBlue(pixArray[i * imageWidth + j - 1]);
+				int blue5 = cm.getBlue(pixArray[i * imageWidth + j]);
+				int blue6 = cm.getBlue(pixArray[i * imageWidth + j + 1]);
 				// int blue8 = cm.getBlue(pixels[(i + 1) * iw + j]);
 
 				// 水平方向进行中值滤波
@@ -227,17 +240,17 @@ public class ImageFilter {
 						}
 					}
 				}
-				pixels[i * iw + j] = alpha << 24 | red << 16 | green << 8 | blue;
+				pixArray[i * imageWidth + j] = alpha << 24 | red << 16 | green << 8 | blue;
 			}
 		}
 
 		// 将数组中的象素产生一个图像
-		return ImageIOHelper.imageProducerToBufferedImage(new MemoryImageSource(iw, ih, pixels, 0, iw));
+		return ImageIOHelper.imageProducerToBufferedImage(new MemoryImageSource(imageWidth, imageHeight, pixArray, 0, imageWidth));
 	}
 
 	/** 线性灰度变换 */
 	public BufferedImage lineGrey() {
-		PixelGrabber pg = new PixelGrabber(image.getSource(), 0, 0, iw, ih, pixels, 0, iw);
+		PixelGrabber pg = new PixelGrabber(image.getSource(), 0, 0, imageWidth, imageHeight, pixArray, 0, imageWidth);
 		try {
 			pg.grabPixels();
 		} catch (InterruptedException e) {
@@ -245,11 +258,11 @@ public class ImageFilter {
 		}
 		// 对图像进行进行线性拉伸，Alpha值保持不变
 		ColorModel cm = ColorModel.getRGBdefault();
-		for (int i = 0; i < iw * ih; i++) {
-			int alpha = cm.getAlpha(pixels[i]);
-			int red = cm.getRed(pixels[i]);
-			int green = cm.getGreen(pixels[i]);
-			int blue = cm.getBlue(pixels[i]);
+		for (int i = 0; i < imageWidth * imageHeight; i++) {
+			int alpha = cm.getAlpha(pixArray[i]);
+			int red = cm.getRed(pixArray[i]);
+			int green = cm.getGreen(pixArray[i]);
+			int blue = cm.getBlue(pixArray[i]);
 
 			// 增加了图像的亮度
 			red = (int) (1.1 * red + 30);
@@ -264,12 +277,12 @@ public class ImageFilter {
 			if (blue >= 255) {
 				blue = 255;
 			}
-			pixels[i] = alpha << 24 | red << 16 | green << 8 | blue;
+			pixArray[i] = alpha << 24 | red << 16 | green << 8 | blue;
 		}
 
 		// 将数组中的象素产生一个图像
 
-		return ImageIOHelper.imageProducerToBufferedImage(new MemoryImageSource(iw, ih, pixels, 0, iw));
+		return ImageIOHelper.imageProducerToBufferedImage(new MemoryImageSource(imageWidth, imageHeight, pixArray, 0, imageWidth));
 	}
 
 	/** 转换为黑白灰度图 */
