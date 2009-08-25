@@ -75,7 +75,16 @@ public class ImageIOHelper {
 		File tempFile = null;
 		try {
 			tempFile = File.createTempFile("tempImageFile", ".tif");
-			tempFile.deleteOnExit();
+			createImage( bi, tempFile );
+		} catch (Exception exc) {
+			exc.printStackTrace();
+		}
+		return tempFile;
+	}
+	
+	public static File createImage(BufferedImage bi, File file) {
+		try {
+			file.deleteOnExit();
 			TIFFImageWriteParam tiffWriteParam = new TIFFImageWriteParam(Locale.US);
 			tiffWriteParam.setCompressionMode(ImageWriteParam.MODE_DISABLED);
 
@@ -84,8 +93,8 @@ public class ImageIOHelper {
 			ImageWriter writer = writers.next();
 
 			IIOImage image = new IIOImage(bi, null, null);
-			tempFile = tempImageFile(tempFile);
-			ImageOutputStream ios = ImageIO.createImageOutputStream(tempFile);
+			file = tempImageFile(file);
+			ImageOutputStream ios = ImageIO.createImageOutputStream(file);
 			writer.setOutput(ios);
 			writer.write(null, image, tiffWriteParam);
 			ios.close();
@@ -93,7 +102,7 @@ public class ImageIOHelper {
 		} catch (Exception exc) {
 			exc.printStackTrace();
 		}
-		return tempFile;
+		return file;
 	}
 
 	public static File tempImageFile(File imageFile) {
