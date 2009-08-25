@@ -22,5 +22,6 @@
 	<classpathentry kind="lib" path="lib/httpclient/httpcore-nio-4.0.1.jar"/>
 	<classpathentry kind="lib" path="lib/httpclient/httpmime-4.0.jar"/>
 	<classpathentry kind="lib" path="lib/junit.jar"/>
+	<classpathentry kind="lib" path="lib/ocr/Filters.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
