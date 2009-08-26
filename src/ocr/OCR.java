@@ -25,7 +25,6 @@ public class OCR {
 
 	public String recognizeText(File imageFile, String imageFormat) throws Exception {
 		File tempImage = ImageIOHelper.createImage(imageFile, imageFormat);
-
 		File outputFile = new File(imageFile.getParentFile(), "output");
 		StringBuffer strB = new StringBuffer();
 
@@ -91,7 +90,7 @@ public class OCR {
 	}
     public static void main( String args[] ) throws Exception{
        OCR ocr = new OCR();
-       String result = ocr.recognizeText( new File( "E:/TestWork/Test/tesseract/test.jpg" ), "jpeg" );
+       String result = ocr.recognizeText( new File( "E:/TestWork/Test/img/code.jpg" ), "jpeg" );
        System.out.println( "result:" + result );
     }
 }
