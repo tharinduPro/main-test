@@ -19,7 +19,7 @@ public class BMP2TIFF {
 		TIFFEncodeParam param = new TIFFEncodeParam();
 		ImageEncoder imageEncoder = ImageCodec.createImageEncoder("tiff", outputStreamFile, param);
 		
-		String srcFile = "E:/TestWork/Test/img/code.bmp";
+		String srcFile = "E:/TestWork/Test/img/code1.bmp";
 		RenderedOp srcOp = JAI.create("fileload", srcFile);
 		imageEncoder.encode(srcOp);
 		outputStreamFile.close();
