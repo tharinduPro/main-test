@@ -23,7 +23,7 @@ public class Recognize {
 			url = args[0];
 		}
 
-		String filterClazz = "CsdnFilter";
+		String filterClazz = "image.simpledecoder.filter.NotWhiteFilter";
 		if (args.length >= 2) {
 			filterClazz = args[1];
 		}
@@ -45,7 +45,7 @@ public class Recognize {
 		ImageData ia2 = new ImageData(bi, filter);
 		ImageData[] ii = ia2.split();
 		ArrayList list = new ArrayList();
-		ImageData[] template = ImageData.decodeFromFile("template.data");
+		ImageData[] template = ImageData.decodeFromFile("c:/template.data");
 		HashMap map = new HashMap();
 		for (int i = 0; i < template.length; i++) {
 			map.put(template[i], new Character(template[i].code));
