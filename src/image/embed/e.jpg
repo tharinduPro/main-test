@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true r (n 0 s 0 v 0 l 0) "http://www.classify.org/safesurf/" l gen true r (SS~~000 1))' />
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/"/>
+<link rel="SHORTCUT ICON" href="http://www.ibm.com/favicon.ico"/>
+<meta name="Description" content="请求页面无法显示（HTTP 响应代码 404）"/>
+<meta name="IBM.Country" content="CN"/>
+<meta name="DC.Date" scheme="iso8601" content="2004-10-06"/>
+<meta name="Source" content="v14 Template Generator, Template 14.4"/>
+<meta name="Abstract" content="请求页面无法显示（HTTP 响应代码 404）"/>
+<meta name="Keywords" content="请求页面无法显示（HTTP 响应代码 404）"/>
+<meta name="DC.Language" scheme="rfc1766" content="zh-CN"/>
+<meta name="Security" content="Public"/>
+<meta name="Robots" content="noindex,follow"/>
+<meta name="IBM.Effective" scheme="W3CDTF" content="2007-01-24"/>
+<meta name="Owner" content="dW Information/Raleigh/IBM"/>
+<meta name="DC.Rights" content="Copyright (c) 2004, 2005 by IBM Corporation"/>
+<title>IBM 提示：请求页面无法显示</title>
+<link rel="stylesheet" type="text/css" href="//www.ibm.com/common/v14/main.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="//www.ibm.com/common/v14/cn/zh/screen.css" />
+<link rel="stylesheet" type="text/css" media="print" href="//www.ibm.com/common/v14/cn/zh/print.css" />
+<script language="JavaScript" src="//www.ibm.com/common/v14/cn/zh/detection.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript">
+ibmCommonErrorpagesStatus = '404';
+ibmCommonErrorpagesDesc = 'Not Found';
+</script>
+<script language="JavaScript1.3" type="text/javascript" src="//www.ibm.com/developerworks/cn/js/detect.js"></script>
+<script language="JavaScript1.3" type="text/javascript">ibmCommonErrorpagesScript('errorhead.js');</script>
+</head>
+<body>
+<script language="JavaScript1.3" type="text/javascript">ibmCommonErrorpagesScript('errorbody.js');</script>
+<noscript>
+
+<table border="0" cellpadding="0" cellspacing="0" width="760">
+<tr valign="top">
+<td class="bbg" width="110"><a href="http://www.ibm.com/cn/"><img alt="IBM&reg;" border="0" height="52" src="//www.ibm.com/i/v14/t/ibm-logo.gif" width="110"/></a></td>
+<td align="right" class="mbbg" width="650">
+<table border="0" cellpadding="0" cellspacing="0" align="right">
+<tr class="cty-tou">
+<td rowspan="2" width="17" class="upper-masthead-corner"><a href="#main"><img src="//www.ibm.com/i/c.gif" border="0" width="1" height="1" alt="跳转到正文"/></a></td>
+<td align="left">
+<table border="0" cellpadding="0" cellspacing="0" align="left">
+<tr>
+<td><span class="spacer">&nbsp;&nbsp;&nbsp;&nbsp;</span><b class="country">国家/地区</b><span class="spacer">&nbsp;[</span><a class="ur-link" href="http://www.ibm.com/developerworks/cn/country/">変更</a><span class="spacer">]</span></td>
+
+<td width="29" class="upper-masthead-divider">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="left"><a class="ur-link" href="http://www.ibm.com/legal/cn/">ご利用条件</a></td>
+</tr>
+</table>
+</td>
+<td width="40">&nbsp;</td>
+</tr>
+<tr>
+<td class="cty-tou-border" height="1" colspan="2"><img src="//www.ibm.com/i/c.gif" alt="" height="1" width="1"/></td>
+</tr>
+<tr>
+<td colspan="3"><img alt="" height="8" src="//www.ibm.com/i/c.gif" width="1"/></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="center" colspan="2">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<form method="get" action="http://www-128.ibm.com/developerworks/search/searchResults.jsp" id="form1" name="form1"><input type="hidden" name="searchType" value="1"/><input type="hidden" name="searchSite" value="dWChina"/><input type="hidden" name="pageLang" value="zh"/><input type="hidden" name="langEncoding" value="UTF8"/><table border="0" cellpadding="0" cellspacing="0"><tr><td width="1"><img src="//www.ibm.com/i/c.gif" width="1" height="1" alt="Select a scope:"/></td><td align="right"><label for="sq"></label><select id="sq" name="searchScope" class="input-scope"><option value="dW" selected="selected">dW 全部内容</option><option value="all">IBM 全部内容</option></select></td><td width="1" align="right"><img src="//www.ibm.com/i/c.gif" width="1" height="1" alt="Search for:"/>&nbsp;&nbsp;</td><td align="right"><input class="input" id="q" maxlength="100" name="query" size="15" type="text" value=""/></td><td width="7">&nbsp;</td><td><label for="q"><input alt="搜索" name="Search" src="//www.ibm.com/i/v14/t/cn/zh/search.gif" type="image" value="搜索"/></label></td><td width="20">&nbsp;</td></tr></table></form>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="blbg" colspan="3"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><table border="0" cellpadding="0" cellspacing="0"><tr><td><span class="spacer">&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td><a class="masthead-mainlink" href="http://www.ibm.com/cn/">首页</a></td><td class="masthead-divider" width="27">&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a class="masthead-mainlink" href="http://www.ibm.com/products/cn/">产品</a></td><td class="masthead-divider" width="27">&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a class="masthead-mainlink" href="http://www.ibm.com/servicessolutions/cn/">服务与解决方案</a></td>	<td class="masthead-divider" width="27">&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a class="masthead-mainlink" href="http://www.ibm.com/support/cn/">支持与下载</a></td><td class="masthead-divider" width="27">&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a class="masthead-mainlink" href="http://www.ibm.com/account/cn/">个性化服务</a></td><td><span class="spacer">&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr></table></td></tr></table></td></tr></table>
+<!-- MASTHEAD_END -->
+<script src="//www.ibm.com/common/v14/pmh.js" language="JavaScript" type="text/javascript"></script>
+
+<table width="760" border="0" cellspacing="0" cellpadding="0" id="v14-body-table">
+<tr valign="top">
+<td width="150" id="navigation">
+<!-- LEFTNAV_BEGIN -->
+<table border="0" cellpadding="0" cellspacing="0" width="150">
+<tr>
+<td class="left-nav-spacer">&nbsp;</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="150">
+<tr class="left-nav-last">
+<td width="14"><img src="//www.ibm.com/i/c.gif" width="14" height="1" alt="" class="display-img"/></td>
+<td width="136"><img src="//www.ibm.com/i/v14/t/left-nav-corner.gif" width="136" height="19" alt="" class="display-img"/></td>
+</tr>
+
+</table>
+<!-- LEFTNAV_END -->
+</td>
+<td width="610"><a name="main"></a>
+<table width="610" cellpadding="0" cellspacing="0" border="0" id="content-table">
+<tr valign="top">
+<td width="10">&nbsp;</td>
+<td width="443">
+<table border="0" cellpadding="0" cellspacing="0" width="443">
+<tr valign="top">
+<td height="60"><img alt="" class="display-img" height="8" src="//www.ibm.com/i/c.gif" width="1"/>
+<h1>抱歉……</h1>
+<p id="subtitle"><em>请求页面无法显示</em></p>
+<img alt="" class="display-img" height="6" src="//www.ibm.com/i/c.gif" width="1"/></td>
+</tr>
+</table>
+
+</td>
+<td width="7">&nbsp;</td>
+<td width="150">&nbsp;</td>
+</tr>
+<tr valign="top">
+<td width="10">&nbsp;</td>
+<td width="443" id="content">
+<table border="0" cellpadding="0" cellspacing="0" width="443">
+<tr>
+<td class="v14-header-1">建议操作</td>
+</tr>
+</table>
+<ul>
+<li>如果您在 developerWorks 上查找有关 IBM Systems 或 Grid computing 的内容，由于这些内容现在已经不可用，我们建议您访问以下链接：<a href="http://www.ibm.com/systems/?cm_re=masthead-_-products-_-sys-allsystems">IBM Systems</a>、<a href="http://www.ibm.com/partnerworld/pwhome.nsf/weblook/pat_sas.html">Systems, servers, and storage</a> 或 <a href="http://www.ibm.com/grid/?re=gi67fss">IBM Grid computing</a> 获取相关内容。</li>
+<li>如果您是直接在地址栏输入地址，请确保拼写正确。
+注意：大部分地址对大小写敏感。</li>
+<li>当您单击某个链接时，如果该链接有问题，您可以使用下面的 “获得帮助”。</li>
+<li>要浏览 IBM developerWorks 中国站点，请从 <a href="http://www.ibm.com/developerworks/cn/">IBM developerWorks 中国</a> 开始。</li>
+<li>使用页面顶部的搜索框。</li>
+</ul>
+<br />
+<br />
+<!-- =====================================================================================
+Get assistance
+====================================================================================== -->
+<table border="0" cellpadding="0" cellspacing="0" width="443">
+<tr>
+<td class="v14-header-1">获得帮助</td>
+</tr>
+</table>
+<p>如果发现无效链接，请您通过 <a href="https://www.ibm.com/developerworks/secure/feedback.jsp?domain=dwchina">IBM developerWorks 反馈意见页面</a> 反馈给我们。</p>
+</p>
+<br />
+<br />
+<div class="fnt">404 Not Found</div>
+<br />
+</td>
+<td width="7">&nbsp;</td>
+<td width="150" id="right-nav">
+<table border="0" cellpadding="0" cellspacing="0" width="150">
+<tr>
+<td class="v14-header-1-small">其他 dW 资源</td>
+</tr>
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" class="v14-gray-table-border">
+<tr>
+<td width="150" class="no-padding">
+<table border="0" cellpadding="0" cellspacing="0" width="143">
+<tr valign="top">
+<td align="right" width="18" class="ipt"><img src="//www.ibm.com/i/v14/icons/fw.gif" height="16" width="16" alt=""/></td>
+<td width="125" class="npl"><p><a class="smallplainlink" href="http://www.ibm.com/developerworks/cn/training/">精品教程</a></p></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="dotted"><img src="//www.ibm.com/i/c.gif" width="1" height="1" alt=""/></td>
+</tr>
+<tr>
+<td class="no-padding">
+<table border="0" cellpadding="0" cellspacing="0" width="143">
+<tr valign="top">
+<td align="right" width="18" class="ipt"><img src="//www.ibm.com/i/v14/icons/fw.gif" height="16" width="16" alt=""/></td>
+<td width="125" class="npl"><p><a class="smallplainlink" href="http://www.ibm.com/developerworks/cn/downloads/">下载</a></p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br />
+<!-- START FOOTER -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td height="19" class="bbg">
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td><span class="spacer">&nbsp;&nbsp;&nbsp;&nbsp;</span><a class="mainlink" href="http://www.ibm.com/ibm/cn/">关于 IBM</a></td>
+<td width="27" class="footer-divider">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><a class="mainlink" href="http://www.ibm.com/privacy/cn/">隐私</a></td>
+<td width="27" class="footer-divider">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><a class="mainlink" href="http://www.ibm.com/contact/cn/">联系方式</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table></noscript>
+<img src="//www.ibm.com/i/c.gif?src=error-404" width="1" height="1" alt=""/>
+<!-- FOOTER_END -->
+<script type="text/javascript" language="Javascript">window.SA_Message="error=404";</script>
+<script type="text/javascript" language="JavaScript1.2" src="//www.ibm.com/common/stats/stats.js"></script>
+<noscript><img src="//stats.www.ibm.com/rc/images/uc.GIF?R=noscript" width="1" height="1" alt="" border="0"/></noscript>
+</body>
+
+</html>

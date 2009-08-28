@@ -11,6 +11,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 
+ * @author admin
+ * 用于存储图像的像素的值和图像的长宽
+ */
 public class ImageData {
 	public int[][] data;
 	private int width;
@@ -97,20 +102,22 @@ public class ImageData {
 		}
 		return -1;
 	}
-
-	ImageData clone(int x, int y, int w0, int h0) {
-		ImageData ia = new ImageData();
-		ia.width = w0;
-		ia.height = h0;
-		ia.data = new int[ia.height][ia.width];
-		for (int i = 0; i < h0; i++) {
-			for (int j = 0; j < w0; j++) {
-				ia.data[i][j] = data[i + y][j + x];
+	//从某点开始复制数组
+	ImageData clone(int x, int y, int width, int height) {
+		ImageData imageData = new ImageData();
+		imageData.width = width;
+		imageData.height = height;
+		imageData.data = new int[imageData.height][imageData.width];
+		for (int h = 0; h < imageData.height; h++) {
+			for (int w = 0; w < imageData.width; w++) {
+				//不会越界？
+				imageData.data[h][w] = data[h + y][w + x];
 			}
 		}
-		return ia;
+		return imageData;
 	}
 
+	//显示图片的数字样式
 	public void show() {
 		System.out.println();
 		for (int i = 0; i < height; i++) {
@@ -122,6 +129,64 @@ public class ImageData {
 		System.out.println();
 	}
 
+
+	public static ImageData[] decodeFromFile(String path) throws IOException {
+		BufferedReader bufferedReader = new BufferedReader(new FileReader(new File(path)));
+		String line;
+		List<ImageData> list = new ArrayList<ImageData>();
+		while ((line = bufferedReader.readLine()) != null) {
+			ImageData ia = decode(line);
+			if (ia != null) {
+				list.add(ia);
+			}
+		}
+		return (ImageData[]) list.toArray(new ImageData[0]);
+	}
+
+	public static ImageData decode(String imageLine) {
+		String[] splitString = imageLine.split("\\,", 4);
+		if (splitString.length != 4)
+			return null;
+		if (splitString[0].length() != 1)
+			return null;
+		ImageData ia = new ImageData();
+		ia.code = splitString[0].charAt(0);
+		ia.width = Integer.parseInt(splitString[1]);
+		ia.height = Integer.parseInt(splitString[2]);
+		if (splitString[3].length() != ia.width * ia.height) {
+			return null;
+		}
+		ia.data = new int[ia.height][ia.width];
+		for (int i = 0; i < ia.height; i++) {
+			for (int j = 0; j < ia.width; j++) {
+				if (splitString[3].charAt(i * ia.width + j) == '1') {
+					ia.data[i][j] = 1;
+				} else {
+					ia.data[i][j] = 0;
+				}
+			}
+		}
+		return ia;
+	}
+
+	//把图像的数组值转换成字符串，其中包括code, 和长宽
+	public String encode() {
+		StringBuffer sb = new StringBuffer();
+		sb.append(code).append(",");
+		sb.append(width).append(",");
+		sb.append(height).append(",");
+		for (int i = 0; i < height; i++) {
+			for (int j = 0; j < width; j++) {
+				if (data[i][j] == 1) {
+					sb.append('1');
+				} else {
+					sb.append('0');
+				}
+			}
+		}
+		return sb.toString();
+	}
+	
 	public int hashCode() {
 		int code = width ^ height;
 		int count = 0;
@@ -155,63 +220,6 @@ public class ImageData {
 		} else {
 			return false;
 		}
-	}
-
-	public static ImageData[] decodeFromFile(String path) throws IOException {
-		BufferedReader reader = new BufferedReader(new FileReader(
-				new File(path)));
-		String line;
-		ArrayList list = new ArrayList();
-		while ((line = reader.readLine()) != null) {
-			ImageData ia = decode(line);
-			if (ia != null) {
-				list.add(ia);
-			}
-		}
-		return (ImageData[]) list.toArray(new ImageData[0]);
-	}
-
-	public static ImageData decode(String s) {
-		String[] ss = s.split("\\,", 4);
-		if (ss.length != 4)
-			return null;
-		if (ss[0].length() != 1)
-			return null;
-		ImageData ia = new ImageData();
-		ia.code = ss[0].charAt(0);
-		ia.width = Integer.parseInt(ss[1]);
-		ia.height = Integer.parseInt(ss[2]);
-		if (ss[3].length() != ia.width * ia.height) {
-			return null;
-		}
-		ia.data = new int[ia.height][ia.width];
-		for (int i = 0; i < ia.height; i++) {
-			for (int j = 0; j < ia.width; j++) {
-				if (ss[3].charAt(i * ia.width + j) == '1') {
-					ia.data[i][j] = 1;
-				} else {
-					ia.data[i][j] = 0;
-				}
-			}
-		}
-		return ia;
-	}
-
-	public String encode() {
-		StringBuffer sb = new StringBuffer();
-		sb.append(code).append(",");
-		sb.append(width).append(",");
-		sb.append(height).append(",");
-		for (int i = 0; i < height; i++) {
-			for (int j = 0; j < width; j++) {
-				if (data[i][j] == 1) {
-					sb.append('1');
-				} else {
-					sb.append('0');
-				}
-			}
-		}
-		return sb.toString();
 	}
 
 	public int getWidth() {
