@@ -1,6 +1,9 @@
-package image.algorithm;
+package image.bmp;
 
-public class ImageFileHeader {
+import java.io.IOException;
+import java.io.InputStream;
+
+public class BMPImageFileHeader {
 	public final static int fileHeaderLength = 28;
 	private String fileFormat;		//显示文件标识
     private int fileSize;		//整个文件的大小
@@ -10,7 +13,14 @@ public class ImageFileHeader {
     private int height;//位图的高度，以象素为单位
     private int planes;//位图的位面数（注：该值将总是1）
     
-    public ImageFileHeader( byte[] fileHeaderArray ) {
+    public BMPImageFileHeader( InputStream inputStream ){
+    	byte[] fileHeaderArray = new byte[fileHeaderLength];
+    	try {
+    		inputStream.read(fileHeaderArray);
+    	}
+    	catch( IOException ioe ) {
+    		ioe.printStackTrace();
+    	}
     	fileFormat = new String (fileHeaderArray, 0,2 );
         fileSize = (((int) fileHeaderArray[5] & 0xff) << 24)
             | (((int) fileHeaderArray[4] & 0xff) << 16)
@@ -29,6 +39,7 @@ public class ImageFileHeader {
             | (((int) fileHeaderArray[23] & 0xff) << 8) | (int) fileHeaderArray[22] & 0xff;
         planes = (((int) fileHeaderArray[27] & 0xff) << 8) | (int) fileHeaderArray[26] & 0xff;
     }
+    
 	public String getFileFormat() {
 		return fileFormat;
 	}
@@ -106,7 +117,7 @@ public class ImageFileHeader {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		ImageFileHeader other = (ImageFileHeader) obj;
+		BMPImageFileHeader other = (BMPImageFileHeader) obj;
 		if (bitmapDataOffset != other.bitmapDataOffset)
 			return false;
 		if (bitmapHeaderSize != other.bitmapHeaderSize)

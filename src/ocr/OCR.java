@@ -6,6 +6,8 @@
 
 package ocr;
 
+import image.ImageConstants;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -90,7 +92,7 @@ public class OCR {
 	}
     public static void main( String args[] ) throws Exception{
        OCR ocr = new OCR();
-       String result = ocr.recognizeText( new File( "E:/TestWork/Test/img/code.jpg" ), "jpeg" );
+       String result = ocr.recognizeText( new File( ImageConstants.BMP_OUTPUT_FILE ), "tiff" );
        System.out.println( "result:" + result );
     }
 }
