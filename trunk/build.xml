@@ -37,7 +37,7 @@
         <!--</java>-->
     <!--</target>-->
     <target name="test" depends="testCompile">
-        <java classname="net.dgie.dginfo.Run" classpath="./target/classes" fork="true" >
+        <java classname="image.BMP2TIFF" classpath="./target/classes" fork="true" >
             <!--<arg value="-h"/>-->
             <classpath refid="testpath" />
         </java>
