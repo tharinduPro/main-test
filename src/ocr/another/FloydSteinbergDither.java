@@ -1,4 +1,4 @@
-package ocr;
+package ocr.another;
 
 /* Copyright (c) 2009 the authors listed at the following URL, and/or
  the authors of referenced articles or incorporated external code:

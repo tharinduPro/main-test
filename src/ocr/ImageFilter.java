@@ -1,5 +1,7 @@
 package ocr;
 
+import image.ImageIOHelper;
+
 import java.awt.Graphics2D;
 import java.awt.color.ColorSpace;
 import java.awt.geom.AffineTransform;
@@ -82,7 +84,7 @@ public class ImageFilter {
 			pixArray[i] = alpha << 24 | red << 16 | green << 8 | blue;
 		}
 		// 将数组中的象素产生一个图像
-		return ImageIOHelper.imageProducerToBufferedImage(new MemoryImageSource(imageWidth, imageHeight, pixArray, 0, imageWidth));
+		return ImageIOHelper.changeImageProducerToBufferedImage(new MemoryImageSource(imageWidth, imageHeight, pixArray, 0, imageWidth));
 	}
 
 	/** 提升清晰度,进行锐化 */
@@ -136,7 +138,7 @@ public class ImageFilter {
 		}
 
 		// 将数组中的象素产生一个图像
-		return ImageIOHelper.imageProducerToBufferedImage(new MemoryImageSource(imageWidth, imageHeight, tempPixels, 0, imageWidth));
+		return ImageIOHelper.changeImageProducerToBufferedImage(new MemoryImageSource(imageWidth, imageHeight, tempPixels, 0, imageWidth));
 	}
 
 	/** 中值滤波 */
@@ -245,7 +247,7 @@ public class ImageFilter {
 		}
 
 		// 将数组中的象素产生一个图像
-		return ImageIOHelper.imageProducerToBufferedImage(new MemoryImageSource(imageWidth, imageHeight, pixArray, 0, imageWidth));
+		return ImageIOHelper.changeImageProducerToBufferedImage(new MemoryImageSource(imageWidth, imageHeight, pixArray, 0, imageWidth));
 	}
 
 	/** 线性灰度变换 */
@@ -282,7 +284,7 @@ public class ImageFilter {
 
 		// 将数组中的象素产生一个图像
 
-		return ImageIOHelper.imageProducerToBufferedImage(new MemoryImageSource(imageWidth, imageHeight, pixArray, 0, imageWidth));
+		return ImageIOHelper.changeImageProducerToBufferedImage(new MemoryImageSource(imageWidth, imageHeight, pixArray, 0, imageWidth));
 	}
 
 	/** 转换为黑白灰度图 */
