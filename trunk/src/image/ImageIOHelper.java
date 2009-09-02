@@ -27,18 +27,6 @@ import com.sun.media.jai.codec.ImageEncoder;
 import com.sun.media.jai.codec.TIFFEncodeParam;
 
 public class ImageIOHelper {
-	public static File changeImageFileToTiff(File imageFile) {
-		File tempFile = makeTempTifFile(imageFile);
-		Image image = null;
-		try {
-			image = ImageIO.read( imageFile );
-		}
-		catch( IOException ioe ) {
-			ioe.printStackTrace();
-		}
-		storeImageToTiff(image, tempFile.getPath());
-		return tempFile;
-	}
 
 	public static File createImage(BufferedImage bi) {
 		File tempFile = null;
@@ -144,10 +132,29 @@ public class ImageIOHelper {
 			TIFFEncodeParam param = new TIFFEncodeParam();
 			ImageEncoder imageEncoder = ImageCodec.createImageEncoder("tiff", outputStreamFile, param);
 			imageEncoder.encode(bufferedImage);
+			outputStreamFile.flush();
 			outputStreamFile.close();
     	}
     	catch( IOException ioe ) {
     		ioe.printStackTrace();
     	}
     }
+    
+    /**
+     * 把其他格式的图像转成tiff,格式为xxx0.tif
+     * @param imageFile
+     * @return imageFile
+     */
+	public static File changeToTiff(File imageFile) {
+		File tempFile = makeTempTifFile(imageFile);
+		Image image = null;
+		try {
+			image = ImageIO.read( imageFile );
+		}
+		catch( IOException ioe ) {
+			ioe.printStackTrace();
+		}
+		storeImageToTiff(image, tempFile.getPath());
+		return tempFile;
+	}
 }

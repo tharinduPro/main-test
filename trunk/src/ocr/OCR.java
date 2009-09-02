@@ -10,9 +10,9 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.jdesktop.swingx.util.OS;
-import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.jdesktop.swingx.util.OS;
 
 public class OCR {
 	protected transient final Logger logger = LogManager.getLogger(this.getClass());
@@ -21,8 +21,8 @@ public class OCR {
 	private final String EOL = System.getProperty("line.separator");
 	private String tessPath = new File("tesseract").getAbsolutePath();
 
-	public String recognizeText(File imageFile) throws Exception {
-		File tempImage = ImageIOHelper.changeImageFileToTiff(imageFile);
+	//辨认图片格式为tif的图片，后缀必须为.tif
+	public String recognizeTiffToText(File imageFile) throws Exception {
 		File outputFile = new File(imageFile.getParentFile(), "output");
 		StringBuffer stringBuffer = new StringBuffer();
 
@@ -42,15 +42,12 @@ public class OCR {
 		ProcessBuilder pb = new ProcessBuilder();
 		pb.directory(imageFile.getParentFile());
 
-		cmd.set(1, tempImage.getName());
+		cmd.set(1, imageFile.getName());
 		pb.command(cmd);
 		pb.redirectErrorStream(true);
 		Process process = pb.start();
 
 		int w = process.waitFor();
-
-		// delete temp working files
-		tempImage.delete();
 
 		if (w == 0) {
 			BufferedReader in = new BufferedReader(
@@ -58,7 +55,6 @@ public class OCR {
 							new FileInputStream(outputFile.getAbsolutePath() + ".txt"), "UTF-8"));
 
 			String str;
-
 			while ((str = in.readLine()) != null) {
 				stringBuffer.append(str).append(EOL);
 			}
@@ -78,7 +74,6 @@ public class OCR {
 				default:
 					msg = "Errors occurred.";
 			}
-			tempImage.delete();
 			throw new RuntimeException(msg);
 		}
 
@@ -88,7 +83,8 @@ public class OCR {
 	}
     public static void main( String args[] ) throws Exception{
        OCR ocr = new OCR();
-       String result = ocr.recognizeText( new File( ImageConstants.BMP_OUTPUT_FILE) );
+	   File tempImage = ImageIOHelper.changeToTiff( new File( ImageConstants.BMP_OUTPUT_FILE) );
+       String result = ocr.recognizeTiffToText( tempImage );
        System.out.println( "result:" + result );
     }
 }
