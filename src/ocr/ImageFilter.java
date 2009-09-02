@@ -12,8 +12,8 @@ import java.awt.image.ColorModel;
 import java.awt.image.MemoryImageSource;
 import java.awt.image.PixelGrabber;
 
-import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 /**
  * 
@@ -88,7 +88,7 @@ public class ImageFilter {
 	}
 
 	/** 提升清晰度,进行锐化 */
-	public BufferedImage sharp() {
+	public BufferedImage sharp( ) {
 		PixelGrabber pg = new PixelGrabber(image.getSource(), 0, 0, imageWidth, imageHeight, pixArray, 0, imageWidth);
 		try {
 			pg.grabPixels();
@@ -325,6 +325,20 @@ public class ImageFilter {
 			g.drawImage(tmp, 0, y - y * srcH / newH, null);
 		}
 		return dst;
+	}
+
+	/**
+	 * @return the image
+	 */
+	public BufferedImage getImage() {
+		return image;
+	}
+
+	/**
+	 * @param image the image to set
+	 */
+	public void setImage(BufferedImage image) {
+		this.image = image;
 	}
 
 }

@@ -1,0 +1,13 @@
+import ImageFont, ImageDraw
+from PIL import Image
+
+im = Image.new("RGB",(400,400))
+#im.show()
+
+draw = ImageDraw.Draw(im)
+
+# use a truetype font
+font= ImageFont.truetype("/usr/share/fonts/truetype/freefont/FreeMonoBold.ttf",50)
+
+draw.text((10, 25), "world", font=font)
+im.show()

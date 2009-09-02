@@ -1,0 +1,29 @@
+To run:
+1) Create a directory. In the directory you may create a maximum of 4 files:
+		a)consonants- Put all the consonants in your script/language in the file. eg, ক , খ (ka, kha) etc
+		b)pre_semivowels- Put all the semivowels that come before a consonant. eg,  ি, ে, ৈ  (e kaar, a kaar, oi kaar )
+		c)post_semivowels- Put all the semivowels that come after a consonant, eg,  া, ী (aa kaar, ee kaar)
+		d)rest- Put everything else here, like digits, punctuation, conjuncts, special characters, vowels
+		
+Now you need to know the directory in your system where all the font files are kept. In Ubuntu the truetype fonts are at /usr/share/fonts/truetype/.
+
+
+Nowt type (for bengali for example)  python generate.py -fd /usr/share/fonts/truetype/ttf-bengali-fonts/ -l beng -a beng.alphabet/
+
+-fd takes the ttf fonts directory as input
+-l takes the language to be trained as input
+-a takes the alphabet characters folder as input
+
+This command will generate many images and corresponding box files in beng.images. In the end it generates 5 files.
+1)unicharset
+2)Microfeat
+3)normproto
+4)pffmtable
+5)inttemp
+
+These 5 files are needed by Tesseract-OCR engine to add a new script support. In addition dawg files are also required, for which you do not require
+this tool.
+
+Contact debayanin@gmail.com for further clarifications.
+
+And yeah, this is work in progress.
