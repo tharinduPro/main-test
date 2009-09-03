@@ -1,0 +1,13 @@
+Tesseract Open Source OCR Engine
+Image has 8 * 3 bits per pixel, and size (660,250)
+APPLY_BOXES:
+   Boxes read from boxfile:     400
+   Initially labelled blobs:    400 in 10 rows
+   Box failures detected:		     0
+   Duped blobs for rebalance:     0
+   "1" has fewest samples:    30
+				Total unlabelled words:        0
+				Final labelled words:        400
+Generating training data
+TRAINING ... Font name = UnknownFont.
+Generated training data for 400 blobs
