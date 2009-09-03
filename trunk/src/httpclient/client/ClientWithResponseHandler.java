@@ -16,7 +16,7 @@ public class ClientWithResponseHandler {
         
         HttpClient httpclient = new DefaultHttpClient();
 
-        HttpGet httpget = new HttpGet("http://www.google.com/"); 
+        HttpGet httpget = new HttpGet("http://vote.sun0769.com/include/code.asp?s=youthnet&aj=0.7034161835174741"); 
 
         System.out.println("executing request " + httpget.getURI());
 
