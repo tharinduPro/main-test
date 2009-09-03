@@ -37,7 +37,7 @@ public class OCR {
 		cmd.add("");
 		cmd.add(outputFile.getName());
 		cmd.add(LANG_OPTION);
-		cmd.add("eng");
+		cmd.add("digital");
 
 		ProcessBuilder pb = new ProcessBuilder();
 		pb.directory(imageFile.getParentFile());
