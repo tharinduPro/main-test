@@ -62,8 +62,8 @@ public class Test {
 		//反相显示图片
 		Image image = bmp.getBMPImage();
 		BufferedImage invertImage = ImageIOHelper.invertImage(image);
-		ImageFilter imageFilter1 = new ImageFilter(invertImage);
-		BufferedImage bi1 = imageFilter1.scaling(5.0f);
+		ImageFilter imageFilter = new ImageFilter(invertImage);
+		BufferedImage bi1 = imageFilter.scaling(5.0f);
 		ShowImage si1 = new ShowImage( bi1 );
 		si1.showImage();
 		
