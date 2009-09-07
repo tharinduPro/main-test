@@ -1,19 +1,20 @@
 package net.dgie.xmltask;
 
 import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
-import java.io.File;
 import java.net.URL;
 import java.net.URLConnection;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
+
 import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
-import javax.xml.transform.TransformerFactory;
 
 public class XMLToHTML {
 

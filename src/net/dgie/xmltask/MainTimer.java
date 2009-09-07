@@ -1,10 +1,9 @@
 package net.dgie.xmltask;
 
-import java.util.Date;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
-import java.util.List;
-import java.util.ArrayList;
 
 public class MainTimer {
     

@@ -1,11 +1,12 @@
 package net.dgie.xmltask;
 
-import net.dgie.xmltask.util.Constants;
-import java.util.List;
-import java.util.ArrayList;
-import java.sql.Statement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import net.dgie.xmltask.util.Constants;
 
 public class TaskDAO {
     public List<TaskBean> queryTask( String intervalTime ) {

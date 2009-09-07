@@ -1,15 +1,15 @@
-import java.awt.BorderLayout;  
-import java.awt.Container;  
-import java.awt.event.ActionEvent;  
-import java.awt.event.ActionListener;  
-import java.awt.event.InputEvent;  
-import java.awt.event.MouseAdapter;  
-import java.awt.event.MouseEvent;  
-import java.awt.event.MouseListener;  
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.InputEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 
-import javax.swing.JButton;  
-import javax.swing.JFrame;  
-import javax.swing.SwingUtilities;  
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.SwingUtilities;
 
 public class ButtonActionSample {  
     public static void main(String args[]) {  

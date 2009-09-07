@@ -1,9 +1,10 @@
 package ocr.another;
-import java.awt.*;
-import java.awt.image.*;
+import java.awt.Point;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.net.URL;
 
-import java.io.*;
-import java.net.*;
 import javax.imageio.ImageIO;
 
 /** 
