@@ -26,8 +26,12 @@
 
 package httpclient.client;
 
+import httpclient.sun0769.Constants;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import org.apache.http.Header;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -37,6 +41,9 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.cookie.Cookie;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpParams;
+import org.apache.http.params.HttpProtocolParams;
 import org.apache.http.protocol.HTTP;
 
 /**
@@ -47,14 +54,15 @@ public class ClientFormLogin {
 
     public static void main(String[] args) throws Exception {
 
-        DefaultHttpClient httpclient = new DefaultHttpClient();
+        // prepare parameters
+        HttpParams params = new BasicHttpParams();
+        HttpProtocolParams.setUserAgent(params, Constants.BROWSER_TYPE);
+        HttpProtocolParams.setUseExpectContinue(params, false);
+        DefaultHttpClient httpclient = new DefaultHttpClient(params);
 
-        HttpGet httpget = new HttpGet("https://portal.sun.com/portal/dt");
-
+        HttpGet httpget = new HttpGet("http://sys2.blogcn.com/control/login.jsp");
         HttpResponse response = httpclient.execute(httpget);
         HttpEntity entity = response.getEntity();
-
-        System.out.println("Login form get: " + response.getStatusLine());
         if (entity != null) {
             entity.consumeContent();
         }
@@ -68,20 +76,20 @@ public class ClientFormLogin {
             }
         }
 
-        HttpPost httpost = new HttpPost("https://portal.sun.com/amserver/UI/Login?" +
-                "org=self_registered_users&" +
-                "goto=/portal/dt&" +
-                "gotoOnFail=/portal/dt?error=true");
-
+        HttpPost httpost = new HttpPost("http://passport.blogcn.com/passport/login.action");
         List <NameValuePair> nvps = new ArrayList <NameValuePair>();
-        nvps.add(new BasicNameValuePair("IDToken1", "username"));
-        nvps.add(new BasicNameValuePair("IDToken2", "password"));
-
+        nvps.add(new BasicNameValuePair("siteid", "20000"));
+        nvps.add(new BasicNameValuePair("rurl", "http://newlogin.blogcn.com/mboxuser/login?action=login"));
+        nvps.add(new BasicNameValuePair("username", "sky"));
+        nvps.add(new BasicNameValuePair("password", "linuxsky"));
+        
         httpost.setEntity(new UrlEncodedFormEntity(nvps, HTTP.UTF_8));
 
         response = httpclient.execute(httpost);
         entity = response.getEntity();
-
+        for( Header h: response.getAllHeaders() ) {
+        	System.out.println( h );
+        }
         System.out.println("Login form get: " + response.getStatusLine());
         if (entity != null) {
             entity.consumeContent();

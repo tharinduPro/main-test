@@ -1,8 +1,7 @@
-import java.io.InputStreamReader;
 import java.io.BufferedReader;
-import java.net.URL;
-import java.net.URLConnection;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.net.URL;
 
 public class URLConnectionTest {
     public static void main( String args[] ) throws Exception {

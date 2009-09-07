@@ -1,10 +1,12 @@
 package ocr.another;
 
-import   java.net.*;  
-import   java.awt.image.*;  
-import   java.awt.*;  
-import   java.io.*;  
-import   javax.imageio.*;  
+import java.awt.Point;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.net.URL;
+
+import javax.imageio.ImageIO;
  
 /**  
   *   <p>Title:   八云测试用例</p>  

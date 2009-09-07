@@ -17,13 +17,14 @@
 	<classpathentry kind="lib" path="lib/xml-apis.jar"/>
 	<classpathentry kind="lib" path="lib/xmlParserAPIs.jar"/>
 	<classpathentry kind="lib" path="lib/spring.jar"/>
-	<classpathentry kind="lib" path="lib/httpclient/httpclient-4.0.jar"/>
-	<classpathentry kind="lib" path="lib/httpclient/httpcore-4.0.1.jar"/>
-	<classpathentry kind="lib" path="lib/httpclient/httpcore-nio-4.0.1.jar"/>
-	<classpathentry kind="lib" path="lib/httpclient/httpmime-4.0.jar"/>
 	<classpathentry kind="lib" path="lib/junit.jar"/>
 	<classpathentry kind="lib" path="lib/ocr/Filters.jar"/>
 	<classpathentry kind="lib" path="lib/JAI/jai_codec.jar"/>
 	<classpathentry kind="lib" path="lib/JAI/jai_core.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient/httpclient-4.0.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient/httpcore-nio-4.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient/httpmime-4.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
