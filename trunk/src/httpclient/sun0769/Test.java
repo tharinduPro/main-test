@@ -8,6 +8,7 @@ import image.bmp.BMP;
 import java.awt.Image;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -16,7 +17,11 @@ import java.util.regex.Pattern;
 import ocr.ImageFilter;
 import ocr.OCR;
 
+import org.apache.http.Header;
 import org.apache.http.HttpEntity;
+import org.apache.http.HttpException;
+import org.apache.http.HttpRequest;
+import org.apache.http.HttpRequestInterceptor;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.params.ClientPNames;
@@ -47,15 +52,10 @@ public class Test {
 		BMP bmp = new BMP(is);
 		httpget.abort();
 		
-		//显示cookies
-        System.out.println("Initial set of cookies:");
-        List<Cookie> cookies = httpclient.getCookieStore().getCookies();
-        if (cookies.isEmpty()) {
-            System.out.println("None");
-        } else {
-            for (int i = 0; i < cookies.size(); i++) {
-                System.out.println("- " + cookies.get(i).toString());
-            }
+		//显示header
+        entity = response.getEntity();
+        for( Header h: response.getAllHeaders() ) {
+        	System.out.println( h );
         }
 
 
@@ -74,10 +74,47 @@ public class Test {
 		Pattern p = Pattern.compile("\\d+");
 		Matcher m = p.matcher( result );
 		if( m.find() ) {
+			//加入Accept-Encoding
+	        httpclient.addRequestInterceptor(new HttpRequestInterceptor() {
+	            
+            public void process(
+                    final HttpRequest request, 
+                    final HttpContext context) throws HttpException, IOException {
+                if (!request.containsHeader("Accept-Encoding")) {
+                    request.addHeader("Accept-Encoding", "gzip,deflate");
+                }
+                request.addHeader( "Keep-Alive", "300" );
+                request.setHeader( "Accept-Charset", "gb2312,utf-8;q=0.7,*;q=0.7" );
+                request.removeHeaders( "Cookie2" );
+                String sessionId = "";
+                for( Header h: request.getAllHeaders() ) {
+                		if( h.getValue().indexOf( "ASPSESSIONIDSQQBATSD" ) > -1 ) {
+                    		sessionId = h.getValue();
+                    		break;
+                		}
+                }
+                request.setHeader("cookie", "Lle_visitedfid=82; Lle_sid=x821RU; smile=1D1; " + sessionId );
+                for( Header h: request.getAllHeaders() ) {
+                	System.out.println( h );
+                }
+            }
+
+	        });
+	        
 			result = m.group();
 			HttpGet vote = new HttpGet("http://vote.sun0769.com/subject/2009/youthnet/action.asp?ItemID=552&SurveyCode=" + result);
 		    HttpResponse rs = httpclient.execute(vote,localContext);
 		    InputStream inputStream = rs.getEntity().getContent();
+			//显示cookies
+	        System.out.println("Initial set of cookies:");
+	        List<Cookie> cookiesAfter = httpclient.getCookieStore().getCookies();
+	        if (cookiesAfter.isEmpty()) {
+	            System.out.println("None");
+	        } else {
+	            for (int i = 0; i < cookiesAfter.size(); i++) {
+	                System.out.println("- " + cookiesAfter.get(i).toString());
+	            }
+	        }
 		    System.out.println( Tools.InputStreamToString(inputStream) );
 			System.out.println( "result:" + result );
 		}
