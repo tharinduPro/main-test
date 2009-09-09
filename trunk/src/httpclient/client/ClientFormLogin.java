@@ -57,7 +57,7 @@ public class ClientFormLogin {
         // prepare parameters
         HttpParams params = new BasicHttpParams();
         HttpProtocolParams.setUserAgent(params, Constants.BROWSER_TYPE);
-        HttpProtocolParams.setUseExpectContinue(params, false);
+        HttpProtocolParams.setUseExpectContinue(params, true);
         DefaultHttpClient httpclient = new DefaultHttpClient(params);
 
         HttpGet httpget = new HttpGet("http://sys2.blogcn.com/control/login.jsp");
