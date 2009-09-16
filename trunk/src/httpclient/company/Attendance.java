@@ -17,15 +17,19 @@ public class Attendance {
 
 		String loginURL = "http://10.1.1.251/login.asp";
 		webClient.doGet(loginURL, null);
-        NameValuePair[] loginNvps = new NameValuePair[3];
+        NameValuePair[] loginNvps = new NameValuePair[2];
         loginNvps[0] = new BasicNameValuePair("name", "fangdj");
         loginNvps[1] = new BasicNameValuePair("passwd", "1111");
-        loginNvps[2] = new BasicNameValuePair("Submit", "提交");
 
 		webClient.doPost(loginURL,loginNvps, null);
 		
-		String mainURL = "http://10.1.1.251/login.asp";
-		InputStream mainInputStream = webClient.doGet( mainURL, null );
+		String mainURL = "http://10.1.1.251/ONWork/Record_save.asp";
+		NameValuePair[] attendanceNvps = new NameValuePair[2];
+		attendanceNvps[0] = new BasicNameValuePair("EMP_NO", "13028");
+		attendanceNvps[1] = new BasicNameValuePair("pwd", "1111");
+		attendanceNvps[1] = new BasicNameValuePair("cmd2", "Apply");
+
+		InputStream mainInputStream = webClient.doPost(mainURL,attendanceNvps, null);
 	    System.out.println( Tools.InputStreamToString(mainInputStream) );
 //	    try{ 
 //	        //发送投票请求
