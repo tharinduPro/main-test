@@ -51,7 +51,7 @@ public class Test2 {
 	        //发送投票请求
 			String urlVote = "http://vote.sun0769.com/subject/2009/youthnet/action.asp";
 	        NameValuePair[] nvps = new NameValuePair[4];
-	        nvps[0] = new BasicNameValuePair("SurveyCode", "bbb");
+	        nvps[0] = new BasicNameValuePair("SurveyCode", result );
 	        nvps[1] = new BasicNameValuePair("ItemID", "640");
 	        nvps[2] = new BasicNameValuePair("sessionId", "youthnet");
 	        nvps[3] = new BasicNameValuePair("moduleId", "");
