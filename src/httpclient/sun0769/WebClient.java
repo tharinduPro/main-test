@@ -15,7 +15,6 @@ import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.methods.UrlEncodedFormEntity;
 import org.apache.http.client.params.ClientPNames;
 import org.apache.http.client.params.CookiePolicy;
 import org.apache.http.impl.client.DefaultHttpClient;
@@ -51,9 +50,7 @@ public class WebClient {
 	}
 	
 	public String getHostName() {
-		return ((HttpHost)getHttpClient().getDefaultContext().getAttribute(
-	   		ExecutionContext.HTTP_TARGET_HOST)
-	  ).getHostName();
+		return ((.getAttribute(ExecutionContext.HTTP_TARGET_HOST)).toURI()
 	}
 	
 	/**
