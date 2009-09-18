@@ -63,10 +63,10 @@ public class WebClient {
 	
 	protected void setHeaders(HttpRequest req, String referer) {
 		// mimic firefox headers
-		//req.addHeader("User-Agent", "Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13");
+		req.addHeader("User-Agent", "Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13");
 		req.addHeader("Accept", "text/xml,text/javascript,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5");
-	  req.addHeader("Accept-Language", "en-us;q=0.7,en;q=0.3");
-	  req.addHeader("Accept-Charset", "ISO-8859-1,utf-8;q=0.7,*;q=0.7");
+		req.addHeader("Accept-Language", "en-us;q=0.7,en;q=0.3");
+		req.addHeader("Accept-Charset", "ISO-8859-1,utf-8;q=0.7,*;q=0.7");
 	  if(referer!=null) {
 	  	req.addHeader("Referer", referer);
 	  }
