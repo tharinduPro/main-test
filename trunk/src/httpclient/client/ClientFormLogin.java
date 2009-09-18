@@ -46,6 +46,8 @@ import org.apache.http.params.HttpParams;
 import org.apache.http.params.HttpProtocolParams;
 import org.apache.http.protocol.HTTP;
 
+import util.Tools;
+
 /**
  * A example that demonstrates how HttpClient APIs can be used to perform
  * form-based logon.
@@ -60,7 +62,8 @@ public class ClientFormLogin {
         HttpProtocolParams.setUseExpectContinue(params, true);
         DefaultHttpClient httpclient = new DefaultHttpClient(params);
 
-        HttpGet httpget = new HttpGet("http://sys2.blogcn.com/control/login.jsp");
+		String loginURL = "http://10.1.1.251/login.asp";
+        HttpGet httpget = new HttpGet(loginURL);
         HttpResponse response = httpclient.execute(httpget);
         HttpEntity entity = response.getEntity();
         if (entity != null) {
@@ -76,12 +79,11 @@ public class ClientFormLogin {
             }
         }
 
-        HttpPost httpost = new HttpPost("http://passport.blogcn.com/passport/login.action");
+        HttpPost httpost = new HttpPost(loginURL);
         List <NameValuePair> nvps = new ArrayList <NameValuePair>();
-        nvps.add(new BasicNameValuePair("siteid", "20000"));
-        nvps.add(new BasicNameValuePair("rurl", "http://newlogin.blogcn.com/mboxuser/login?action=login"));
-        nvps.add(new BasicNameValuePair("username", "sky"));
-        nvps.add(new BasicNameValuePair("password", "linuxsky"));
+        nvps.add( new BasicNameValuePair("name", "fangdj") );
+        nvps.add( new BasicNameValuePair("passwd", "1111") );
+
         
         httpost.setEntity(new UrlEncodedFormEntity(nvps, HTTP.UTF_8));
 
@@ -105,6 +107,19 @@ public class ClientFormLogin {
             }
         }
 
+		String mainURL = "http://10.1.1.251/ONWork/Record_save.asp";
+		
+        HttpPost mainHttPost = new HttpPost(mainURL);
+        List <NameValuePair> mainNvps = new ArrayList <NameValuePair>();
+        mainNvps.add( new BasicNameValuePair("EMP_NO", "13028") );
+        mainNvps.add( new BasicNameValuePair("pwd", "1111") );
+        mainNvps.add( new BasicNameValuePair("cmd2", "Apply") );
+        
+        httpost.setEntity(new UrlEncodedFormEntity(mainNvps, HTTP.UTF_8));
+
+
+        response = httpclient.execute(mainHttPost);
+	    System.out.println( Tools.InputStreamToString( response.getEntity().getContent() ) );
         // When HttpClient instance is no longer needed, 
         // shut down the connection manager to ensure
         // immediate deallocation of all system resources
