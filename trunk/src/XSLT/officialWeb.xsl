@@ -7,12 +7,14 @@
 			<body>
 				<table>
 					<tbody>
-                        <xsl:apply-templates select="xhtml:table[2]/xhtml:tbody/xhtml:tr/xhtml:td[2]/xhtml:table[1]/xhtml:tbody/xhtml:tr[2]/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:p/xhtml:a"/>
+                        <xsl:apply-templates select="//xhtml:html/xhtml:body/xhtml:table[2]/xhtml:tbody/xhtml:tr/xhtml:td[2]/xhtml:table[1]/xhtml:tbody/xhtml:tr[2]/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:p/xhtml:a"/>
 					</tbody>
 				</table>
 			</body>
 		</html>
 	</xsl:template>
-    <xsl:template match="xhtml:table[2]/xhtml:tbody/xhtml:tr/xhtml:td[2]/xhtml:table[1]/xhtml:tbody/xhtml:tr[2]/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:p/xhtml:a">
+
+    <xsl:template match="//xhtml:html/xhtml:body/xhtml:table[2]/xhtml:tbody/xhtml:tr/xhtml:td[2]/xhtml:table[1]/xhtml:tbody/xhtml:tr[2]/xhtml:td/xhtml:table/xhtml:tbody/xhtml:tr/xhtml:td/xhtml:p/xhtml:a">
+        <xsl:value-of select="node()" />
 	</xsl:template>
 </xsl:stylesheet>
