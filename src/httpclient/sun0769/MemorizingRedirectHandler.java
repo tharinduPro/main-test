@@ -1,6 +1,7 @@
 package httpclient.sun0769;
 
 import java.net.URI;
+
 import org.apache.http.HttpResponse;
 import org.apache.http.ProtocolException;
 import org.apache.http.impl.client.DefaultRedirectHandler;
