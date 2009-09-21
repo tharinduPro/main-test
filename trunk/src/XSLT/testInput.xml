@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>Test document</title>
+  </head>
+  <body>
+    <h1>Test document</h1>
+    <p>This paragraph indicates the rest of the document.</p>
+    <table>
+		<tbody>
+			<tr>
+				<td><span>test</span></td>
+			</tr>
+		</tbody>
+    </table>
+  </body>
+</html>
+
