@@ -1,0 +1,1181 @@
+<?xml version="1.0" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="workNews.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+        <title>&#20013;&#21326;&#20154;&#27665;&#20849;&#21644;&#22269;&#20013;&#22830;&#20154;&#27665;&#25919;&#24220;&#38376;&#25143;&#32593;&#31449;</title>
+        <style type="text/css">
+&lt;!--
+.style14 {
+    font-family: "&#23435;&#20307;";
+    font-size: 12px;
+    font-weight: normal;
+    color: #004AE1;
+    text-decoration: none;
+    line-height: 18px;
+}
+.style14 a {
+    font-family: "&#23435;&#20307;";
+    font-size: 12px;
+    font-weight: normal;
+    color: #004AE1;
+    text-decoration: none;
+    line-height: 18px;
+}
+.style14 a:hover{
+    font-family: "&#23435;&#20307;";
+    font-size: 12px;
+    font-weight: normal;
+    color: #004AE1;
+    text-decoration: underline;
+    line-height: 18px;
+}
+FORM {
+ PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+body,td,th {
+ font-family: &#23435;&#20307;;
+}
+.btx {
+ font-size: 14px;
+ text-decoration: none;
+ color: #000000;
+ font-family: "&#23435;&#20307;";
+ letter-spacing: 0.03em;
+}
+.style17 {  font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    font-family: "&#23435;&#20307;";
+    color: #FFFFFF;
+    line-height: 18px;
+}
+a:hover { text-decoration: underline}
+.bai14 { font-family: "&#23435;&#20307;"; font-size: 14px; line-height: 20px; font-weight: bold; color: #FFFFFF; text-decoration: none}
+.bai12 { font-family: "&#23435;&#20307;"; font-size: 12px; line-height: 18px; font-weight: bold; color: #FFFFFF; text-decoration: none}
+.hei12 { font-family: "&#23435;&#20307;"; font-size: 12px; line-height: 18px; font-weight: normal; color: #000000; text-decoration: none}
+.hei14 { font-family: "&#23435;&#20307;"; font-size: 14px; line-height: 20px; font-weight: normal; color: #000000; text-decoration: none}
+.h12 { font-size: 12px; color: #000000; text-decoration: none; line-height: 150%}
+.h12 a { font-size: 12px; color: #000000; text-decoration: none; line-height: 150%}
+.h12 a:hover { font-size: 12px; color: #000000; text-decoration: underline; line-height: 150%}
+.lan12 { font-family: "&#23435;&#20307;"; font-size: 12px; font-weight: normal; color: 152FA8; text-decoration: none}
+.rq { font-size: 12px; font-weight: bold; color: 620800; text-decoration: none}}
+.xian { border: #CCCCCC; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.baixian { border: 1px solid #FFFFFF}
+
+.12w {  font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 18px;
+}
+.12w a {    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 18px;
+}
+.12w_jc {   font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 15px;
+}
+
+.12w_jc a { font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 15px;
+}
+.12w a:hover {  font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    line-height: 18px;
+}
+.14w {font-weight: bold; color: #FFFFFF; text-decoration: none; font-size: 14px}
+.14h2 { font-size: 14px; color: 7A0000; text-decoration: none; font-weight: bold}
+.14b { font-size: 14px; color: #000000; text-decoration: none}
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.h121 {font-size: 12px; color: #000000; text-decoration: none; line-height: 150%}
+.rq {font-size: 12px; font-weight: bold; color: 620800; text-decoration: none}
+.style10 {font-size: 12px; color: #620800; text-decoration: none; line-height: 150%; font-weight: bold; }
+.style13 {font-family: "&#23435;&#20307;"; font-size: 12px; line-height: 18px; font-weight: bold; color: #620800; text-decoration: none; }
+.style2 {color: #0066FF;
+font-weight: bold;
+font-size: 14px;
+}
+.style3 {font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.style4 {color: #666666}
+.style5 {font-size: 12px}
+.12b {font-size: 12px; color: 004AE1; text-decoration: none; line-height: 140%}
+.bt01 {font-size: 14px; text-decoration: none; color: #000000}
+.style14 {
+    font-family: "&#23435;&#20307;";
+    font-size: 12px;
+    font-weight: normal;
+    color: #004AE1;
+    text-decoration: none;
+    line-height: 18px;
+}
+.style14 a {
+    font-family: "&#23435;&#20307;";
+    font-size: 12px;
+    font-weight: normal;
+    color: #004AE1;
+    text-decoration: none;
+    line-height: 18px;
+}
+.style14 a:hover{
+    font-family: "&#23435;&#20307;";
+    font-size: 12px;
+    font-weight: normal;
+    color: #004AE1;
+    text-decoration: underline;
+    line-height: 18px;
+}
+.12b1 {font-size: 12px; color: 004AE1; text-decoration: none; line-height: 140%}
+.14b {font-size: 14px; color: #000000; text-decoration: none}
+.14h {font-size: 14px; color: 7A0000; text-decoration: none; font-weight: bold}
+.style15_d{font-size: 14px; line-height: 20px; color: #FFFFFF; text-decoration: none; font-family: "&#23435;&#20307;";}
+.14h1 {font-size: 14px; color: 7A0000; text-decoration: none; font-weight: bold}
+.more {font-size: 12px; color: 2DAD02; text-decoration: none}
+.day2 {font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; color: #666666; text-decoration: none}
+.hei18 {
+    font-family: "&#40657;&#20307;";
+    font-size: 18px;
+    line-height: 24px;
+    color: A10206;
+    text-decoration: none;
+}
+.lv14 {
+    font-size: 14px;
+    color: 2DAD02;
+    text-decoration: none;
+    font-family: "&#23435;&#20307;";
+    line-height: 24px;
+    font-weight: bold;
+}
+.style18 {color: #009900}
+.hei20 {
+    font-family: "&#40657;&#20307;";
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: normal;
+}
+.hei16 {
+    font-family: "&#23435;&#20307;";
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: normal;
+}
+.font_jrzg {
+    background-image: url(http://www.gov.cn/images/090217_home_small_all.gif);
+    background-repeat: no-repeat;
+    background-position: -200px -200px;
+}
+.font_gwgb {
+    background-image: url(http://www.gov.cn/images/090217_home_small_all.gif);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.font_gzdt {
+    background-image: url(http://www.gov.cn/images/090217_home_small_all.gif);
+    background-repeat: no-repeat;
+    background-position: -200px 0px;
+}
+.font_zcfgjd {
+    background-image: url(http://www.gov.cn/images/090217_home_small_all.gif);
+    background-repeat: no-repeat;
+    background-position: -400px 0px;
+}
+.font_zfjd {
+    background-image: url(http://www.gov.cn/images/090217_home_small_all.gif);
+    background-repeat: no-repeat;
+    background-position: -600px 0px;
+}
+.font_wszb {
+    background-image: url(http://www.gov.cn/images/090217_home_small_all.gif);
+    background-repeat: no-repeat;
+    background-position: -800px 0px;
+}
+.font_zxft {
+    background-image: url(http://www.gov.cn/images/090217_home_small_all.gif);
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+}
+.font_xwfb {
+    background-image: url(http://www.gov.cn/images/090217_home_small_all.gif);
+    background-repeat: no-repeat;
+    background-position: -200px -100px;
+}
+.font_rsrm {
+    background-image: url(http://www.gov.cn/images/090217_home_small_all.gif);
+    background-repeat: no-repeat;
+    background-position: -400px -100px;
+}
+.font_zfjs {
+    background-image: url(http://www.gov.cn/images/090217_home_small_all.gif);
+    background-repeat: no-repeat;
+    background-position: -600px -100px;
+}
+.font_zcfg {
+    background-image: url(http://www.gov.cn/images/090217_home_small_all.gif);
+    background-repeat: no-repeat;
+    background-position: -800px -100px;
+}
+.font_jjmy {
+    background-image: url(http://www.gov.cn/images/090217_home_small_all.gif);
+    background-repeat: no-repeat;
+    background-position: 0px -200px;
+}
+--&gt;
+</style><script type="text/javascript" language="JavaScript">
+&lt;!--
+function j2gb(url)
+{
+  if(location.hostname="big5.gov.cn")
+  {
+      location.href="ht"+"tp://"+"www.gov.cn";
+      return false;
+  }
+else
+  {
+return false;
+  }
+}
+//--&gt;
+</script></head><body>
+<table class="bai14" width="995" height="26" border="0" cellpadding="0" cellspacing="0" bgcolor="#717037"><tr><td colspan="1" rowspan="1" width="410" height="27">
+<div align="center"><b><span class="bai14"><a shape="rect" class="bai14" onclick="return j2gb('http://www.gov.cn');" href="">&#20013;&#25991;&#31616;&#20307;</a></span> <span class="bai14">|</span> <span class="bai14"><a shape="rect" class="bai14" href="http://big5.gov.cn/gate/big5/www.gov.cn/">&#20013;&#25991;&#32321;&#20307;</a></span> <span class="bai14">|</span> <span class="bai14"><a shape="rect" class="bai14" href="http://english.gov.cn">English</a></span> <span class="bai14">|</span> <span class="bai14"><a shape="rect" class="bai14" href="jrzg/tpyw.htm">&#22270;&#29255;</a></span> <span class="bai14">|</span> <span class="bai14"><a shape="rect" class="bai14" href="jrzg/spxw.htm">&#35270;&#39057;</a></span> <span class="bai14">|</span> <span class="bai14"><a shape="rect" class="bai14" href="http://sousuo.gov.cn/gw_js/cn/zn_index.jsp">&#25628;&#32034;</a></span></b></div>
+</td><td colspan="1" rowspan="1" width="280">
+<form enctype="application/x-www-form-urlencoded" method="get" name="form1" action=" http://sousuo.gov.cn/search " target="_blank" onsubmit="return submitsearch()"><input type="hidden" name="searchword"></input> <input type="hidden" name="prepage" value="10"></input> 
+
+<table cellspacing="0" cellpadding="0" width="280" border="0"><tbody><tr><td colspan="1" rowspan="1" width="160">
+<div align="center"><input maxlength="50" type="text" style="WIDTH: 100px; HEIGHT: 20px" size="50" name="keyword"></input></div>
+</td><td colspan="1" rowspan="1" width="60">
+<div align="center"><select class="h121" name="channelid"><option selected="selected" value="3001">&#26412;&#32593;&#31449;&#25628;&#32034;</option><option value="3003">&#22269;&#21153;&#38498;&#20844;&#25253;&#26816;&#32034;</option><option value="3002">&#25919;&#24220;&#32593;&#31449;&#25628;&#32034;</option><option value="3006">&#22270;&#29255;&#25628;&#32034;</option><option value="3007">&#25991;&#26723;&#25628;&#32034;</option></select></div>
+</td><td colspan="1" rowspan="1" width="60">
+<div align="center"><input type="submit" class="s12" style="WIDTH: 39px; HEIGHT: 18px" value="&#25628;&#32034;" name="submit"></input></div>
+</td></tr></tbody></table>
+</form>
+</td><td colspan="1" rowspan="1" width="275">
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td align="left" colspan="1" rowspan="1" width="60"><b><span class="bai14">|</span> <span class="bai14"><a shape="rect" class="bai14" href="http://mail.gov.cn/index.jsp">&#37038;&#31665;</a></span></b> </td><td align="right" colspan="1" rowspan="1"><b><span class="bai12">
+<script class="bai12" type="text/javascript" language="JavaScript" src="js/gov_js.js">
+&lt;!--
+            
+--&gt;
+</script>
+</span></b> </td></tr></table>
+</td><td colspan="1" rowspan="1" width="20">&#160;</td></tr></table>
+
+<table width="995" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4" rowspan="1" height="1" bgcolor="#FFFFFF"></td></tr><tr><td colspan="1" rowspan="1"><img src="2008/top_1.gif" width="138" height="114"></img></td><td colspan="1" rowspan="1"><img src="2008/top_2.gif" width="383" height="114"></img></td><td colspan="1" rowspan="1"><img src="2008/top_3.gif" width="310" height="114"></img></td><td colspan="1" rowspan="1"><img src="2008/top_4.gif" width="164" height="114"></img></td></tr></table>
+
+<table width="995" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#000000"></td></tr></table>
+
+<table width="995" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1" valign="top" width="148">
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" background="2007xin/07gov_dhbak.gif">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF"><tr><td colspan="1" rowspan="1" height="2"></td></tr></table>
+
+<img src="2008/dht.gif" width="146" height="27"></img></td></tr></table>
+
+<table width="148" border="0" cellpadding="0" cellspacing="0"><tr><td align="left" colspan="1" rowspan="1" background="2007xin/07gov_dhbak.gif">
+<table width="148" border="0" cellpadding="0" cellspacing="0"><tr><td align="left" colspan="1" rowspan="1" background="2007xin/07gov_dhbak.gif">
+<table class="bai14" width="145" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="26" bgcolor="#071277"><a shape="rect" class="bai14" href="index.htm">&#26412;&#32593;&#39318;&#39029;</a> 
+
+<table width="145" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#115792"></td></tr></table>
+</td></tr><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="26" bgcolor="#071277"><a shape="rect" class="bai14" href="jrzg/">&#20170;&#26085;&#20013;&#22269;</a> 
+
+<table width="145" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#115792"></td></tr></table>
+</td></tr><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="26" bgcolor="#071277"><a shape="rect" class="bai14" href="test/2005-08/11/content_27116.htm">&#20013;&#22269;&#27010;&#20917;</a> 
+
+<table width="145" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#115792"></td></tr></table>
+</td></tr><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="26" bgcolor="#071277"><a shape="rect" class="bai14" href="gjjg/2005-08/28/content_27083.htm">&#22269;&#23478;&#26426;&#26500;</a> 
+
+<table width="145" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#115792"></td></tr></table>
+</td></tr><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="26" bgcolor="#071277"><a shape="rect" class="bai14" href="gjjg/2005-08/01/content_18608.htm">&#25919;&#24220;&#26426;&#26500;</a> 
+
+<table width="145" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#115792"></td></tr></table>
+</td></tr><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="26" bgcolor="#071277"><a shape="rect" class="bai14" href="flfg/index.htm">&#27861;&#24459;&#27861;&#35268;</a> 
+
+<table width="145" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#115792"></td></tr></table>
+</td></tr><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="26" bgcolor="#071277"><a shape="rect" class="bai14" href="gzdt/">&#24037;&#20316;&#21160;&#24577;</a> 
+
+<table width="145" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#115792"></td></tr></table>
+</td></tr><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="26" bgcolor="#071277"><a shape="rect" class="bai14" href="zwgk/index.htm">&#20844;&#25991;&#20844;&#25253;</a> 
+
+<table width="145" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#115792"></td></tr></table>
+</td></tr><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="26" bgcolor="#071277"><a shape="rect" class="bai14" href="zwhd/index.htm">&#25919;&#21153;&#20114;&#21160;</a> 
+
+<table width="145" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#115792"></td></tr></table>
+</td></tr><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="26" bgcolor="#071277"><a shape="rect" class="bai14" href="zfjs/index.htm">&#25919;&#24220;&#24314;&#35774;</a> 
+
+<table width="145" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#115792"></td></tr></table>
+</td></tr><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="26" bgcolor="#071277"><a shape="rect" class="bai14" href="rsrm/index.htm">&#20154;&#20107;&#20219;&#20813;</a> 
+
+<table width="145" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#115792"></td></tr></table>
+</td></tr><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="26" bgcolor="#071277"><a shape="rect" class="bai14" href="xwfb/index.htm">&#26032;&#38395;&#21457;&#24067;</a> 
+
+<table width="145" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#115792"></td></tr></table>
+</td></tr><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="26" bgcolor="#071277"><a shape="rect" class="bai14" href="wsfw/" target="_parent">&#37096;&#38376;&#26381;&#21153;</a> 
+
+<table width="145" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#115792"></td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" bgcolor="#FFFFFF"><tr><td colspan="1" rowspan="1" height="3"></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" bgcolor="#333333"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#000000"></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0"><tr><td colspan="1" rowspan="1" height="3" bgcolor="#FFFFFF"></td></tr></table>
+
+<table class="12w" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#948357"><tr><td colspan="1" rowspan="1">
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1">
+<div align="center">
+<table width="80%" border="0" cellspacing="0" cellpadding="0" height="8"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+
+<table align="center" width="105" border="0" cellspacing="0" cellpadding="1"><tr><td colspan="1" rowspan="1">
+<div align="center"><a shape="rect" href="jrzg/2009-09/21/content_1422765.htm" target="_blank"><img class="xian" src="00123f37ba1f0c21c0f601.jpg" width="127" height="86" vspace="3" border="0"></img></a></div>
+</td></tr><tr><td colspan="1" rowspan="1" height="22">
+<div align="center"><a shape="rect" href="jrzg/tpyw.htm">&#26356;&#22810;&#22270;&#29255;</a><a shape="rect" class="style17" href="jrzg/tpyw.htm">&gt;&gt;</a></div>
+</td></tr></table>
+
+
+</div>
+</td></tr><tr><td colspan="1" rowspan="1">
+<div align="center">
+<table align="center" width="105" border="0" cellspacing="0" cellpadding="1"><tr><td colspan="1" rowspan="1">
+<div align="center"><a shape="rect" href="http://news.xinhuanet.com/video/2009-09/22/content_12095581.htm" target="_blank"><img class="xian" src="001aa04b3d040c22839c01.jpg" border="0" width="127" height="86" vspace="3"></img></a></div>
+</td></tr><tr><td colspan="1" rowspan="1" height="22">
+<div align="center"><a shape="rect" href="jrzg/spxw.htm">&#35270;&#39057;&#33410;&#30446;</a><a shape="rect" class="style17" href="jrzg/spxw.htm">&gt;&gt;</a></div>
+</td></tr></table>
+
+
+</div>
+</td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+</td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="27" bgcolor="5C381E"><a shape="rect" class="hei18" href="rdzt/index.htm" target="_parent"><font color="#FFFFFF">&#28909;&#28857;&#19987;&#39064;</font></a>&#160;<a shape="rect" class="bai14" href="rdzt/index.htm" target="_parent">&gt;&gt;</a></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#948357"><tr><td align="center" colspan="1" rowspan="1">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="10"></td></tr></table>
+
+
+<table align="center" class="12w_jc" width="140" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" class="12w_jc" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="20"><a shape="rect" href="ztzl/zhuliugan/" target="_blank">&#38450;&#25511;&#30002;&#22411;H1N1&#27969;&#24863;</a></td></tr><tr><td colspan="1" rowspan="1" height="6"></td></tr><tr><td colspan="1" rowspan="1" valign="top" class="12w_jc" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="20"><a shape="rect" href="ztzl/shsbh/" target="_blank">&#20013;&#22269;2010&#24180;&#19978;&#28023;&#19990;&#30028;&#21338;&#35272;&#20250;</a></td></tr><tr><td colspan="1" rowspan="1" height="6"></td></tr><tr><td colspan="1" rowspan="1" valign="top" class="12w_jc" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="20"><a shape="rect" href="http://www.mlr.gov.cn/zt/tdr/2009/index.htm" target="_blank">&#31532;19&#20010;&#20840;&#22269;&#8220;&#22303;&#22320;&#26085;&#8221;</a></td></tr><tr><td colspan="1" rowspan="1" height="6"></td></tr><tr><td colspan="1" rowspan="1" valign="top" class="12w_jc" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="20"><a shape="rect" href="ztzl/ygzt/" target="_blank">&#28145;&#21270;&#21307;&#33647;&#21355;&#29983;&#20307;&#21046;&#25913;&#38761;</a></td></tr><tr><td colspan="1" rowspan="1" height="6"></td></tr><tr><td colspan="1" rowspan="1" valign="top" class="12w_jc" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="20"><a shape="rect" href="ztzl/2009wy/" target="_blank">&#24198;&#31069;&#8220;5&#8226;1&#8221;&#21171;&#21160;&#33410;</a></td></tr><tr><td colspan="1" rowspan="1" height="6"></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="10"></td></tr></table>
+</td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="27" bgcolor="5C381E"><a shape="rect" class="hei18" href="lssdjt/index.htm" target="_parent"><font color="#FFFFFF">&#21382;&#21490;&#19978;&#30340;&#20170;&#22825;</font></a>&#160;<a shape="rect" class="bai14" href="lssdjt/index.htm" target="_parent">&gt;&gt;</a></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#948357"><tr><td align="center" colspan="1" rowspan="1">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="10"></td></tr></table>
+
+
+<table width="127" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1"><a shape="rect" href="lssdjt/content_1422840.htm" target="_blank"><img class="baixian" src="001aa04acf330c21dbba03.jpg" width="127" height="86" border="0"></img></a></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+
+
+<table align="center" class="12w" width="140" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="22"><a shape="rect" href="lssdjt/content_1422840.htm" target="_blank">9&#26376;22&#26085;&#65306;&#20013;&#22269;&#21644;&#24179;&#32479;&#19968;&#20419;&#36827;&#20250;&#25104;&#31435;</a></td></tr><tr><td colspan="1" rowspan="1" height="6"></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="22"><a shape="rect" href="lssdjt/content_1421991.htm" target="_blank">9&#26376;21&#26085;&#65306;&#24464;&#21521;&#21069;&#36893;&#19990;</a></td></tr><tr><td colspan="1" rowspan="1" height="6"></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="10"></td></tr></table>
+</td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#6189C7"><tr><td colspan="1" rowspan="1" bgcolor="#6189C7">
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" colspan="1" rowspan="1" valign="bottom" class="hei18" height="27" bgcolor="061276"><font color="#FFFFFF">&#32593;&#31449;&#23548;&#33322;</font></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1">
+<table width="148" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="12w">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+
+<table align="center" class="12w" width="60" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="2" rowspan="1">
+<div align="center"><iframe frameborder="0" scrolling="no" border="0" name="mqtj" marginwidth="0" framespacing="0" marginheight="0" src="wssc/2007wssc1.htm" noresize="noresize" width="140" height="180" vspale="0"></iframe></div>
+</td></tr></table>
+
+<table width="100" border="0" cellspacing="0" cellpadding="0" height="6"><tr><td colspan="1" rowspan="1"></td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#6189C7"><tr><td colspan="1" rowspan="1" bgcolor="#6189C7">
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="27" bgcolor="061276"><a shape="rect" class="hei18" href="test/2007-08/07/content_708271.htm" target="_blank"><font color="#FFFFFF">&#22320;&#26041;&#27010;&#35272;</font></a>&#160;<a shape="rect" class="bai14" href="test/2007-08/07/content_708271.htm" target="_blank">&gt;&gt;</a></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+</td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#6189C7"><tr><td colspan="1" rowspan="1" bgcolor="#6189C7">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF"><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" colspan="1" rowspan="1" valign="bottom" class="hei18" height="27" bgcolor="061276"><font color="#FFFFFF">&#20844;&#30410;&#20449;&#24687;</font></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" valign="top">
+<table width="148" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" valign="top" class="12w">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+
+
+<table align="center" class="12w" width="130" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="22" width="25%">
+<div align="left"><a shape="rect" href="http://www.weather.com.cn/html/gov/cn/" target="_blank">&#22825;&#27668;</a></div>
+</td><td colspan="1" rowspan="1" height="22" width="25%">
+<div align="left"><a shape="rect" href="http://www.caac.gov.cn/S1/GNCX/" target="_blank">&#33322;&#29677;</a></div>
+</td><td colspan="1" rowspan="1" height="22" width="25%">
+<div align="left"><a shape="rect" href="http://www.cnta.gov.cn:8000/Forms/ExcellentDes/ExcellentDesList.aspx?catalogType=view&amp;resultType=4A&amp;imgOn=3&amp;menuType=ExcellentDes" target="_blank">&#26223;&#21306;</a></div>
+</td><td colspan="1" rowspan="1" height="22" width="25%">
+<div align="left"><a shape="rect" href="http://www.cnta.gov.cn:8000/Forms/ExcellentDes/ExcellentDesList.aspx?catalogType=hotel&amp;resultType=%u4E94&amp;imgOn=4&amp;menuType=ExcellentDes" target="_blank">&#23486;&#39302;</a></div>
+</td></tr><tr><td colspan="1" rowspan="1" height="22" width="25%">
+<div align="left"><a shape="rect" href="http://www.chinaprice.gov.cn/" target="_blank">&#20215;&#26684;</a></div>
+</td><td colspan="1" rowspan="1" height="22" width="25%">
+<div align="left"><a shape="rect" href="http://datacenter.mep.gov.cn/TestRunQian/air_dairy.jsp" target="_blank">&#31354;&#27668;</a></div>
+</td><td colspan="1" rowspan="1" height="22" width="25%">
+<div align="left"><a shape="rect" href="http://datacenter.mep.gov.cn/getCountGraph.do?type=runQianWater" target="_blank">&#27700;&#36136;</a></div>
+</td><td colspan="1" rowspan="1" height="22" width="25%">
+<div align="left"><a shape="rect" href="http://www.shike.org.cn" target="_blank">&#28779;&#36710;</a></div>
+</td></tr></table>
+
+<table align="center" class="12w" width="130" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="22" width="50%">
+<div align="left"><a shape="rect" href="http://xxfb.hydroinfo.gov.cn/" target="_blank">&#27700;&#38632;&#24773;</a></div>
+</td></tr></table>
+
+
+<table width="100" border="0" cellspacing="0" cellpadding="0" height="6"><tr><td colspan="1" rowspan="1"></td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF"><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="27" bgcolor="061276"><a shape="rect" class="hei18" href="http://www.stats.gov.cn/tjgb/" target="_blank"><font color="#FFFFFF">&#24180;&#24230;&#32479;&#35745;&#20844;&#25253;</font></a>&#160;<a shape="rect" class="bai14" href="http://www.stats.gov.cn/tjgb/" target="_blank">&gt;&gt;</a></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="27" bgcolor="061276"><a shape="rect" class="hei18" href="diaocha/gd.htm" target="_parent"><font color="#FFFFFF">&#32593;&#19978;&#35843;&#26597;</font></a>&#160;<a shape="rect" class="bai14" href="diaocha/gd.htm" target="_parent">&gt;&gt;</a></td></tr></table>
+
+<table class="12w" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#6189C7"><tr><td align="center" colspan="1" rowspan="1" valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+
+
+<table align="center" class="style17" width="134" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top"><a shape="rect" class="style17" href="gzdt/2009-09/07/content_1411043.htm" target="_blank">&#20445;&#30417;&#20250;&#12298;&#20445;&#38505;&#20844;&#21496;&#32929;&#26435;&#31649;&#29702;&#21150;&#27861;(&#33609;&#26696;)&#12299;&#20877;&#24449;&#24847;&#35265;</a></td></tr><tr><td colspan="2" rowspan="1" height="5"></td></tr></table>
+
+<table align="center" class="style17" width="134" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top"><a shape="rect" class="style17" href="gzdt/2009-09/07/content_1411002.htm" target="_blank">&#23457;&#35745;&#32626;&#23601;&#22269;&#23478;&#23457;&#35745;&#20934;&#21017;(2009&#24449;&#27714;&#24847;&#35265;&#31295;)&#24449;&#27714;&#24847;&#35265;</a></td></tr><tr><td colspan="2" rowspan="1" height="5"></td></tr></table>
+
+<table align="center" class="style17" width="134" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top"><a shape="rect" class="style17" href="gzdt/2009-08/25/content_1400478.htm" target="_blank">&#21355;&#29983;&#37096;&#23601;&#21307;&#30103;&#21355;&#29983;&#26426;&#26500;&#20449;&#24687;&#20844;&#24320;&#23454;&#26045;&#21150;&#27861;&#24449;&#27714;&#24847;&#35265;</a></td></tr><tr><td colspan="2" rowspan="1" height="5"></td></tr></table>
+
+</td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" colspan="1" rowspan="1" valign="bottom" height="27" bgcolor="061276"><a shape="rect" class="hei18" href="http://www.gjxfj.gov.cn/" target="_blank"><font color="#FFFFFF">&#20449;&#35775;&#20043;&#31383;</font></a></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#6189C7"><tr><td align="center" colspan="1" rowspan="1" valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+
+<table align="center" class="12w" width="94%" border="0" cellspacing="0" cellpadding="0"><tr align="center" valign="middle"><td colspan="1" rowspan="1" height="22" width="50%"><a shape="rect" href="http://www.gjxfj.com/xffg.htm" target="_blank">&#20449;&#35775;&#27861;&#35268;</a> </td><td colspan="1" rowspan="1" height="22"><a shape="rect" href="http://www.gjxfj.gov.cn/2005-01/13/content_3560565.htm" target="_blank">&#20449;&#35775;&#25351;&#21335;</a></td></tr><tr align="center" valign="middle"><td colspan="1" rowspan="1" height="22" width="50%"><a shape="rect" href="http://www.gjxfj.gov.cn/xfzn2.htm" target="_blank">&#24037;&#20316;&#26426;&#26500;</a></td><td colspan="1" rowspan="1" height="22"><a shape="rect" href="http://www.gjxfj.gov.cn/xfdt.htm" target="_blank">&#24037;&#20316;&#21160;&#24577;</a></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+</td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1">
+<table width="100%" height="8" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1">
+<div align="center"><img src="icon/index/0830/gov_zbxx.gif" width="148" height="28" onclick="MM_openBrWindow('http://www.gov.cn/zbxx/zbxx.htm','','width=633,height=320')" style="cursor:hand"></img></div>
+</td></tr></table>
+
+<table width="100%" height="8" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+</td></tr></table>
+</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td align="center" colspan="1" rowspan="1" valign="top" width="688" bgcolor="#FFFFFF">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1"><a shape="rect" href="60zn/" target="_blank"><img src="jingtai/gov_60zn.gif" width="678" height="70" vspace="6" border="0"></img></a></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" colspan="1" rowspan="1"><img src="2007xin/20061228_12_.jpg" width="681" height="42" border="0" usemap="#Map8"></img></td></tr></table>
+
+<table width="100%" height="3" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" height="1" bgcolor="#B0B0AD"></td></tr><tr><td colspan="1" rowspan="1" height="1" bgcolor="#FCFDEB"></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FCFDEB"><tr valign="top"><td align="center" colspan="1" rowspan="1" width="260">
+<table width="80%" border="0" cellspacing="0" cellpadding="0" height="13"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+<table width="230" height="210" border="0" cellpadding="0" cellspacing="0"><tr><th colspan="1" rowspan="1" scope="row"><iframe frameborder="0" scrolling="no" border="0" name="search" marginwidth="0" framespacing="0" marginheight="0" src="flash01.htm" noresize="noresize" width="230" height="210" vspale="0"></iframe></th></tr></table>
+
+<table width="80%" border="0" cellspacing="0" cellpadding="0" height="6"><tr><td colspan="1" rowspan="1"></td></tr></table>
+</td><td colspan="1" rowspan="1" width="1" background="2007xin/07_gov_dian01.gif"></td><td align="center" colspan="1" rowspan="1" width="427">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="font_jrzg" width="136" height="25"><a shape="rect" href="jrzg/" target="_blank"><img src="images/090217_home_space.gif" width="136" height="25" border="0"></img></a></td><td colspan="1" rowspan="1" width="10"></td><td colspan="1" rowspan="1"><span class="style14"><a shape="rect" class="style14" href="jrzg/zgyw.htm">&#20013;&#22269;&#35201;&#38395;</a>|<a shape="rect" class="style14" href="ldhd/index.htm">&#39046;&#23548;&#27963;&#21160;</a>|<a shape="rect" class="style14" href="zwjw/index.htm">&#20013;&#22806;&#20132;&#24448;</a>|<a shape="rect" class="style14" href="jrzg/tpyw.htm">&#22270;&#29255;&#22270;&#34920;</a>|<a shape="rect" class="style14" href="jrzg/spxw.htm">&#35270;&#39057;&#25253;&#36947;</a></span> 
+
+<table width="270" border="0" cellspacing="0" cellpadding="0" bgcolor="0030B0"><tr><td colspan="1" rowspan="1" height="1"></td></tr></table>
+</td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" height="10"></td></tr></table>
+
+
+<table width="444" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="btx" width="24" height="25">
+<div align="center">&#183;</div>
+</td><td colspan="1" rowspan="1" width="420" height="25"><a shape="rect" class="hei14" href="ldhd/2009-09/22/content_1422844.htm" target="_blank">&#32993;&#38182;&#28059;&#25269;&#32654; &#23558;&#20986;&#24109;&#32852;&#21512;&#22269;&#31995;&#21015;&#20250;&#35758;&#21644;G20&#37329;&#34701;&#23792;&#20250;</a> <span class="day2">( 09-22 )</span></td></tr><tr><td colspan="1" rowspan="1" class="btx" width="24" height="25">
+<div align="center">&#183;</div>
+</td><td colspan="1" rowspan="1" width="420" height="25"><a shape="rect" class="hei14" href="ldhd/2009-09/22/content_1422852.htm" target="_blank">&#32993;&#38182;&#28059;&#22312;&#32654;&#20250;&#35265;&#22303;&#24211;&#26364;&#26031;&#22374;&#12289;</a><a shape="rect" class="btx" href="ldhd/2009-09/22/content_1422855.htm" target="_blank">&#29627;&#21033;&#32500;&#20122;</a><a shape="rect" class="btx" href="ldhd/2009-09/22/content_1423338.htm" target="_blank">&#21644;&#27861;&#22269;&#24635;&#32479;</a> <span class="day2">( 09-22 )</span></td></tr><tr><td colspan="1" rowspan="1" class="btx" width="24" height="25">
+<div align="center">&#183;</div>
+</td><td colspan="1" rowspan="1" width="420" height="25"><a shape="rect" class="hei14" href="ldhd/2009-09/21/content_1422693.htm" target="_blank">&#37096;&#38271;&#35775;&#35848;&#65306;&#26753;&#20809;&#28872;&#35848;&#26032;&#20013;&#22269;&#25104;&#31435;&#26469;&#22269;&#38450;&#21644;&#20891;&#38431;&#24314;&#35774;</a> <span class="day2">( 09-21 )</span></td></tr><tr><td colspan="1" rowspan="1" class="btx" width="24" height="25">
+<div align="center">&#183;</div>
+</td><td colspan="1" rowspan="1" width="420" height="25"><a shape="rect" class="hei14" href="ldhd/2009-09/22/content_1423279.htm" target="_blank">&#23391;&#24314;&#26609;:&#23398;&#20064;&#36143;&#24443;&#22235;&#20013;&#20840;&#20250;&#31934;&#31070; &#25166;&#23454;&#20570;&#22909;&#23433;&#20445;&#24037;&#20316;</a> <span class="day2">( 09-22 )</span></td></tr><tr><td colspan="1" rowspan="1" class="btx" width="24" height="25">
+<div align="center">&#183;</div>
+</td><td colspan="1" rowspan="1" width="420" height="25"><a shape="rect" class="hei14" href="jrzg/2009-09/21/content_1422415.htm" target="_blank">&#26032;&#38395;&#21150;&#21457;&#34920;&#12298;&#26032;&#30086;&#30340;&#21457;&#23637;&#19982;&#36827;&#27493;&#12299;&#30333;&#30382;&#20070;|</a><a shape="rect" class="btx" href="zwgk/2009-09/21/content_1422414.htm" target="_blank">&#20840;&#25991;</a> <span class="day2">( 09-21 )</span></td></tr><tr><td colspan="1" rowspan="1" class="btx" width="24" height="25">
+<div align="center">&#183;</div>
+</td><td colspan="1" rowspan="1" width="420" height="25"><a shape="rect" class="hei14" href="wszb/zhibo348/" target="_blank"><font color="#009300">&#30452;&#25773;&#22238;&#25918;&#65306;</font>&#26032;&#38395;&#21150;&#20171;&#32461;&#26032;&#20013;&#22269;60&#24180;&#27861;&#27835;&#24314;&#35774;&#25104;&#23601;&#31561;</a> <span class="day2">( 09-22 )</span></td></tr><tr><td colspan="1" rowspan="1" class="btx" width="24" height="25">
+<div align="center">&#183;</div>
+</td><td colspan="1" rowspan="1" width="420" height="25"><a shape="rect" class="hei14" href="gzdt/2009-09/22/content_1423161.htm" target="_blank">&#26032;&#20013;&#22269;60&#24180;&#65306;&#33021;&#28304;&#29983;&#20135;&#33021;&#21147;&#22823;&#24133;&#25552;&#39640;&#32467;&#26500;&#19981;&#26029;&#20248;&#21270;</a> <span class="day2">( 09-22 )</span></td></tr><tr><td colspan="1" rowspan="1" class="btx" width="24" height="25">
+<div align="center">&#183;</div>
+</td><td colspan="1" rowspan="1" width="420" height="25"><a shape="rect" class="hei14" href="rsrm/2009-09/21/content_1422593.htm" target="_blank">&#22269;&#21153;&#38498;&#20219;&#20813;&#39044;&#38450;&#33104;&#36133;&#23616;&#21103;&#23616;&#38271;&#12289;&#23447;&#25945;&#23616;&#23616;&#38271;&#31561;&#20154;&#21592;</a> <span class="day2">( 09-21 )</span></td></tr></table>
+
+</td></tr></table>
+
+<table width="99%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr><tr><td colspan="1" rowspan="1" bgcolor="#696969" height="1"></td></tr><tr><td colspan="1" rowspan="1" height="3"></td></tr></table>
+
+<table align="center" width="681" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="340">
+<table width="340" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="2" width="91">
+<div align="center">
+<div align="center">
+<div align="center"><a shape="rect" href="zwgk/index.htm" target="_blank"><img src="00123f3c46f208ed542e01.jpg" border="0" width="70" height="46" vspace="2"></img></a></div>
+
+</div>
+</div>
+</td><td colspan="1" rowspan="1" width="249">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="font_gwgb" width="136" height="25"><a shape="rect" href="zwgk/index.htm" target="_blank"><img src="images/090217_home_space.gif" width="136" height="25" border="0"></img></a></td><td align="center" colspan="1" rowspan="1">&#160;</td></tr></table>
+</td></tr><tr><td colspan="1" rowspan="1" class="style14" width="249"><a shape="rect" class="style14" href="zfwj/index.htm">&#22269;&#21153;&#38498;&#25991;&#20214;</a> | <a shape="rect" class="style14" href="gongbao/currentissue.htm">&#20844;&#25253;</a> | <a shape="rect" class="style14" href="zwgk/2005-06/02/content_3618.htm">&#30333;&#30382;&#20070;</a> | <a shape="rect" class="style14" href="zwgk/bmdfwj.htm">&#37096;&#38376;&#22320;&#26041;&#25991;&#20214;</a> 
+
+<table width="240" border="0" cellspacing="0" cellpadding="0" bgcolor="#0030B0"><tr><td colspan="1" rowspan="1" height="1"></td></tr></table>
+</td></tr></table>
+
+<table width="80%" border="0" cellspacing="0" cellpadding="0" height="3"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+
+<table align="center" class="h12" width="320" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gongbao/2009/issue_1875.htm" target="_blank">&#20013;&#21326;&#20154;&#27665;&#20849;&#21644;&#22269;&#22269;&#21153;&#38498;&#20844;&#25253;&#65288;2009&#24180;&#31532;26&#21495;&#65289;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="zwgk/2009-09/16/content_1418777.htm" target="_blank">&#38450;&#27835;&#33337;&#33334;&#27745;&#26579;&#28023;&#27915;&#29615;&#22659;&#31649;&#29702;&#26465;&#20363;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="zwgk/2009-09/11/content_1415572.htm" target="_blank">&#22269;&#21153;&#38498;&#20851;&#20110;&#36827;&#19968;&#27493;&#23454;&#26045;&#19996;&#21271;&#22320;&#21306;&#31561;&#32769;&#24037;&#19994;&#22522;&#22320;&#25391;&#20852;&#25112;&#30053;&#30340;&#33509;&#24178;&#24847;&#35265;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="zwgk/2009-09/11/content_1414871.htm" target="_blank">&#22269;&#21153;&#38498;&#21150;&#20844;&#21381;&#20851;&#20110;&#36827;&#19968;&#27493;&#20570;&#22909;&#30002;&#22411;H1N1&#27969;&#24863;&#30123;&#24773;&#38450;&#25511;&#24037;&#20316;&#30340;&#36890;&#30693;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="zwgk/2009-09/06/content_1410533.htm" target="_blank">&#20840;&#27665;&#20581;&#36523;&#26465;&#20363;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="zwgk/2009-09/04/content_1409216.htm" target="_blank">&#22269;&#21153;&#38498;&#20851;&#20110;&#24320;&#23637;&#26032;&#22411;&#20892;&#26449;&#31038;&#20250;&#20859;&#32769;&#20445;&#38505;&#35797;&#28857;&#30340;&#25351;&#23548;&#24847;&#35265;</a> </td></tr></table>
+
+</td><td colspan="1" rowspan="1" background="icon/index/gov_dian01.gif" width="1"><img src="icon/index/gov_kong.gif" width="1" height="1"></img></td><td colspan="1" rowspan="1" valign="top" width="340">
+<table width="340" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="2" width="91">
+<div align="center">
+<div align="center">
+<div align="center"><a shape="rect" href="jrzg/2009-08/19/content_1396671.htm" target="_blank"><img src="00123f37ba2b0bf639f401.jpg" border="0" width="70" height="46" vspace="2"></img></a></div>
+
+</div>
+</div>
+</td><td colspan="1" rowspan="1" width="249">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="font_gzdt" width="136" height="25"><a shape="rect" href="gzdt/" target="_blank"><img src="images/090217_home_space.gif" width="136" height="25" border="0"></img></a></td><td align="center" colspan="1" rowspan="1">&#160;</td></tr></table>
+</td></tr><tr><td colspan="1" rowspan="1" class="style14" width="249"><a shape="rect" class="style14" href="gzdt/bm.htm">&#22269;&#21153;&#38498;&#25152;&#23646;&#37096;&#38376;</a> | <a shape="rect" class="style14" href="gzdt/df.htm">&#22320;&#26041;</a> | <a shape="rect" class="style14" href="gzdt/zy.htm">&#39547;&#22806;</a> 
+
+<table width="180" border="0" cellspacing="0" cellpadding="0" bgcolor="#0030B0"><tr><td colspan="1" rowspan="1" height="1"></td></tr></table>
+</td></tr></table>
+
+<table width="80%" border="0" cellspacing="0" cellpadding="0" height="3"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+
+<table align="center" class="h12" width="320" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/22/content_1423001.htm" target="_blank">&#23457;&#35745;&#32626;&#21457;&#24067;2009&#24180;1&#26376;&#33267;8&#26376;&#20221;&#23457;&#35745;&#24773;&#20917;&#32479;&#35745;&#32467;&#26524;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/22/content_1422976.htm" target="_blank">&#20132;&#36890;&#36816;&#36755;&#37096;&#24320;&#23637;&#8220;&#22823;&#33337;&#23567;&#35777;&#8221;&#27835;&#29702; &#27426;&#36814;&#31038;&#20250;&#30417;&#30563;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/22/content_1422968.htm" target="_blank">09&#24180;&#22269;&#24198;&#12289;&#20013;&#31179;&#26399;&#38388;&#27665;&#33322;&#23458;&#36816;&#37327;&#39044;&#35745;&#36798;589&#19975;&#20154;&#27425;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/22/content_1423097.htm" target="_blank">&#21830;&#21153;&#37096;:&#39135;&#29992;&#20892;&#20135;&#21697;&#20215;&#27490;&#28072;&#22238;&#33853; &#29983;&#20135;&#36164;&#26009;&#20215;&#26684;&#22238;&#21319;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/22/content_1423089.htm" target="_blank">&#22269;&#23478;&#23558;&#23545;10&#30465;&#21306;&#24066;&#31532;&#20108;&#27425;&#22303;&#22320;&#35843;&#26597;&#25104;&#26524;&#25277;&#26597;&#26680;&#23454;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/22/content_1423059.htm" target="_blank">&#21271;&#20140;&#21442;&#19982;&#22269;&#24198;&#24198;&#20856;&#23398;&#29983;&#29575;&#20808;&#25509;&#31181;&#30002;&#22411;H1N1&#27969;&#24863;&#30123;&#33495;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/22/content_1423274.htm" target="_blank">&#30002;&#22411;H1N1&#27969;&#24863;&#30123;&#33495;&#29983;&#20135;&#21450;&#36136;&#37327;&#30417;&#31649;&#24037;&#20316;&#24231;&#35848;&#20250;&#21484;&#24320;</a> </td></tr></table>
+
+
+</td><td colspan="1" rowspan="1" valign="top" width="340">&#160;</td></tr></table>
+
+<table width="99%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="3"></td></tr><tr><td colspan="1" rowspan="1" bgcolor="#696969" height="1"></td></tr><tr><td colspan="1" rowspan="1" height="3"></td></tr></table>
+
+<table align="center" width="681" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="340">
+<table width="340" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="2" width="91">
+<div align="center">
+<div align="center">
+<div align="center"><a shape="rect" href="jrzg/2009-04/07/content_1279149.htm" target="_blank"><img src="001143194d800b8c722501.jpg" border="0" width="70" height="46" vspace="2"></img></a></div>
+
+</div>
+</div>
+</td><td colspan="1" rowspan="1" width="239">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="font_zcfgjd" width="136" height="25"><a shape="rect" href="zwhd/zcjd.htm" target="_blank"><img src="images/090217_home_space.gif" width="136" height="25" border="0"></img></a></td><td colspan="1" rowspan="1">&#160;</td></tr></table>
+</td></tr><tr><td colspan="1" rowspan="1" class="style14" width="239"><a shape="rect" class="style14" href="zwhd/zcjd_gwy.htm">&#37325;&#22823;&#25919;&#31574;</a> | <a shape="rect" class="style14" href="zwhd/zcjd_xzfg.htm">&#34892;&#25919;&#27861;&#35268;</a> | <a shape="rect" class="style14" href="zwhd/zcjd_bmgz.htm">&#37096;&#38376;&#35268;&#31456;&#21046;&#24230;</a> 
+
+<table width="225" border="0" cellspacing="0" cellpadding="0" bgcolor="#0030B0"><tr><td colspan="1" rowspan="1" height="1"></td></tr></table>
+</td></tr></table>
+
+<table width="0%" border="0" cellspacing="0" cellpadding="0" height="3"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+
+<table align="center" class="h12" width="320" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="zwhd/2009-09/16/content_1418816.htm" target="_blank">&#27861;&#21046;&#21150;&#23601;&#12298;&#38450;&#27835;&#33337;&#33334;&#27745;&#26579;&#28023;&#27915;&#29615;&#22659;&#31649;&#29702;&#26465;&#20363;&#12299;&#31572;&#38382;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="jrzg/2009-09/13/content_1416434.htm" target="_blank">&#22269;&#23478;&#26519;&#19994;&#23616;&#26377;&#20851;&#36127;&#36131;&#20154;&#35299;&#35835;&#22362;&#25345;&#23478;&#24237;&#25215;&#21253;&#32463;&#33829;&#21046;&#24230;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/11/content_1415555.htm" target="_blank">&#29615;&#22659;&#20445;&#25252;&#37096;&#21103;&#37096;&#38271;&#35299;&#35835;&#12298;&#35268;&#21010;&#29615;&#22659;&#24433;&#21709;&#35780;&#20215;&#26465;&#20363;&#12299;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/09/content_1413365.htm" target="_blank">&#36130;&#25919;&#37096;&#35299;&#35835;&#26032;&#22411;&#20892;&#26449;&#31038;&#20250;&#20859;&#32769;&#20445;&#38505;&#35797;&#28857;&#34917;&#21161;&#25919;&#31574;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/09/content_1413309.htm" target="_blank">&#20154;&#21147;&#36164;&#28304;&#31038;&#20250;&#20445;&#38556;&#37096;&#26377;&#20851;&#36127;&#36131;&#20154;&#35299;&#35835;&#26032;&#20892;&#20445;&#35797;&#28857;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="jrzg/2009-09/09/content_1413313.htm" target="_blank">&#20013;&#32452;&#37096;&#36127;&#36131;&#20154;&#23601;&#20826;&#25919;&#24178;&#37096;&#20844;&#24320;&#36873;&#25300;&#32771;&#35797;&#22823;&#32434;&#31572;&#38382;</a> </td></tr></table>
+
+</td><td colspan="1" rowspan="1" background="icon/index/gov_dian01.gif" width="1"><img src="icon/index/gov_kong.gif" width="1" height="1"></img></td><td colspan="1" rowspan="1" valign="top" width="340">
+<table width="340" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="2" width="91">
+<div align="center">
+<div align="center">
+<div align="center"><a shape="rect" href="jrzg/2009-09/07/content_1411402.htm" target="_blank"><img src="00123f37b9ae0c0f46d703.jpg" border="0" width="70" height="46" vspace="2"></img></a></div>
+
+</div>
+</div>
+</td><td colspan="1" rowspan="1" width="249">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="font_zfjd" width="136" height="25"><a shape="rect" href="zfjg/" target="_blank"><img src="images/090217_home_space.gif" width="136" height="25" border="0"></img></a></td><td align="center" colspan="1" rowspan="1">&#160;</td></tr></table>
+</td></tr><tr><td align="center" colspan="1" rowspan="1" class="style14" width="249">
+<div align="center"><a shape="rect" class="style14" href="zfjg/sp.htm">&#39135;&#21697;</a> | <a shape="rect" class="style14" href="zfjg/yp.htm">&#33647;&#21697;</a> | <a shape="rect" class="style14" href="zfjg/gg.htm">&#24191;&#21578;</a> | <a shape="rect" class="style14" href="zfjg/xf.htm">&#28040;&#36153;</a> | <a shape="rect" class="style14" href="zfjg/xf.htm"></a><a shape="rect" class="style14" href="zfjg/jy.htm">&#25945;&#32946;</a> | <a shape="rect" class="style14" href="zfjg/hj.htm">&#29615;&#22659;</a></div>
+
+<table width="230" border="0" cellspacing="0" cellpadding="0" bgcolor="#0030B0"><tr><td colspan="1" rowspan="1" height="1"></td></tr></table>
+</td></tr><tr><td colspan="1" rowspan="1">&#160;</td><td align="center" colspan="1" rowspan="1" valign="bottom" class="style14"><a shape="rect" class="style14" href="zfjg/ylws.htm">&#21307;&#30103;&#21355;&#29983;</a> | <a shape="rect" class="style14" href="zfjg/zscq.htm">&#30693;&#35782;&#20135;&#26435;</a> | <a shape="rect" class="style14" href="zfjg/szsctk.htm"><font color="#D90000">&#29983;&#29482;&#24066;&#22330;&#35843;&#25511;</font></a></td></tr></table>
+
+<table width="80%" border="0" cellspacing="0" cellpadding="0" height="3"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+
+<table align="center" class="h12" width="330" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="320" height="24"><a shape="rect" class="h12" href="zfjg/content_1423093.htm" target="_blank">&#20892;&#19994;&#37096;&#21457;&#24067;&#20840;&#22269;470&#20010;&#20892;&#26449;&#38598;&#36152;&#24066;&#22330;&#20180;&#29482;&#24179;&#22343;&#20215;&#26684;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="320" height="24"><a shape="rect" class="h12" href="zfjg/content_1423075.htm" target="_blank">&#21830;&#21153;&#37096;&#21457;&#24067;&#30333;&#26465;&#32905;&#20986;&#21378;&#20215;&#26684;&#20449;&#24687;(9&#26376;14&#26085;-9&#26376;20&#26085;)</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="320" height="24"><a shape="rect" class="h12" href="jrzg/2009-09/21/content_1422661.htm" target="_blank">&#19978;&#21608;&#29482;&#32905;&#20215;&#26684;&#24494;&#24133;&#19979;&#38477; &#39135;&#29992;&#27833; &#27700;&#26524;&#20215;&#26684;&#32487;&#32493;&#19979;&#34892;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="320" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/21/content_1422454.htm" target="_blank">&#36136;&#26816;&#24635;&#23616;&#65306;&#21513;&#21033;&#27773;&#36710;&#21484;&#22238;2175&#21488;1.8&#21319;&#36828;&#26223;&#36735;&#36710;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="320" height="24"><a shape="rect" class="h12" href="jrzg/2009-09/21/content_1422248.htm" target="_blank">&#27827;&#21271;&#36136;&#30417;&#31995;&#32479;&#23545;&#20840;&#30465;&#30340;&#39135;&#21697;&#20225;&#19994;&#38598;&#20013;&#36827;&#34892;&#8220;&#20307;&#26816;&#8221;</a> </td></tr></table>
+
+</td><td colspan="1" rowspan="1" valign="top" width="340">&#160;</td></tr></table>
+
+<table width="99%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="3"></td></tr><tr><td colspan="1" rowspan="1" bgcolor="#696969" height="1"></td></tr><tr><td colspan="1" rowspan="1" height="3"></td></tr></table>
+
+<table align="center" width="681" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="340">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="font_wszb" width="136" height="25"><a shape="rect" href="wszb.htm" target="_blank"><img src="images/090217_home_space.gif" width="136" height="25" border="0"></img></a></td><td colspan="1" rowspan="1">
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" width="10">&#160;</td><td colspan="1" rowspan="1"><span class="style14"><a shape="rect" class="style14" href="ztzl/zb_gwy.htm">&#22269;&#21153;&#38498;</a> | <a shape="rect" class="style14" href="ztzl/zb_bm.htm">&#37096;&#38376;</a> | <a shape="rect" class="style14" href="ztzl/zb_qt.htm">&#20854;&#20182;</a></span> 
+
+<table width="130" border="0" cellspacing="0" cellpadding="0" bgcolor="0030B0"><tr><td colspan="1" rowspan="1" height="1"></td></tr></table>
+</td></tr></table>
+</td></tr></table>
+
+<table width="340" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" width="91">
+<div align="center">
+<div align="center">
+<div align="center"><a shape="rect" href="wszb/zhibo348/" target="_blank"><img src="001aa04acfdf0c227abb01.jpg" border="0" width="80" height="60" vspace="2"></img></a></div>
+
+</div>
+</div>
+</td><td align="center" colspan="1" rowspan="1" valign="top" width="249">
+<table width="96%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1"><span class="style14"><a shape="rect" class="style14" href="wszb/zhibo348/" target="_blank">&#12288;&#12288;2009&#24180;9&#26376;22&#26085;&#19978;&#21320;10&#26102;&#65292;&#22269;&#21153;&#38498;&#26032;&#38395;&#21150;&#20030;&#34892;&#26032;&#38395;&#21457;&#24067;&#20250;&#65292;&#35831;&#20840;&#22269;&#20154;&#22823;&#24120;&#22996;&#20250;&#27861;&#24037;&#22996;&#21103;&#20027;&#20219;&#20449;&#26149;&#40560;&#21644;&#22269;&#21153;&#38498;&#27861;&#21046;&#21150;&#21103;&#20027;&#20219;&#34945;&#26329;&#23439;&#20171;&#32461;&#26032;&#20013;&#22269;60&#24180;&#27861;&#27835;&#24314;&#35774;&#25104;&#23601;&#31561;&#26041;&#38754;&#24773;&#20917;&#12290;</a></span></td></tr></table>
+</td></tr></table>
+
+<table width="80%" border="0" cellspacing="0" cellpadding="0" height="3"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+
+<table align="center" class="h12" width="320" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="wszb/zhibo347/" target="_blank">&#26032;&#38395;&#21150;&#20171;&#32461;&#25105;&#22269;&#20892;&#19994;60&#24180;&#21457;&#23637;&#25104;&#23601;&#31561;&#24773;&#20917;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="wszb/zhibo346/" target="_blank">&#31185;&#25216;&#37096;&#20171;&#32461;&#31185;&#25216;&#20107;&#19994;60&#24180;&#21457;&#23637;&#25104;&#23601;&#31561;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="wszb/zhibo345/" target="_blank">&#26032;&#38395;&#21150;&#20171;&#32461;&#25105;&#22269;&#25991;&#21270;&#24314;&#35774;60&#24180;&#21457;&#23637;&#25104;&#23601;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="wszb/zhibo344/" target="_blank">&#26032;&#38395;&#21150;&#20171;&#32461;60&#24180;&#26469;&#25945;&#32946;&#20107;&#19994;&#21457;&#23637;&#25104;&#23601;&#31561;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="wszb/zhibo343/" target="_blank">&#26032;&#38395;&#21150;&#20171;&#32461;60&#24180;&#26469;&#20154;&#21147;&#36164;&#28304;&#31038;&#20250;&#20445;&#38556;&#25104;&#23601;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="wszb/zhibo342/" target="_blank">&#38472;&#31482;&#20171;&#32461;60&#24180;&#26469;&#21355;&#29983;&#20107;&#19994;&#21457;&#23637;&#25104;&#23601;&#31561;</a> </td></tr></table>
+
+
+</td><td colspan="1" rowspan="1" background="icon/index/gov_dian01.gif" width="1"><img src="icon/index/gov_kong.gif" width="1" height="1"></img></td><td colspan="1" rowspan="1" valign="top" width="340">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="font_zxft" width="136" height="25"><a shape="rect" href="zxft/index.htm" target="_blank"><img src="images/090217_home_space.gif" width="136" height="25" border="0"></img></a></td><td colspan="1" rowspan="1">&#160;</td></tr></table>
+
+<table width="340" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" width="91">
+<div align="center">
+<div align="center"><a shape="rect" href="zlft/" target="_blank"><img src="00123f3c47870b3d7b1b01.jpg" border="0" width="80" height="60" vspace="2"></img></a></div>
+
+</div>
+</td><td align="center" colspan="1" rowspan="1" valign="top" width="249">
+<table width="96%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1"><span class="style14"><a shape="rect" class="style14" href="zlft/" target="_blank">&#12288;&#12288;<font color="red">[&#19987;&#35775;&#22238;&#25918;]</font>2&#26376;28&#26085;&#65292;&#20013;&#20849;&#20013;&#22830;&#25919;&#27835;&#23616;&#24120;&#22996;&#12289;&#22269;&#21153;&#38498;&#24635;&#29702;&#28201;&#23478;&#23453;&#19982;&#32593;&#21451;&#22312;&#32447;&#20132;&#27969;&#24182;&#25509;&#21463;&#20013;&#22269;&#25919;&#24220;&#32593;&#12289;&#26032;&#21326;&#32593;&#32852;&#21512;&#19987;&#35775;&#12290;&#20013;&#22269;&#25919;&#24220;&#32593;&#21644;&#26032;&#21326;&#32593;&#20840;&#31243;&#36827;&#34892;&#25991;&#23383;&#21644;&#35270;&#39057;&#30452;&#25773;&#12290;<img src="tupian06/new_060424.jpg" width="29" height="12" border="0" hspace="0"></img></a></span> </td></tr></table>
+</td></tr></table>
+
+<table width="80%" border="0" cellspacing="0" cellpadding="0" height="3"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+
+<table align="center" class="h12" width="320" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="zxft/ft188/" target="_blank"><font color="green">[&#22238;&#25918;]</font>&#32993;&#26195;&#20041;&#35848;&#24320;&#23637;&#26032;&#22411;&#20892;&#26449;&#31038;&#20250;&#20859;&#32769;&#20445;&#38505;&#35797;&#28857;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="zxft/ft187/" target="_blank">&#28023;&#20851;&#24635;&#32626;&#35848;&#21152;&#24378;&#30005;&#23376;&#21475;&#23736;&#24314;&#35774;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="zxft/ft186/" target="_blank">&#24037;&#19994;&#21644;&#20449;&#24687;&#21270;&#37096;&#35848;&#21152;&#22823;&#20013;&#23567;&#20225;&#19994;&#25206;&#25345;&#21147;&#24230;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="zxft/ft185/" target="_blank">&#20845;&#37096;&#38376;&#35848;&#25512;&#36827;&#36328;&#22659;&#36152;&#26131;&#20154;&#27665;&#24065;&#32467;&#31639;&#35797;&#28857;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="zxft/ft184/" target="_blank">&#22235;&#37096;&#38376;&#35848;&#23436;&#21892;&#22478;&#20065;&#21307;&#30103;&#25937;&#21161;&#21046;&#24230;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="zxft/ft183/" target="_blank">&#20004;&#37096;&#38376;&#35848;&#24320;&#23637;&#39640;&#26657;&#27605;&#19994;&#29983;&#23601;&#19994;&#25512;&#36827;&#34892;&#21160;</a> </td></tr></table>
+
+
+</td><td colspan="1" rowspan="1" valign="top" width="340">&#160;</td></tr></table>
+
+<table width="99%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="3"></td></tr><tr><td colspan="1" rowspan="1" bgcolor="#696969" height="1"></td></tr><tr><td colspan="1" rowspan="1" height="3"></td></tr></table>
+
+<table width="98%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" width="5"></td><td colspan="1" rowspan="1">
+<table width="668" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" bgcolor="C0E5FA" width="1"></td><td align="left" colspan="1" rowspan="1" valign="top" width="668">
+<div id="demo" style="overflow:hidden;height:132;width:668" border:_0="border:0" xmlns:border="urn:x-prefix:border">
+<table cellpadding="0" cellspacing="0" border="0" width="668"><tr><td align="center" colspan="1" rowspan="1" id="demo1" width="668">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" valign="top" width="130">
+<table width="130" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" width="130">
+<table width="120" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" valign="top" width="120" height="90"><a shape="rect" href="wszb/zhibo348/" target="_blank"><img class="xian" src="001aa04acfdf0c227abb01.jpg" width="120" height="82" vspace="5" border="0"></img><br clear="none"></br>
+ <font class="style14" color="#000000">&#26032;&#38395;&#21150;&#20171;&#32461;&#26032;&#20013;&#22269;60&#24180;&#27861;&#27835;&#24314;&#35774;&#25104;&#23601;&#31561;</font></a></td></tr></table>
+</td></tr></table>
+</td><td align="center" colspan="1" rowspan="1" valign="top" width="130">
+<table width="130" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" width="130">
+<table width="120" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" valign="top" width="120" height="90"><a shape="rect" href="wszb/zhibo347/" target="_blank"><img class="xian" src="001aa04acfdf0c212b3801.jpg" width="120" height="82" vspace="5" border="0"></img><br clear="none"></br>
+ <font class="style14" color="#000000">&#26032;&#38395;&#21150;&#20171;&#32461;&#25105;&#22269;&#20892;&#19994;60&#24180;&#21457;&#23637;&#25104;&#23601;&#31561;&#24773;&#20917;</font></a></td></tr></table>
+</td></tr></table>
+</td><td align="center" colspan="1" rowspan="1" valign="top" width="130">
+<table width="130" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" width="130">
+<table width="120" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" valign="top" width="120" height="90"><a shape="rect" href="wszb/zhibo346/" target="_blank"><img class="xian" src="001aa04acfdf0c1be16d01.jpg" width="120" height="82" vspace="5" border="0"></img><br clear="none"></br>
+ <font class="style14" color="#000000">&#31185;&#25216;&#37096;&#20171;&#32461;&#31185;&#25216;&#20107;&#19994;60&#24180;&#21457;&#23637;&#25104;&#23601;&#31561;</font></a></td></tr></table>
+</td></tr></table>
+</td><td align="center" colspan="1" rowspan="1" valign="top" width="130">
+<table width="130" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" width="130">
+<table width="120" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" valign="top" width="120" height="90"><a shape="rect" href="wszb/zhibo345/" target="_blank"><img class="xian" src="001aa04acfdf0c18350101.jpg" width="120" height="82" vspace="5" border="0"></img><br clear="none"></br>
+ <font class="style14" color="#000000">&#26032;&#38395;&#21150;&#20171;&#32461;&#25105;&#22269;&#25991;&#21270;&#24314;&#35774;60&#24180;&#21457;&#23637;&#25104;&#23601;</font></a></td></tr></table>
+</td></tr></table>
+</td><td align="center" colspan="1" rowspan="1" valign="top" width="130">
+<table width="130" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" width="130">
+<table width="120" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" valign="top" width="120" height="90"><a shape="rect" href="wszb/zhibo344/" target="_blank"><img class="xian" src="001aa04acfdf0c14017701.jpg" width="120" height="82" vspace="5" border="0"></img><br clear="none"></br>
+ <font class="style14" color="#000000">&#26032;&#38395;&#21150;&#20171;&#32461;60&#24180;&#26469;&#25945;&#32946;&#20107;&#19994;&#21457;&#23637;&#25104;&#23601;&#31561;</font></a></td></tr></table>
+</td></tr></table>
+</td><td align="center" colspan="1" rowspan="1" valign="top" width="130">
+<table width="130" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" width="130">
+<table width="120" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" valign="top" width="120" height="90"><a shape="rect" href="wszb/zhibo343/" target="_blank"><img class="xian" src="001aa04acfdf0c11562801.jpg" width="120" height="82" vspace="5" border="0"></img><br clear="none"></br>
+ <font class="style14" color="#000000">&#26032;&#38395;&#21150;&#20171;&#32461;60&#24180;&#26469;&#20154;&#21147;&#36164;&#28304;&#31038;&#20250;&#20445;&#38556;&#25104;&#23601;</font></a></td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td><td colspan="1" rowspan="1" id="demo2" width="0"></td></tr></table>
+
+<script type="text/javascript">
+&lt;!--
+  var speed=50//&#36895;&#24230;&#25968;&#20540;&#36234;&#22823;&#36895;&#24230;&#36234;&#24930;
+  demo2.innerHTML=demo1.innerHTML
+  function Marquee(){
+  if(demo2.offsetWidth-demo.scrollLeft&lt;=0)
+  demo.scrollLeft-=demo1.offsetWidth
+  else{
+  demo.scrollLeft++
+  }
+  }
+  var MyMar=setInterval(Marquee,speed)
+  demo.onmouseover=function() {clearInterval(MyMar)}
+  demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+              
+--&gt;
+  
+</script>
+
+ 
+
+<table width="360" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="4"></td></tr></table>
+</div>
+</td><td colspan="1" rowspan="1" bgcolor="C0E5FA" width="1"></td></tr><tr><td colspan="3" rowspan="1" bgcolor="C0E5FA" height="1"></td></tr></table>
+</td></tr></table>
+
+<table width="99%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="3"></td></tr><tr><td colspan="1" rowspan="1" bgcolor="#696969" height="1"></td></tr><tr><td colspan="1" rowspan="1" height="3"></td></tr></table>
+
+<table align="center" width="681" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="340">
+<table width="340" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="2" width="91">
+<div align="center">
+<div align="center">
+<div align="center"><a shape="rect" href="jrzg/2009-08/13/content_1390876.htm" target="_blank"><img src="001aa04b79580bedc87003.jpg" border="0" width="70" height="46" vspace="2"></img></a></div>
+
+</div>
+</div>
+</td><td colspan="1" rowspan="1" width="249">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="font_xwfb" width="136" height="25"><a shape="rect" href="xwfb/index.htm" target="_blank"><img src="images/090217_home_space.gif" width="136" height="25" border="0"></img></a></td><td colspan="1" rowspan="1">&#160;</td></tr></table>
+</td></tr><tr><td colspan="1" rowspan="1" class="style14" width="249"><a shape="rect" class="style14" href="xwfb/gwy.htm">&#22269;&#21153;&#38498;</a> <span class="style14">|</span> <a shape="rect" class="style14" href="xwfb/bm.htm">&#37096;&#38376;</a> <span class="style14">|</span> <a shape="rect" class="style14" href="xwfb/df.htm">&#22320;&#26041;</a> <span class="style14">|</span> <a shape="rect" class="style14" href="xwfb/qt.htm">&#20854;&#20182;</a> 
+
+<table width="170" border="0" cellspacing="0" cellpadding="0" bgcolor="0030B0"><tr><td colspan="1" rowspan="1" height="1"></td></tr></table>
+</td></tr></table>
+
+<table width="80%" border="0" cellspacing="0" cellpadding="0" height="3"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+
+<table align="center" class="h12" width="320" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="jrzg/2009-09/20/content_1421782.htm" target="_blank">&#21488;&#21150;&#21457;&#35328;&#20154;&#65306;&#22362;&#20915;&#21453;&#23545;&#39640;&#38596;&#24066;&#25773;&#25918;&#28909;&#27604;&#23045;&#24433;&#29255;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="xwfb/2009-09/17/content_1420323.htm" target="_blank">&#22806;&#20132;&#37096;&#23601;&#25140;&#31177;&#22269;&#22269;&#21153;&#22996;&#21592;&#35775;&#26397;&#12289;&#20234;&#26391;&#26680;&#38382;&#39064;&#31561;&#31572;&#38382;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="xwfb/2009-09/16/content_1418910.htm" target="_blank">&#21488;&#21150;&#20030;&#34892;&#21457;&#24067;&#20250;&#23601;&#20004;&#23736;&#25658;&#25163;&#24212;&#23545;&#26032;&#27969;&#24863;&#30123;&#24773;&#31561;&#31572;&#38382;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="xwfb/2009-09/15/content_1418373.htm" target="_blank">&#22806;&#20132;&#37096;&#20030;&#34892;&#20363;&#34892;&#35760;&#32773;&#20250;&#23601;&#20013;&#26085;&#38889;&#39046;&#23548;&#20154;&#20250;&#35758;&#31561;&#31572;&#38382;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="xwfb/2009-09/15/content_1418250.htm" target="_blank">&#21830;&#21153;&#37096;&#21484;&#24320;&#21457;&#24067;&#20250; &#36890;&#25253;09&#24180;1-8&#26376;&#20221;&#21830;&#21153;&#24037;&#20316;&#24773;&#20917;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="xwfb/2009-09/15/content_1417901.htm" target="_blank">&#20892;&#19994;&#37096;&#20171;&#32461;&#25512;&#36827;&#22522;&#23618;&#20892;&#25216;&#25512;&#24191;&#20307;&#31995;&#25913;&#38761;&#19982;&#24314;&#35774;&#24773;&#20917;</a> </td></tr></table>
+
+
+</td><td colspan="1" rowspan="1" background="icon/index/gov_dian01.gif" width="1"><img src="icon/index/gov_kong.gif" width="1" height="1"></img></td><td colspan="1" rowspan="1" valign="top" width="340">
+<table width="330" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="2" width="91">
+<div align="center">
+<div align="center">
+<div align="center"><a shape="rect" href="rsrm/index.htm" target="_blank"><img src="xin_190802171336765325412.jpg" border="0" width="70" height="46" vspace="2"></img></a></div>
+
+</div>
+</div>
+</td><td colspan="1" rowspan="1" width="239">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="font_rsrm" width="136" height="25"><a shape="rect" href="rsrm/index.htm" target="_blank"><img src="images/090217_home_space.gif" width="136" height="25" border="0"></img></a></td><td colspan="1" rowspan="1">&#160;</td></tr></table>
+</td></tr><tr><td colspan="1" rowspan="1" class="style14" width="239"><a shape="rect" class="style14" href="rsrm/zy.htm">&#20013;&#22830;</a> <span class="style14">|</span> <a shape="rect" class="style14" href="rsrm/df.htm">&#22320;&#26041;</a> <span class="style14">|</span> <a shape="rect" class="style14" href="rsrm/qy.htm">&#20225;&#19994;</a> <span class="style14">|</span> <a shape="rect" class="style14" href="rsrm/zw.htm">&#39547;&#22806;</a> <span class="style14">|</span> <a shape="rect" class="style14" href="rsrm/qt.htm">&#20854;&#20182;</a> 
+
+<table width="200" border="0" cellspacing="0" cellpadding="0" bgcolor="0030B0"><tr><td colspan="1" rowspan="1" height="1"></td></tr></table>
+</td></tr></table>
+
+<table width="0%" border="0" cellspacing="0" cellpadding="0" height="3"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+
+<table align="center" class="h12" width="320" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="rsrm/2009-09/22/content_1423087.htm" target="_blank">&#21494;&#23567;&#25991;&#35843;&#20219;&#20013;&#22830;&#31038;&#20250;&#20027;&#20041;&#23398;&#38498;&#20826;&#32452;&#20070;&#35760; &#27004;&#24535;&#35946;&#19981;&#20877;&#20860;&#20219;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="rsrm/2009-09/21/content_1422593.htm" target="_blank">&#22269;&#21153;&#38498;&#20219;&#20813;&#39044;&#38450;&#33104;&#36133;&#23616;&#21103;&#23616;&#38271;&#12289;&#23447;&#25945;&#23616;&#23616;&#38271;&#31561;&#20154;&#21592;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="rsrm/2009-08/31/content_1405024.htm" target="_blank"><font color="green">&#26412;&#32593;&#32508;&#21512;&#65306;</font>2009&#24180;8&#26376;&#20221;&#37325;&#35201;&#20154;&#20107;&#20219;&#20813;&#22238;&#39038;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="ldhd/2009-09/14/content_1417446.htm" target="_blank">&#32993;&#38182;&#28059;&#20027;&#24109;&#20219;&#20813;&#20013;&#22269;&#39547;&#25386;&#23041;&#12289;&#33487;&#37324;&#21335;&#31561;&#39547;&#22806;&#22823;&#20351;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="rsrm/2009-09/06/content_1410616.htm" target="_blank">&#26417;&#26124;&#26480;&#34987;&#20219;&#21629;&#20026;&#26032;&#30086;&#32500;&#21566;&#23572;&#33258;&#27835;&#21306;&#20844;&#23433;&#21381;&#21381;&#38271;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="rsrm/2009-09/05/content_1409971.htm" target="_blank">&#26647;&#26234;&#34987;&#20813;&#21435;&#20044;&#40065;&#26408;&#40784;&#24066;&#22996;&#20070;&#35760;&#32844;&#21153; &#26417;&#28023;&#20177;&#21516;&#24535;&#25509;&#20219;</a> </td></tr></table>
+
+
+</td></tr></table>
+
+<table width="99%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="3"></td></tr><tr><td colspan="1" rowspan="1" bgcolor="#696969" height="1"></td></tr><tr><td colspan="1" rowspan="1" height="3"></td></tr></table>
+
+<table align="center" width="681" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="340">
+<table width="340" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="2" width="91">
+<div align="center">
+<div align="center">
+<div align="center"><a shape="rect" href="jrzg/2009-01/11/content_1202232.htm" target="_blank"><img src="00123f37b7b80ad41e3b02.jpg" border="0" width="70" height="46" vspace="2"></img></a></div>
+
+</div>
+</div>
+</td><td colspan="1" rowspan="1" width="249">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="font_zfjs" width="136" height="25"><a shape="rect" href="zfjs/index.htm" target="_blank"><img src="images/090217_home_space.gif" width="136" height="25" border="0"></img></a></td><td colspan="1" rowspan="1">&#160;</td></tr></table>
+</td></tr><tr><td colspan="1" rowspan="1" class="style14" width="249"><a shape="rect" class="style14" href="zfjs/zdjs.htm">&#21046;&#24230;&#24314;&#35774;</a> <span class="style14">|</span> <a shape="rect" class="style14" href="zfjs/znzb.htm">&#32844;&#33021;&#36716;&#21464;</a> <span class="style14">|</span> <a shape="rect" class="style14" href="zfjs/glcx.htm">&#31649;&#29702;&#21019;&#26032;</a> <span class="style14">|</span> <a shape="rect" class="style14" href="zfjs/dzzw.htm">&#30005;&#23376;&#25919;&#21153;</a> 
+
+<table width="200%" border="0" cellspacing="0" cellpadding="0" bgcolor="0030B0"><tr><td colspan="1" rowspan="1" height="1"></td></tr></table>
+</td></tr></table>
+
+<table width="80%" border="0" cellspacing="0" cellpadding="0" height="3"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+
+<table align="center" class="h12" width="320" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/21/content_1422358.htm" target="_blank">&#28023;&#21335;&#30465;&#22810;&#25514;&#24182;&#20030;&#25913;&#36827;&#21644;&#35268;&#33539;&#22240;&#20844;&#20986;&#22269;&#65288;&#22659;&#65289;&#31649;&#29702;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/21/content_1422239.htm" target="_blank">&#21271;&#20140;&#20844;&#24067;&#26032;&#19968;&#36718;&#26426;&#26500;&#25913;&#38761;46&#20010;&#25919;&#24220;&#37096;&#38376;"&#19977;&#23450;"&#26041;&#26696;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/21/content_1422149.htm" target="_blank">&#40657;&#40857;&#27743;&#30465;&#21551;&#21160;&#8220;&#20154;&#27665;&#28385;&#24847;&#30340;&#20844;&#21153;&#21592;&#8221;&#35780;&#36873;&#34920;&#24432;&#24037;&#20316;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/19/content_1421014.htm" target="_blank">&#29615;&#22659;&#20445;&#25252;&#37096;&#21360;&#21457;&#24037;&#20316;&#20154;&#21592;&#25910;&#21463;&#31036;&#21697;&#30331;&#35760;&#22788;&#29702;&#35268;&#23450;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/18/content_1420715.htm" target="_blank">&#22235;&#24029;&#21484;&#24320;&#21152;&#24378;&#25919;&#24220;&#20449;&#24687;&#20844;&#24320; &#20581;&#20840;&#26032;&#38395;&#21457;&#35328;&#19987;&#39064;&#20250;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="jrzg/2009-09/17/content_1420246.htm" target="_blank">&#27993;&#27743;&#30465;&#25919;&#24220;&#20844;&#24320;&#24449;&#38598;&#31435;&#27861;&#24314;&#35758; &#31038;&#20250;&#21508;&#30028;&#31215;&#26497;&#21709;&#24212;</a> </td></tr></table>
+
+
+</td><td colspan="1" rowspan="1" background="icon/index/gov_dian01.gif" width="1"><img src="icon/index/gov_kong.gif" width="1" height="1"></img></td><td colspan="1" rowspan="1" valign="top" width="340">
+<table width="330" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="2" width="91">
+<div align="center">
+<div align="center">
+<div align="center"><a shape="rect" href="flfg/index.htm" target="_blank"><img src="00123f3795a10a788d1601.jpg" border="0" width="70" height="46" vspace="2"></img></a></div>
+
+</div>
+</div>
+</td><td colspan="1" rowspan="1" width="239">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="font_zcfg" width="136" height="25"><a shape="rect" href="flfg/index.htm" target="_blank"><img src="images/090217_home_space.gif" width="136" height="25" border="0"></img></a></td><td colspan="1" rowspan="1">&#160;</td></tr></table>
+</td></tr><tr><td colspan="1" rowspan="1" class="style14" width="239"><a shape="rect" class="style14" href="flfg/fl.htm">&#27861;&#24459;</a> | <a shape="rect" class="style14" href="flfg/xzfg.htm">&#34892;&#25919;&#27861;&#35268;</a> | <a shape="rect" class="style14" href="flfg/sfjs.htm">&#21496;&#27861;&#35299;&#37322; |</a> <a shape="rect" class="style14" href="flfg/dfxfg.htm">&#22320;&#26041;&#24615;&#27861;&#35268;</a> 
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="0030B0"><tr><td colspan="1" rowspan="1" height="1"></td></tr></table>
+</td></tr></table>
+
+<table width="0%" border="0" cellspacing="0" cellpadding="0" height="3"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+
+<table align="center" class="h12" width="320" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="flfg/2009-09/15/content_1418306.htm" target="_blank">&#20065;&#38215;&#32508;&#21512;&#25991;&#21270;&#31449;&#31649;&#29702;&#21150;&#27861;&#65288;&#25991;&#21270;&#37096;&#20196;&#31532;48&#21495;&#65289;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="flfg/2009-09/10/content_1413676.htm" target="_blank">&#22825;&#27941;&#24066;&#28023;&#19978;&#20132;&#36890;&#23433;&#20840;&#31649;&#29702;&#35268;&#23450;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="flfg/2009-08/28/content_1403581.htm" target="_blank">&#24037;&#19994;&#21644;&#20449;&#24687;&#21270;&#37096;&#21457;&#23637;&#25913;&#38761;&#22996;&#20462;&#25913;&#12298;&#27773;&#36710;&#20135;&#19994;&#21457;&#23637;&#25919;&#31574;&#12299;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="flfg/2009-08/24/content_1399595.htm" target="_blank">&#20013;&#21326;&#20154;&#27665;&#20849;&#21644;&#22269;&#28023;&#20851;&#31246;&#25910;&#20445;&#20840;&#21644;&#24378;&#21046;&#25514;&#26045;&#26242;&#34892;&#21150;&#27861;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="flfg/2009-08/17/content_1394298.htm" target="_blank">&#23433;&#20840;&#29983;&#20135;&#30417;&#31649;&#30417;&#23519;&#32844;&#36131;&#21644;&#34892;&#25919;&#25191;&#27861;&#36131;&#20219;&#36861;&#31350;&#30340;&#26242;&#34892;&#35268;&#23450;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="flfg/2009-08/14/content_1391941.htm" target="_blank">&#36947;&#36335;&#36816;&#36755;&#36710;&#36742;&#29123;&#26009;&#28040;&#32791;&#37327;&#26816;&#27979;&#21644;&#30417;&#30563;&#31649;&#29702;&#21150;&#27861;</a> </td></tr></table>
+
+
+</td></tr></table>
+
+<table width="99%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="3"></td></tr><tr><td colspan="1" rowspan="1" bgcolor="#696969" height="1"></td></tr><tr><td colspan="1" rowspan="1" height="3"></td></tr></table>
+
+<table align="center" width="681" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="2" width="91">
+<div align="center">
+<div align="center">
+<div align="center"><a shape="rect" href="jrzg/2009-09/19/content_1421415.htm" target="_blank"><img src="0011431a94e60c1effe704.jpg" border="0" width="70" height="46" vspace="2"></img></a></div>
+
+</div>
+</div>
+</td><td colspan="1" rowspan="1" width="590">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="font_jjmy" width="136" height="25"><a shape="rect" href="ztzl/jjjs.htm" target="_blank"><img src="images/090217_home_space.gif" width="136" height="25" border="0"></img></a></td><td align="left" colspan="1" rowspan="1">
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" width="20">&#160;</td><td colspan="1" rowspan="1"><span class="style14"><a shape="rect" class="style14" href="ztzl/hgjj.htm">&#23439;&#35266;</a> | <a shape="rect" class="style14" href="ztzl/cyjj.htm">&#20135;&#19994;</a> | <a shape="rect" class="style14" href="ztzl/jrzq.htm">&#37329;&#34701;</a> | <a shape="rect" class="style14" href="ztzl/jjmy.htm">&#36152;&#26131;</a> | <a shape="rect" class="style14" href="ztzl/qyjj.htm">&#21306;&#22495;</a></span> <span class="style14">&#12288; <a shape="rect" class="style14" href="jrzg/swzc.htm">&#21830;&#21153;&#20043;&#31383;</a></span> <span class="style14">| <a shape="rect" class="style14" href="jrzg/yqzx.htm">&#22830;&#20225;&#22312;&#32447;</a></span> 
+
+<table width="78%" border="0" cellspacing="0" cellpadding="0" bgcolor="0030B0"><tr><td colspan="1" rowspan="1" height="1"></td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr><tr><td colspan="1" rowspan="1" width="590">
+<table align="center" width="590" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="249">&#160;</td><td colspan="1" rowspan="1" background="icon/index/gov_dian01.gif" width="1"><img src="icon/index/gov_kong.gif" width="1" height="1"></img></td><td colspan="1" rowspan="1" valign="bottom" width="340">
+<table align="center" class="h12" width="320" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/21/content_1422136.htm" target="_blank">&#40657;&#40857;&#27743;&#19982;&#20013;&#24191;&#26680;&#31614;&#21512;&#20316;&#24320;&#21457;&#24314;&#35774;&#33021;&#28304;&#39033;&#30446;&#26694;&#26550;&#21327;&#35758;</a> </td></tr></table>
+
+</td></tr></table>
+</td></tr></table>
+
+<img src="icon/index/gov_kong.gif" width="1" height="1"></img></td></tr></table>
+
+<table align="center" width="681" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="340">
+<table align="center" class="h12" width="320" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/22/content_1423048.htm" target="_blank">&#27827;&#21271;&#38050;&#38081;&#38598;&#22242;&#25972;&#20307;&#19978;&#24066;&#26041;&#26696;21&#26085;&#33719;&#24471;&#35777;&#30417;&#20250;&#36890;&#36807;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/22/content_1423032.htm" target="_blank">&#38054;&#24030;&#28207;&#32463;&#27982;&#24320;&#21457;&#21306;&#25104;&#24191;&#35199;&#21271;&#37096;&#28286;&#24320;&#25918;&#21069;&#27839;&#30340;&#25490;&#22836;&#20853;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/22/content_1423021.htm" target="_blank">&#24191;&#35199;&#21335;&#23425;&#22823;&#26725;&#24314;&#25104;&#36890;&#36710; &#23545;&#23436;&#21892;&#22478;&#24066;&#21151;&#33021;&#24847;&#20041;&#37325;&#22823;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="jrzg/2009-09/22/content_1422892.htm" target="_blank">&#28023;&#20851;&#24635;&#32626;&#65306;&#20445;&#31246;&#28207;&#21306;&#26159;&#25105;&#22269;&#24314;&#33258;&#30001;&#36152;&#26131;&#20808;&#34892;&#23454;&#39564;&#21306;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="jrzg/2009-09/21/content_1422565.htm" target="_blank">&#8220;&#20013;&#37096;&#23835;&#36215;&#8221;&#65306;&#36195;&#21488;&#20004;&#22320;&#20225;&#19994;&#22312;&#21512;&#20316;&#20013;&#20849;&#21516;&#25104;&#38271;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="jrzg/2009-09/21/content_1422317.htm" target="_blank">&#8220;2009&#36195;&#21488;&#32463;&#36152;&#21512;&#20316;&#30740;&#35752;&#20250;&#8221;&#31614;&#32422;&#36164;&#37329;&#36926;14&#20159;&#32654;&#20803;</a> </td></tr></table>
+
+
+</td><td colspan="1" rowspan="1" background="icon/index/gov_dian01.gif" width="1"><img src="icon/index/gov_kong.gif" width="1" height="1"></img></td><td colspan="1" rowspan="1" valign="top" width="340">
+<table align="center" class="h12" width="320" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="jrzg/2009-09/21/content_1421999.htm" target="_blank">&#19990;&#30028;&#32463;&#27982;&#20174;&#21361;&#26426;&#36880;&#27493;&#36208;&#21521;&#22797;&#33487;&#65306;&#20013;&#22269;&#25104;&#23601;&#40723;&#33310;&#19990;&#30028;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="gzdt/2009-09/20/content_1421953.htm" target="_blank">&#35777;&#30417;&#20250;&#25209;&#22797;5&#23478;&#32593;&#31449;&#20026;&#21019;&#19994;&#26495;&#20449;&#24687;&#25259;&#38706;&#25351;&#23450;&#32593;&#31449;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="jrzg/2009-09/20/content_1421906.htm" target="_blank">&#39318;&#23626;&#20013;&#22269;&#26053;&#28216;&#20135;&#19994;&#33410;&#31614;&#32626;&#22825;&#27941;&#23459;&#35328;&#20419;&#26053;&#28216;&#21512;&#20316;&#21457;&#23637;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="jrzg/2009-09/20/content_1421863.htm" target="_blank">&#36817;&#26085;&#21494;&#33756;&#20215;&#26684;&#23567;&#24133;&#19979;&#38477; &#22810;&#21322;&#30465;&#21306;&#24066;&#29482;&#32905;&#20215;&#26684;&#22238;&#33853;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="jrzg/2009-09/19/content_1421362.htm" target="_blank">&#27743;&#35199;&#30465;&#25237;&#24040;&#36164;&#20852;&#24314;&#23567;&#22411;&#20892;&#30000;&#27700;&#21033;&#35774;&#26045;&#22686;&#24378;&#25239;&#26097;&#33021;&#21147;</a> </td></tr><tr><td colspan="1" rowspan="1" class="bt01" width="10" height="24">
+<div align="center" class="h12">&#183;</div>
+</td><td colspan="1" rowspan="1" width="290" height="24"><a shape="rect" class="h12" href="jrzg/2009-09/19/content_1421360.htm" target="_blank">&#22235;&#24029;&#30465;&#26500;&#24314;&#36136;&#37327;&#30417;&#25511;&#20307;&#31995;&#25171;&#36896;&#8220;&#39532;&#38083;&#34223;&#20135;&#19994;&#24378;&#30465;&#8221;</a> </td></tr></table>
+
+</td></tr></table>
+
+<table width="60%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+</td><td colspan="1" rowspan="1" valign="top" width="1" bgcolor="#7A0000">
+<table width="1" height="1" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF"><tr><td colspan="1" rowspan="1"></td></tr></table>
+</td><td align="center" colspan="1" rowspan="1" valign="top" width="155" bgcolor="#FFFFFF">
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" height="25">
+<div align="center"><a shape="rect" class="style10" href="#" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.gov.cn/');return(false);" style="BEHAVIOR: url(#default#homepage)">&#35774;&#20026;&#39318;&#39029;</a> <span class="style13">|</span> <a shape="rect" class="style13" href="aboutus.htm" target="_blank">&#20851;&#20110;&#25105;&#20204;</a></div>
+</td></tr><tr><td colspan="1" rowspan="1" height="5"></td></tr><tr><td colspan="1" rowspan="1" height="1" bgcolor="#620800"></td></tr><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+
+<table width="153" border="0" cellspacing="0" cellpadding="0"><tr><th colspan="1" rowspan="1" scope="row" bgcolor="#FCF4EC"><a shape="rect" href="xxgk/pub/govpublic/" target="_blank"><img src="images/0423_font_zfxxgkzl.gif" width="124" height="22" vspace="5" border="0"></img></a><br clear="none"></br>
+ <a shape="rect" href="xxgk/pub/govpublic/zhinan/zhinans/" target="_blank"><img src="images/0423_btn_xxgkzn.gif" width="146" height="43" vspace="5" border="0"></img></a><br clear="none"></br>
+ <a shape="rect" href="xxgk/pub/govpublic/zhinan/jianjie/" target="_blank"><img src="images/0423_btn_xxgkml.gif" width="146" height="43" vspace="5" border="0"></img></a><br clear="none"></br>
+ <a shape="rect" href="zwgk/2008-04/23/content_952239.htm"><img src="images/0423_btn_bmdflj.gif" width="146" height="43" vspace="5" border="0"></img></a></th></tr><tr><th colspan="1" rowspan="1" scope="row" height="5" bgcolor="#FCF4EC"></th></tr></table>
+
+<table align="center" width="153" border="0" cellspacing="0" cellpadding="0" height="28"><tr><td align="center" colspan="1" rowspan="1" bgcolor="0A1277" width="45">&#160;</td><td colspan="1" rowspan="1" class="bai14" width="186" bgcolor="0A1277"><a shape="rect" class="bai14" href="yjgl/index.htm">&#24212;&#24613;&#31649;&#29702;</a>&#12288;<a shape="rect" class="bai14" href="yjgl/index.htm"><font color="#FFFFFF">&gt;&gt;</font></a></td></tr></table>
+
+<table width="100" border="0" cellspacing="0" cellpadding="0" height="5"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+<table width="94%" border="0" cellspacing="0" cellpadding="0"><tr align="center" valign="middle"><td colspan="1" rowspan="1" height="25" width="50%"><a shape="rect" class="style14" href="yjgl/tfsj.htm">&#31361;&#21457;&#20107;&#20214;</a></td><td colspan="1" rowspan="1" height="25"><a shape="rect" class="style14" href="yjgl/2005-08/31/content_69625.htm">&#26426;&#26500;&#35774;&#32622;</a></td></tr><tr align="center" valign="middle"><td colspan="1" rowspan="1" height="25" width="50%"><a shape="rect" class="style14" href="yjgl/gzdt.htm">&#24037;&#20316;&#21160;&#24577;</a></td><td colspan="1" rowspan="1" height="25"><a shape="rect" class="style14" href="yjgl/2005-08/31/content_27872.htm">&#24212;&#24613;&#39044;&#26696;</a></td></tr><tr align="center" valign="middle"><td colspan="1" rowspan="1" height="25" width="50%"><a shape="rect" class="style14" href="yjgl/yjpxyl.htm">&#24212;&#24613;&#28436;&#32451;</a></td><td colspan="1" rowspan="1" height="25"><a shape="rect" class="style14" href="yjgl/flfg.htm">&#27861;&#24459;&#27861;&#35268;</a></td></tr><tr align="center" valign="middle"><td colspan="1" rowspan="1" height="25" width="50%"><a shape="rect" class="style14" href="yjgl/yjzs.htm">&#31185;&#26222;&#23459;&#25945;</a></td><td colspan="1" rowspan="1" height="25"><a shape="rect" class="style14" href="yjgl/dxal.htm">&#20856;&#22411;&#26696;&#20363;</a></td></tr></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" colspan="1" rowspan="1"><a shape="rect" href="#" target="_blank"></a> 
+
+<table width="100" border="0" cellspacing="0" cellpadding="0" height="5"><tr><td colspan="1" rowspan="1"></td></tr></table>
+</td></tr></table>
+
+<table width="153" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="211">
+<table align="center" width="153" border="0" cellspacing="0" cellpadding="0" height="28"><tr><td align="center" colspan="1" rowspan="1" bgcolor="0A1277" width="45">&#160;</td><td colspan="1" rowspan="1" class="bai14" width="186" bgcolor="0A1277"><a shape="rect" class="bai14" href="rdzt/fw.htm">&#26381;&#21153;&#19987;&#39064;</a>&#12288;<a shape="rect" class="bai14" href="rdzt/fw.htm"><font color="#FFFFFF">&gt;&gt;</font></a></td></tr></table>
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+
+
+<table align="center" class="style14" width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="22"><a shape="rect" class="style14" href="fwxx/2009gk/" target="_blank"><font color="green">2009&#24180;&#26222;&#36890;&#39640;&#26657;&#25307;&#32771;&#19987;&#39064;</font></a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="22"><a shape="rect" class="style14" href="fwxx/content_1411600.htm" target="_blank">&#22269;&#24198;&#33410;&#21644;&#20013;&#31179;&#33410;&#25918;&#20551;&#23433;&#25490;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="22"><a shape="rect" class="style14" href="fwxx/content_1410845.htm" target="_blank">&#20108;&#21313;&#22235;&#33410;&#27668;&#20043;&#8212;&#8212;&#30333;&#38706;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="22"><a shape="rect" class="style14" href="fwxx/ly/2009-09/18/content_1420437.htm" target="_blank"><font color="green">&#22269;&#24198;&#24198;&#20856;&#28436;&#32451;&#26399;&#20986;&#34892;&#25552;&#31034;</font></a> </td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="22"><a shape="rect" class="style14" href="fwxx/content_1232835.htm" target="_blank">&#39640;&#26657;&#27605;&#19994;&#29983;&#23601;&#19994;&#25919;&#31574;&#25351;&#21335;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="22"><a shape="rect" class="style14" href="fwxx/content_1423278.htm" target="_blank">9&#26376;22&#26085;&#28909;&#28857;&#26381;&#21153;&#20449;&#24687;&#23548;&#35835;</a></td></tr></table>
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+
+<table align="center" width="153" border="0" cellspacing="0" cellpadding="0" height="28"><tr><td align="center" colspan="1" rowspan="1" bgcolor="0A1277">&#160;<span class="bai14">&#20027;&#39064;&#26381;&#21153;</span></td></tr></table>
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr bgcolor="EFEFEF"><td align="center" colspan="1" rowspan="1" width="42"><img src="2008/tb_4.gif" width="26" height="26"></img></td><td colspan="1" rowspan="1" bgcolor="EFEFEF"><a shape="rect" class="14h" href="banshi/gm.htm" target="_parent">&#20844; &#27665;</a>&#160;&#160;<a shape="rect" class="hei14" href="banshi/gm.htm" target="_parent">&gt;&gt;</a></td></tr><tr bgcolor="CCCCCC"><td align="center" colspan="2" rowspan="1" height="2"></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC" height="1"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF"><tr><td colspan="1" rowspan="1">
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+
+
+<table align="center" width="94%" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/shengyu.htm">&#29983;&#32946;</a></td><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/huji.htm">&#25143;&#31821;</a></td><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/jiaoyu.htm">&#25945;&#32946;</a></td></tr><tr><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/wenhua.htm">&#25991;&#21270;</a></td><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/jiuye.htm">&#23601;&#19994;</a></td><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/bingyi.htm">&#20853;&#24441;</a></td></tr><tr><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/hunyin.htm">&#23130;&#23035;</a></td><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/nashui.htm">&#32435;&#31246;</a></td><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/shebao.htm">&#31038;&#20445;</a></td></tr><tr><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/jiaotong.htm">&#20132;&#36890;</a></td><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/yiliao.htm">&#21307;&#30103;</a></td><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/binzang.htm">&#27553;&#33900;</a></td></tr><tr><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/youzheng.htm">&#37038;&#25919;</a></td><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/lvyou.htm">&#26053;&#28216;</a></td><td align="center" colspan="1" rowspan="1" width="25%" height="21"><a shape="rect" class="style14" href="banshi/gm/huzhao.htm">&#25252;&#29031;</a></td></tr></table>
+
+<table align="center" width="119" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" width="50%" height="23"><a shape="rect" class="style14" href="banshi/gm/churujing.htm">&#20986;&#20837;&#22659;</a></td><td align="right" colspan="1" rowspan="1" width="50%" height="23"><a shape="rect" class="style14" href="banshi/gm/flyz.htm">&#27861;&#24459;&#25588;&#21161;</a></td></tr><tr><td colspan="1" rowspan="1" width="50%" height="23"><a shape="rect" class="style14" href="banshi/gat/index.htm">&#28207;&#28595;&#21488;&#20392;</a></td><td align="right" colspan="1" rowspan="1" width="50%" height="23"><a shape="rect" class="style14" href="fwxx/cjr/"><font color="green">&#183;&#27531;&#30142;&#20154;</font></a> </td></tr></table>
+
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="4"></td></tr></table>
+</td></tr></table>
+
+<table align="center" width="153" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1"></td></tr><tr><td colspan="1" rowspan="1" background="icon/news/gov_right/q_20.gif" height="1"></td></tr><tr><td colspan="1" rowspan="1" height="3"></td></tr></table>
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="6"></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr bgcolor="EFEFEF"><td align="center" colspan="1" rowspan="1" width="42"><img src="2008/tb_5.gif" width="26" height="26"></img></td><td colspan="1" rowspan="1"><a shape="rect" class="14h" href="banshi/qy.htm" target="_parent">&#20225; &#19994;</a>&#160;&#160;<a shape="rect" class="hei14" href="banshi/qy.htm" target="_parent">&gt;&gt;</a></td></tr><tr bgcolor="CCCCCC"><td align="center" colspan="2" rowspan="1" height="2"></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF"><tr><td colspan="1" rowspan="1">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC" height="1"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+
+
+<table align="center" width="94%" border="0" cellspacing="0" cellpadding="0"><tr align="center"><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/qy/kbsl.htm">&#24320;&#21150;&#35774;&#31435;</a></td><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/qy/njns.htm">&#24180;&#26816;&#24180;&#23457;</a></td></tr><tr align="center"><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/qy/czsw.htm">&#20225;&#19994;&#32435;&#31246;</a></td><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/qy/jygl.htm">&#24037;&#21830;&#31649;&#29702;</a></td></tr><tr align="center"><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/qy/zljc.htm">&#36136;&#37327;&#26816;&#26597;</a></td><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/qy/aqfh.htm">&#23433;&#20840;&#38450;&#25252;</a></td></tr><tr align="center"><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/qy/ldbz.htm">&#21171;&#21160;&#20445;&#38556;</a></td><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/qy/rlzy.htm">&#25191;&#19994;&#36164;&#26684;</a></td></tr><tr align="center"><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/qy/zzrz.htm">&#20225;&#19994;&#36164;&#36136;</a></td><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/qy/gcjs.htm">&#24314;&#35774;&#19982;&#31649;&#29702;</a></td></tr><tr align="center"><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/qy/dwmy.htm">&#22806;&#36152;&#19982;&#20132;&#27969;</a></td><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/qy/tzzn/index.htm">&#21830;&#21153;&#25237;&#36164;</a></td></tr><tr align="center"><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/qy/hjbh.htm">&#29615;&#22659;&#20445;&#25252;</a></td><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/qy/pczx.htm">&#30772;&#20135;&#27880;&#38144;</a></td></tr></table>
+
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="4"></td></tr></table>
+</td></tr></table>
+
+<table align="center" width="153" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="1"></td></tr><tr><td colspan="1" rowspan="1" background="icon/news/gov_right/q_20.gif" height="1"></td></tr><tr><td colspan="1" rowspan="1" height="3"></td></tr></table>
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="6"></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr bgcolor="EFEFEF"><td align="center" colspan="1" rowspan="1" width="42"><img src="2008/tb_3.gif" width="28" height="26"></img></td><td colspan="1" rowspan="1" bgcolor="EFEFEF"><a shape="rect" class="14h" href="banshi/wjrs.htm" target="_parent">&#22806;&#22269;&#20154;</a>&#160;&#160;<a shape="rect" class="hei14" href="banshi/wjrs.htm" target="_parent">&gt;&gt;</a></td></tr><tr bgcolor="CCCCCC"><td align="center" colspan="2" rowspan="1" height="2"></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC" height="1"><tr><td colspan="1" rowspan="1"></td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF"><tr><td colspan="1" rowspan="1">
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+
+
+<table align="center" width="94%" border="0" cellspacing="0" cellpadding="0"><tr align="center"><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/wjrs/lssf.htm" target="_blank">&#39046;&#20107;&#21496;&#27861;</a></td><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/wjrs/crj.htm" target="_blank">&#20986; &#20837; &#22659;</a></td></tr><tr align="center"><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/wjrs/ymdj.htm" target="_blank">&#31227;&#27665;&#23450;&#23621;</a></td><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/wjrs/lygg.htm" target="_blank">&#26053;&#28216;&#35266;&#20809;</a></td></tr><tr align="center"><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/wjrs/hysy.htm" target="_blank">&#23130;&#23035;&#25910;&#20859;</a></td><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/wjrs/whjy.htm" target="_blank">&#25991;&#21270;&#25945;&#32946;</a></td></tr><tr align="center"><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/wjrs/zhjy.htm" target="_blank">&#22312;&#21326;&#23601;&#19994;</a></td><td colspan="1" rowspan="1" width="33%" height="21"><a shape="rect" class="style14" href="banshi/wjrs/swtz.htm" target="_blank">&#21830;&#21153;&#25237;&#36164;</a></td></tr></table>
+
+
+</td></tr></table>
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+</td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1">
+<div align="center"><a shape="rect" href="wsfw/index.htm" target="_blank"><img src="images/btn_bmfw_080423.jpg" width="152" height="64" vspace="6" border="0"></img></a></div>
+</td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1">
+<div align="center"><a shape="rect" href="rdzt/content_457581.htm" target="_blank"><img src="jingtai/gov_xzxk.gif" width="152" height="37" border="0"></img></a></div>
+</td></tr></table>
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr><tr><td align="center" colspan="1" rowspan="1" valign="middle" height="30" bgcolor="#2584EF"><span class="bai14"><a shape="rect" class="bai14" href="http://www.ccgp.gov.cn/" target="_blank">&#25919;&#24220;&#37319;&#36141;</a>&#12288;<a shape="rect" class="bai14" href="http://www.ccgp.gov.cn/" target="_blank"><font color="#FFFFFF">&gt;&gt;</font></a></span></td></tr><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+
+<table align="center" width="153" border="0" cellspacing="0" cellpadding="0" height="28"><tr><td align="center" colspan="1" rowspan="1" bgcolor="0A1277">&#160;<span class="bai14">&#26381;&#21153;&#20449;&#24687;</span></td></tr></table>
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="5"></td></tr></table>
+
+<table width="150" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" colspan="1" rowspan="1" class="style14" height="20"><a shape="rect" class="style14" href="fwxx/ly/ly.htm" target="_blank">&#26053;&#28216;</a> | <a shape="rect" class="style14" href="fwxx/sh/sh.htm" target="_blank">&#29983;&#27963;</a> | <a shape="rect" class="style14" href="fwxx/jk/jk.htm" target="_blank">&#20581;&#24247;</a></td></tr><tr><td align="center" colspan="1" rowspan="1" height="20"><span class="style14"><a shape="rect" class="style14" href="fwxx/wy/wy.htm" target="_blank">&#25991;&#23089;</a> | <a shape="rect" class="style14" href="fwxx/kp/kp.htm" target="_blank">&#31185;&#26222;</a> | <a shape="rect" class="style14" href="fwxx/wh/wh.htm" target="_blank">&#22806;&#27719;</a></span></td></tr></table>
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+
+
+<table align="center" class="style14" width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="25"><a shape="rect" class="style14" href="fwxx/sh/2009-09/21/content_1422057.htm" target="_blank">&#19977;&#26085;&#22825;&#27668;&#36235;&#21183;&#39044;&#25253;&#12288;</a><a shape="rect" class="btx" href="fwxx/sh/2009-09/21/content_1422057.htm" target="_blank">&#20844;&#36335;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="25"><a shape="rect" class="style14" href="fwxx/wy/2009-09/22/content_1423049.htm" target="_blank">&#12298;&#36766;&#28023;(&#31532;&#20845;&#29256;)&#12299;&#23558;&#24320;&#21806;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="25"><a shape="rect" class="style14" href="fwxx/sh/2009-09/22/content_1423014.htm" target="_blank">"&#37038;&#25919;&#26222;&#36941;&#26381;&#21153;"&#26631;&#20934;&#39041;&#24067;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="25"><a shape="rect" class="style14" href="fwxx/ly/2009-09/22/content_1423002.htm" target="_blank">&#38271;&#20551;&#26053;&#28216;&#27880;&#24847;&#22810;&#26041;&#38754;&#32500;&#26435;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="25"><a shape="rect" class="style14" href="fwxx/ly/2009-09/22/content_1423072.htm" target="_blank">&#40644;&#37329;&#21608;&#20551;&#26085;&#23433;&#20840;&#20986;&#34892;&#35201;&#28857;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="25"><a shape="rect" class="style14" href="fwxx/jk/2009-09/22/content_1423030.htm" target="_blank">&#25105;&#22269;&#31958;&#23615;&#30149;&#27835;&#30103;&#33719;&#26032;&#36827;&#23637;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="25"><a shape="rect" class="style14" href="fwxx/sh/2009-09/21/content_1422384.htm" target="_blank">&#33410;&#21069;&#35201;&#35880;&#24910;&#36873;&#36141;&#20302;&#20215;&#34562;&#34588;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="25"><a shape="rect" class="style14" href="fwxx/sh/2009-09/21/content_1422180.htm" target="_blank">&#36141;&#21830;&#21697;&#25151;&#38450;&#24320;&#21457;&#21830;&#19971;&#22280;&#22871;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="25"><a shape="rect" class="style14" href="fwxx/wy/2009-09/21/content_1422116.htm" target="_blank">&#12298;&#20849;&#21644;&#22269;&#20070;&#27861;&#22823;&#31995;&#12299;&#20986;&#29256;</a></td></tr></table>
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+
+<table align="center" width="153" border="0" cellspacing="0" cellpadding="0" height="28"><tr><td align="center" colspan="1" rowspan="1" bgcolor="0A1277">&#160;<span class="bai14">&#26381;&#21153;&#19987;&#21002;</span></td></tr></table>
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+
+
+<table align="center" class="style14" width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="26"><a shape="rect" class="style14" href="fwxx/content_1420592.htm" target="_blank">&#12298;&#26381;&#21153;&#36164;&#35759;&#21608;&#21002;&#31532;67&#26399;&#12299;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="26"><a shape="rect" class="style14" href="fwxx/content_1415304.htm" target="_blank">&#12298;&#26381;&#21153;&#36164;&#35759;&#21608;&#21002;&#31532;66&#26399;&#12299;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="26"><a shape="rect" class="style14" href="fwxx/content_1409204.htm" target="_blank">&#12298;&#26381;&#21153;&#36164;&#35759;&#21608;&#21002;&#31532;65&#26399;&#12299;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="26"><a shape="rect" class="style14" href="fwxx/content_1403755.htm" target="_blank">&#12298;&#26381;&#21153;&#36164;&#35759;&#21608;&#21002;&#31532;64&#26399;&#12299;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="26"><a shape="rect" class="style14" href="fwxx/content_1398332.htm" target="_blank">&#12298;&#26381;&#21153;&#36164;&#35759;&#21608;&#21002;&#31532;63&#26399;&#12299;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="26"><a shape="rect" class="style14" href="fwxx/content_1391978.htm" target="_blank">&#12298;&#26381;&#21153;&#36164;&#35759;&#21608;&#21002;&#31532;62&#26399;&#12299;</a></td></tr><tr><td colspan="1" rowspan="1" valign="top" width="10">&#183;</td><td colspan="1" rowspan="1" valign="top" height="26"><a shape="rect" class="style14" href="fwxx/content_1385761.htm" target="_blank">&#12298;&#26381;&#21153;&#36164;&#35759;&#21608;&#21002;&#31532;61&#26399;&#12299;</a></td></tr></table>
+
+<table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8"></td></tr></table>
+</td><td colspan="1" rowspan="1" valign="top" width="3" bgcolor="#7A0000"></td></tr></table>
+
+<table width="995" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF"><tr><td colspan="1" rowspan="1" height="6" bgcolor="#CD352A"></td></tr><tr><td colspan="1" rowspan="1" height="45">
+<div align="center"><span class="style3">Copyright &#169; 2009 www.gov.cn<br clear="none"></br>
+ All Rights Reserved</span></div>
+</td></tr><tr><td colspan="1" rowspan="1" class="style2" height="22">
+<div align="center"><span>&#29256;&#26435;&#25152;&#26377;&#65306;&#20013;&#22269;&#25919;&#24220;&#32593; | <a shape="rect" class="style2" href="shengming.htm">&#32593;&#31449;&#22768;&#26126;</a> | <a shape="rect" class="style2" href="ditu.htm">&#32593;&#31449;&#22320;&#22270;</a> | <a shape="rect" class="style2" href="lxwm.htm">&#32852;&#31995;&#25105;&#20204;</a></span></div>
+</td></tr><tr><td align="center" colspan="1" rowspan="1" class="style2" height="22"><a shape="rect" class="style2" href="http://www.miibeian.gov.cn/">&#20140;ICP&#22791;05070218&#21495;</a></td></tr><tr><td colspan="1" rowspan="1" height="22">
+<div align="right" class="style4">
+<div align="center" class="style5">&#65288;&#27983;&#35272;&#26412;&#32593;&#20027;&#39029;&#65292;&#24314;&#35758;&#23558;&#30005;&#33041;&#26174;&#31034;&#23631;&#30340;&#20998;&#36776;&#29575;&#35843;&#20026;1024*768&#65289;</div>
+</div>
+</td></tr></table>
+
+<script language="JavaScript" type="text/JavaScript">
+&lt;!--
+function MM_openBrWindow(theURL,winName,features) { 
+  window.open(theURL,winName,features);
+}
+//--&gt;
+</script>
+
+<map id="Map8" name="Map8"><area shape="rect" coords="70,11,145,33" href="test/flash/flash.htm" target="_blank"></area><area shape="rect" coords="239,12,318,34" href="wszb.htm" target="_blank"></area><area shape="rect" coords="410,11,487,34" href="zxft/index.htm" target="_blank"></area><area shape="rect" coords="578,12,660,33" href="zfjg/index.htm"></area></map> 
+
+<div style="display:none">
+<script type="text/javascript" src="http://203.192.2.21/webdig.js?z=1">
+</script>
+
+ 
+
+<script type="text/javascript">
+&lt;!--
+wd_tracker();
+--&gt;
+</script>
+</div>
+</body></html>
+

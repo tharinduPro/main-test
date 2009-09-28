@@ -1,0 +1,130 @@
+<BASE HREF="http://19.16.8.12:168/web\"><html>
+<head>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<meta http-equiv="cache-control" content="no-cache,must-revalidate">
+<meta http-equiv="expires" content="wed,26feb199708:21:57gmt">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>信息导航树</title>
+
+<script src=cookie.js></script>
+<script src=tree0.js></script>
+<script src=tree.js></script>
+
+<SCRIPT LANGUAGE="JavaScript">
+InitData();
+var top_channels=TRSGetCookie("channels");
+var top_nodenames=TRSGetCookie("nodenames");
+
+
+var version="NET";
+var rootstr="http://19.16.8.12:168/";
+var datestr="2009.07.08";
+var selbasemsg="请选择需要检索的数据库!";
+
+function onbodyload()
+{
+	ShowAllNodes();
+	
+	if(getElmById(document,"chk2")!=null)getElmById(document,"chk2").style.visibility="hidden";
+	bkmkurl=getElmById(document,"2").href;
+	
+	if(top_channels==""){
+		ClickItem("18");
+	}
+	
+	var alllinks=getElmsByTag(document,"a");
+	for(var i=0;i<alllinks.length;i++){
+		if(alllinks[i].name!="gochannel")continue;
+		alllinks[i].onclick = gotochannel;
+	}
+	
+	getElmById(document,"2").onmousedown=gotobkmk;
+	
+}
+
+function gotobkmk()
+{
+	var url2=bkmkurl;
+	url2+="&searchword=faguifenleihao=";
+	if(TRSGetCookie("bkmk")=="")
+		url2+="xxxxxxxxxx";
+	else url2+=TRSGetCookie("bkmk");
+	url2+="&randno=";
+	url2+=Math.random();
+	getElmById(document,"2").href=url2;
+}
+
+function onbodyclick(aEvent)
+{
+	var myEvent = aEvent ? aEvent : window.event;
+	var srcElement=null;
+	if(navigator.appName.indexOf("Microsoft")>=0){
+		srcElement=myEvent.srcElement;
+	}
+	else{
+		srcElement=myEvent.target;
+	}
+
+	var links=document.links;
+	var link;
+	if(srcElement.name!="gochannel")return;
+	if(srcElement.tagName=="a"||srcElement.tagName=="A"){
+		for(var i=0;i<links.length;i++){
+			link=links.item(i,0);
+			link.style.color="";
+		}
+	   srcElement.style.color="red";
+	   
+	   var oldurl=srcElement.href;//修改rand参数
+	   if(oldurl!=""){
+	   	var i=oldurl.indexOf("&randno=");
+	   	if(i>0){
+	   		var j=oldurl.indexOf("&",i+8);
+	   		if(j<0)j=oldurl.indexOf("#",i+8);
+	   		var newurl=oldurl.substr(0,i);
+	   		newurl+="&randno=";
+	   		newurl+=Math.random();
+	   		if(j>0){
+	   			newurl+=oldurl.substr(j);
+	   		}
+	   		srcElement.href=newurl;
+	   	}
+	   }
+	   
+
+	}
+}
+
+
+</SCRIPT>
+
+<SCRIPT FOR=2 EVENT=onmousedown LANGUAGE="JavaScript">
+	gotobkmk();
+</SCRIPT>
+
+<SCRIPT FOR=gochannel EVENT=onclick LANGUAGE="JavaScript">
+	gotochannel();
+</SCRIPT>
+</head>
+
+<body leftmargin=5 topmargin=0 bgcolor="#DCDCDC" background="icons/n_bk.jpg" onload="onbodyload()" onclick="onbodyclick(event)">
+
+<div style="overflow:hidden;" nowrap>
+     <font face="宋体">
+     <a name="1"><a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=18274&templet=tree.jsp&root=1&item=1&opened=0,-1#1"><img src="image/ofolder.gif" align="absmiddle"  border="0"></a></a><input type=checkbox name=0_0001 id=chk1 onclick=checkitem('chk1')><a name=gochannel id=1 target="main" href="http://19.16.8.12:168/search?ChannelID=1&randno=15170">全部数据库</a><BR>
+<a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=16707&templet=tree.jsp&root=1&item=18&opened=0,-1#18"><img src="image/line6.gif" align="absmiddle" border="0" ></a><a name="18"><a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=21391&templet=tree.jsp&root=1&item=18&opened=0,-1#18"><img src="image/folder.gif" align="absmiddle"  border="0"></a></a><input type=checkbox name=0_00010001 id=chk18 onclick=checkitem('chk18')><a name=gochannel id=18 target="main" href="http://19.16.8.12:168/search?ChannelID=18&randno=5167">更新法规库</a><BR>
+<a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=32369&templet=tree.jsp&root=1&item=11&opened=0,-1#11"><img src="image/line6.gif" align="absmiddle" border="0" ></a><a name="11"><a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=17207&templet=tree.jsp&root=1&item=11&opened=0,-1#11"><img src="image/folder.gif" align="absmiddle"  border="0"></a></a><input type=checkbox name=0_00010002 id=chk11 onclick=checkitem('chk11')><a name=gochannel id=11 target="main" href="http://19.16.8.12:168/search?ChannelID=11&randno=4720">国家法律与部委规章库</a><BR>
+<a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=5014&templet=tree.jsp&root=1&item=12&opened=0,-1#12"><img src="image/line6.gif" align="absmiddle" border="0" ></a><a name="12"><a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=11623&templet=tree.jsp&root=1&item=12&opened=0,-1#12"><img src="image/folder.gif" align="absmiddle"  border="0"></a></a><input type=checkbox name=0_00010003 id=chk12 onclick=checkitem('chk12')><a name=gochannel id=12 target="main" href="http://19.16.8.12:168/search?ChannelID=12&randno=2839">司法解释库</a><BR>
+<a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=10188&templet=tree.jsp&root=1&item=13&opened=0,-1#13"><img src="image/line6.gif" align="absmiddle" border="0" ></a><a name="13"><a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=19153&templet=tree.jsp&root=1&item=13&opened=0,-1#13"><img src="image/folder.gif" align="absmiddle"  border="0"></a></a><input type=checkbox name=0_00010004 id=chk13 onclick=checkitem('chk13')><a name=gochannel id=13 target="main" href="http://19.16.8.12:168/search?ChannelID=13&randno=26374">地方法规与规章库</a><BR>
+<a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=28815&templet=tree.jsp&root=1&item=17&opened=0,-1#17"><img src="image/line6.gif" align="absmiddle" border="0" ></a><a name="17"><a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=12204&templet=tree.jsp&root=1&item=17&opened=0,-1#17"><img src="image/folder.gif" align="absmiddle"  border="0"></a></a><input type=checkbox name=0_00010005 id=chk17 onclick=checkitem('chk17')><a name=gochannel id=17 target="main" href="http://19.16.8.12:168/search?ChannelID=17&randno=15514">裁判文书库</a><BR>
+<a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=24239&templet=tree.jsp&root=1&item=14&opened=0,-1#14"><img src="image/line6.gif" align="absmiddle" border="0" ></a><a name="14"><a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=26310&templet=tree.jsp&root=1&item=14&opened=0,-1#14"><img src="image/folder.gif" align="absmiddle"  border="0"></a></a><input type=checkbox name=0_00010006 id=chk14 onclick=checkitem('chk14')><a name=gochannel id=14 target="main" href="http://19.16.8.12:168/search?ChannelID=14&randno=26796">国际条约库</a><BR>
+<a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=9453&templet=tree.jsp&root=1&item=16&opened=0,-1#16"><img src="image/line6.gif" align="absmiddle" border="0" ></a><a name="16"><a target="_self" href="http://19.16.8.12:168/tree?treekind=channel&randno=14589&templet=tree.jsp&root=1&item=16&opened=0,-1#16"><img src="image/folder.gif" align="absmiddle"  border="0"></a></a><input type=checkbox name=0_00010007 id=chk16 onclick=checkitem('chk16')><a name=gochannel id=16 target="main" href="http://19.16.8.12:168/search?ChannelID=16&randno=13888">各国(地区)市场惯例库</a><BR>
+<img src="image/line2.gif" align="absmiddle" border="0" ><img src="image/file.gif" align="absmiddle"  border="0"><input type=checkbox name=0_00010008 id=chk19 onclick=checkitem('chk19')><a name=gochannel id=19 target="main" href="http://19.16.8.12:168/search?ChannelID=19&randno=5711">自定义法规库</a><BR>
+
+  	 </font>
+</div>
+<img src="image/file.gif" align="absmiddle"  border="0"><input type=checkbox name=2_0001 id=chk2 onclick=checkitem('chk2')><a name=gochannel id=2 target="main" href="http://19.16.8.12:168/search?ChannelID=2&randno=8720">书签</a><BR>
+
+
+</body>
+</html>

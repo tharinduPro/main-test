@@ -1,0 +1,476 @@
+<BASE HREF="http://19.16.8.12:168/web\"><html>
+<head>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<meta http-equiv="cache-control" content="no-cache,must-revalidate">
+<meta http-equiv="expires" content="wed,26feb199708:21:57gmt">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>信息导航树</title>
+
+<script src=cookie.js></script>
+<script src=tree0.js></script>
+
+<SCRIPT LANGUAGE="JavaScript">
+InitData();
+
+
+var version="NET";
+var rootstr="http://19.16.8.12:168/";
+var selbasemsg="请选择需要检索的数据库!";
+
+var name_id=new Array(
+new Array("0_00010001","18"),
+new Array("0_00010002","11"),
+new Array("0_00010003","12"),
+new Array("0_00010004","13"),
+new Array("0_00010005","17"),
+new Array("0_00010006","14"),
+new Array("0_00010007","16"),
+new Array("0_00010008","19"),
+new Array("","")
+);
+
+function GetIdByName(name)
+{
+	for(var i=0;i<100;i++){
+		if(name_id[i][0]=="")break;
+		if(name_id[i][0]==name)return name_id[i][1];
+	}
+	return "0";
+}
+function GetNameById(id)
+{
+	for(var i=0;i<100;i++){
+		if(name_id[i][0]=="")break;
+		if(name_id[i][1]==id)return name_id[i][0];
+	}
+	return "";
+}
+
+function onbodyload2()
+{
+	if(TRSGetCookie("trfrm")=="1")getElmById(document,"trfrm").checked=1;
+	else getElmById(document,"trfrm").checked=0;
+//	goto3frm();//此时不宜控制其它窗口
+	if(TRSGetCookie("zhaiyao")=="1")getElmById(document,"zhaiyao").checked=1;
+	else getElmById(document,"zhaiyao").checked=0;
+//	gotozhaiyao();
+	
+	if(TRSGetCookie("SearchField")!="")document.FieldSearchForm.SearchField.value=TRSGetCookie("SearchField");
+	if(TRSGetCookie("SecondSearch")=="1")document.FieldSearchForm.SecondSearch.checked=1;
+	if(TRSGetCookie("extension")=="1")document.FieldSearchForm.extension.checked=1;
+	document.FieldSearchForm.word.value=TRSGetCookie("word");
+
+}
+
+function onbodyunload2()
+{
+	TRSSetCookie("SearchField",document.FieldSearchForm.SearchField.value);
+	if(document.FieldSearchForm.SecondSearch.checked==1)TRSSetCookie("SecondSearch","1");
+	else TRSSetCookie("SecondSearch","0");
+	if(document.FieldSearchForm.extension.checked==1)TRSSetCookie("extension","1");
+	else TRSSetCookie("extension","0");
+	TRSSetCookie("word",document.FieldSearchForm.word.value);
+}
+
+function outgengxin()
+{
+var datestr="2009.07.08";
+if(datestr!=""){
+	document.write("<span  style=\"color:black;\">");
+	document.write("更新日期至:")
+	document.write(datestr);
+	document.write("</span>");
+}
+
+if(version=="PERSONAL"){
+	document.write("&nbsp; <a   href=trsbro://downloaddata>在线更新</a>");
+}
+if(datestr!=""){
+	document.write("<br>")
+}
+}
+
+function SkipBlank(Word)
+{
+	var SQL=Word;
+	while(SQL!=""){
+		if(SQL.indexOf(' ')!=0)break;
+		SQL=SQL.substr(1);
+	}
+	while(SQL!=""){
+		var s=SQL.substr(SQL.length-1);
+		if(s!=" ")break;
+		SQL=SQL.substr(0,SQL.length-1);
+	}
+
+	return SQL;
+}
+
+function ToAndSeg(Word)
+{
+	var SQL=Word;
+
+	var FindPression0= new RegExp("[\,]","g");
+	var FindPression1= new RegExp("，","g");
+	var FindPression2= new RegExp("。","g");
+	var FindPression3= new RegExp("[\?]","g");
+	var FindPression4= new RegExp("？","g");
+	var FindPression5= new RegExp("[\:]","g");
+	var FindPression6= new RegExp("：","g");
+	var FindPression7= new RegExp("[\;]","g");
+	var FindPression8= new RegExp("；","g");
+	var FindPression9= new RegExp("〔","g");
+	var FindPression10= new RegExp("〕","g");
+	var FindPression11= new RegExp("[\{]","g");
+	var FindPression12= new RegExp("｛","g");
+	var FindPression13= new RegExp("[\}]","g");
+	var FindPression14= new RegExp("｝","g");
+	var FindPression15= new RegExp("（","g");
+	var FindPression16= new RegExp("）","g");
+	var FindPression17= new RegExp("、","g");
+	var FindPression18= new RegExp("－","g");
+	var FindPression19= new RegExp("[\ ]","g");
+	
+	SQL=SQL.replace(FindPression0 ,"*");
+	SQL=SQL.replace(FindPression1 ,"*");
+	SQL=SQL.replace(FindPression2 ,"*");
+	SQL=SQL.replace(FindPression3 ,"*");
+	SQL=SQL.replace(FindPression4 ,"*");
+	SQL=SQL.replace(FindPression5 ,"*");
+	SQL=SQL.replace(FindPression6 ,"*");
+	SQL=SQL.replace(FindPression7 ,"*");
+	SQL=SQL.replace(FindPression8 ,"*");
+	SQL=SQL.replace(FindPression9 ,"*");
+	SQL=SQL.replace(FindPression10 ,"*");
+	SQL=SQL.replace(FindPression11 ,"*");
+	SQL=SQL.replace(FindPression12 ,"*");
+	SQL=SQL.replace(FindPression13 ,"*");
+	SQL=SQL.replace(FindPression14 ,"*");
+	SQL=SQL.replace(FindPression15 ,"*");
+	SQL=SQL.replace(FindPression16 ,"*");
+	SQL=SQL.replace(FindPression17 ,"*");
+	SQL=SQL.replace(FindPression18 ,"*");
+	SQL=SQL.replace(FindPression19 ,"*");
+	
+	while(SQL!=""){
+		if(SQL.indexOf('*')!=0)break;
+		SQL=SQL.substr(1);
+	}
+	while(SQL!=""){
+		var s=SQL.substr(SQL.length-1);
+		if(s!="*")break;
+		SQL=SQL.substr(0,SQL.length-1);
+	}
+	var start=0;
+	while(SQL!=""){
+		var pos=SQL.indexOf('*',start);
+		if(pos<0)break;
+		if(SQL.substr(pos+1,1)=="*"){
+			SQL=SQL.substr(0,pos)+SQL.substr(pos+1);
+		}
+		else 
+			start=pos+1;
+	}
+
+	var FindPression= new RegExp("[\*]","g");
+
+	SQL=SQL.replace(FindPression ," and/seg ");
+
+	return SQL;
+}
+
+function HalfToAll(Word) 
+{
+	var SQL=Word;
+	var FindPression0= new RegExp("0","g");
+	var FindPression1= new RegExp("1","g");
+	var FindPression2= new RegExp("2","g");
+	var FindPression3= new RegExp("3","g");
+	var FindPression4= new RegExp("4","g");
+	var FindPression5= new RegExp("5","g");
+	var FindPression6= new RegExp("6","g");
+	var FindPression7= new RegExp("7","g");
+	var FindPression8= new RegExp("8","g");
+	var FindPression9= new RegExp("9","g");
+	
+	SQL=SQL.replace(FindPression0 ,"０");
+	SQL=SQL.replace(FindPression1 ,"１");
+	SQL=SQL.replace(FindPression2 ,"２");
+	SQL=SQL.replace(FindPression3 ,"３");
+	SQL=SQL.replace(FindPression4 ,"４");
+	SQL=SQL.replace(FindPression5 ,"５");
+	SQL=SQL.replace(FindPression6 ,"６");
+	SQL=SQL.replace(FindPression7 ,"７");
+	SQL=SQL.replace(FindPression8 ,"８");
+	SQL=SQL.replace(FindPression9 ,"９");
+	
+	return SQL;
+}
+function AllToHalf(Word) 
+{
+	var SQL=Word;
+	var FindPression0= new RegExp("０","g");
+	var FindPression1= new RegExp("１","g");
+	var FindPression2= new RegExp("２","g");
+	var FindPression3= new RegExp("３","g");
+	var FindPression4= new RegExp("４","g");
+	var FindPression5= new RegExp("５","g");
+	var FindPression6= new RegExp("６","g");
+	var FindPression7= new RegExp("７","g");
+	var FindPression8= new RegExp("８","g");
+	var FindPression9= new RegExp("９","g");
+	
+	SQL=SQL.replace(FindPression0 ,"0");
+	SQL=SQL.replace(FindPression1 ,"1");
+	SQL=SQL.replace(FindPression2 ,"2");
+	SQL=SQL.replace(FindPression3 ,"3");
+	SQL=SQL.replace(FindPression4 ,"4");
+	SQL=SQL.replace(FindPression5 ,"5");
+	SQL=SQL.replace(FindPression6 ,"6");
+	SQL=SQL.replace(FindPression7 ,"7");
+	SQL=SQL.replace(FindPression8 ,"8");
+	SQL=SQL.replace(FindPression9 ,"9");
+	
+	return SQL;
+}
+
+function ToAnd(Word)
+{
+	var SQL=Word;
+
+	var FindPression19= new RegExp("[\ ]","g");
+	
+	SQL=SQL.replace(FindPression19 ,"% * %");
+	
+	return SQL;
+}
+
+function getmohustr2(str)
+{
+	var newstr=getmohustr(str);
+	newstr=ToAnd(newstr);
+	return newstr;
+}
+
+function FieldSearchForm_onsubmit() 
+{
+
+	document.FieldSearchForm.searchword.value="";
+	if(SkipBlank(document.FieldSearchForm.word.value)!=""){
+		var strSearchWord=document.FieldSearchForm.SearchField.value;
+		strSearchWord+="=(";
+		
+		var word=SkipBlank(document.FieldSearchForm.word.value);
+		if(document.FieldSearchForm.SearchField.value=="zhengwen"){
+			word=ToAndSeg(word);
+			word=HalfToAll(word);
+		}
+		if(document.FieldSearchForm.SearchField.value=="biaoti"
+		||document.FieldSearchForm.SearchField.value=="wenhao"
+		||document.FieldSearchForm.SearchField.value=="tizhu"
+		||document.FieldSearchForm.SearchField.value=="biaoti,wenhao,tizhu+"){
+			word=getmohustr2(word);
+			
+			var word2=HalfToAll(word);
+			if(word!=word2){
+				word=word+" or "+word2;
+			}
+		}
+		
+		strSearchWord+=word;
+		
+		if(document.FieldSearchForm.SearchField.value.indexOf(",")>0){
+			strSearchWord+=") or zhengwen=(";
+			var word=SkipBlank(document.FieldSearchForm.word.value);
+			word=ToAndSeg(word);
+			word=HalfToAll(word);
+			
+			strSearchWord+=word;
+			strSearchWord+=")";
+		}
+		if(document.FieldSearchForm.SearchField.value.indexOf(",")<0)strSearchWord+=")";
+		document.FieldSearchForm.searchword.value=strSearchWord;
+	}
+//alert(document.FieldSearchForm.searchword.value);
+	
+
+	if(document.FieldSearchForm.SecondSearch.checked==0||TRSGetCookie("lastchannels")=="")
+		document.FieldSearchForm.channelid.value=TRSGetCookie("channels");
+	else
+		document.FieldSearchForm.channelid.value=TRSGetCookie("lastchannels");
+	if(document.FieldSearchForm.channelid.value==""){
+		alert(selbasemsg);
+		return false;
+	}
+	
+	document.FieldSearchForm.presearchword.value=TRSGetCookie("presearchword");
+	document.FieldSearchForm.presortfield.value=TRSGetCookie("presortfield");
+	document.FieldSearchForm.preextension.value=TRSGetCookie("preextension");
+	
+	var flag2=0;
+	var flag3=0;
+	var top_nodenames=TRSGetCookie("nodenames");
+	if(top_nodenames.indexOf(","+GetNameById("17"))>=0)flag3=1;
+	if(top_nodenames.indexOf(","+GetNameById("14"))>=0)flag2=1;
+	if(top_nodenames.indexOf(",0_0001,")>=0){
+		flag2=1;
+		flag3=1;
+	}
+	if(flag2==1||flag3==1){
+		document.FieldSearchForm.sortfield.value="";
+	}
+	else{
+		document.FieldSearchForm.sortfield.value="-youxiaoriqi";
+	}
+
+	return true;
+}
+function advance()
+{
+	if(TRSGetCookie("channels")==""){
+		alert(selbasemsg);
+		return;
+	}
+	
+	var flag1=0;
+	var flag2=0;
+	var flag3=0;
+	var top_nodenames=TRSGetCookie("nodenames");
+	if(top_nodenames.indexOf(","+GetNameById("18"))>=0)flag1=1;
+	if(top_nodenames.indexOf(","+GetNameById("11"))>=0)flag1=1;
+	if(top_nodenames.indexOf(","+GetNameById("12"))>=0)flag1=1;
+	if(top_nodenames.indexOf(","+GetNameById("13"))>=0)flag1=1;
+	if(top_nodenames.indexOf(","+GetNameById("17"))>=0)flag3=1;
+	if(top_nodenames.indexOf(","+GetNameById("14"))>=0)flag2=1;
+	if(top_nodenames.indexOf(","+GetNameById("16"))>=0)flag1=1;
+	if(top_nodenames.indexOf(","+GetNameById("19"))>=0)flag1=1;
+	if(top_nodenames.indexOf(",0_0001,")>=0){
+		flag1=1;
+		flag2=1;
+		flag3=1;
+	}
+	
+	var templet="";
+	if(flag1==1&&flag2==0&&flag3==0)templet="search1.jsp";
+	else if(flag1==0&&flag2==1&&flag3==0)templet="search2.jsp";
+	else if(flag1==0&&flag2==0&&flag3==1)templet="search3.jsp";
+	else if(flag1==1&&flag2==1&&flag3==0)templet="search12.jsp";
+	else if(flag1==1&&flag2==0&&flag3==1)templet="search13.jsp";
+	else templet="search123.jsp";
+
+	var url=rootstr;
+	url+="advancesearch?channelid=1&templet=";
+	url+=templet;
+	
+	window.open(url,"main");
+
+}
+function help(version)
+{
+	
+	var url="/";
+	if(version!="NET"&&version!="net"){
+		url="trsbro://";
+	}
+	url+="gotourl?url=../web/help.htm";
+	
+	window.open(url,"_blank");
+}
+function gotozhaiyao()
+{
+	if(getElmById(document,"zhaiyao").checked==1){
+		TRSSetCookie("zhaiyao","1");
+	}
+	else{ 	
+		TRSSetCookie("zhaiyao","");
+	}
+	
+	
+	var sps=getElmsByTag(getFrameDocument(window.parent.document,"main"),"span");
+	for(i=0;i<sps.length;i++){
+		var name=sps[i].id;
+		if(name.length>2&&name.substr(0,2)=="sp"){
+			if(TRSGetCookie("zhaiyao")=="1")sps[i].style.display="";
+			else sps[i].style.display="none";
+			
+		}
+	}
+
+}
+function goto3frm()
+{
+	if(getElmById(document,"trfrm").checked==1){
+		TRSSetCookie("trfrm","1");
+		getElmById(window.parent.document,"rightwin").rows="45%,*";
+	}
+	else{ 	
+		TRSSetCookie("trfrm","");
+		getElmById(window.parent.document,"rightwin").rows="100%,*";
+	}
+	
+
+	var as=getElmsByTag(getFrameDocument(window.parent.document,"main"),"a");
+	for(var i=0;i<as.length;i++){
+		var name=as[i].id;
+		if(name.length>4&&name.substr(0,4)=="goto"){
+			if(TRSGetCookie("trfrm")=="1")as[i].target="main2";
+			else as[i].target="_blank";
+		}
+	}
+
+}
+
+</SCRIPT>
+
+</head>
+
+<body leftmargin=5 topmargin=0  onload="onbodyload2()" onunload="onbodyunload2()"
+style="overflow-x:auto;overflow-y:hidden;overflow-x:hidden;" >
+<table border=0 cellPadding=0 cellSpacing=0>
+<FORM METHOD="POST" ACTION="http://19.16.8.12:168/search" id="FieldSearchForm" name="FieldSearchForm" onsubmit="return FieldSearchForm_onsubmit()" target=main>
+<input type=hidden name=channelid>
+<input type=hidden name=presearchword>
+<input type=hidden name=presortfield>
+<input type=hidden name=preextension>
+<input type=hidden name=searchword>
+<input type=hidden name=sortfield>
+<tr><td>
+<img border=0 src=treeimg/logo.gif></td></tr>
+<tr><td nowrap>
+<INPUT TYPE=hidden NAME=lastClick>
+<select id=SearchField size=1><option value=biaoti>标题
+<option value=zhengwen>正文
+<option value=wenhao>文号
+<option value=tizhu>题注
+<option value="biaoti,wenhao,tizhu+">以上字段
+</select>
+<INPUT TYPE=text NAME=word SIZE=12 maxLength=256>
+<input type=image border=0 cache align=absmiddle src=treeimg/go.gif>
+</td></tr>
+<tr><td  nowrap>
+<INPUT TYPE=checkbox Name=SecondSearch value=ON>在结果中查询
+<INPUT TYPE=checkbox Name=extension value=ALL>扩展查询
+</td></tr>
+<tr><td  nowrap>
+<hr>
+<A href="javascript:advance()">组合检索</a>&nbsp;&nbsp;
+<A href="javascript:help(version)">帮助</a><br>
+</td></tr>
+<tr><td  nowrap>
+<INPUT TYPE=checkbox id=trfrm onclick="javascript:goto3frm()">三栏
+<INPUT TYPE=checkbox id=zhaiyao onclick="javascript:gotozhaiyao()">摘要
+</td></tr>
+<tr><td  nowrap>
+<br>
+<SCRIPT LANGUAGE="JavaScript">
+	outgengxin();
+</script>
+
+</td></tr>
+
+
+</FORM>
+</table>
+
+</body>
+</html>

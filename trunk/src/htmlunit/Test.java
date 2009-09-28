@@ -25,7 +25,7 @@ import com.gargoylesoftware.htmlunit.html.HtmlTextInput;
 
 public class Test {
 	public static void main( String[] args ) throws Exception {
-		    final WebClient webClient = new WebClient( BrowserVersion.INTERNET_EXPLORER_6 );
+		    final WebClient webClient = new WebClient( BrowserVersion.INTERNET_EXPLORER_7 );
 
 		    String voteURL = "http://vote.sun0769.com/subject/2009/youthnet/action.asp?ItemID=775";
 		    final HtmlPage votePage = (HtmlPage)webClient.getPage(voteURL);
@@ -40,8 +40,9 @@ public class Test {
 		    final HtmlTextInput textField = form.getInputByName("SurveyCode");
 		    textField.setValueAttribute( result );
 		    final HtmlSubmitInput button = form.getInputByName("btnSubmit");
-		    button.setAttribute( "disabled", "" );
+		    webClient.waitForBackgroundJavaScript(5000);
 		    button.click();
+		    System.out.println( "finished" );
 //		    System.out.println( pageResult.getWebResponse().getContentAsString() );
 	}
 	
