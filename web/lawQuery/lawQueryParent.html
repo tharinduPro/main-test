@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+        <meta http-equiv="cache-control" content="no-cache,must-revalidate">
+        <meta http-equiv="expires" content="wed,26feb199708:21:57gmt">
+        <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+        <title>信息导航树</title>
+        <script type="text/javascript">
+            function lawQuery() {
+                window.open( "lawQueryChild.html" );
+            }
+        </script>
+    </head>
+
+    <body>
+        <table border=0 cellPadding=0 cellSpacing=0>
+            <tr>
+                <td>
+                    <img border=0 src="treeimg/logo.gif" />
+                </td>
+            </tr>
+            
+            <tr>
+                <td nowrap>
+                    <select id=SearchField size=1>
+                        <option value=biaoti>标题
+                        <option value=zhengwen>正文
+                        <option value=wenhao>文号
+                        <option value=tizhu>题注
+                        <option value="biaoti,wenhao,tizhu+">以上字段
+                    </select>
+                    <input type=text name=word size=12 maxlength=256>
+                    <input type=image border=0 cache align=absmiddle src=treeimg/go.gif onclick="lawQuery()">
+                </td>
+            </tr>
+            <tr>
+                <td  nowrap>
+                    <input type=checkbox name=secondsearch value=on>在结果中查询
+                    <input type=checkbox name=extension value=all>扩展查询
+                </td>
+            </tr>
+            <tr>
+                <td  nowrap>
+                    <hr>
+                    <A href="javascript:advance()">组合检索</a>&nbsp;&nbsp;
+                    <A href="javascript:help(version)">帮助</a><br>
+                </td>
+            </tr>
+            <tr>
+                <td  nowrap>
+                    <input type=checkbox id=trfrm />三栏
+                    <input type=checkbox id=zhaiyao />摘要
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
