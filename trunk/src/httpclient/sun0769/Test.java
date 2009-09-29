@@ -8,7 +8,6 @@ import image.bmp.BMP;
 import java.awt.Image;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
@@ -18,31 +17,18 @@ import java.util.regex.Pattern;
 import ocr.ImageFilter;
 import ocr.OCR;
 
-import org.apache.http.Header;
 import org.apache.http.HttpEntity;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpRequestInterceptor;
+import org.apache.http.HttpHost;
 import org.apache.http.HttpResponse;
-import org.apache.http.HttpVersion;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.params.ClientPNames;
 import org.apache.http.client.params.CookiePolicy;
-import org.apache.http.conn.ClientConnectionManager;
-import org.apache.http.conn.params.ConnManagerParams;
-import org.apache.http.conn.scheme.PlainSocketFactory;
-import org.apache.http.conn.scheme.Scheme;
-import org.apache.http.conn.scheme.SchemeRegistry;
-import org.apache.http.cookie.Cookie;
+import org.apache.http.conn.params.ConnRoutePNames;
 import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager;
 import org.apache.http.message.BasicNameValuePair;
-import org.apache.http.params.BasicHttpParams;
-import org.apache.http.params.HttpParams;
-import org.apache.http.params.HttpProtocolParams;
 import org.apache.http.protocol.BasicHttpContext;
 import org.apache.http.protocol.HTTP;
 import org.apache.http.protocol.HttpContext;
@@ -51,89 +37,37 @@ import util.Tools;
 
 public class Test {
 	public static void main(String[] args) throws Exception {
-		DefaultHttpClient httpclient = getMultiThreadedHttpClient();
-		HttpContext localContext = new BasicHttpContext();
+		for( int voteIndex = 0; voteIndex < 1; voteIndex++ ) {
+			DefaultHttpClient httpclient = new DefaultHttpClient();
+			httpclient.getParams().setParameter( ClientPNames.COOKIE_POLICY, CookiePolicy.BROWSER_COMPATIBILITY );
+//			HttpHost proxy = new HttpHost( "163.29.128.103", 8080 );
+//			httpclient.getParams().setParameter(ConnRoutePNames.DEFAULT_PROXY, proxy);
 
-		HttpGet httpget = new HttpGet("http://vote.sun0769.com/include/code.asp?s=youthnet&aj=0.7034161835174741");
-		String result = getImageReslut(httpget, httpclient, localContext );
-		if( result.length() > 0 ) {
-	        httpclient.addRequestInterceptor(new HttpRequestInterceptor() {
-	            public void process( final HttpRequest request, final HttpContext context) throws HttpException, IOException {
-	                String sessionId = "";
-	                for( Header h: request.getAllHeaders() ) {
-	                		if( h.getValue().indexOf( "ASPSESSIONID" ) > -1 ) {
-	                    		sessionId = h.getValue();
-	                    		break;
-	                		}
-	                }
-	                request.setHeader("Cookie", "Lle_visitedfid=82; smile=1D1; " + sessionId );
-	            }
-	        });
-	        
-	        //发送投票请求
+			HttpContext localContext = new BasicHttpContext();
+			HttpGet httpget = new HttpGet("http://vote.sun0769.com/include/code.asp?s=youthnet&aj=0.70161835174741");
+			String result = getImageReslut(httpget, httpclient, localContext );
+			System.out.println( "====" + result );
+			httpget.abort();
+	
+		        
+			//发送投票请求
+			Thread.sleep( 4000 );
 			HttpPost vote = new HttpPost("http://vote.sun0769.com/subject/2009/youthnet/action.asp");
 	        List <NameValuePair> nvps = new ArrayList <NameValuePair>();
-	        nvps.add(new BasicNameValuePair("SurveyCode", "bbb"));
-	        nvps.add(new BasicNameValuePair("ItemID", "640"));
+	        nvps.add(new BasicNameValuePair("SurveyCode", result));
+	        nvps.add(new BasicNameValuePair("ItemID", "1054"));
 	        nvps.add(new BasicNameValuePair("sessionId", "youthnet"));
 	        nvps.add(new BasicNameValuePair("moduleId", ""));
 	        vote.setEntity(new UrlEncodedFormEntity(nvps, HTTP.UTF_8));
 			HttpResponse rs = httpclient.execute(vote,localContext);
 		    InputStream inputStream = rs.getEntity().getContent();
-			//显示cookies
-	        System.out.println("Initial set of cookies:");
-	        List<Cookie> cookiesAfter = httpclient.getCookieStore().getCookies();
-	        if (cookiesAfter.isEmpty()) {
-	            System.out.println("None");
-	        } else {
-	            for (int i = 0; i < cookiesAfter.size(); i++) {
-	                System.out.println("- " + cookiesAfter.get(i).toString());
-	            }
-	        }
 		    System.out.println( Tools.InputStreamToString(inputStream) );
-			System.out.println( "result:" + result );
+			httpclient.getConnectionManager().shutdown();
 		}
-		httpclient.getConnectionManager().shutdown();
-
 	} 
 	
-	private static DefaultHttpClient getMultiThreadedHttpClient() {
-        // Create and initialize HTTP parameters
-        HttpParams params = new BasicHttpParams();
-        ConnManagerParams.setMaxTotalConnections(params, 100);
-        HttpProtocolParams.setUserAgent(params, Constants.BROWSER_TYPE);
-        HttpProtocolParams.setUseExpectContinue(params, false);
-        HttpProtocolParams.setVersion(params, HttpVersion.HTTP_1_1);
-        
-        // Create and initialize scheme registry 
-        SchemeRegistry schemeRegistry = new SchemeRegistry();
-        schemeRegistry.register(
-                new Scheme("http", PlainSocketFactory.getSocketFactory(), 80));
-        
-        // Create an HttpClient with the ThreadSafeClientConnManager.
-        // This connection manager must be used if more than one thread will
-        // be using the HttpClient.
-        ClientConnectionManager cm = new ThreadSafeClientConnManager(params, schemeRegistry);
-        DefaultHttpClient httpclient = new DefaultHttpClient(cm, params);
-        httpclient.addRequestInterceptor(new HttpRequestInterceptor() {
-            public void process(
-                    final HttpRequest request, 
-                    final HttpContext context) throws HttpException, IOException {
-                if (!request.containsHeader("Accept-Encoding")) {
-                    request.addHeader("Accept-Encoding", "gzip,deflate");
-                }
-                request.addHeader( "Keep-Alive", "300" );
-                request.addHeader( "Accept-Language", "zh-cn,zh;q=0.5" );
-                request.setHeader( "Connection", "keep-alive" );
-                request.setHeader( "Accept-Charset", "gb2312,utf-8;q=0.7,*;q=0.7" );
-                request.setHeader( "Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" );
-            }
-        });
-        return httpclient;
-	}
 
 	private static String getImageReslut( HttpGet httpget, DefaultHttpClient httpclient, HttpContext localContext  ) throws Exception{
-		httpget.getParams().setParameter(ClientPNames.COOKIE_POLICY,CookiePolicy.BROWSER_COMPATIBILITY);
 		HttpResponse response = httpclient.execute(httpget, localContext);
 		HttpEntity entity = response.getEntity();
 		InputStream is = entity.getContent();
@@ -144,8 +78,8 @@ public class Test {
 		BufferedImage invertImage = ImageIOHelper.invertImage(image);
 		ImageFilter imageFilter = new ImageFilter(invertImage);
 		BufferedImage bi1 = imageFilter.scaling(5.0f);
-		ShowImage si1 = new ShowImage( bi1 );
-		si1.showImage();
+//		ShowImage si1 = new ShowImage( bi1 );
+//		si1.showImage();
 		
 		//保存图片以供识别
 		ImageIOHelper.storeImageToTiff( bi1, ImageConstants.BMP_OUTPUT_FILE );
@@ -160,6 +94,15 @@ public class Test {
 		}
 		else {
 			return "";
+		}
+	}
+	
+	private boolean successDecider( String  output) {
+		if( output.indexOf( "成功" ) > -1 ) {
+			return true;
+		}
+		else {
+			return false;
 		}
 	}
 }
