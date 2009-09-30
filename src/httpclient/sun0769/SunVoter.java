@@ -61,8 +61,8 @@ public class SunVoter {
 		    }
 		    if( resultPage.indexOf( "重复" ) > -1 ) {
 		    	sleepCounter ++;
-		    	System.out.println( "睡眠20分钟第" + sleepCounter + "次" );
-		    	Thread.sleep( 1200000 );
+		    	System.out.println( "睡眠60分钟第" + sleepCounter + "次" );
+		    	Thread.sleep( 3600000 );
 		    }
 			httpclient.getConnectionManager().shutdown();
 		}
