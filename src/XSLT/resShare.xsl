@@ -4,10 +4,21 @@
 	<xsl:template match="xhtml:head"/>
 	<xsl:template match="xhtml:body">
 		<html>
+            <head>
+                <title>
+                  资源共享 
+                </title>
+                <link type="text/css" rel="stylesheet" href="css/style.css"/>
+                <link type="text/css" rel="stylesheet" href="css/admin.css"/>
+            </head>
 			<body>
 				<table>
 					<tbody>
-						<xsl:apply-templates select='//xhtml:tbody/xhtml:tr/xhtml:th[@class="common"]'/>
+                        <div class="news">
+                            <ul>
+                                <xsl:apply-templates select='//xhtml:tbody/xhtml:tr/xhtml:th[@class="common"]'/>
+                            </ul>
+                        </div>
 					</tbody>
 				</table>
 			</body>
@@ -15,14 +26,12 @@
 	</xsl:template>
 	<xsl:template match='//xhtml:tbody/xhtml:tr/xhtml:th'>
 		<xsl:if test="position()&lt;9">
-			<tr>
-				<td>
-					<a>
+                <li>*
+                    <a target="_blank">
 						<xsl:attribute name="href"><xsl:value-of select="xhtml:span[@id]/xhtml:a/@href"/></xsl:attribute>
 						<xsl:value-of select="xhtml:span[@id]"/>
 					</a>
-				</td>
-			</tr>
+                </li>
 		</xsl:if>
 	</xsl:template>
 </xsl:stylesheet>
