@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="GB2312"?>
+<?xml-stylesheet type="text/xsl" href="resShare.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+    <title>资源共享 -  公共交流平台  - Powered by Discuz!</title>
+    <meta name="keywords" content="资源共享" />
+    <meta name="description" content="资源共享 公共交流平台  - Discuz! Board" />
+    <meta name="generator" content="Discuz! 6.0.0" />
+    <meta name="author" content="Discuz! Team and Comsenz UI Team" />
+    <meta name="copyright" content="2001-2007 Comsenz Inc." />
+    <meta name="MSSmartTagsPreventParsing" content="True" />
+    <meta http-equiv="MSThemeCompatible" content="Yes" />
+    <link rel="archives" title="公共交流平台" href="http://bbs.dg/archiver/" />
+    <link rel="stylesheet" type="text/css" href="http://bbs.dg/forumdata/cache/style_2.css" />
+    <link rel="stylesheet" type="text/css" href="http://bbs.dg/forumdata/cache/style_2_append.css" />
+    <script type="text/javascript">var IMGDIR = './images/Beijing2008';var attackevasive = '0';var gid = 0;gid = parseInt('11');var fid = parseInt('16');var tid = parseInt('0');</script>
+    <script src="http://bbs.dg/include/javascript/common.js" type="text/javascript" />
+    <script src="http://bbs.dg/include/javascript/menu.js" type="text/javascript" />
+    <script src="http://bbs.dg/include/javascript/ajax.js" type="text/javascript" />
+  </head>
+  <body onkeydown="if(event.keyCode==27) return false;">
+    <div id="append_parent" />
+    <div id="ajaxwaitid" />
+    <div class="wrap">
+      <div id="header">
+        <h2>
+          <a shape="rect" href="http://bbs.dg/index.php" title="公共交流平台">
+            <img src="http://bbs.dg/images/logo_2.jpg" width="567" height="75" />
+          </a>
+        </h2>
+        <div id="ad_headerbanner" />
+      </div>
+      <div id="menu">
+        <ul>
+          <li>
+            <a shape="rect" class="notabs" href="http://bbs.dg/register.php">注册</a>
+          </li>
+          <li>
+            <a shape="rect" href="http://bbs.dg/logging.php?action=login">登录</a>
+          </li>
+          <li>
+            <a shape="rect" href="http://bbs.dg/member.php?action=list">会员</a>
+          </li>
+          <li>
+            <a shape="rect" href="http://bbs.dg/tag.php">标签</a>
+          </li>
+          <li>
+            <a shape="rect" href="http://bbs.dg/stats.php">统计</a>
+          </li>
+          <li>
+            <a shape="rect" href="http://bbs.dg/faq.php">帮助</a>
+          </li>
+        </ul>
+      </div>
+      <div id="foruminfo">
+        <div id="headsearch">
+          <p>
+            <a shape="rect" id="ajax_favorite" href="http://bbs.dg/my.php?item=favorites&amp;fid=16" onclick="ajaxmenu(event, this.id)">收藏本版</a>
+            |
+            <a shape="rect" href="http://bbs.dg/my.php?item=threads&amp;srchfid=16">我的话题</a>
+          </p>
+        </div>
+        <div id="nav">
+          <p>
+            <a shape="rect" class="dropmenu" id="forumlist" href="http://bbs.dg/index.php" onmouseover="showMenu(this.id)">公共交流平台</a>
+            &#xbb; 资源共享
+          </p>
+          <p>版主: *空缺中*</p>
+        </div>
+      </div>
+      <div id="ad_text" />
+      <div class="pages_btns">
+        <div class="pages">
+          <em>&#xa0;203&#xa0;</em>
+          <strong>1</strong>
+          <a shape="rect" href="http://bbs.dg/forum-16-2.html">2</a>
+          <a shape="rect" href="http://bbs.dg/forum-16-3.html">3</a>
+          <a shape="rect" href="http://bbs.dg/forum-16-4.html">4</a>
+          <a shape="rect" href="http://bbs.dg/forum-16-5.html">5</a>
+          <a shape="rect" href="http://bbs.dg/forum-16-6.html">6</a>
+          <a shape="rect" href="http://bbs.dg/forum-16-7.html">7</a>
+          <a shape="rect" class="next" href="http://bbs.dg/forum-16-2.html">&#x203a;&#x203a;</a>
+        </div>
+        <span class="postbtn" id="newspecial" onmouseover="$('newspecial').id = 'newspecialtmp';this.id = 'newspecial';showMenu(this.id)">
+          <a shape="rect" href="http://bbs.dg/post.php?action=newthread&amp;fid=16&amp;extra=page%3D1" title="发新话题">
+            <img src="http://bbs.dg/./images/Beijing2008/newtopic.gif" alt="发新话题" />
+          </a>
+        </span>
+      </div>
+      <ul class="popupmenu_popup newspecialmenu" id="newspecial_menu" style="display: none">
+        <li>
+          <a shape="rect" href="http://bbs.dg/post.php?action=newthread&amp;fid=16&amp;extra=page%3D1">发新话题</a>
+        </li>
+        <li class="poll">
+          <a shape="rect" href="http://bbs.dg/post.php?action=newthread&amp;fid=16&amp;extra=page%3D1&amp;special=1">发布投票</a>
+        </li>
+        <li class="trade">
+          <a shape="rect" href="http://bbs.dg/post.php?action=newthread&amp;fid=16&amp;extra=page%3D1&amp;special=2">发布商品</a>
+        </li>
+        <li class="reward">
+          <a shape="rect" href="http://bbs.dg/post.php?action=newthread&amp;fid=16&amp;extra=page%3D1&amp;special=3">发布悬赏</a>
+        </li>
+        <li class="activity">
+          <a shape="rect" href="http://bbs.dg/post.php?action=newthread&amp;fid=16&amp;extra=page%3D1&amp;special=4">发布活动</a>
+        </li>
+        <li class="debate">
+          <a shape="rect" href="http://bbs.dg/post.php?action=newthread&amp;fid=16&amp;extra=page%3D1&amp;special=5">发布辩论</a>
+        </li>
+        <li class="video">
+          <a shape="rect" href="http://bbs.dg/post.php?action=newthread&amp;fid=16&amp;extra=page%3D1&amp;special=6">发布视频</a>
+        </li>
+      </ul>
+      <div id="headfilter">
+        <ul class="tabs">
+          <li class="current">
+            <a shape="rect" href="http://bbs.dg/forum-16-1.html">全部</a>
+          </li>
+          <li>
+            <a shape="rect" href="http://bbs.dg/forumdisplay.php?fid=16&amp;filter=digest">精华</a>
+          </li>
+          <li>
+            <a shape="rect" href="http://bbs.dg/forumdisplay.php?fid=16&amp;filter=poll">投票</a>
+          </li>
+          <li>
+            <a shape="rect" href="http://bbs.dg/forumdisplay.php?fid=16&amp;filter=debate">辩论</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mainbox threadlist">
+        <h1>
+          <a shape="rect" class="bold" href="http://bbs.dg/forum-16-1.html">资源共享</a>
+        </h1>
+        <form enctype="application/x-www-form-urlencoded" method="post" name="moderate" action="http://bbs.dg/topicadmin.php?action=moderate&amp;fid=16">
+          <input type="hidden" name="formhash" value="7cad87de" />
+          <table summary="forum_16" cellspacing="0" cellpadding="0">
+            <thead class="category">
+              <tr>
+                <th colspan="3" rowspan="1" class="caption">标题</th>
+                <td colspan="1" rowspan="1" class="author">作者</td>
+                <td colspan="1" rowspan="1" class="nums">回复/查看</td>
+                <td colspan="1" rowspan="1" class="lastpost">最后发表</td>
+              </tr>
+            </thead>
+            <tbody id="stickthread_776">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-776-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>
+                    <img src="http://bbs.dg/./images/Beijing2008/pin_1.gif" alt="本版置顶" />
+                    <img src="http://bbs.dg/./images/Beijing2008/digest_3.gif" alt="精华 3" />
+                    &#xa0;
+                  </label>
+                  <span id="thread_776">
+                    <a shape="rect" href="http://bbs.dg/thread-776-1-1.html" style="font-weight: bold;color: red">国家行政机关公文格式条文释义</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=13">wzc</a>
+                  </cite>
+                  <em>2009-6-10</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>1</strong>
+                  /
+                  <em>85</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=776&amp;goto=lastpost#lastpost">2009-8-7 10:19</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=coolgoing">coolgoing</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="stickthread_812">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-812-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>
+                    <img src="http://bbs.dg/./images/Beijing2008/pin_1.gif" alt="本版置顶" />
+                    <img src="http://bbs.dg/./images/Beijing2008/digest_1.gif" alt="精华 1" />
+                    &#xa0;
+                  </label>
+                  <span id="thread_812">
+                    <a shape="rect" href="http://bbs.dg/thread-812-1-1.html" style="font-weight: bold;color: red">新华社政务信息服务站点已开通</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=13">wzc</a>
+                  </cite>
+                  <em>2009-6-15</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>3</strong>
+                  /
+                  <em>278</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=812&amp;goto=lastpost#lastpost">2009-8-7 10:15</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=coolgoing">coolgoing</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="stickthread_824">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-824-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>
+                    <img src="http://bbs.dg/./images/Beijing2008/pin_1.gif" alt="本版置顶" />
+                    <img src="http://bbs.dg/./images/Beijing2008/digest_3.gif" alt="精华 3" />
+                    &#xa0;
+                  </label>
+                  <span id="thread_824">
+                    <a shape="rect" href="http://bbs.dg/thread-824-1-1.html" style="font-weight: bold;color: red">会务工作规范及难点分析(2009年7月培训班版)</a>
+                  </span>
+                  <img class="attach" src="http://bbs.dg/images/attachicons/common.gif" alt="附件" />
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=13">wzc</a>
+                  </cite>
+                  <em>2009-7-30</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>0</strong>
+                  /
+                  <em>844</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=824&amp;goto=lastpost#lastpost">2009-7-30 16:57</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=wzc">wzc</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="stickthread_775">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-775-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>
+                    <img src="http://bbs.dg/./images/Beijing2008/pin_1.gif" alt="本版置顶" />
+                    <img src="http://bbs.dg/./images/Beijing2008/digest_3.gif" alt="精华 3" />
+                    &#xa0;
+                  </label>
+                  <span id="thread_775">
+                    <a shape="rect" href="http://bbs.dg/thread-775-1-1.html" style="font-weight: bold;color: red">国家行政机关公文格式</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=13">wzc</a>
+                  </cite>
+                  <em>2009-6-10</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>0</strong>
+                  /
+                  <em>64</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=775&amp;goto=lastpost#lastpost">2009-6-10 17:00</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=wzc">wzc</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="stickthread_774">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-774-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>
+                    <img src="http://bbs.dg/./images/Beijing2008/pin_1.gif" alt="本版置顶" />
+                    <img src="http://bbs.dg/./images/Beijing2008/digest_3.gif" alt="精华 3" />
+                    &#xa0;
+                  </label>
+                  <span id="thread_774">
+                    <a shape="rect" href="http://bbs.dg/thread-774-1-1.html" style="font-weight: bold;color: red">市府办公文格式样式说明</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=13">wzc</a>
+                  </cite>
+                  <em>2009-6-10</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>0</strong>
+                  /
+                  <em>77</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=774&amp;goto=lastpost#lastpost">2009-6-10 16:58</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=wzc">wzc</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="stickthread_773">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-773-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>
+                    <img src="http://bbs.dg/./images/Beijing2008/pin_1.gif" alt="本版置顶" />
+                    <img src="http://bbs.dg/./images/Beijing2008/digest_3.gif" alt="精华 3" />
+                    &#xa0;
+                  </label>
+                  <span id="thread_773">
+                    <a shape="rect" href="http://bbs.dg/thread-773-1-1.html" style="font-weight: bold;color: red">政府系统办文办会文件资料选编</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=13">wzc</a>
+                  </cite>
+                  <em>2009-6-10</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>0</strong>
+                  /
+                  <em>91</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=773&amp;goto=lastpost#lastpost">2009-6-10 16:57</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=wzc">wzc</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="stickthread_755">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-755-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>
+                    <img src="http://bbs.dg/./images/Beijing2008/pin_1.gif" alt="本版置顶" />
+                    <img src="http://bbs.dg/./images/Beijing2008/digest_3.gif" alt="精华 3" />
+                    &#xa0;
+                  </label>
+                  <span id="thread_755">
+                    <a shape="rect" href="http://bbs.dg/thread-755-1-1.html" style="font-weight: bold;color: red">市府办公文格式样本</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=13">wzc</a>
+                  </cite>
+                  <em>2009-6-9</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>0</strong>
+                  /
+                  <em>93</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=755&amp;goto=lastpost#lastpost">2009-6-9 16:22</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=wzc">wzc</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="stickthread_737">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-737-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>
+                    <img src="http://bbs.dg/./images/Beijing2008/pin_1.gif" alt="本版置顶" />
+                    &#xa0;
+                  </label>
+                  <span id="thread_737">
+                    <a shape="rect" href="http://bbs.dg/thread-737-1-1.html" style="font-weight: bold;color: red">政府机关公文模板</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=13">wzc</a>
+                  </cite>
+                  <em>2009-6-9</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>0</strong>
+                  /
+                  <em>103</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=737&amp;goto=lastpost#lastpost">2009-6-9 15:23</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=wzc">wzc</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="stickthread_222">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-222-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_hot.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="hot">
+                  <label>
+                    <img src="http://bbs.dg/./images/Beijing2008/pin_1.gif" alt="本版置顶" />
+                    &#xa0;
+                  </label>
+                  <span id="thread_222">
+                    <a shape="rect" href="http://bbs.dg/thread-222-1-1.html">数字电视直播</a>
+                  </span>
+                  <span class="threadpages">
+                    &#xa0;
+                    <a shape="rect" href="http://bbs.dg/thread-222-1-1.html">1</a>
+                    <a shape="rect" href="http://bbs.dg/thread-222-2-1.html">2</a>
+                    <a shape="rect" href="http://bbs.dg/thread-222-3-1.html">3</a>
+                    <a shape="rect" href="http://bbs.dg/thread-222-4-1.html">4</a>
+                    <a shape="rect" href="http://bbs.dg/thread-222-5-1.html">5</a>
+                    <a shape="rect" href="http://bbs.dg/thread-222-6-1.html">6</a>
+                    ..
+                    <a shape="rect" href="http://bbs.dg/thread-222-7-1.html">7</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=908">zcj</a>
+                  </cite>
+                  <em>2008-6-3</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>137</strong>
+                  /
+                  <em>44908</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=222&amp;goto=lastpost#lastpost">2009-6-5 18:44</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=xinlaide">xinlaide</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table id="forum_16" summary="forum_16" cellspacing="0" cellpadding="0">
+            <thead class="separation">
+              <tr>
+                <td colspan="1" rowspan="1">&#xa0;</td>
+                <td colspan="1" rowspan="1">&#xa0;</td>
+                <td colspan="4" rowspan="1">版块主题</td>
+              </tr>
+            </thead>
+            <tbody id="normalthread_842">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-842-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_842">
+                    <a shape="rect" href="http://bbs.dg/thread-842-1-1.html">安装了播放器，为何电影播放不了？</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1275">wjc</a>
+                  </cite>
+                  <em>2009-9-22</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>1</strong>
+                  /
+                  <em>84</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=842&amp;goto=lastpost#lastpost">2009-9-25 16:22</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=ak4046741">ak4046741</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_838">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-838-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_838">
+                    <a shape="rect" href="http://bbs.dg/thread-838-1-1.html">谁能提供一个visual foxpro 9.0的安装文件</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1271">bugskiller</a>
+                  </cite>
+                  <em>2009-9-4</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>1</strong>
+                  /
+                  <em>55</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=838&amp;goto=lastpost#lastpost">2009-9-22 10:15</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=sunny">sunny</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_841">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-841-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_841">
+                    <a shape="rect" href="http://bbs.dg/thread-841-1-1.html">国庆50周年1999阅兵_升国旗看不了啊</a>
+                  </span>
+                  <img class="attach" src="http://bbs.dg/images/attachicons/common.gif" alt="附件" />
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1273">dadimusic</a>
+                  </cite>
+                  <em>2009-9-18</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>1</strong>
+                  /
+                  <em>133</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=841&amp;goto=lastpost#lastpost">2009-9-21 10:30</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=lypyj222">lypyj222</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_839">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-839-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_839">
+                    <a shape="rect" href="http://bbs.dg/thread-839-1-1.html">请问市府这边什么时间段可以用emule等P2P软件下载？</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1056">taotao</a>
+                  </cite>
+                  <em>2009-9-10</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>0</strong>
+                  /
+                  <em>208</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=839&amp;goto=lastpost#lastpost">2009-9-10 11:05</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=taotao">taotao</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_828">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-828-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_828">
+                    <a shape="rect" href="http://bbs.dg/thread-828-1-1.html">今天Adobe Acrobat 9 Pro提示许可证过期了，如何才能继续使用？</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1164">jacky</a>
+                  </cite>
+                  <em>2009-8-10</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>3</strong>
+                  /
+                  <em>89</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=828&amp;goto=lastpost#lastpost">2009-9-4 17:11</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=jacky">jacky</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_827">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-827-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_827">
+                    <a shape="rect" href="http://bbs.dg/thread-827-1-1.html">在资源网下载的office2007被提示非正版，如何处理好？</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1164">jacky</a>
+                  </cite>
+                  <em>2009-8-10</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>7</strong>
+                  /
+                  <em>142</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=827&amp;goto=lastpost#lastpost">2009-9-4 16:48</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=jacky">jacky</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_837">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-837-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_837">
+                    <a shape="rect" href="http://bbs.dg/thread-837-1-1.html">找本英语词典</a>
+                  </span>
+                  <img class="attach" src="http://bbs.dg/images/attachicons/common.gif" alt="附件" />
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=963">matell</a>
+                  </cite>
+                  <em>2009-9-3</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>3</strong>
+                  /
+                  <em>126</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=837&amp;goto=lastpost#lastpost">2009-9-3 15:24</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=vivienrain">vivienrain</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_835">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-835-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_835">
+                    <a shape="rect" href="http://bbs.dg/thread-835-1-1.html">BOBO老大能不能提供个有用的 SQL 2005 标准版？</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1268">trooperlong</a>
+                  </cite>
+                  <em>2009-9-1</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>2</strong>
+                  /
+                  <em>54</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=835&amp;goto=lastpost#lastpost">2009-9-1 17:04</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=trooperlong">trooperlong</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_832">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-832-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_832">
+                    <a shape="rect" href="http://bbs.dg/thread-832-1-1.html">不知道software.dg上哪个XP系统较为原版一些？能不能说明下</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1268">trooperlong</a>
+                  </cite>
+                  <em>2009-8-24</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>2</strong>
+                  /
+                  <em>107</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=832&amp;goto=lastpost#lastpost">2009-8-27 10:16</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=BoBo">BoBo</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_710">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-710-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_710">
+                    <a shape="rect" href="http://bbs.dg/thread-710-1-1.html">不要装IE8。。</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1034">superhero</a>
+                  </cite>
+                  <em>2009-4-15</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>8</strong>
+                  /
+                  <em>221</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=710&amp;goto=lastpost#lastpost">2009-8-24 18:01</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=chenyh">chenyh</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_721">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-721-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_721">
+                    <a shape="rect" href="http://bbs.dg/thread-721-1-1.html">能不能在software那里提供一下Vista SP2的RTM下载啊？</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=997">Guns</a>
+                  </cite>
+                  <em>2009-5-7</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>3</strong>
+                  /
+                  <em>106</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=721&amp;goto=lastpost#lastpost">2009-8-24 10:55</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=Guns">Guns</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_826">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-826-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_826">
+                    <a shape="rect" href="http://bbs.dg/thread-826-1-1.html">短信管理系统进不去!</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1080">dgyhd</a>
+                  </cite>
+                  <em>2009-8-5</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>0</strong>
+                  /
+                  <em>137</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=826&amp;goto=lastpost#lastpost">2009-8-5 11:49</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=dgyhd">dgyhd</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_825">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-825-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_825">
+                    <a shape="rect" href="http://bbs.dg/thread-825-1-1.html">市委办、市府办公文模板</a>
+                  </span>
+                  <img class="attach" src="http://bbs.dg/images/attachicons/common.gif" alt="附件" />
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1262">何密</a>
+                  </cite>
+                  <em>2009-7-31</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>0</strong>
+                  /
+                  <em>313</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=825&amp;goto=lastpost#lastpost">2009-7-31 11:50</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=%BA%CE%C3%DC">何密</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_822">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-822-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_822">
+                    <a shape="rect" href="http://bbs.dg/thread-822-1-1.html">WIN7　7600中文版有得下了</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1014">frank</a>
+                  </cite>
+                  <em>2009-7-16</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>1</strong>
+                  /
+                  <em>394</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=822&amp;goto=lastpost#lastpost">2009-7-17 17:13</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=BoBo">BoBo</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_821">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-821-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_821">
+                    <a shape="rect" href="http://bbs.dg/thread-821-1-1.html">企业信息交换平台用不了!</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1080">dgyhd</a>
+                  </cite>
+                  <em>2009-7-15</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>3</strong>
+                  /
+                  <em>115</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=821&amp;goto=lastpost#lastpost">2009-7-16 14:40</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=dgyhd">dgyhd</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_819">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-819-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_819">
+                    <a shape="rect" href="http://bbs.dg/thread-819-1-1.html">信息中心可不可以搞只打完SP2补丁的VISTA啊？</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1014">frank</a>
+                  </cite>
+                  <em>2009-7-6</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>9</strong>
+                  /
+                  <em>138</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=819&amp;goto=lastpost#lastpost">2009-7-15 15:20</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=frank">frank</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_587">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-587-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_587">
+                    <a shape="rect" href="http://bbs.dg/thread-587-1-1.html">实在太强大啦</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1153">pennychu</a>
+                  </cite>
+                  <em>2008-10-29</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>2</strong>
+                  /
+                  <em>244</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=587&amp;goto=lastpost#lastpost">2009-7-14 10:37</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=Motton">Motton</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_816">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-816-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_816">
+                    <a shape="rect" href="http://bbs.dg/thread-816-1-1.html">欢迎参加《中国政府治理》课程</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1248">cyb</a>
+                  </cite>
+                  <em>2009-6-19</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>0</strong>
+                  /
+                  <em>204</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=816&amp;goto=lastpost#lastpost">2009-6-19 16:06</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=cyb">cyb</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_811">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-811-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_811">
+                    <a shape="rect" href="http://bbs.dg/thread-811-1-1.html">国家行政机关公文格式条文释义－式样</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=13">wzc</a>
+                  </cite>
+                  <em>2009-6-11</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>2</strong>
+                  /
+                  <em>211</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=811&amp;goto=lastpost#lastpost">2009-6-17 09:12</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=zhonghuajian">zhonghuajian</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_730">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-730-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_730">
+                    <a shape="rect" href="http://bbs.dg/thread-730-1-1.html">市府资源网中的那个视频点播的有问题 啊，看不了</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=1245">yiyongboy</a>
+                  </cite>
+                  <em>2009-5-22</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>2</strong>
+                  /
+                  <em>131</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=730&amp;goto=lastpost#lastpost">2009-6-11 10:41</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=zcj">zcj</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+            <tbody id="normalthread_810">
+              <tr>
+                <td colspan="1" rowspan="1" class="folder">
+                  <a shape="rect" href="http://bbs.dg/thread-810-1-1.html" title="新窗口打开" target="_blank">
+                    <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" />
+                  </a>
+                </td>
+                <td colspan="1" rowspan="1" class="icon">&#xa0;</td>
+                <th colspan="1" rowspan="1" class="common">
+                  <label>&#xa0;</label>
+                  <span id="thread_810">
+                    <a shape="rect" href="http://bbs.dg/thread-810-1-1.html">国家行政机关公文格式条文释义－公文中图文的颜色</a>
+                  </span>
+                </th>
+                <td colspan="1" rowspan="1" class="author">
+                  <cite>
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;uid=13">wzc</a>
+                  </cite>
+                  <em>2009-6-11</em>
+                </td>
+                <td colspan="1" rowspan="1" class="nums">
+                  <strong>0</strong>
+                  /
+                  <em>127</em>
+                </td>
+                <td colspan="1" rowspan="1" class="lastpost">
+                  <em>
+                    <a shape="rect" href="http://bbs.dg/redirect.php?tid=810&amp;goto=lastpost#lastpost">2009-6-11 09:54</a>
+                  </em>
+                  <cite>
+                    by
+                    <a shape="rect" href="http://bbs.dg/space.php?action=viewpro&amp;username=wzc">wzc</a>
+                  </cite>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+      <div class="pages_btns">
+        <div class="pages">
+          <em>&#xa0;203&#xa0;</em>
+          <strong>1</strong>
+          <a shape="rect" href="http://bbs.dg/forum-16-2.html">2</a>
+          <a shape="rect" href="http://bbs.dg/forum-16-3.html">3</a>
+          <a shape="rect" href="http://bbs.dg/forum-16-4.html">4</a>
+          <a shape="rect" href="http://bbs.dg/forum-16-5.html">5</a>
+          <a shape="rect" href="http://bbs.dg/forum-16-6.html">6</a>
+          <a shape="rect" href="http://bbs.dg/forum-16-7.html">7</a>
+          <a shape="rect" class="next" href="http://bbs.dg/forum-16-2.html">&#x203a;&#x203a;</a>
+        </div>
+        <span class="postbtn" id="newspecialtmp" onmouseover="$('newspecial').id = 'newspecialtmp';this.id = 'newspecial';showMenu(this.id)">
+          <a shape="rect" href="http://bbs.dg/post.php?action=newthread&amp;fid=16&amp;extra=page%3D1" title="发新话题">
+            <img src="http://bbs.dg/./images/Beijing2008/newtopic.gif" alt="发新话题" />
+          </a>
+        </span>
+      </div>
+      <div class="box" id="footfilter">
+        <form enctype="application/x-www-form-urlencoded" method="get" action="http://bbs.dg/forumdisplay.php">
+          <input type="hidden" name="fid" value="16" />
+          查看
+          <select name="filter">
+            <option value="0">全部主题</option>
+            <option value="86400">1 天以来主题</option>
+            <option value="172800">2 天以来主题</option>
+            <option value="604800">1 周以来主题</option>
+            <option value="2592000">1 个月以来主题</option>
+            <option value="7948800">3 个月以来主题</option>
+            <option value="15897600">6 个月以来主题</option>
+            <option value="31536000">1 年以来主题</option>
+          </select>
+          排序方式
+          <select name="orderby">
+            <option selected="selected" value="lastpost">回复时间</option>
+            <option value="dateline">发布时间</option>
+            <option value="replies">回复数量</option>
+            <option value="views">浏览次数</option>
+          </select>
+          <select name="ascdesc">
+            <option selected="selected" value="DESC">按降序排列</option>
+            <option value="ASC">按升序排列</option>
+          </select>
+          &#xa0;
+          <button type="submit">提交</button>
+        </form>
+      </div>
+      <div class="legend">
+        <label>
+          <img src="http://bbs.dg/./images/Beijing2008/folder_new.gif" alt="有新回复" />
+          有新回复
+        </label>
+        <label>
+          <img src="http://bbs.dg/./images/Beijing2008/folder_common.gif" alt="无新回复" />
+          无新回复
+        </label>
+        <label>
+          <img src="http://bbs.dg/./images/Beijing2008/folder_hot.gif" alt="热门主题" />
+          热门主题
+        </label>
+        <label>
+          <img src="http://bbs.dg/./images/Beijing2008/folder_lock.gif" alt="关闭主题" />
+          关闭主题
+        </label>
+      </div>
+      <div class="popupmenu_popup" id="forumlist_menu" style="display: none">
+        <dl>
+          <dt>
+            <a shape="rect" href="http://bbs.dg/index.php?gid=11">公共交流</a>
+          </dt>
+          <dd>
+            <ul>
+              <li>
+                <a shape="rect" href="http://bbs.dg/forum-15-1.html">焦点论坛</a>
+              </li>
+              <li class="sub">
+                <a shape="rect" href="http://bbs.dg/forum-42-1.html">深入学习落实科学发展观</a>
+              </li>
+              <li class="sub">
+                <a shape="rect" href="http://bbs.dg/forum-36-1.html">镇街信息</a>
+              </li>
+              <li class="current">
+                <a shape="rect" href="http://bbs.dg/forum-16-1.html">资源共享</a>
+              </li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a shape="rect" href="http://bbs.dg/index.php?gid=44">信息化专栏</a>
+          </dt>
+          <dd>
+            <ul>
+              <li>
+                <a shape="rect" href="http://bbs.dg/forum-37-1.html">信息化技术</a>
+              </li>
+              <li class="sub">
+                <a shape="rect" href="http://bbs.dg/forum-38-1.html">培训专栏</a>
+              </li>
+              <li>
+                <a shape="rect" href="http://bbs.dg/forum-43-1.html">OA专版</a>
+              </li>
+              <li>
+                <a shape="rect" href="http://bbs.dg/forum-45-1.html">病毒专栏</a>
+              </li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a shape="rect" href="http://bbs.dg/index.php?gid=3">督查专栏</a>
+          </dt>
+          <dd>
+            <ul>
+              <li>
+                <a shape="rect" href="http://bbs.dg/forum-4-1.html">工作落实通报栏</a>
+              </li>
+              <li>
+                <a shape="rect" href="http://bbs.dg/forum-5-1.html">督查业务学习园地</a>
+              </li>
+              <li>
+                <a shape="rect" href="http://bbs.dg/forum-6-1.html">意见建议留言信箱</a>
+              </li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a shape="rect" href="http://bbs.dg/index.php?gid=40">站务区</a>
+          </dt>
+          <dd>
+            <ul>
+              <li>
+                <a shape="rect" href="http://bbs.dg/forum-41-1.html">站务管理</a>
+              </li>
+              <li class="sub">
+                <a shape="rect" href="http://bbs.dg/forum-46-1.html">办公资源网通告</a>
+              </li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+      <script type="text/javascript">var maxpage = 7;if(maxpage &amp;gt; 1) {	document.onkeyup = function(e){		e = e ? e : window.event;		var tagname = is_ie ? e.srcElement.tagName : e.target.tagName;		if(tagname == 'INPUT' || tagname == 'TEXTAREA') return;		actualCode = e.keyCode ? e.keyCode : e.charCode;				if(actualCode == 39) {			window.location = 'forumdisplay.php?fid=16&amp;amp;page=2';		}					}}</script>
+    </div>
+    <ul class="popupmenu_popup headermenu_popup" id="memcp_menu" style="display: none">
+      <li>
+        <a shape="rect" href="http://bbs.dg/memcp.php">控制面板首页</a>
+      </li>
+      <li>
+        <a shape="rect" href="http://bbs.dg/memcp.php?action=profile">编辑个人资料</a>
+      </li>
+      <li>
+        <a shape="rect" href="http://bbs.dg/memcp.php?action=creditslog">积分记录</a>
+      </li>
+      <li>
+        <a shape="rect" href="http://bbs.dg/memcp.php?action=usergroups">公众用户组</a>
+      </li>
+    </ul>
+    <div id="ad_footerbanner1" />
+    <div id="ad_footerbanner2" />
+    <div id="ad_footerbanner3" />
+    <div id="footer">
+      <div class="wrap">
+        <div id="footlinks">
+          <p>当前时区 GMT+8, 现在时间是 2009-9-28 16:31</p>
+          <p>
+            <a shape="rect" href="http://bbs.dg/member.php?action=clearcookies&amp;formhash=7cad87de">清除 Cookies</a>
+            -
+            <a shape="rect" href="http://bbs.dg/mailto:admin@your.com">联系我们</a>
+            -
+            <a shape="rect" href="http://bbs.dg/bbs.dg" target="_blank">公共交流平台</a>
+            -
+            <a shape="rect" href="http://bbs.dg/archiver/" target="_blank">Archiver</a>
+            -
+            <span class="scrolltop" onclick="window.scrollTo(0,0);">TOP</span>
+          </p>
+        </div>
+        <img src="http://bbs.dg/./images/Beijing2008/discuz_icon.gif" border="0" alt="东莞市信息办" />
+        <p id="copyright">东莞市信息办</p>
+        <p id="debuginfo">Processed in 0.038085 second(s), 4 queries.</p>
+      </div>
+    </div>
+  </body>
+</html>
+
