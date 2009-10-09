@@ -57,8 +57,8 @@ public class ClientExecuteProxy {
     public static void main(String[] args)throws Exception {
 
         // make sure to use a proxy that supports CONNECT
-        HttpHost target = new HttpHost("issues.apache.org", 443, "https");
-        HttpHost proxy = new HttpHost("127.0.0.1", 8080, "http");
+        HttpHost target = new HttpHost("vote.sun0769.com/include/code.asp?s=youthnet&aj=0.70161835174741", 80, "http");
+        HttpHost proxy = new HttpHost("59.36.98.154", 80, "http");
 
         // general setup
         SchemeRegistry supportedSchemes = new SchemeRegistry();
@@ -73,7 +73,7 @@ public class ClientExecuteProxy {
         // prepare parameters
         HttpParams params = new BasicHttpParams();
         HttpProtocolParams.setVersion(params, HttpVersion.HTTP_1_1);
-        HttpProtocolParams.setContentCharset(params, "UTF-8");
+        HttpProtocolParams.setContentCharset(params, "GB2312");
         HttpProtocolParams.setUseExpectContinue(params, true);
 
         ClientConnectionManager ccm = new ThreadSafeClientConnManager(params, 
