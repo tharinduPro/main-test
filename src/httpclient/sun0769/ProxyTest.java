@@ -2,7 +2,6 @@ package httpclient.sun0769;
 
 import image.ImageConstants;
 import image.ImageIOHelper;
-import image.ShowImage;
 import image.bmp.BMP;
 
 import java.awt.Image;
@@ -33,7 +32,7 @@ import org.apache.http.protocol.HTTP;
 
 import util.Tools;
 
-public class SunVoter {
+public class ProxyTest {
 	public static void main(String[] args) throws Exception {
 		int successCounter = 0;
 		int sleepCounter = 0;
@@ -43,8 +42,8 @@ public class SunVoter {
 			httpclient.getParams().setParameter(ConnRoutePNames.DEFAULT_PROXY, proxy);
 			
 			httpclient.getParams().setParameter( ClientPNames.COOKIE_POLICY, CookiePolicy.BROWSER_COMPATIBILITY );
-			
-			HttpGet httpget = new HttpGet("http://vote.sun0769.com/include/code.asp?s=youthnet&aj=0.7016183517474");
+
+			HttpGet httpget = new HttpGet("http://vote.sun0769.com/include/code.asp?s=youthnet&aj=0.70161835174741");
 			String result = getImageReslut(httpget, httpclient );
 			httpget.abort();
 	
@@ -86,7 +85,6 @@ public class SunVoter {
 		BufferedImage invertImage = ImageIOHelper.invertImage(image);
 		ImageFilter imageFilter = new ImageFilter(invertImage);
 		BufferedImage bi1 = imageFilter.scaling(5.0f);
-		
 		
 		//保存图片以供识别
 		ImageIOHelper.storeImageToTiff( bi1, ImageConstants.BMP_OUTPUT_FILE );
