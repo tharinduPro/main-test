@@ -39,8 +39,8 @@ public class SunVoter {
 		int sleepCounter = 0;
 		for( int voteIndex = 0; voteIndex < 3000; voteIndex++ ) {
 			DefaultHttpClient httpclient = new DefaultHttpClient();
-			HttpHost proxy = new HttpHost("59.36.98.154", 80);
-			httpclient.getParams().setParameter(ConnRoutePNames.DEFAULT_PROXY, proxy);
+			//HttpHost proxy = new HttpHost("59.36.98.154", 80);
+			//httpclient.getParams().setParameter(ConnRoutePNames.DEFAULT_PROXY, proxy);
 			
 			httpclient.getParams().setParameter( ClientPNames.COOKIE_POLICY, CookiePolicy.BROWSER_COMPATIBILITY );
 			
