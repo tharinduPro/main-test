@@ -34,17 +34,12 @@ public class Attendance {
 	public static void main(String[] args) throws Exception {
 			DefaultHttpClient httpclient = new DefaultHttpClient();
 			httpclient.getParams().setParameter( ClientPNames.COOKIE_POLICY, CookiePolicy.BROWSER_COMPATIBILITY );
-			
-			HttpGet httpget = new HttpGet("http://10.1.1.251/login.asp");
-			httpclient.execute( httpget );
-			httpget.abort();
-	
 
 			HttpPost vote = new HttpPost("http://10.1.1.251/login.asp");
 	        List <NameValuePair> nvps = new ArrayList <NameValuePair>();
 	        nvps.add(new BasicNameValuePair("name", "fangdj"));
 	        nvps.add(new BasicNameValuePair("passwd", "1111"));
-			nvps.add(new BasicNameValuePair("Submit", "µÇ  Â¼"));
+			nvps.add(new BasicNameValuePair("Submit", "ç™»  å½•"));
 	        vote.setEntity(new UrlEncodedFormEntity(nvps, HTTP.UTF_8));
 
 			HttpResponse rs = httpclient.execute(vote);
