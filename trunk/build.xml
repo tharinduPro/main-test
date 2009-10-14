@@ -7,6 +7,7 @@
             debug="true"
             encoding="utf-8">
             <!--<compilerarg value="-Xlint:unchecked"/>-->
+            <exclude name="net/**"/>
             <classpath refid="testpath" />
         </javac>
         <copy  todir="${dist.classes}/net/dgie/xmltask">
@@ -38,6 +39,13 @@
     <!--</target>-->
     <target name="test" depends="testCompile">
         <java classname="httpclient.sun0769.SunVoter" classpath="./target/classes" fork="true" >
+            <!--<arg value="-h"/>-->
+            <classpath refid="testpath" />
+        </java>
+    </target>
+    
+    <target name="cmp" depends="testCompile">
+        <java classname="httpclient.company.Attendance" classpath="./target/classes" fork="true" >
             <!--<arg value="-h"/>-->
             <classpath refid="testpath" />
         </java>
