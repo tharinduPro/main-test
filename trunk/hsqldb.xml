@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<project>
+    <property name="db.dir" value="${base.dir}/hsqldb" />
+    <property name="db.name" value="testdb" />
+    <target name="hsqldb.start" description="Starts local HSQLDB server" >  
+       <echo message="Starting HSQLDB" />  
+       <java fork="true" dir="." classname="org.hsqldb.Server">  
+          <classpath>  
+            <path refid="testpath" />  
+          </classpath>  
+          <arg value="-database.0" />  
+          <arg value="file:${db.dir}/${db.name}" />  
+          <arg value="-dbname.0" />  
+          <arg value="${db.name}" />  
+       </java>  
+    </target> 
+</project>

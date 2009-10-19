@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="gbk"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>广东政务网</title>
+    <style type="text/css">&amp;lt;!--body {	margin-left: 0px;	margin-top: 0px;	margin-right: 0px;	margin-bottom: 0px;}--&amp;gt;</style>
+    <link href="http://19.16.8.4/zwlw/Item/../css/style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">&amp;lt;!--#Layer1 {	position:absolute;	width:200px;	height:115px;	z-index:1;}#Layer2 {	position:absolute;	width:113px;	height:115px;	z-index:1;	top: 19px;	left: 862px;}#Layer3 {	position:absolute;	width:200px;	height:115px;	z-index:1;}.STYLE1 {font-family: "Wingdings 3"}--&amp;gt;</style>
+  </head>
+  <body bgcolor="#FFFFFF">
+    <form enctype="application/x-www-form-urlencoded" method="post" name="form1">
+      <table align="center" width="1000" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td colspan="1" rowspan="1" height="8">
+            <img src="http://19.16.8.4/zwlw/Item/../images/index8w_1.jpg" width="1000" height="8" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1" valign="top">
+            <table width="1000" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="1" rowspan="1" valign="top" width="32" height="59">
+                  <img src="http://19.16.8.4/zwlw/Item/../images/index8w_2.jpg" width="32" height="59" />
+                </td>
+                <td colspan="1" rowspan="1" valign="top" width="968" background="../images/index8w_3.jpg">
+                  <table class="p9" width="966" height="58" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td colspan="1" rowspan="1" width="71">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.4/zwlw/Item/#">
+                              <font color="#FFFFFF">&#xa0;</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1" width="71">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.3/gdintro/" target="_blank">
+                              <font color="#FFFFFF">广东省情</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1" width="75">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.4/zwlw/Item/../Item/gdzw.jsp?code1=024000000000&amp;listArticleCatalogLevel=2" target="_blank">
+                              <font color="#FFFFFF">广东政务</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1" width="74">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.4/zwlw/Item/../Item/yqjc.jsp?code1=002000000000&amp;listArticleCatalogLevel=3" target="_blank">
+                              <font color="#FFFFFF">舆情监测</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1" width="77">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.4/zwlw/Item/../Item/yqjc.jsp?code1=023000000000&amp;listArticleCatalogLevel=2" target="_blank">
+                              <font color="#FFFFFF">内参刊物</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1" width="73">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.4/zwlw/Item/../Item/other_more.jsp?code1=026000000000&amp;listArticleCatalogLevel=3" target="_blank">
+                              <font color="#FFFFFF">热点专题</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1" width="73">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.4/zwlw/Item/../Item/yqjc.jsp?code1=005000000000&amp;listArticleCatalogLevel=2" target="_blank">
+                              <font color="#FFFFFF">公务员培训</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1" width="84">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.20.40.80" target="_blank">
+                              <font color="#FFFFFF">电子监察系统</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1" width="92">
+                        <div align="center">
+                          <strong>
+                            <font color="#FFFFFF">&#xa0;</font>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1" width="276">
+                        <table align="right" width="248" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td colspan="1" rowspan="1" width="30%">
+                              <div align="right">
+                                <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/map.jsp" target="_blank">
+                                  <font color="#FFFFFF">
+                                    <img src="http://19.16.8.4/zwlw/Item/../imagesnew/3.gif" width="13" height="13" border="0" />
+                                    &#xa0;网站地图
+                                  </font>
+                                </a>
+                              </div>
+                            </td>
+                            <td colspan="1" rowspan="1" width="30%">
+                              <div align="right">
+                                <a shape="rect" href="http://19.16.8.4/zwlw/Item/contact.jsp" target="_blank">
+                                  <font color="#FFFFFF">
+                                    <img src="http://19.16.8.4/zwlw/Item/../imagesnew/4.gif" width="13" height="13" border="0" />
+                                    &#xa0;联系我们
+                                  </font>
+                                </a>
+                              </div>
+                            </td>
+                            <td colspan="1" rowspan="1" width="30%">
+                              <div align="right">
+                                <a shape="rect" href="http://19.16.8.4/zwlw/Item/../Item/rss.jsp" target="_blank">
+                                  <font color="#FFFFFF">
+                                    <img src="http://19.16.8.4/zwlw/Item/../imagesnew/5.gif" width="13" height="13" border="0" />
+                                    &#xa0;RSS定制
+                                  </font>
+                                </a>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="1" rowspan="1">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.4/zwlw/Item/#">
+                              <font color="#FFFFFF">&#xa0;</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.11/" target="_blank">
+                              <font color="#FFFFFF">视频点播</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.5/WebMail/login.asp" target="_blank">
+                              <font color="#FFFFFF">邮件服务</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.3/S_business_guide/rule/rule.htm" target="_blank">
+                              <font color="#FFFFFF">服务指南</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.4/zwlw/Item/../Item/tecsup.jsp?code1=034000000000&amp;listArticleCatalogLevel=2" target="_blank">
+                              <font color="#FFFFFF">技术支持</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://210.76.65.113/fzb" target="_blank">
+                              <font color="#FFFFFF">政策法规</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.123/" target="_blank">
+                              <font color="#FFFFFF">中经专网</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.12:168/web/index.html" target="_blank">
+                              <font color="#FFFFFF">国家法规库</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1">
+                        <div align="center">
+                          <strong>
+                            <a shape="rect" href="http://19.16.8.4/zwlw/Item/#">
+                              <font color="#FFFFFF">&#xa0;</font>
+                            </a>
+                          </strong>
+                        </div>
+                      </td>
+                      <td colspan="1" rowspan="1" width="276" />
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1" valign="top" height="124" background="../images/flash3.1.jpg">
+            <div id="Layer1">
+              <div id="Layer2">
+                <script language="JavaScript">function Year_Month(){ var now = new Date(); var yy = now.getYear(); var mm = now.getMonth()+1; var cl = '&amp;lt;font color="#022F6B"&amp;gt;'; if (now.getDay() == 0) cl = '&amp;lt;font color="#c00000"&amp;gt;'; if (now.getDay() == 6) cl = '&amp;lt;font color="#00c000"&amp;gt;'; return(cl + yy + '&amp;#24180;' + mm + '&amp;#26376;&amp;lt;/font&amp;gt;'); } function Date_of_Today(){ var now = new Date(); var cl = '&amp;lt;font color="#ff0000"&amp;gt;'; if (now.getDay() == 0) cl = '&amp;lt;font color="#c00000"&amp;gt;'; if (now.getDay() == 6) cl = '&amp;lt;font color="#00c000"&amp;gt;'; return(cl + now.getDate() + '&amp;lt;/font&amp;gt;'); } function Day_of_Today(){ var day = new Array(); day[0] = "&amp;#26143;&amp;#26399;&amp;#26085;"; day[1] = "&amp;#26143;&amp;#26399;&amp;#19968;"; day[2] = "&amp;#26143;&amp;#26399;&amp;#20108;"; day[3] = "&amp;#26143;&amp;#26399;&amp;#19977;"; day[4] = "&amp;#26143;&amp;#26399;&amp;#22235;"; day[5] = "&amp;#26143;&amp;#26399;&amp;#20116;"; day[6] = "&amp;#26143;&amp;#26399;&amp;#20845;"; var now = new Date(); var cl = '&amp;lt;font color="#022F6B"&amp;gt;'; if (now.getDay() == 0) cl = '&amp;lt;font color="#c00000"&amp;gt;'; if (now.getDay() == 6) cl = '&amp;lt;font color="#00c000"&amp;gt;'; return(cl + day[now.getDay()] + '&amp;lt;/font&amp;gt;'); } function CurentTime(){ var now = new Date(); var hh = now.getHours(); var mm = now.getMinutes(); var ss = now.getTime() % 60000; ss = (ss - (ss % 1000)) / 1000; var clock = hh+':'; if (mm &amp;lt; 10) clock += '0'; clock += mm+':'; if (ss &amp;lt; 10) clock += '0'; clock += ss; return(clock); } function refreshCalendarClock(){ document.all.calendarClock1.innerHTML = Year_Month(); document.all.calendarClock2.innerHTML = Date_of_Today(); document.all.calendarClock3.innerHTML = Day_of_Today(); document.all.calendarClock4.innerHTML = CurentTime(); } var webUrl = webUrl; document.write('&amp;lt;table border="0" cellpadding="0" cellspacing="0"&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;'); document.write('&amp;lt;table id="CalendarClockFreeCode" border="0" cellpadding="0" cellspacing="0" width="60" height="70" '); document.write('style="position:absolute;visibility:hidden" bgcolor="#eeeeee"&amp;gt;'); document.write('&amp;lt;tr&amp;gt;&amp;lt;td align="center"&amp;gt;&amp;lt;font '); document.write('style="cursor:hand;color:#ff0000;font-family:&amp;#23435;&amp;#20307;;font-size:14pt;line-height:120%" '); if (webUrl != 'netflower'){ document.write('&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td align="center"&amp;gt;&amp;lt;font '); document.write('style="cursor:hand;color:#022F6B;font-family:&amp;#23435;&amp;#20307;;font-size:9pt;line-height:110%" '); } document.write('&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/table&amp;gt;'); document.write('&amp;lt;table border="0" cellpadding="0" cellspacing="0" width="61" bgcolor="#C0C0C0" height="70"&amp;gt;'); document.write('&amp;lt;tr&amp;gt;&amp;lt;td valign="top" width="100%" height="100%"&amp;gt;'); document.write('&amp;lt;table border="1" cellpadding="0" cellspacing="0" width="58" bgcolor="#FEFEEF" height="67"&amp;gt;'); document.write('&amp;lt;tr&amp;gt;&amp;lt;td align="center" width="100%" height="100%" &amp;gt;'); document.write('&amp;lt;font id="calendarClock1" style="font-family:&amp;#23435;&amp;#20307;;font-size:7pt;line-height:120%"&amp;gt; &amp;lt;/font&amp;gt;&amp;lt;br&amp;gt;'); document.write('&amp;lt;font id="calendarClock2" style="color:#ff0000;font-family:Arial;font-size:14pt;line-height:120%"&amp;gt; &amp;lt;/font&amp;gt;&amp;lt;br&amp;gt;'); document.write('&amp;lt;font id="calendarClock3" style="font-family:&amp;#23435;&amp;#20307;;font-size:9pt;line-height:120%"&amp;gt; &amp;lt;/font&amp;gt;&amp;lt;br&amp;gt;'); document.write('&amp;lt;font id="calendarClock4" style="color:#100080;font-family:&amp;#23435;&amp;#20307;;font-size:8pt;line-height:120%"&amp;gt;&amp;lt;b&amp;gt; &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;'); document.write('&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/table&amp;gt;'); document.write('&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/table&amp;gt;'); document.write('&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/table&amp;gt;'); setInterval('refreshCalendarClock()',1000);</script>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1" valign="top">
+            <table width="1000" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="1" rowspan="1" valign="top" width="106" background="../images/lay2b_8.jpg">
+                  <img src="http://19.16.8.4/zwlw/Item/../images/lay2a_4.jpg" width="106" height="499" />
+                </td>
+                <td colspan="1" rowspan="1" valign="top" width="702">
+                  <table width="100%" height="515" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td colspan="1" rowspan="1" class="p9" width="4%" height="20">&#xa0;</td>
+                      <td colspan="1" rowspan="1" class="p9" width="96%" height="20">
+                        当前位置：
+                        <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/index.jsp">首页</a>
+                        -&gt;
+                        <a shape="rect" href="http://19.16.8.4/zwlw/Item/../Item/yqjc.jsp?code1=002000000000&amp;listArticleCatalogLevel=3">舆情监测</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" rowspan="1" valign="top" background="../images/lay2b_5.jpg">
+                        <table width="100%" height="56" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td colspan="1" rowspan="2" valign="top" width="16%" height="59">
+                              <div align="center">
+                                <img src="http://19.16.8.4/zwlw/Item/../images/c1.gif" width="62" height="43" vspace="3" />
+                              </div>
+                            </td>
+                            <td colspan="1" rowspan="2" width="4%">&#xa0;</td>
+                            <td colspan="1" rowspan="2" class="title1" width="43%" style="filter:        Dropshadow(offx=2,offy=0,color=white)        Dropshadow(offx=0,offy=2,color=white)        Dropshadow(offx=0,offy=-2,color=white)        Dropshadow(offx=-2,offy=0,color=white);">省内新闻报道</td>
+                            <td colspan="1" rowspan="1" valign="top" class="p9" width="37%" height="24" />
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" valign="top" class="p9" height="17">&#xa0;</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" rowspan="1" valign="top">
+                        <table class="p9" width="686" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=6f0ef3ce61233b29a937197b93a6cac6&amp;catalogID=1be945e95f193b95c1d06de6f64bcc02&amp;path=舆情监测/省内报道与评论/省内新闻报道" target="_blank" title="横琴纳入珠海 分线管理通关">横琴纳入珠海 分线管理通关</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-16</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=2d0dd1964b3cdd66944b934d89354e96&amp;catalogID=1be945e95f193b95c1d06de6f64bcc02&amp;path=舆情监测/省内报道与评论/省内新闻报道" target="_blank" title="广州琶洲村欲卖4块地融资改造">广州琶洲村欲卖4块地融资改造</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-16</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=a2dd7bc2c91bd7be5f5fe240542d86f0&amp;catalogID=1be945e95f193b95c1d06de6f64bcc02&amp;path=舆情监测/省内报道与评论/省内新闻报道" target="_blank" title="" 巨爵对粤影响基本结束="巨爵对粤影响基本结束" 直接损失超6亿1人失踪="直接损失超6亿1人失踪">"巨爵"对粤影响基本结束 直接损失超6亿1人失踪</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-16</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=835f7c312a3098e7e5bd10e9b615b8b6&amp;catalogID=1be945e95f193b95c1d06de6f64bcc02&amp;path=舆情监测/省内报道与评论/省内新闻报道" target="_blank" title="" 巨爵致阳江98.8万人受灾="巨爵致阳江98.8万人受灾" 直接经济损失3.649亿="直接经济损失3.649亿">"巨爵"致阳江98.8万人受灾 直接经济损失3.649亿</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-16</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=10601330759836efb87afe8b6637c9b3&amp;catalogID=1be945e95f193b95c1d06de6f64bcc02&amp;path=舆情监测/省内报道与评论/省内新闻报道" target="_blank" title="淡水河污水是否排海 深圳惠州仍无共识">淡水河污水是否排海 深圳惠州仍无共识</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-16</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=a5e4ab60bee8865345e1ba14cfe1990f&amp;catalogID=1be945e95f193b95c1d06de6f64bcc02&amp;path=舆情监测/省内报道与评论/省内新闻报道" target="_blank" title="泥堤失守河水倒灌 道滘沉洲岛差点" 沉洲="沉洲">泥堤失守河水倒灌 道滘沉洲岛差点"沉洲"</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-16</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=de52019da2215b0abed79f006afde995&amp;catalogID=1be945e95f193b95c1d06de6f64bcc02&amp;path=舆情监测/省内报道与评论/省内新闻报道" target="_blank" title="2020年，横琴人均GDP将达20万元">2020年，横琴人均GDP将达20万元</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-15</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a xmlns:区委书记被盗500万传言="urn:x-prefix:区委书记被盗500万传言" shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=10b02fceae1a00c5267406a449351391&amp;catalogID=1be945e95f193b95c1d06de6f64bcc02&amp;path=舆情监测/省内报道与评论/省内新闻报道" target="_blank" title="佛山澄清" 区委书记被盗500万传言:内容不实="区委书记被盗500万传言:内容不实">佛山澄清"区委书记被盗500万"传言:内容不实</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-15</td>
+                          </tr>
+                          <tr>
+                            <td align="right" colspan="3" rowspan="1" valign="bottom" height="25">
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/other_more.jsp?code1=002001001000&amp;listArticleCatalogLevel=3">
+                                <img src="http://19.16.8.4/zwlw/Item/../images/more.gif" width="50" height="15" border="0" />
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" rowspan="1" valign="bottom" height="20">&#xa0;</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" rowspan="1" valign="top" background="../images/lay2b_5.jpg">
+                        <table width="100%" height="56" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td colspan="1" rowspan="2" valign="top" width="16%" height="59">
+                              <div align="center">
+                                <img src="http://19.16.8.4/zwlw/Item/../images/c1.gif" width="62" height="43" vspace="3" />
+                              </div>
+                            </td>
+                            <td colspan="1" rowspan="2" width="4%">&#xa0;</td>
+                            <td colspan="1" rowspan="2" class="title1" width="43%" style="filter:        Dropshadow(offx=2,offy=0,color=white)        Dropshadow(offx=0,offy=2,color=white)        Dropshadow(offx=0,offy=-2,color=white)        Dropshadow(offx=-2,offy=0,color=white);">省内媒体评论</td>
+                            <td colspan="1" rowspan="1" valign="top" class="p9" width="37%" height="24" />
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" valign="top" class="p9" height="17">&#xa0;</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" rowspan="1" valign="top">
+                        <table class="p9" width="686" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=4a804df9c2ff6d75d4df576e75464fec&amp;catalogID=9ab15529f1f0833b2f2496a717c3a8c5&amp;path=舆情监测/省内报道与评论/省内媒体评论" target="_blank" title="“城管警察”足见职能思维之混乱">“城管警察”足见职能思维之混乱</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-30</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=0343dc1de7aa585e8bde49c771d0b390&amp;catalogID=9ab15529f1f0833b2f2496a717c3a8c5&amp;path=舆情监测/省内报道与评论/省内媒体评论" target="_blank" title="深圳“捡金案”道德烟尘远未落定">深圳“捡金案”道德烟尘远未落定</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-30</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=c860d58b9383127b2b3391d1527bd66f&amp;catalogID=9ab15529f1f0833b2f2496a717c3a8c5&amp;path=舆情监测/省内报道与评论/省内媒体评论" target="_blank" title="“劫人质救母”轻判，谁该被“重判”">“劫人质救母”轻判，谁该被“重判”</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-29</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=9aa5b935d82bf709165a64a8d2905be1&amp;catalogID=9ab15529f1f0833b2f2496a717c3a8c5&amp;path=舆情监测/省内报道与评论/省内媒体评论" target="_blank" title="不必对“梁丽案”附加过度阐释">不必对“梁丽案”附加过度阐释</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-29</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=04064cdbe529c4b8a3877927a5692b7a&amp;catalogID=9ab15529f1f0833b2f2496a717c3a8c5&amp;path=舆情监测/省内报道与评论/省内媒体评论" target="_blank" title="“城管公安”能否顺带把暴力执法打掉">“城管公安”能否顺带把暴力执法打掉</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-28</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=336278d597f0fc75cbad1a117a7f3454&amp;catalogID=9ab15529f1f0833b2f2496a717c3a8c5&amp;path=舆情监测/省内报道与评论/省内媒体评论" target="_blank" title="梁丽“捡金”案能否成为样本">梁丽“捡金”案能否成为样本</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-28</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=7ca9f7f952b7b7c70dbe97f6fc54e563&amp;catalogID=9ab15529f1f0833b2f2496a717c3a8c5&amp;path=舆情监测/省内报道与评论/省内媒体评论" target="_blank" title="“焚烧垃圾”不能决策“焚心”">“焚烧垃圾”不能决策“焚心”</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-27</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=abdd557bbf6e0fdd76b77280beb568c8&amp;catalogID=9ab15529f1f0833b2f2496a717c3a8c5&amp;path=舆情监测/省内报道与评论/省内媒体评论" target="_blank" title="加强交流合作 促进网络健康发展">加强交流合作 促进网络健康发展</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-27</td>
+                          </tr>
+                          <tr>
+                            <td align="right" colspan="3" rowspan="1" valign="bottom" height="25">
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/other_more.jsp?code1=002001002000&amp;listArticleCatalogLevel=3">
+                                <img src="http://19.16.8.4/zwlw/Item/../images/more.gif" width="50" height="15" border="0" />
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" rowspan="1" valign="bottom" height="20">&#xa0;</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" rowspan="1" valign="top" background="../images/lay2b_5.jpg">
+                        <table width="100%" height="56" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td colspan="1" rowspan="2" valign="top" width="16%" height="59">
+                              <div align="center">
+                                <img src="http://19.16.8.4/zwlw/Item/../images/c1.gif" width="62" height="43" vspace="3" />
+                              </div>
+                            </td>
+                            <td colspan="1" rowspan="2" width="4%">&#xa0;</td>
+                            <td colspan="1" rowspan="2" class="title1" width="43%" style="filter:        Dropshadow(offx=2,offy=0,color=white)        Dropshadow(offx=0,offy=2,color=white)        Dropshadow(offx=0,offy=-2,color=white)        Dropshadow(offx=-2,offy=0,color=white);">国内新闻报道</td>
+                            <td colspan="1" rowspan="1" valign="top" class="p9" width="37%" height="24" />
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" valign="top" class="p9" height="17">&#xa0;</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" rowspan="1" valign="top">
+                        <table class="p9" width="686" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=5bb1d24149a05fe2281724f997a4f14f&amp;catalogID=eb316dec5c0ee1452b145066e0803c2d&amp;path=舆情监测/国内报道与评论/国内新闻报道" target="_blank" title="明年1月起禁用氟利昂 旧家电不会立即被淘汰">明年1月起禁用氟利昂 旧家电不会立即被淘汰</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-16</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=d97ab44b696c17f4fe823e0b4b490c29&amp;catalogID=eb316dec5c0ee1452b145066e0803c2d&amp;path=舆情监测/国内报道与评论/国内新闻报道" target="_blank" title="职工医保报销上限明年提高 初步测算在27万左右">职工医保报销上限明年提高 初步测算在27万左右</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-16</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=d3fb5500439609c7fdb35c1eb75fc8c2&amp;catalogID=eb316dec5c0ee1452b145066e0803c2d&amp;path=舆情监测/国内报道与评论/国内新闻报道" target="_blank" title="山东：车险赔款必须直接支付给被保险人本人">山东：车险赔款必须直接支付给被保险人本人</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-16</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=9477af32330830992c7b30905629e9e2&amp;catalogID=eb316dec5c0ee1452b145066e0803c2d&amp;path=舆情监测/国内报道与评论/国内新闻报道" target="_blank" title="广东开拓农村市场初见成效 销售增速持续走高">广东开拓农村市场初见成效 销售增速持续走高</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-16</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=a64b88a0bb40dd61edb502df8278cd88&amp;catalogID=eb316dec5c0ee1452b145066e0803c2d&amp;path=舆情监测/国内报道与评论/国内新闻报道" target="_blank" title="我国今年商标注册审查量突破百万大关">我国今年商标注册审查量突破百万大关</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-16</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=95ac93d18a09de5560a4683d3e7c9e69&amp;catalogID=eb316dec5c0ee1452b145066e0803c2d&amp;path=舆情监测/国内报道与评论/国内新闻报道" target="_blank" title="中国加强资源环境审计应对资源短缺环境污染问题">中国加强资源环境审计应对资源短缺环境污染问题</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-16</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=6231c6f8c167ece067fac8af75d0d180&amp;catalogID=eb316dec5c0ee1452b145066e0803c2d&amp;path=舆情监测/国内报道与评论/国内新闻报道" target="_blank" title="《国家中长期教育改革和发展规划纲要》正在制定">《国家中长期教育改革和发展规划纲要》正在制定</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-16</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=7acc7e4a4b404dd36480750b71e9284f&amp;catalogID=eb316dec5c0ee1452b145066e0803c2d&amp;path=舆情监测/国内报道与评论/国内新闻报道" target="_blank" title="国台办：两岸积极合作应对甲型H1N1流感疫情">国台办：两岸积极合作应对甲型H1N1流感疫情</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-16</td>
+                          </tr>
+                          <tr>
+                            <td align="right" colspan="3" rowspan="1" valign="bottom" height="25">
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/other_more.jsp?code1=002002001000&amp;listArticleCatalogLevel=3">
+                                <img src="http://19.16.8.4/zwlw/Item/../images/more.gif" width="50" height="15" border="0" />
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" rowspan="1" valign="bottom" height="20">&#xa0;</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" rowspan="1" valign="top" background="../images/lay2b_5.jpg">
+                        <table width="100%" height="56" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td colspan="1" rowspan="2" valign="top" width="16%" height="59">
+                              <div align="center">
+                                <img src="http://19.16.8.4/zwlw/Item/../images/c1.gif" width="62" height="43" vspace="3" />
+                              </div>
+                            </td>
+                            <td colspan="1" rowspan="2" width="4%">&#xa0;</td>
+                            <td colspan="1" rowspan="2" class="title1" width="43%" style="filter:        Dropshadow(offx=2,offy=0,color=white)        Dropshadow(offx=0,offy=2,color=white)        Dropshadow(offx=0,offy=-2,color=white)        Dropshadow(offx=-2,offy=0,color=white);">国内媒体评论</td>
+                            <td colspan="1" rowspan="1" valign="top" class="p9" width="37%" height="24" />
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" valign="top" class="p9" height="17">&#xa0;</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" rowspan="1" valign="top">
+                        <table class="p9" width="686" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=5f3dbdb0aae5d9d706a2c8f336b7d0f9&amp;catalogID=6912bed64a12783bbafaac36f25a445d&amp;path=舆情监测/国内报道与评论/国内媒体评论" target="_blank" title="师德“工资化”可能“异化”师德">师德“工资化”可能“异化”师德</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-30</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=b694af28fc422f1ec794e42670241f04&amp;catalogID=6912bed64a12783bbafaac36f25a445d&amp;path=舆情监测/国内报道与评论/国内媒体评论" target="_blank" title="袁隆平并非唯一的“院士表率”">袁隆平并非唯一的“院士表率”</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-30</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=35c7ca26d3e8b3aa4609712960f56f88&amp;catalogID=6912bed64a12783bbafaac36f25a445d&amp;path=舆情监测/国内报道与评论/国内媒体评论" target="_blank" title="量化师德不如规范职业准入">量化师德不如规范职业准入</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-30</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=e97e8bc770e3c1e9a9e1ef55aade255a&amp;catalogID=6912bed64a12783bbafaac36f25a445d&amp;path=舆情监测/国内报道与评论/国内媒体评论" target="_blank" title="对私塾不能简单叫停了之">对私塾不能简单叫停了之</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-30</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=bfc75fdb6c2582c53232de4a61c9369a&amp;catalogID=6912bed64a12783bbafaac36f25a445d&amp;path=舆情监测/国内报道与评论/国内媒体评论" target="_blank" title="百姓缘何“以身为中国人而自豪”">百姓缘何“以身为中国人而自豪”</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-30</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=7c622324f30455172fd1ac7e65b99fa4&amp;catalogID=6912bed64a12783bbafaac36f25a445d&amp;path=舆情监测/国内报道与评论/国内媒体评论" target="_blank" title="解决“停车难”也要换思维">解决“停车难”也要换思维</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-30</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=4063419f36b628035c0a3b3b7faccd14&amp;catalogID=6912bed64a12783bbafaac36f25a445d&amp;path=舆情监测/国内报道与评论/国内媒体评论" target="_blank" title="“黄金公厕”是炫富更是炫丑">“黄金公厕”是炫富更是炫丑</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-30</td>
+                          </tr>
+                          <tr>
+                            <td colspan="1" rowspan="1" width="34" height="25">&#xa0;</td>
+                            <td colspan="1" rowspan="1" width="567">
+                              ·
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/../home/article_show1.jsp?act=view&amp;articleID=d691898f75e46e06ee98cd6ddeacdb6c&amp;catalogID=6912bed64a12783bbafaac36f25a445d&amp;path=舆情监测/国内报道与评论/国内媒体评论" target="_blank" title="地铁特许经营 体制创新仍有空间">地铁特许经营 体制创新仍有空间</a>
+                            </td>
+                            <td colspan="1" rowspan="1" width="85">2009-09-30</td>
+                          </tr>
+                          <tr>
+                            <td align="right" colspan="3" rowspan="1" valign="bottom" height="25">
+                              <a shape="rect" href="http://19.16.8.4/zwlw/Item/other_more.jsp?code1=002002002000&amp;listArticleCatalogLevel=3">
+                                <img src="http://19.16.8.4/zwlw/Item/../images/more.gif" width="50" height="15" border="0" />
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" rowspan="1" valign="bottom" height="20">&#xa0;</td>
+                    </tr>
+                  </table>
+                </td>
+                <td colspan="1" rowspan="1" valign="top" width="192" background="../images/lay2b_10.jpg">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td colspan="1" rowspan="1" valign="top" height="35">
+                        <img src="http://19.16.8.4/zwlw/Item/../images/lay2b_6.jpg" width="192" height="499" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="1" rowspan="1" valign="top" background="../images/lay2b_10.jpg">
+                        <div align="center" />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" rowspan="1" valign="top" height="35" background="../images/lay2b_11.jpg">&#xa0;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1" height="50" bgcolor="C4EDF3">
+            <div align="center" class="p10">
+              版权所有：广东省信息化工作领导小组办公室
+              <br clear="none" />
+              网络维护：广东省信息中心
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1" height="10" bgcolor="2C94A9" />
+        </tr>
+      </table>
+    </form>
+  </body>
+  <script language="javascript">&amp;lt;!--function openwin(id){   window.open(id,"","width="+(screen.availWidth-13)+",height="+(screen.availHeight-15)+",resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no,location=no,top=0,left=0");}function fenye(page){   if(page=="0"){      page=document.form1.pagenum.value;         }   document.form1.action="http://19.16.8.4/zwlw/Item/other_more.jsp?code1=002000000000&amp;amp;page="+ page;   //alert(document.form1.sch_cond.value);   document.form1.submit();}//--&amp;gt;</script>
+</html>
+
