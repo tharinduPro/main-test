@@ -1,12 +1,26 @@
 <project name="Test" default="testCompile">
-    <property name="dist.classes" value="E:/TestWork/Test/target/classes" />
-    <property name="src.base" value="E:/TestWork/Test/src" />
+    <property name="base.dir" value="E:/TestWork/Test" />
+    <property name="dist.classes" value="${base.dir}/target/classes" />
+    <property name="src.base" value="${base.dir}/src" />
+    <property name="lib.dir" value="${base.dir}/lib" />
+
+    <import file="hsqldb.xml"/>
+
+    <path id="testpath">
+        <fileset dir="${lib.dir}">
+            <include name="**/*.jar"/>
+        </fileset>
+        <pathelement location="${dist.classes}"/>
+    </path>
+
     <target name="testCompile" depends="createDir">
         <javac srcdir="${src.base}"
             destdir="${dist.classes}"
             debug="true"
             encoding="utf-8">
             <!--<compilerarg value="-Xlint:unchecked"/>-->
+
+            <!--排除不需要编译的java文件-->
             <exclude name="net/**"/>
             <classpath refid="testpath" />
         </javac>
@@ -19,24 +33,7 @@
         <mkdir dir="${dist.classes}"/>  
     </target>
 
-    <path id="testpath">
-        <fileset dir="E:/TestWork/Test/lib">
-            <include name="**/*.jar"/>
-        </fileset>
-        <pathelement location="${dist.classes}"/>
-    </path>
-    <target name="run">
-        <java classname="XMLFixer" classpath="./classes">
-            <!--<arg value="-h"/>-->
-            <classpath refid="testpath" />
-        </java>
-    </target>
-    <!--<target name="test">-->
-        <!--<java classname="net.dgie.xmltask.MainTimer" classpath="./target/classes" fork="true" >-->
-            <!--[><arg value="-h"/><]-->
-            <!--<classpath refid="testpath" />-->
-        <!--</java>-->
-    <!--</target>-->
+    <!--投票-->
     <target name="test" depends="testCompile">
         <java classname="httpclient.sun0769.SunVoter" classpath="./target/classes" fork="true" >
             <!--<arg value="-h"/>-->
@@ -44,6 +41,7 @@
         </java>
     </target>
     
+    <!--考勤-->
     <target name="cmp" depends="testCompile">
         <java classname="httpclient.company.Attendance" classpath="./target/classes" fork="true" >
             <!--<arg value="-h"/>-->

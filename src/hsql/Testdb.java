@@ -34,7 +34,7 @@ public class Testdb {
         // of the db.
         // It can contain directory names relative to the
         // current working directory
-        conn = DriverManager.getConnection("jdbc:hsqldb:"
+        conn = DriverManager.getConnection("jdbc:hsqldb:hsql://localhost/"
                                            + db_file_name_prefix,    // filenames
                                            "sa",                     // username
                                            "");                      // password
@@ -121,7 +121,7 @@ public class Testdb {
         Testdb db = null;
 
         try {
-            db = new Testdb("db_file");
+            db = new Testdb("testdb");
         } catch (Exception ex1) {
             ex1.printStackTrace();    // could not start db
 
