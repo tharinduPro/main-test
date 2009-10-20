@@ -3,7 +3,7 @@
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping >
-    <class name="Event" table="events">
+    <class name="spring.aop.Event" table="events">
         <id name="id" column="uid" type="long">
             <generator class="increment"/>
         </id>

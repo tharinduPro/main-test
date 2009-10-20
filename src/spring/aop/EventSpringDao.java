@@ -21,7 +21,7 @@ public class EventSpringDao extends AbstractSpringDao{
         super.delete(event);
     }
 
-    public List findAll(){
+    public List<Event> findAll(){
         return super.findAll(Event.class);
     }
 }
