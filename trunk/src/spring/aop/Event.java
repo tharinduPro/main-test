@@ -9,7 +9,18 @@ public class Event implements Serializable {
     private String name;
     private Date startDate;
 
-    public Event() {
+    /* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Id:" + id + 
+			   ",Duration:" + duration + 
+			   ",Name:" + name + 
+			   ",startDate:" + startDate;
+	}
+
+	public Event() {
 
     }
 

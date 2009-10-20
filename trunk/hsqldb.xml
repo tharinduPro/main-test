@@ -14,4 +14,13 @@
           <arg value="${db.name}" />  
        </java>  
     </target> 
+
+    <target name="hsqldb.manager" description="HSQLDB 管理器" >  
+       <echo message="Starting HSQLDB Manager" />  
+       <java fork="true" dir="." classname="org.hsqldb.util.DatabaseManagerSwing">  
+          <classpath>  
+            <path refid="testpath" />  
+          </classpath>  
+       </java>  
+    </target> 
 </project>
