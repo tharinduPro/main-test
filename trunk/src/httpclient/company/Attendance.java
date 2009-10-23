@@ -51,9 +51,6 @@ public class Attendance {
 			dutyNvps.add(new BasicNameValuePair("cmd2", "Apply"));
 			duty.setEntity(new UrlEncodedFormEntity(dutyNvps, HTTP.UTF_8));
 			HttpResponse rs = httpclient.execute(duty);
-			InputStream inputStream = rs.getEntity().getContent();
-		  String resultPage = Tools.InputStreamToString(inputStream);
-		  System.out.println( resultPage );
 		  
 			httpclient.getConnectionManager().shutdown();
 	} 
