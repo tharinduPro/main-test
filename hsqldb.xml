@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project>
     <property name="db.dir" value="${base.dir}/hsqldb" />
     <property name="db.name" value="testdb" />
