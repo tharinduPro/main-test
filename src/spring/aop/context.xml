@@ -20,13 +20,14 @@
         <property name="mappingResources">
             <list>
                 <value>spring/aop/Event.hbm.xml</value>
+                <value>spring/aop/ProxySrc.hbm.xml</value>
             </list>
         </property>
         <property name="hibernateProperties">
             <props>
                 <prop key="hibernate.dialect">org.hibernate.dialect.HSQLDialect</prop>
                 <prop key="hibernate.show_sql">true</prop>
-                <prop key="hibernate.hbm2ddl.auto">false</prop>
+                <prop key="hibernate.hbm2ddl.auto">true</prop>
             </props>
         </property>
         <property name="dataSource">

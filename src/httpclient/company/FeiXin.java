@@ -1,4 +1,4 @@
-package company;
+package httpclient.company;
 
 import java.io.IOException;
 import java.io.OutputStreamWriter;
