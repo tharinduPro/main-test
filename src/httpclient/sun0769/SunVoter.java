@@ -44,24 +44,26 @@ public class SunVoter {
 			
 			httpclient.getParams().setParameter( ClientPNames.COOKIE_POLICY, CookiePolicy.BROWSER_COMPATIBILITY );
 			
-			HttpGet httpget = new HttpGet("http://vote.sun0769.com/include/code.asp?s=youthnet&aj=0.7016183517474");
+			HttpGet httpget = new HttpGet("http://vote.sun0769.com/include/code.asp?s=ncflash&aj=0.569978840983635");
 			String result = getImageReslut(httpget, httpclient );
 			httpget.abort();
 	
 		        
 			//发送投票请求
 			Thread.sleep( 4000 );
-			HttpPost vote = new HttpPost("http://vote.sun0769.com/subject/2009/youthnet/action.asp");
+			HttpPost vote = new HttpPost("http://vote.sun0769.com/subject/2009/ncflash/action.asp");
 	        List <NameValuePair> nvps = new ArrayList <NameValuePair>();
 	        nvps.add(new BasicNameValuePair("SurveyCode", result));
-	        nvps.add(new BasicNameValuePair("ItemID", "1054"));
-	        nvps.add(new BasicNameValuePair("sessionId", "youthnet"));
+	        nvps.add(new BasicNameValuePair("ItemID", "243"));
+	        nvps.add(new BasicNameValuePair("sessionId", "ncflash"));
 	        nvps.add(new BasicNameValuePair("moduleId", ""));
 	        vote.setEntity(new UrlEncodedFormEntity(nvps, HTTP.UTF_8));
 			HttpResponse rs = httpclient.execute(vote);
 		    InputStream inputStream = rs.getEntity().getContent();
 		    String resultPage = Tools.InputStreamToString(inputStream);
-		    if( resultPage.indexOf( "成功" ) > -1 ) {
+		    if( resultPage.indexOf( "未能成功" ) > -1 ) {
+		    	System.out.println( "failed!" );
+		    }else if( resultPage.indexOf( "成功" ) > -1 ) {
 		    	successCounter ++;
 		    	System.out.println( "success:" +  successCounter);
 		    }
