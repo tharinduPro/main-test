@@ -5,19 +5,17 @@ import javax.mail.*;
 import javax.mail.internet.*;
 
 public class Test {
-	public static void main( String[] args ) {
-		System.out.println( "test" );
-
+	public static void main( String[] args ) throws Exception{
 		//从html表单中获取邮件信息
-		String tfrom="fangdj@dgie.net":
-		String tto=s-k-y@126.com
+		String tfrom="fangdj@dgie.net";
+		String tto="s-k-y@126.com";
 		String ttitle="TEST Mail";
 		String tcontent="Give me fire~";
 		
 		//JavaMail需要Properties来创建一个session对象。它将寻找字符串"mail.smtp.host"，属性值就是发送邮件的主机.
 		//Properties对象获取诸如邮件服务器、用户名、密码等信息，以及其他可在整个应用程序中 共享的信息。
 		
-		Properties props=new Properties();//也可用Properties props = System.getProperties();
+		Properties props=new Properties();
 		props.put("mail.smtp.host","www.dgie.net");//存储发送邮件服务器的信息
 		props.put("mail.smtp.auth","true");//同时通过验证
 		
@@ -64,4 +62,5 @@ public class Test {
 		transport.sendMessage(message,message.getAllRecipients());//发送邮件,其中第二个参数是所有已设好的收件人地址
 		transport.close();
 
+	}
 }
