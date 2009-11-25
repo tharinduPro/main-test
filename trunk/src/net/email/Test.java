@@ -6,60 +6,60 @@ import javax.mail.internet.*;
 
 public class Test {
 	public static void main( String[] args ) throws Exception{
-		//´Óhtml±íµ¥ÖĞ»ñÈ¡ÓÊ¼şĞÅÏ¢
+		//ä»htmlè¡¨å•ä¸­è·å–é‚®ä»¶ä¿¡æ¯
 		String tfrom="fangdj@dgie.net";
 		String tto="s-k-y@126.com";
 		String ttitle="TEST Mail";
 		String tcontent="Give me fire~";
 		
-		//JavaMailĞèÒªPropertiesÀ´´´½¨Ò»¸ösession¶ÔÏó¡£Ëü½«Ñ°ÕÒ×Ö·û´®"mail.smtp.host"£¬ÊôĞÔÖµ¾ÍÊÇ·¢ËÍÓÊ¼şµÄÖ÷»ú.
-		//Properties¶ÔÏó»ñÈ¡ÖîÈçÓÊ¼ş·şÎñÆ÷¡¢ÓÃ»§Ãû¡¢ÃÜÂëµÈĞÅÏ¢£¬ÒÔ¼°ÆäËû¿ÉÔÚÕû¸öÓ¦ÓÃ³ÌĞòÖĞ ¹²ÏíµÄĞÅÏ¢¡£
+		//JavaMailéœ€è¦Propertiesæ¥åˆ›å»ºä¸€ä¸ªsessionå¯¹è±¡ã€‚å®ƒå°†å¯»æ‰¾å­—ç¬¦ä¸²"mail.smtp.host"ï¼Œå±æ€§å€¼å°±æ˜¯å‘é€é‚®ä»¶çš„ä¸»æœº.
+		//Propertieså¯¹è±¡è·å–è¯¸å¦‚é‚®ä»¶æœåŠ¡å™¨ã€ç”¨æˆ·åã€å¯†ç ç­‰ä¿¡æ¯ï¼Œä»¥åŠå…¶ä»–å¯åœ¨æ•´ä¸ªåº”ç”¨ç¨‹åºä¸­ å…±äº«çš„ä¿¡æ¯ã€‚
 		
 		Properties props=new Properties();
-		props.put("mail.smtp.host","www.dgie.net");//´æ´¢·¢ËÍÓÊ¼ş·şÎñÆ÷µÄĞÅÏ¢
-		props.put("mail.smtp.auth","true");//Í¬Ê±Í¨¹ıÑéÖ¤
+		props.put("mail.smtp.host","www.dgie.net");//å­˜å‚¨å‘é€é‚®ä»¶æœåŠ¡å™¨çš„ä¿¡æ¯
+		props.put("mail.smtp.auth","true");//åŒæ—¶é€šè¿‡éªŒè¯
 		
 		
-		//Õâ¸öSessionÀà´ú±íJavaMail ÖĞµÄÒ»¸öÓÊ¼şsession. Ã¿Ò»¸ö»ùÓÚ JavaMailµÄÓ¦ÓÃ³ÌĞòÖÁÉÙÓĞÒ»¸ösessionµ«ÊÇ¿ÉÒÔÓĞÈÎÒâ¶àµÄsession¡£
-		//SessionÀà¶¨ÒåÈ«¾ÖºÍÃ¿¸öÓÃ»§µÄÓëÓÊ¼şÏà¹ØµÄÊôĞÔ¡£Õâ´ËÊôĞÔËµÃ÷ÁË¿Í·¿»úºÍ·şÎñÆ÷ÈçºÎ½»Á÷ĞÅÏ¢¡£
+		//è¿™ä¸ªSessionç±»ä»£è¡¨JavaMail ä¸­çš„ä¸€ä¸ªé‚®ä»¶session. æ¯ä¸€ä¸ªåŸºäº JavaMailçš„åº”ç”¨ç¨‹åºè‡³å°‘æœ‰ä¸€ä¸ªsessionä½†æ˜¯å¯ä»¥æœ‰ä»»æ„å¤šçš„sessionã€‚
+		//Sessionç±»å®šä¹‰å…¨å±€å’Œæ¯ä¸ªç”¨æˆ·çš„ä¸é‚®ä»¶ç›¸å…³çš„å±æ€§ã€‚è¿™æ­¤å±æ€§è¯´æ˜äº†å®¢æˆ¿æœºå’ŒæœåŠ¡å™¨å¦‚ä½•äº¤æµä¿¡æ¯ã€‚
 		
 		
-		Session s=Session.getInstance(props,null);//¸ù¾İÊôĞÔĞÂ½¨Ò»¸öÓÊ¼ş»á»°£¬null²ÎÊıÊÇÒ»ÖÖAuthenticator(ÑéÖ¤³ÌĞò) ¶ÔÏó
-		s.setDebug(true);//ÉèÖÃµ÷ÊÔ±êÖ¾,Òª²é¿´¾­¹ıÓÊ¼ş·şÎñÆ÷ÓÊ¼şÃüÁî£¬¿ÉÒÔÓÃ¸Ã·½·¨
+		Session s=Session.getInstance(props,null);//æ ¹æ®å±æ€§æ–°å»ºä¸€ä¸ªé‚®ä»¶ä¼šè¯ï¼Œnullå‚æ•°æ˜¯ä¸€ç§Authenticator(éªŒè¯ç¨‹åº) å¯¹è±¡
+		s.setDebug(true);//è®¾ç½®è°ƒè¯•æ ‡å¿—,è¦æŸ¥çœ‹ç»è¿‡é‚®ä»¶æœåŠ¡å™¨é‚®ä»¶å‘½ä»¤ï¼Œå¯ä»¥ç”¨è¯¥æ–¹æ³•
 		
-		//  Ò»µ©´´½¨ÁË×Ô¼ºµÄSession¶ÔÏó£¬¾ÍÊÇ¸ÃÈ¥´´½¨Òª·¢ËÍµÄÏûÏ¢µÄ Ê±ºòÁË¡£ÕâÊ±¾ÍÒªÓÃµ½ÏûÏ¢ÀàĞÍ(MimeMessageÊÇÆäÖĞÒ»ÖÖÀàĞÍ)¡£
-		//¡¡Message¶ÔÏó½«´æ´¢ÎÒÃÇÊµ¼Ê·¢ËÍµÄµç×ÓÓÊ¼şĞÅÏ¢£¬Message¶ÔÏó±»×÷ÎªÒ»¸öMimeMessage¶ÔÏóÀ´´´½¨²¢ÇÒĞèÒªÖªµÀÓ¦µ±Ñ¡ÔñÄÄÒ»¸öJavaMail session¡£
-		//  MessageÀà±íÊ¾µ¥¸öÓÊ¼şÏûÏ¢£¬ËüµÄÊôĞÔ°üÀ¨ÀàĞÍ£¬µØÖ·ĞÅÏ¢ºÍËù¶¨ÒåµÄÄ¿Â¼½á¹¹¡£
+		//  ä¸€æ—¦åˆ›å»ºäº†è‡ªå·±çš„Sessionå¯¹è±¡ï¼Œå°±æ˜¯è¯¥å»åˆ›å»ºè¦å‘é€çš„æ¶ˆæ¯çš„ æ—¶å€™äº†ã€‚è¿™æ—¶å°±è¦ç”¨åˆ°æ¶ˆæ¯ç±»å‹(MimeMessageæ˜¯å…¶ä¸­ä¸€ç§ç±»å‹)ã€‚
+		//ã€€Messageå¯¹è±¡å°†å­˜å‚¨æˆ‘ä»¬å®é™…å‘é€çš„ç”µå­é‚®ä»¶ä¿¡æ¯ï¼ŒMessageå¯¹è±¡è¢«ä½œä¸ºä¸€ä¸ªMimeMessageå¯¹è±¡æ¥åˆ›å»ºå¹¶ä¸”éœ€è¦çŸ¥é“åº”å½“é€‰æ‹©å“ªä¸€ä¸ªJavaMail sessionã€‚
+		//  Messageç±»è¡¨ç¤ºå•ä¸ªé‚®ä»¶æ¶ˆæ¯ï¼Œå®ƒçš„å±æ€§åŒ…æ‹¬ç±»å‹ï¼Œåœ°å€ä¿¡æ¯å’Œæ‰€å®šä¹‰çš„ç›®å½•ç»“æ„ã€‚
 		
-		Message message=new MimeMessage(s);//ÓÉÓÊ¼ş»á»°ĞÂ½¨Ò»¸öÏûÏ¢¶ÔÏó
+		Message message=new MimeMessage(s);//ç”±é‚®ä»¶ä¼šè¯æ–°å»ºä¸€ä¸ªæ¶ˆæ¯å¯¹è±¡
 		
-		//message.setContent("hello","test/plain");//ÉèÖÃÏûÏ¢µÄÄÚÈİÀàĞÍ,Èç¹û·¢ËÍµÄ¸ñÊ½ÓĞHTML¸ñÊ½¾Í±ØĞëÉèÖÃ£¬
-		//message.setText("Hello");//·¢ËÍÒ»°ãÎÄ±¾¸ñÊ½µÄÏûÏ¢
+		//message.setContent("hello","test/plain");//è®¾ç½®æ¶ˆæ¯çš„å†…å®¹ç±»å‹,å¦‚æœå‘é€çš„æ ¼å¼æœ‰HTMLæ ¼å¼å°±å¿…é¡»è®¾ç½®ï¼Œ
+		//message.setText("Hello");//å‘é€ä¸€èˆ¬æ–‡æœ¬æ ¼å¼çš„æ¶ˆæ¯
 		
-		//ÉèÖÃÓÊ¼ş,Ò»µ©Äú´´½¨ÁË Session ºÍ Message£¬²¢½«ÄÚÈİÌîÈëÏûÏ¢ºó£¬¾Í¿ÉÒÔÓÃAddressÈ·¶¨ĞÅ¼şµØÖ·ÁË¡£
-		//Èç¹ûÏëÈÃÒ»¸öÃû×Ö³öÏÖÔÚµç×ÓÓÊ¼şµØÖ·ºó£¬Ò²¿ÉÒÔ½«Æä´«µİ¸ø¹¹ÔìÆ÷£º
-		//Address from=new InternetAddress("xmqds@21cn.com","qdison");//·¢¼şÈËµÄÓÊ¼şµØÖ·
+		//è®¾ç½®é‚®ä»¶,ä¸€æ—¦æ‚¨åˆ›å»ºäº† Session å’Œ Messageï¼Œå¹¶å°†å†…å®¹å¡«å…¥æ¶ˆæ¯åï¼Œå°±å¯ä»¥ç”¨Addressç¡®å®šä¿¡ä»¶åœ°å€äº†ã€‚
+		//å¦‚æœæƒ³è®©ä¸€ä¸ªåå­—å‡ºç°åœ¨ç”µå­é‚®ä»¶åœ°å€åï¼Œä¹Ÿå¯ä»¥å°†å…¶ä¼ é€’ç»™æ„é€ å™¨ï¼š
+		//Address from=new InternetAddress("xmqds@21cn.com","qdison");//å‘ä»¶äººçš„é‚®ä»¶åœ°å€
 		
-		Address from=new InternetAddress(tfrom);//·¢¼şÈËµÄÓÊ¼şµØÖ·
-		message.setFrom(from);//ÉèÖÃ·¢¼şÈË
+		Address from=new InternetAddress(tfrom);//å‘ä»¶äººçš„é‚®ä»¶åœ°å€
+		message.setFrom(from);//è®¾ç½®å‘ä»¶äºº
 		
-		Address to=new InternetAddress(tto);//ÊÕ¼şÈËµÄÓÊ¼şµØÖ·
-		message.setRecipient(Message.RecipientType.TO,to);//ÉèÖÃÊÕ¼şÈË,²¢ÉèÖÃÆä½ÓÊÕÀàĞÍÎªTO,»¹ÓĞ3ÖÖÔ¤¶¨ÒåÀàĞÍÈçÏÂ£º
-		
-		
-		message.setSubject(ttitle);//ÉèÖÃÖ÷Ìâ
-		message.setText(tcontent);//ÉèÖÃĞÅ¼şÄÚÈİ
-		message.setSentDate(new Date());//ÉèÖÃ·¢ĞÅÊ±¼ä
+		Address to=new InternetAddress(tto);//æ”¶ä»¶äººçš„é‚®ä»¶åœ°å€
+		message.setRecipient(Message.RecipientType.TO,to);//è®¾ç½®æ”¶ä»¶äºº,å¹¶è®¾ç½®å…¶æ¥æ”¶ç±»å‹ä¸ºTO,è¿˜æœ‰3ç§é¢„å®šä¹‰ç±»å‹å¦‚ä¸‹ï¼š
 		
 		
-		message.saveChanges();//´æ´¢ÓÊ¼şĞÅÏ¢
+		message.setSubject(ttitle);//è®¾ç½®ä¸»é¢˜
+		message.setText(tcontent);//è®¾ç½®ä¿¡ä»¶å†…å®¹
+		message.setSentDate(new Date());//è®¾ç½®å‘ä¿¡æ—¶é—´
 		
 		
-		// Transport ÊÇÓÃÀ´·¢ËÍĞÅÏ¢µÄ£¬
-		// ÓÃÓÚÓÊ¼şµÄÊÕ·¢´ò²Ù×÷¡£
+		message.saveChanges();//å­˜å‚¨é‚®ä»¶ä¿¡æ¯
+		
+		
+		// Transport æ˜¯ç”¨æ¥å‘é€ä¿¡æ¯çš„ï¼Œ
+		// ç”¨äºé‚®ä»¶çš„æ”¶å‘æ‰“æ“ä½œã€‚
 		Transport transport=s.getTransport("smtp");
-		transport.connect("www.dgie.net","fangdj","1111");//ÒÔsmtp·½Ê½µÇÂ¼ÓÊÏä
-		transport.sendMessage(message,message.getAllRecipients());//·¢ËÍÓÊ¼ş,ÆäÖĞµÚ¶ş¸ö²ÎÊıÊÇËùÓĞÒÑÉèºÃµÄÊÕ¼şÈËµØÖ·
+		transport.connect("www.dgie.net","fangdj","1111");//ä»¥smtpæ–¹å¼ç™»å½•é‚®ç®±
+		transport.sendMessage(message,message.getAllRecipients());//å‘é€é‚®ä»¶,å…¶ä¸­ç¬¬äºŒä¸ªå‚æ•°æ˜¯æ‰€æœ‰å·²è®¾å¥½çš„æ”¶ä»¶äººåœ°å€
 		transport.close();
 
 	}
