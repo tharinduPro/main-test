@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK" /><title>��ݸ�����Ϣ��</title><link href="css.css" rel="stylesheet" type="text/css" /></head><body>
+
+<div align="center">
+<table width="790" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="3" rowspan="1" height="2" bgcolor="#056396" /></tr><tr><td colspan="3" rowspan="1" height="2" /></tr><tr><td colspan="3" rowspan="1">
+    
+</td></tr></table></div></body><html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK" /><title>�ޱ����ĵ�</title><link href="css.css" rel="stylesheet" type="text/css" /></head><body>
+<div align="center">
+  <table width="790" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="790" height="135">
+        <param valuetype="data" name="movie" value="images/top.swf" />
+        <param valuetype="data" name="quality" value="high" />
+	<param valuetype="data" value="false" name="menu" />
+	<param valuetype="data" value="opaque" name="wmode" />
+        <embed src="images/top.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="790" height="135" />
+      </object></td></tr><tr><td colspan="1" rowspan="1" height="2" /></tr><tr><td colspan="1" rowspan="1"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" width="6"><img src="images/index_14.gif" width="6" height="31" alt="" /></td><td colspan="1" rowspan="1" background="images/index_16.gif"><table width="770" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" width="626"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" width="55"><div align="center"><a shape="rect" class="menu1" href="index.jsp" target="_self">�� ҳ</a></div></td><td colspan="1" rowspan="1" width="2"><div align="center"><img src="images/bg.gif" width="2" height="14" /></div></td><td colspan="1" rowspan="1" width="63"><div align="center" class="menu_top2"><a shape="rect" class="menu1" href="http://wsdj.zyttop.com.cn/aicnet/login.jsp" target="_blank">���ϵǼ�</a></div></td><td colspan="1" rowspan="1" width="2"><div align="center"><img src="images/bg.gif" width="2" height="14" /></div></td><td colspan="1" rowspan="1" width="63"><div align="center" class="menu_top2"><a shape="rect" class="menu1" href="http://wsnj.zyttop.com.cn/wsnj" target="_blank">�������</a></div></td><td colspan="1" rowspan="1" width="2"><div align="center"><img src="images/bg.gif" width="2" height="14" /></div></td><td colspan="1" rowspan="1" width="80"><div align="center" class="menu_top2"><a shape="rect" class="menu1" href="http://wsnj.gdgs.gov.cn/aiccps/jsp/pub/searchBase.jsp" target="_blank">�Ǽ���Ϣ��ѯ</a></div></td><td colspan="1" rowspan="1" width="2"><div align="center"><img src="images/bg.gif" width="2" height="14" /></div></td><td colspan="1" rowspan="1" width="63"><div align="center" class="menu_top2"><a shape="rect" class="menu1" href="item.jsp?id=30000127&amp;name=��Ա�п�&amp;type=1" target="_self">��Ա�п�</a></div></td><td colspan="1" rowspan="1" width="2"><div align="center"><img src="images/bg.gif" width="2" height="14" /></div></td><!--<td width="63"><div align="center"><a href="item.jsp?id=20000021&name=���񹫿�&type=0" target="_self" class="menu1">��Ϣ����ָ��</a></div></td>
+                      <td width="2"><div align="center"><img src="images/bg.gif" width="2" height="14"></div></td>--><!--<td width="63"><div align="center" class="menu_top2"><a href="item.jsp?id=20000022&name=����ָ��&type=0" target="_self" class="menu1">����ָ��</a></div></td>--><!--<td width="2"><div align="center">--><!--<div align="center"><img src="images/bg.gif" width="2" height="14"></div>--><!--</div></td>--><!--<td width="100"><div align="center" class="menu_top2"><a href="item.jsp?id=11111111&name=���߷��漰�淶�ļ�&type=0" target="_self" class="menu1">������淶�ļ�</a></div></td>--><!--<td width="2"><div align="center">--><!--<div align="center"><img src="images/bg.gif" width="2" height="14"></div>--><!--</div></td>--><td colspan="1" rowspan="1" width="63"><div align="center"><a shape="rect" class="menu1" href="complaintItem.jsp?id=20000025&amp;name=12315Ͷ�߾ٱ�����&amp;type=0" target="_self">��ѯͶ��</a></div></td></tr></table></td><td colspan="1" rowspan="1" width="150"><div align="center"><a shape="rect" class="scan">
+                    <script>&lt;!--
+todayDate = new Date();
+date = todayDate.getDate();
+month= todayDate.getMonth() +1;
+year= todayDate.getYear();
+if(navigator.appName == "Netscape")
+{
+document.write(1900+year);
+document.write("��");
+document.write(month);
+document.write("��");
+document.write(date);
+document.write("��");
+}
+if(navigator.appVersion.indexOf("MSIE") != -1)
+{
+document.write(year);
+document.write("��");
+document.write(month);
+document.write("��");
+document.write(date);
+document.write("��");
+}
+if (todayDate.getDay() == 5) document.write("������")
+if (todayDate.getDay() == 6) document.write("������")
+if (todayDate.getDay() == 0) document.write("������")
+if (todayDate.getDay() == 1) document.write("����һ")
+if (todayDate.getDay() == 2) document.write("���ڶ�")
+if (todayDate.getDay() == 3) document.write("������")
+if (todayDate.getDay() == 4) document.write("������")
+//--&gt; </script>
+                </a></div></td></tr></table></td><td colspan="1" rowspan="1" width="5"><img src="images/index_18.gif" width="5" height="31" alt="" /></td></tr></table></td></tr></table>
+</div>
+</body></html><body><table><tbody><tr><td colspan="1" rowspan="1" valign="top" width="194" bgcolor="#E7F0F8">
+  <table width="194" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" valign="top"><div align="center">
+        <table width="186" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="5"> </td></tr><tr class="left"><td colspan="1" rowspan="1" valign="top">
+              
+
+
+
+
+
+
+</td></tr></table></div></td></tr></table></td></tr></tbody></table></body><html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK" /><title>�ޱ����ĵ�</title><link href="css.css" rel="stylesheet" type="text/css" /></head><body>
+<table width="186" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="3" rowspan="1" height="8" /></tr><tr><td colspan="1" rowspan="1" width="10"> </td><td colspan="1" rowspan="1" width="169"><div align="center">
+      <table width="167" height="87" border="0" cellpadding="0" cellspacing="0" background="images/zwgk.gif"><tr><td colspan="1" rowspan="1" valign="top">
+            <table width="167" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="24"><div align="center" class="bei">��ҵ����</div></td></tr><tr><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1"> </td></tr></table>
+          </td></tr></table>
+    </div></td><td colspan="1" rowspan="1" width="10"> </td></tr><tr><td colspan="1" rowspan="1"> </td><td colspan="1" rowspan="1"> </td><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1"> </td><td colspan="1" rowspan="1">
+      <table class="left_imput" width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" height="25"> <img src="images/bg2.gif" width="10" height="10" /> <a shape="rect" class="menu" href="item.jsp?id=25000059&amp;name=���������̱�&amp;type=1&amp;isSpec=" target="_self">���������̱�</a></td></tr></table>
+    </td><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1" height="8" /></tr><tr><td colspan="1" rowspan="1"> </td><td colspan="1" rowspan="1">
+      <table class="left_imput" width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" height="25"> <img src="images/bg2.gif" width="10" height="10" /> <a shape="rect" class="menu" href="item.jsp?id=25000061&amp;name=�غ�ͬ��������ҵ&amp;type=1&amp;isSpec=" target="_self">�غ�ͬ��������ҵ</a></td></tr></table>
+    </td><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1" height="8" /></tr><tr><td colspan="1" rowspan="1"> </td><td colspan="1" rowspan="1">
+      <table class="left_imput" width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" height="25"> <img src="images/bg2.gif" width="10" height="10" /> <a shape="rect" class="menu" href="item.jsp?id=25000062&amp;name=�����г�&amp;type=1&amp;isSpec=" target="_self">�����г�</a></td></tr></table>
+    </td><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1" height="8" /></tr><tr><td colspan="1" rowspan="1"> </td><td colspan="1" rowspan="1">
+      <table class="left_imput" width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1" height="25"> <img src="images/bg2.gif" width="10" height="10" /> <a shape="rect" class="menu" href="item.jsp?id=25000064&amp;name=��ҵ����&amp;type=1&amp;isSpec=" target="_self">��ҵ����</a></td></tr></table>
+    </td><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1" height="8" /></tr><tr><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1"> </td></tr></table>
+</body></html><body><table><tbody><tr><td colspan="1" rowspan="1" width="7"> </td><td colspan="1" rowspan="1" valign="top" width="589">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr class="scan2"><td colspan="1" rowspan="1">
+    
+</td></tr></table></td></tr></tbody></table></body><html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK" /><title>�ޱ����ĵ�</title><link href="css.css" rel="stylesheet" type="text/css" /></head><body>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><form enctype="application/x-www-form-urlencoded" method="get" action="searchArticle.jsp">
+      <input type="hidden" name="id" value="20000021" />
+      <input type="hidden" name="type" value="0" />
+      <input type="hidden" name="name" value="���񹫿�" />
+      <td colspan="1" rowspan="1" width="34%" height="40"><div align="right"><img src="images/scan1.gif" width="33" height="28" /></div></td>
+      <td colspan="1" rowspan="1" width="11%">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" height="8" /></tr><tr><td colspan="1" rowspan="1"><div align="center">�ؼ���</div></td></tr></table>
+      </td>
+      <td colspan="1" rowspan="1" width="19%"><input type="text" class="scan4" name="searchValue" size="15" /></td>
+      <td colspan="1" rowspan="1" width="15%"><select class="scan4" name="searchType"><option value="0">�ı�����</option><option value="1">�ı�����</option></select></td>
+      <td colspan="1" rowspan="1" width="11%"><input type="image" name="imageField" src="images/scan.gif" width="49" height="19" border="0" /></td>
+      <td colspan="1" rowspan="1" width="10%"><a shape="rect" class="scan" href="../search/index.jsp" target="_black">�߼�����</a></td>
+    </form></tr></table>
+
+</body></html><body><table><tbody><tr><td colspan="1" rowspan="1"><div align="left"><a shape="rect" class="menu" href="index.jsp" target="_self">��ҳ</a> &gt;&gt; <a shape="rect" class="menu" href="item.jsp?id=20000026&amp;name=����8&amp;type=0" target="_self">����8</a> &gt;&gt; <a shape="rect" class="menu" href="item.jsp?id=20000035&amp;name=��ҵ����&amp;type=0" target="_self">��ҵ����</a> &gt;&gt; <a shape="rect" class="menu" href="item.jsp?id=25000061&amp;name=�غ�ͬ��������ҵ&amp;type=1" target="_self">�غ�ͬ��������ҵ</a></div></td></tr><tr><td colspan="1" rowspan="1" height="5" /></tr><tr><td colspan="1" rowspan="1">
+    <table align="center" width="97%" border="0" cellpadding="0" cellspacing="0"><tr><td colspan="1" rowspan="1">
+          <table width="130" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="1" rowspan="1" width="6"><img src="images/ds.gif" width="6" height="28" /></td><td colspan="1" rowspan="1" width="102" background="images/ds1.gif"><div align="center" class="menu_top">�غ�ͬ��������ҵ</div></td><td colspan="1" rowspan="1" width="18"><img src="images/ds2.gif" width="7" height="28" /></td></tr></table>
+        </td></tr><tr class="tte"><td colspan="1" rowspan="1" class="tte">
+          <table width="100%" border="0" cellspacing="5" cellpadding="0"><tr><td colspan="1" rowspan="1">
+                <form enctype="application/x-www-form-urlencoded" method="post" id="formItem" name="form" onsubmit="return doPage_change_Click()" action="">
+                  <table width="97%" border="0" cellspacing="4" cellpadding="0"><tr><td colspan="1" rowspan="1" width="2%"> </td><td colspan="1" rowspan="1" width="68%"><img src="images/icon.gif" width="9" height="9" /> <a shape="rect" class="menu3" href="readArticle.jsp?id=25000061&amp;type=1&amp;articleId=55002566&amp;name=�غ�ͬ��������ҵ">2007��ȶ�ݸ�С��غ�ͬ��������ҵ���ƺŵ�λ</a>
+
+                      </td><td colspan="1" rowspan="1" width="30%">��2008-07-25��������6014��</td></tr><tr><td colspan="1" rowspan="1" width="2%"> </td><td colspan="1" rowspan="1" width="68%"><img src="images/icon.gif" width="9" height="9" /> <a shape="rect" class="menu3" href="readArticle.jsp?id=25000061&amp;type=1&amp;articleId=55002007&amp;name=�غ�ͬ��������ҵ">2006�궫ݸ���غ�ͬ��������ҵ��</a>
+
+                      </td><td colspan="1" rowspan="1" width="30%">��2007-11-13��������3418��</td></tr><tr><td colspan="1" rowspan="1" width="2%"> </td><td colspan="1" rowspan="1" width="68%"><img src="images/icon.gif" width="9" height="9" /> <a shape="rect" class="menu3" href="readArticle.jsp?id=25000061&amp;type=1&amp;articleId=35001623&amp;name=�غ�ͬ��������ҵ">2003��ȶ�ݸ��������ҵ��</a>
+
+                      </td><td colspan="1" rowspan="1" width="30%">��2007-06-06��������945��</td></tr><tr><td colspan="1" rowspan="1" width="2%"> </td><td colspan="1" rowspan="1" width="68%"><img src="images/icon.gif" width="9" height="9" /> <a shape="rect" class="menu3" href="readArticle.jsp?id=25000061&amp;type=1&amp;articleId=35001622&amp;name=�غ�ͬ��������ҵ">2004��ȶ�ݸ��������ҵ��</a>
+
+                      </td><td colspan="1" rowspan="1" width="30%">��2007-06-06��������1361��</td></tr><tr><td colspan="1" rowspan="1" width="2%"> </td><td colspan="1" rowspan="1" width="68%"><img src="images/icon.gif" width="9" height="9" /> <a shape="rect" class="menu3" href="readArticle.jsp?id=25000061&amp;type=1&amp;articleId=35001621&amp;name=�غ�ͬ��������ҵ">2005��ȶ�ݸ��������ҵ��</a>
+
+                      </td><td colspan="1" rowspan="1" width="30%">��2007-06-06��������1509��</td></tr><tr><td colspan="1" rowspan="1" width="2%"> </td><td colspan="1" rowspan="1" width="68%"><img src="images/icon.gif" width="9" height="9" /> <a shape="rect" class="menu3" href="readArticle.jsp?id=25000061&amp;type=1&amp;articleId=30001615&amp;name=�غ�ͬ��������ҵ">2002��ȶ�ݸ��������ҵ��</a>
+
+                      </td><td colspan="1" rowspan="1" width="30%">��2007-06-01��������981��</td></tr><tr><td colspan="2" rowspan="1" height="5" /></tr><tr bgcolor="#BBE3FF"><td align="center" colspan="3" rowspan="1" class="test">
+                        
+                        �� <font style="color:blue">1
+                      </font> ҳ 
+                        �� <font style="color:blue">1
+                      </font> ҳ 
+                        �� <font style="color:blue">6
+                      </font> ���¼ 
+                        <a shape="rect" href="#" style="color:blue">��ҳ</a>
+<a shape="rect" href="#" style="color:blue">��һҳ</a>
+<a shape="rect" href="#" style="color:blue">��һҳ</a>
+<a shape="rect" href="#" style="color:blue">ĩҳ</a>
+<a shape="rect" href="#" style="color:blue" onclick="doPage_change_Click()">ת��</a>
+��<input type="text" class="textinput2" name="pageCollectionShow" size="3" value="1" />ҳ
+<input type="hidden" name="pageCollectionNeed" value="6" />
+<input type="hidden" name="turnPageTag" value="true" />
+<script>
+function changePage_CollShow(PageNo){
+document.formItem.pageCollectionShow.value = PageNo;
+document.formItem.turnPageTag.value = 'true';
+document.formItem.submit();
+}
+function doPage_change_Click(){
+var v = document.formItem.pageCollectionShow.value;
+document.formItem.turnPageTag.value = 'true';
+var regDigit = /^\d*$/;
+var bResult = regDigit.test(v);
+if (!bResult){
+document.formItem.pageCollectionShow.focus();
+alert('�������������');
+return false;
+}
+if((v &gt;1)||(v&lt;=0))
+{
+alert('���������ҳ�����');
+document.formItem.pageCollectionShow.value=1;
+}else{
+document.formItem.submit();
+}
+}
+</script>
+                        
+                      </td></tr></table>
+                </form>
+              </td></tr></table>
+        </td></tr></table>
+  </td></tr><tr><td colspan="1" rowspan="1"><div align="center" /></td></tr><tr><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1"> </td></tr><tr><td colspan="1" rowspan="1"> </td></tr></tbody></table>
+
+
+<table><tbody><tr><td colspan="3" rowspan="1" height="5" /></tr><tr><td colspan="3" rowspan="1">
+    <table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#C8E2F7"><tr><td colspan="1" rowspan="1" height="80" bgcolor="#F3F9FD">
+          
+
+</td></tr></table></td></tr></tbody></table></body><head><meta http-equiv="Content-Type" content="text/html; charset=GBK" /><title>�ޱ����ĵ�</title><link href="css.css" rel="stylesheet" type="text/css" /></head><body>
+<div align="center">
+  <table width="100%" border="0" cellspacing="7" cellpadding="0"><tr><td colspan="1" rowspan="1" class="loing12"><div align="center"><strong>��ݸ�й������������(<a shape="rect" class="STYLE3">��ҳ����:1073268</a>)</strong></div></td></tr><tr><td colspan="1" rowspan="1" class="loing12"><div align="center">Dongguan Administration For Industry and Commerce </div></td></tr><tr><td colspan="1" rowspan="1" class="loing12"><div align="center">��ICP��05036581��</div></td></tr><tr><td colspan="1" rowspan="1" class="loing12"><div align="center">����֧�֣���ݸ�й��������������Ϣ����</div></td></tr><tr><td colspan="1" rowspan="1" class="loing12"><div align="center">����ʹ��1024��768�ֱ��� IE6.0���ϰ汾�����</div></td></tr></table>
+</div>
+</body></html>
