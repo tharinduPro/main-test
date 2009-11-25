@@ -21,7 +21,8 @@
             <!--<compilerarg value="-Xlint:unchecked"/>-->
 
             <!--排除不需要编译的java文件-->
-            <exclude name="net/**"/>
+            <exclude name="net/dgie/**"/>
+            <exclude name="httpclient/company/**"/>
             <classpath refid="testpath" />
         </javac>
         <copy  todir="${dist.classes}/net/dgie/xmltask">
@@ -44,6 +45,14 @@
     <!--考勤-->
     <target name="cmp" depends="testCompile">
         <java classname="httpclient.company.Attendance" classpath="./target/classes" fork="true" >
+            <!--<arg value="-h"/>-->
+            <classpath refid="testpath" />
+        </java>
+    </target>
+    
+        <!--发送email-->
+    <target name="mail" depends="testCompile">
+        <java classname="net.email.Test" classpath="./target/classes" fork="true" >
             <!--<arg value="-h"/>-->
             <classpath refid="testpath" />
         </java>
