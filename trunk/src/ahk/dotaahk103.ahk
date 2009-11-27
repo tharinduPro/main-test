@@ -9,10 +9,18 @@
 ; An AutoHotkey Script for dota!
 ; gong cheng cai liao ge zhong bei ju
 
+;不使用操作系统的环境变量
+;recommended for all new scripts
 #NoEnv
+
 #SingleInstance force
+
+;Switches to the SendInput method 
 SendMode Input
+
+;设置脚本的所在目录为工作目录
 SetWorkingDir %A_ScriptDir%
+
 CoordMode, Pixel
 Gosub,f_IniRead
 Gosub,f_SetHotkey0
