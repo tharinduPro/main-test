@@ -1,12 +1,4 @@
-;
-; AutoHotkey Version: 1.x
-; Language:       English
-; Platform:       Win9x/NT
-; Author:         A.N.Other <myemail@nowhere.com>
-;
-; Script Function:
-;	Template script (you can customize this template by editing "ShellNew\Template.ahk" in your Windows folder)
-;
+#SingleInstance force 
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
@@ -16,25 +8,20 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #l::Run http://localhost:8081/dgcredit/task2add/list.action
 #i::Run http://localhost:8081/dgcredit/index/index.action
 #e::Run explorer 
-#n::
-    Run net start EvtEng
-    Run net start RegSrvc
-    Run net start WLANKEEPER
-    return
-
 #j::Run https://ibsbjstar.ccb.com.cn/app/V5/CN/STY1/login.jsp
 #s::Run D:\ProgramFiles\System\Close LCD_PConline.exe 
-#t::
-    Run explorer E:\TestWork\Test\src 
-    return
-
 #p::Run C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe
 
 #1::Run explorer E:\Document\Inner
 
+!D:: Run G:\Download
+!T:: Run E:\TestWork\Test\src
+!W:: Run E:\WorkPlace
+
 $F1::Run %A_WinDir%\hh.exe E:\Document\JDK_API_1_6_zh_CN.CHM
 $F2::Run E:\TestWork\Test\src\ahk\f2.ahk
 $F11::Run E:\TestWork\Test\src\ahk\dotaahk103.ahk
+
 
 /*
  * BoD winsupermaximize v1.01.
@@ -47,7 +34,6 @@ $F11::Run E:\TestWork\Test\src\ahk\dotaahk103.ahk
  * 2008-05-10: v1.00
  */
 
-#SingleInstance ignore
 
 /*
  * Tray menu.
@@ -85,7 +71,12 @@ return
 superMaximize() {
 	global
 
+    ;WinExist("A") is a fast way to get the ID of the active window
 	WinActive("A")
+
+    ;Retrieves the specified window's unique ID, process ID, process name
+    ;WinGet, OutputVar [, Cmd, WinTitle, WinText, ExcludeTitle, ExcludeText]
+    ;OutputVar:The name of the variable in which to store the result of Cmd.
 	WinGet, winId, ID
 
 	if (isSuperMaximized_%winId% = 1) {
@@ -97,13 +88,23 @@ superMaximize() {
 		}
 		isSuperMaximized_%winId% = 0
 	} else {
+
 		; not supermaximized: we supermaximize it
+        ;Retrieves the minimized/maximized state for a window.
+            ;-1: The window is minimized (WinRestore can unminimize it).
+            ;1: The window is maximized (WinRestore can unmaximize it).
+            ;0: The window is neither minimized nor maximized.
 		WinGet, orig_%winId%_wasMaximized, MinMax
+        ;如果是最大化则恢复
 		if (orig_%winId%_wasMaximized = 1) {
 			WinRestore
 		}
+        ;记录x,y和长宽
 		WinGetPos, orig_%winId%_x, orig_%winId%_y, orig_%winId%_width, orig_%winId%_height ; store the old bounds
+
+        ;Remove window that has a thin-line border.
 		WinSet, Style, -0x800000
+
 		WinMove, , , 0, -4, A_ScreenWidth, A_ScreenHeight + 4 - 1 ; 1 pixel less, to be able to use the auto-hide taskbar
 		isSuperMaximized_%winId% = 1
 	}
