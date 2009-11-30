@@ -1,19 +1,40 @@
-import java.io.*;   
-import java.text.*;   
-import java.util.*;   
-import javax.mail.*;   
-import javax.mail.internet.*;   
+package net.email;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Properties;
+
+import javax.mail.BodyPart;
+import javax.mail.Flags;
+import javax.mail.Folder;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.Multipart;
+import javax.mail.Part;
+import javax.mail.Session;
+import javax.mail.Store;
+import javax.mail.URLName;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeUtility;
+
+
   
 /**  
- * ÓĞÒ»·âÓÊ¼ş¾ÍĞèÒª½¨Á¢Ò»¸öReciveMail¶ÔÏó  
+ * æœ‰ä¸€å°é‚®ä»¶å°±éœ€è¦å»ºç«‹ä¸€ä¸ªReciveMailå¯¹è±¡  
  */  
-public class Reciver {   
+public class MailReviver {   
     private MimeMessage mimeMessage = null;   
-    private String saveAttachPath = ""; //¸½¼şÏÂÔØºóµÄ´æ·ÅÄ¿Â¼   
-    private StringBuffer bodytext = new StringBuffer();//´æ·ÅÓÊ¼şÄÚÈİ   
-    private String dateformat = "yy-MM-dd HH:mm"; //Ä¬ÈÏµÄÈÕÇ°ÏÔÊ¾¸ñÊ½   
+    private String saveAttachPath = ""; //é™„ä»¶ä¸‹è½½åçš„å­˜æ”¾ç›®å½•   
+    private StringBuffer bodytext = new StringBuffer();//å­˜æ”¾é‚®ä»¶å†…å®¹   
+    private String dateformat = "yy-MM-dd HH:mm"; //é»˜è®¤çš„æ—¥å‰æ˜¾ç¤ºæ ¼å¼   
   
-    public Reciver(MimeMessage mimeMessage) {   
+    public MailReviver(MimeMessage mimeMessage) {   
         this.mimeMessage = mimeMessage;   
     }   
   
@@ -22,7 +43,7 @@ public class Reciver {
     }   
   
     /**  
-     * »ñµÃ·¢¼şÈËµÄµØÖ·ºÍĞÕÃû  
+     * è·å¾—å‘ä»¶äººçš„åœ°å€å’Œå§“å  
      */  
     public String getFrom() throws Exception {   
         InternetAddress address[] = (InternetAddress[]) mimeMessage.getFrom();   
@@ -37,7 +58,7 @@ public class Reciver {
     }   
   
     /**  
-     * »ñµÃÓÊ¼şµÄÊÕ¼şÈË£¬³­ËÍ£¬ºÍÃÜËÍµÄµØÖ·ºÍĞÕÃû£¬¸ù¾İËù´«µİµÄ²ÎÊıµÄ²»Í¬ "to"----ÊÕ¼şÈË "cc"---³­ËÍÈËµØÖ· "bcc"---ÃÜËÍÈËµØÖ·  
+     * è·å¾—é‚®ä»¶çš„æ”¶ä»¶äººï¼ŒæŠ„é€ï¼Œå’Œå¯†é€çš„åœ°å€å’Œå§“åï¼Œæ ¹æ®æ‰€ä¼ é€’çš„å‚æ•°çš„ä¸åŒ "to"----æ”¶ä»¶äºº "cc"---æŠ„é€äººåœ°å€ "bcc"---å¯†é€äººåœ°å€  
      */  
     public String getMailAddress(String type) throws Exception {   
         String mailaddr = "";   
@@ -77,7 +98,7 @@ public class Reciver {
     }   
   
     /**  
-     * »ñµÃÓÊ¼şÖ÷Ìâ  
+     * è·å¾—é‚®ä»¶ä¸»é¢˜  
      */  
     public String getSubject() throws MessagingException {   
         String subject = "";   
@@ -90,7 +111,7 @@ public class Reciver {
     }   
   
     /**  
-     * »ñµÃÓÊ¼ş·¢ËÍÈÕÆÚ  
+     * è·å¾—é‚®ä»¶å‘é€æ—¥æœŸ  
      */  
     public String getSentDate() throws Exception {   
         Date sentdate = mimeMessage.getSentDate();   
@@ -99,14 +120,14 @@ public class Reciver {
     }   
   
     /**  
-     * »ñµÃÓÊ¼şÕıÎÄÄÚÈİ  
+     * è·å¾—é‚®ä»¶æ­£æ–‡å†…å®¹  
      */  
     public String getBodyText() {   
         return bodytext.toString();   
     }   
   
     /**  
-     * ½âÎöÓÊ¼ş£¬°ÑµÃµ½µÄÓÊ¼şÄÚÈİ±£´æµ½Ò»¸öStringBuffer¶ÔÏóÖĞ£¬½âÎöÓÊ¼ş Ö÷ÒªÊÇ¸ù¾İMimeTypeÀàĞÍµÄ²»Í¬Ö´ĞĞ²»Í¬µÄ²Ù×÷£¬Ò»²½Ò»²½µÄ½âÎö  
+     * è§£æé‚®ä»¶ï¼ŒæŠŠå¾—åˆ°çš„é‚®ä»¶å†…å®¹ä¿å­˜åˆ°ä¸€ä¸ªStringBufferå¯¹è±¡ä¸­ï¼Œè§£æé‚®ä»¶ ä¸»è¦æ˜¯æ ¹æ®MimeTypeç±»å‹çš„ä¸åŒæ‰§è¡Œä¸åŒçš„æ“ä½œï¼Œä¸€æ­¥ä¸€æ­¥çš„è§£æ  
      */  
     public void getMailContent(Part part) throws Exception {   
         String contenttype = part.getContentType();   
@@ -131,7 +152,7 @@ public class Reciver {
     }   
   
     /**   
-     * ÅĞ¶Ï´ËÓÊ¼şÊÇ·ñĞèÒª»ØÖ´£¬Èç¹ûĞèÒª»ØÖ´·µ»Ø"true",·ñÔò·µ»Ø"false"  
+     * åˆ¤æ–­æ­¤é‚®ä»¶æ˜¯å¦éœ€è¦å›æ‰§ï¼Œå¦‚æœéœ€è¦å›æ‰§è¿”å›"true",å¦åˆ™è¿”å›"false"  
      */   
     public boolean getReplySign() throws MessagingException {   
         boolean replysign = false;   
@@ -144,14 +165,14 @@ public class Reciver {
     }   
   
     /**  
-     * »ñµÃ´ËÓÊ¼şµÄMessage-ID  
+     * è·å¾—æ­¤é‚®ä»¶çš„Message-ID  
      */  
     public String getMessageId() throws MessagingException {   
         return mimeMessage.getMessageID();   
     }   
   
     /**  
-     * ¡¾ÅĞ¶Ï´ËÓÊ¼şÊÇ·ñÒÑ¶Á£¬Èç¹ûÎ´¶Á·µ»Ø·µ»Øfalse,·´Ö®·µ»Øtrue¡¿  
+     * ã€åˆ¤æ–­æ­¤é‚®ä»¶æ˜¯å¦å·²è¯»ï¼Œå¦‚æœæœªè¯»è¿”å›è¿”å›false,åä¹‹è¿”å›trueã€‘  
      */  
     public boolean isNew() throws MessagingException {   
         boolean isnew = false;   
@@ -169,7 +190,7 @@ public class Reciver {
     }   
   
     /**  
-     * ÅĞ¶Ï´ËÓÊ¼şÊÇ·ñ°üº¬¸½¼ş  
+     * åˆ¤æ–­æ­¤é‚®ä»¶æ˜¯å¦åŒ…å«é™„ä»¶  
      */  
     public boolean isContainAttach(Part part) throws Exception {   
         boolean attachflag = false;   
@@ -200,7 +221,7 @@ public class Reciver {
     }   
   
     /**   
-     * ¡¾±£´æ¸½¼ş¡¿   
+     * ã€ä¿å­˜é™„ä»¶ã€‘   
      */   
     public void saveAttachMent(Part part) throws Exception {   
         String fileName = "";   
@@ -234,7 +255,7 @@ public class Reciver {
     }   
   
     /**   
-     * ¡¾ÉèÖÃ¸½¼ş´æ·ÅÂ·¾¶¡¿   
+     * ã€è®¾ç½®é™„ä»¶å­˜æ”¾è·¯å¾„ã€‘   
      */   
   
     public void setAttachPath(String attachpath) {   
@@ -242,21 +263,21 @@ public class Reciver {
     }   
   
     /**  
-     * ¡¾ÉèÖÃÈÕÆÚÏÔÊ¾¸ñÊ½¡¿  
+     * ã€è®¾ç½®æ—¥æœŸæ˜¾ç¤ºæ ¼å¼ã€‘  
      */  
     public void setDateFormat(String format) throws Exception {   
         this.dateformat = format;   
     }   
   
     /**  
-     * ¡¾»ñµÃ¸½¼ş´æ·ÅÂ·¾¶¡¿  
+     * ã€è·å¾—é™„ä»¶å­˜æ”¾è·¯å¾„ã€‘  
      */  
     public String getAttachPath() {   
         return saveAttachPath;   
     }   
   
     /**  
-     * ¡¾ÕæÕıµÄ±£´æ¸½¼şµ½Ö¸¶¨Ä¿Â¼Àï¡¿  
+     * ã€çœŸæ­£çš„ä¿å­˜é™„ä»¶åˆ°æŒ‡å®šç›®å½•é‡Œã€‘  
      */  
     private void saveFile(String fileName, InputStream in) throws Exception {   
         String osName = System.getProperty("os.name");   
@@ -289,7 +310,7 @@ public class Reciver {
             }  
         } catch (Exception exception) {  
             exception.printStackTrace();  
-            throw new Exception("ÎÄ¼ş±£´æÊ§°Ü!");  
+            throw new Exception("æ–‡ä»¶ä¿å­˜å¤±è´¥!");  
         } finally {  
             bos.close();  
             bis.close();  
@@ -297,25 +318,26 @@ public class Reciver {
     }  
  
     /**  
-     * PraseMimeMessageÀà²âÊÔ  
+     * PraseMimeMessageç±»æµ‹è¯•  
      */  
     public static void main(String args[]) throws Exception {  
         Properties props = System.getProperties();  
-        props.put("mail.smtp.host", "smtp.163.com");  
+        props.put("mail.smtp.host", "smtp.126.com");  
         props.put("mail.smtp.auth", "true");  
+        
         Session session = Session.getDefaultInstance(props, null);  
-        URLName urln = new URLName("pop3", "pop3.163.com", 110, null,  
-                "xiangzhengyan", "pass");  
+        URLName urln = new URLName("pop3", "pop3.126.com", 110, null,  
+                "s-k-y", "123abc");  
         Store store = session.getStore(urln);  
         store.connect();  
         Folder folder = store.getFolder("INBOX");  
         folder.open(Folder.READ_ONLY);  
         Message message[] = folder.getMessages();  
         System.out.println("Messages's length: " + message.length);  
-        ReciveOneMail pmm = null;  
+        MailReviver pmm = null;  
         for (int i = 0; i < message.length; i++) {  
             System.out.println("======================");  
-            pmm = new ReciveOneMail((MimeMessage) message[i]);  
+            pmm = new MailReviver((MimeMessage) message[i]);  
             System.out.println("Message " + i + " subject: " + pmm.getSubject());  
             System.out.println("Message " + i + " sentdate: "+ pmm.getSentDate());  
             System.out.println("Message " + i + " replysign: "+ pmm.getReplySign());  
@@ -325,14 +347,14 @@ public class Reciver {
             System.out.println("Message " + i + " to: "+ pmm.getMailAddress("to"));  
             System.out.println("Message " + i + " cc: "+ pmm.getMailAddress("cc"));  
             System.out.println("Message " + i + " bcc: "+ pmm.getMailAddress("bcc"));  
-            pmm.setDateFormat("yyÄêMMÔÂddÈÕ HH:mm");  
+            pmm.setDateFormat("yyå¹´MMæœˆddæ—¥ HH:mm");  
             System.out.println("Message " + i + " sentdate: "+ pmm.getSentDate());  
             System.out.println("Message " + i + " Message-ID: "+ pmm.getMessageId());  
-            // »ñµÃÓÊ¼şÄÚÈİ===============  
+            // è·å¾—é‚®ä»¶å†…å®¹===============  
             pmm.getMailContent((Part) message[i]);  
             System.out.println("Message " + i + " bodycontent: \r\n"  
                     + pmm.getBodyText());  
-            pmm.setAttachPath("c:\\");   
+            pmm.setAttachPath("R:\\");   
             pmm.saveAttachMent((Part) message[i]);   
         }   
     }   
