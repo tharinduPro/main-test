@@ -21,8 +21,12 @@ SendMode Input
 ;设置脚本的所在目录为工作目录
 SetWorkingDir %A_ScriptDir%
 
+;Sets coordinate mode for various commands to be relative to either the active window or the screen.
 CoordMode, Pixel
+
+;Jumps to the specified label and continues execution until Return is encountered.
 Gosub,f_IniRead
+
 Gosub,f_SetHotkey0
 If sg1
 	Gosub,f_SetHotkey1
@@ -41,11 +45,11 @@ Send, {[ Up}
 Send, {] Up}
 loop,
 {
-	winwaitactive,Warcraft III ahk_class Warcraft III
-    WinGet,hWnd,ID,Warcraft III ahk_class Warcraft III
+	winwaitactive,A
+    WinGet,hWnd,ID,A
 	loop,
     {   
-        WinGetPos,,,Width,Height,Warcraft III ahk_class Warcraft III
+        WinGetPos,,,Width,Height,A
         if(Width>400 and Height>300)
             break
         sleep 1000
@@ -55,7 +59,7 @@ loop,
 		gosub,f_hbon
 	loop,
 	{
-		ifwinactive,Warcraft III ahk_class Warcraft III
+		ifwinactive,A
 			sleep 1000
 		else
 			break
@@ -484,11 +488,12 @@ return
 }
 
 SC1000::
+    ;Does nothing except mark the current subroutine as being exempt from suspension.
 	Suspend permit
 	Reload
 	return
 SC1001::
-    hwnd := WinExist( "Warcraft III ahk_class Warcraft III" )
+    hwnd := WinExist( "A" )
 	If hwnd
     {
         VarSetCapacity(lpRect, 16, 0)
@@ -522,6 +527,7 @@ f_wldn:
 }
 f_Suspend:
 {	
+    ;On: Suspends(挂起) all hotkeys and hotstrings except those explained the Remarks section.
     suspend on
 	return
 }
@@ -535,12 +541,12 @@ f_IniRead:
         IniRead, Shk, %A_ScriptDir%\dotaahk.ini, 1, Suspend
 				
 		IniRead, sg1, %A_ScriptDir%\dotaahk.ini, Itemkeys, Enabled
-		IniRead, Item7, %A_ScriptDir%\dotaahk.ini, Itemkeys, Item7
-        IniRead, Item8, %A_ScriptDir%\dotaahk.ini, Itemkeys, Item8
-        IniRead, Item4, %A_ScriptDir%\dotaahk.ini, Itemkeys, Item4
-        IniRead, Item5, %A_ScriptDir%\dotaahk.ini, Itemkeys, Item5
         IniRead, Item1, %A_ScriptDir%\dotaahk.ini, Itemkeys, Item1
         IniRead, Item2, %A_ScriptDir%\dotaahk.ini, Itemkeys, Item2
+        IniRead, Item4, %A_ScriptDir%\dotaahk.ini, Itemkeys, Item4
+        IniRead, Item5, %A_ScriptDir%\dotaahk.ini, Itemkeys, Item5
+		IniRead, Item7, %A_ScriptDir%\dotaahk.ini, Itemkeys, Item7
+        IniRead, Item8, %A_ScriptDir%\dotaahk.ini, Itemkeys, Item8
         IniRead, Mhk, %A_ScriptDir%\dotaahk.ini, Itemkeys, Move
         
 		IniRead, sg2, %A_ScriptDir%\dotaahk.ini,  Textsend, Enabled
@@ -595,7 +601,7 @@ f_hbon:
 
 IME_CHECK()
 {
-	WinGet,hWnd,ID,Warcraft III ahk_class Warcraft III
+	WinGet,hWnd,ID,A
 	IMEWnd:=DllCall("imm32\ImmGetDefaultIMEWnd", Uint,hWnd, Uint)
 	DetectHiddenWindows , ON
 	SendMessage 0x283,0x005,"",,ahk_id %IMEWnd%
