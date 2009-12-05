@@ -5,9 +5,10 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #a::Run http://localhost:8081/dgcredit/type2add/preAdd.action
-#b::Run http://localhost:8081/dgcredit//creditQuery/queryList.action
+#b::Run http://localhost:8081/dgcredit//creditQuery/creditQueryAction!creditQuery.action
 #l::Run http://localhost:8081/dgcredit/task2add/list.action
 #e::Run explorer 
+#f::Run D:\ProgramFiles\Net\fg690p.exe
 #i::Run http://localhost:8081/dgcredit/index/index.action
 #j::Run https://ibsbjstar.ccb.com.cn/app/V5/CN/STY1/login.jsp
 #m::Run D:\ProgramFiles\Program\MyEclipse 7.0M1\eclipse\eclipse.exe
@@ -17,11 +18,11 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #p::Run C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe
 #q::Run D:\ProgramFiles\Net\Tencent\QQ\Bin\qq.exe
 #w::limitWarWindow()
-n & #e::run D:\ProgramFiles\Net\Mozilla Firefox\firefox.exe
+` & #e::run D:\ProgramFiles\Net\Mozilla Firefox\firefox.exe
 
-n::
+`::
     WinMaximize A   ; Maximize the active/foreground window.
-    Send n ; Make the release of Numpad0 produce a Numpad0 keystroke. See comment below.
+    Send `` ; Make the release of Numpad0 produce a Numpad0 keystroke. See comment below.
     return
 
 #1::startTomcat()
