@@ -63,7 +63,7 @@ $f::        KAEL(0x010379,0x020479,"f","qee")
 $g::        KAEL(0x700519,0x6F041A,"g","qqe")
 $b::        KAEL(0x030D46,0x030D44,"b","qwe")
 
-
+;按键z是技能灵动迅捷，如果双击z会给自己加这个buff
 $z::
 If (A_PriorHotkey = A_ThisHotkey && A_TimeSincePriorHotkey < 400)
 {
