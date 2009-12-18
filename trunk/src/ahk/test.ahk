@@ -7,7 +7,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #a::Run http://localhost:8081/dgcredit/type2add/preAdd.action
 #b::Run http://localhost:8081/dgcredit//creditQuery/creditQueryAction!creditQuery.action
 #l::Run http://localhost:8081/dgcredit/task2add/list.action
-#e::Run explorer 
+#u::Run http://localhost:8081/dgcredit/userManager/list.action
+#e::Run C:\Documents and Settings\Administrator\Local Settings\Application Data\HumanizedEnso\Enso.exe
 #f::Run D:\ProgramFiles\Net\fg690p.exe
 #i::Run http://localhost:8081/dgcredit/index/index.action
 #j::Run https://ibsbjstar.ccb.com.cn/app/V5/CN/STY1/login.jsp
@@ -27,20 +28,13 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #1::startTomcat()
 
-!e::wudi()
-wudi() {
-    send e
-    sleep 200
-    send f
-    return
-}
-
 startTomcat() {
     ;Run D:\ProgramFiles\Program\Tomcat6\bin\startup.bat
     ;run D:\ProgramFiles\Program\Groovy-1.6.5\bin\startGroovy.bat
 }
 
 !d:: Run G:\Download
+!e:: Run explorer
 !i:: Run E:\Document\Inner
 !t:: Run E:\TestWork\Test\src
 !w:: Run E:\WorkPlace
@@ -155,5 +149,11 @@ test() {
 ::/sop::
     sop = System.out.println( "" )
     clipboard = %sop%
+    Send ^v
+    return
+
+
+::/gcp::
+    clipboard = KM4Yg4CP7KD9
     Send ^v
     return
