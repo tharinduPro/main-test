@@ -8,7 +8,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #b::Run http://localhost:8081/dgcredit//creditQuery/creditQueryAction!creditQuery.action
 #l::Run http://localhost:8081/dgcredit/task2add/list.action
 #u::Run http://localhost:8081/dgcredit/userManager/list.action
-#e::Run C:\Documents and Settings\Administrator\Local Settings\Application Data\HumanizedEnso\Enso.exe
 #f::Run D:\ProgramFiles\Net\fg690p.exe
 #i::Run http://localhost:8081/dgcredit/index/index.action
 #j::Run https://ibsbjstar.ccb.com.cn/app/V5/CN/STY1/login.jsp
@@ -136,24 +135,90 @@ superMaximize() {
 #F1::test()
 
 test() {
-    d = %A_YYYY%-%A_MM%-%A_DD% %A_Hour%:%A_Min%:%A_Sec%   
-    clipboard = %d%   
-    Send ^v   
+    MsgBox, hahaaaaaa.
     return   
     ;WinGet, active_id, ID, A
-    ;WinMaximize, ahk_id %active_id%
     ;MsgBox, The active window's ID is "%active_id%".
     ;return
 }
 
-::/sop::
-    sop = System.out.println( "" )
-    clipboard = %sop%
-    Send ^v
+
+:::w::
+    runSelf()
     return
 
+runSelf() {
+    WinGetActiveTitle, title
+    pos := RegExMatch( title, "ahk" )
+    if( %pos% <> 0 ) {
+        ;vim 写入
+        send {Escape}:w`n
+        sleep 100
+        run E:\TestWork\Test\src\ahk\test.ahk
+    }
+    else {
+        send {Escape}:w`n
+    }
+    return   
+}
+
+::/sop::
+    sop = System.out.println( " );
+    clipboard = %sop%
+    send ^v
+    loop 3 {
+        send {Left down}
+    }
+    return
 
 ::/gcp::
     clipboard = KM4Yg4CP7KD9
     Send ^v
+    return
+
+
+
+~Esc::
+    if vimEnabled is not number
+         vimEnabled = 0 
+
+    if ( vimEnabled == 0 ) {
+         vimEnabled = 1 
+         send {Escape}
+     }
+    return
+
+~i:: 
+    if ( vimEnabled == 1 ) {
+        vimEnabled = 0 
+        send {Backspace}
+    }
+    return
+
+
+~$::
+    if ( vimEnabled == 1 ){
+        Send, {Backspace}{End}
+    }
+    return
+
+h::
+    if ( vimEnabled == 1 ){
+        Send, {Left}
+    }
+    return
+j::
+    if ( vimEnabled == 1 ){
+        Send, {Down}
+    }
+    return
+k::
+    if ( vimEnabled == 1 ){
+        Send, {Up}
+    }
+    return
+l::
+    if ( vimEnabled == 1 ){
+        Send, {Right}
+    }
     return
