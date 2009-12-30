@@ -1,5 +1,6 @@
 #Include FilePathCopier.ahk
 #Include WarWindowsLimit.ahk
+#Include MyVim.ahk
 #SingleInstance force 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
@@ -135,8 +136,9 @@ superMaximize() {
 #F1::test()
 
 test() {
-    MsgBox, hahaaaaaa.
-    return   
+    Gui, +ToolWindow 
+    Gui, Show, , VimNormal Mode
+    return
     ;WinGet, active_id, ID, A
     ;MsgBox, The active window's ID is "%active_id%".
     ;return
@@ -178,47 +180,3 @@ runSelf() {
 
 
 
-~Esc::
-    if vimEnabled is not number
-         vimEnabled = 0 
-
-    if ( vimEnabled == 0 ) {
-         vimEnabled = 1 
-         send {Escape}
-     }
-    return
-
-~i:: 
-    if ( vimEnabled == 1 ) {
-        vimEnabled = 0 
-        send {Backspace}
-    }
-    return
-
-
-~$::
-    if ( vimEnabled == 1 ){
-        Send, {Backspace}{End}
-    }
-    return
-
-h::
-    if ( vimEnabled == 1 ){
-        Send, {Left}
-    }
-    return
-j::
-    if ( vimEnabled == 1 ){
-        Send, {Down}
-    }
-    return
-k::
-    if ( vimEnabled == 1 ){
-        Send, {Up}
-    }
-    return
-l::
-    if ( vimEnabled == 1 ){
-        Send, {Right}
-    }
-    return
