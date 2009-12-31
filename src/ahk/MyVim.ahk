@@ -24,7 +24,6 @@
 
 
 #IFWinExist vimOn
-
     ; Multiples
     1:: num = %num%1
     2:: num = %num%2
@@ -44,6 +43,17 @@
 
     $::Send, {End}
     ^::Send, {Home}
+
+    ^b::Send, {PgUp}
+    ^f::Send, {PgDn}
+
+    u::Send,^z
+
+    ;删除一行
+    :*Z?:dd::
+        send,{End}+{Home}{Del}^x
+        return
+
 #IfWinExist
 
 vimize()
