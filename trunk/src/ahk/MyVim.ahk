@@ -51,7 +51,7 @@
 
     ;删除一行
     :*Z?:dd::
-        send,{End}+{Home}{Del}^x
+        send,{End}+{Home}^x
         return
 
 #IfWinExist
