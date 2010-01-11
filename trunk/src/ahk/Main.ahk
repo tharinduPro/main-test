@@ -1,17 +1,17 @@
 #Include FilePathCopier.ahk
 #Include WarWindowsLimit.ahk
-#Include MyVim.ahk
+;#Include MyVim.ahk
 #Include MyEclipse.ahk
 #Include MyJava.ahk
 #SingleInstance force 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-#a::Run http://localhost:8081/dgcredit/type2add/preAdd.action
+#a::Run http://localhost:8081/dgcredit/task2add/preAdd.action
 #b::Run http://localhost:8081/dgcredit//creditQuery/creditQueryAction!creditQuery.action
 #l::Run http://localhost:8081/dgcredit/task2add/list.action
 #u::Run http://localhost:8081/dgcredit/userManager/list.action
-#f::Run D:\ProgramFiles\Net\fg690p.exe
+#f::Run D:\ProgramFiles\Net\freegate.exe
 #i::Run http://localhost:8081/dgcredit/index/index.action
 #j::Run https://ibsbjstar.ccb.com.cn/app/V5/CN/STY1/login.jsp
 #m::Run D:\ProgramFiles\Program\MyEclipse 7.0M1\eclipse\eclipse.exe
@@ -63,7 +63,7 @@ runSelf() {
         ;vim 写入
         send {Escape}:w`n
         sleep 100
-        run E:\TestWork\Test\src\ahk\test.ahk
+        run E:\TestWork\Test\src\ahk\Main.ahk
     }
     else {
         send {Escape}:w`n
