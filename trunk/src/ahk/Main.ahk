@@ -1,6 +1,5 @@
 #Include FilePathCopier.ahk
 #Include WarWindowsLimit.ahk
-;#Include MyVim.ahk
 #Include MyEclipse.ahk
 #Include MyJava.ahk
 #SingleInstance force 
@@ -70,5 +69,3 @@ runSelf() {
     }
     return   
 }
-
-

@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <title>任务添加</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src='task.js'></script>
+        <style>
+            .advanceTag {
+                color:blue;
+                cursor:pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post" action="add.action" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td class="tdLabel"><label for="id" class="label">任务类型:</label></td>
+                    <td
+                        ><select name="id" size="1" id="id">
+
+
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href='/dgcredit/type2add/preAdd.action'>添加类型</a>
+                    </td>
+                </tr>
+
+                <tr id="taskUrlTr">
+                    <td class="tdLabel"><label for="task_url" class="label">远程URL:</label></td>
+                    <td><input type="text" name="task.url" value="" id="task_url"/>
+                        <span onclick='advanceOption(this, "taskUrlTr");' class="advanceTag" name="advanceSpan" >
+                            <u>高级</u>
+                            <small>▼</small>
+                        </span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        分页参数:<input type="text" name="task.pageParamName" />
+                        截取条目关键字:<input type="text" name="task.keyword" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        起始页码:<input type="text" name="task.pageParamStart" />
+                        结束页码:<input type="text" name="task.pageParamEnd" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tdLabel" colspan="3">
+                        <label for="xpathLabel" class="label">网页抓取条目xpath:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <table>
+                            <tbody id="xpathTable">
+                                <tr id="xpathtr0">
+                                    <td>
+                                        主xpath: <input type="text" name="htmlItemXpathArray[0].mainXpath"/>
+                                    </td>
+                                    <td>
+                                        子xpath: <input type="text" name="htmlItemXpathArray[0].subXpath"/>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3"><input type="button" onclick="addSubItemXpath()" value="添加下一级条目xpath"/></td> 
+                </tr>
+
+                <tr>
+                    <td class="tdLabel"><label for="keyword" class="label">抓取条目的关键字:</label></td>
+                    <td><input type="text" name="task.keyword" value="" id="keyword"/></td>
+                    <td></td>
+                </tr>
+
+                <tr><td colspan="3"></td></tr>
+                <tr><td colspan="3"></td></tr>
+                <tr><td colspan="3"></td></tr>
+
+                <tr><td colspan="3">具体文章的xpath:</td></tr>
+                <tr>
+                    <td>
+                        标题xpath:<input type="text" name="htmlContentXpath.titleXpath"/>
+                    </td>
+                    <td>
+                        内容xpath:<input type="text" name="htmlContentXpath.contentXpath"/>
+                    </td>
+                    <td>
+                        来源xpath:<input type="text" name="htmlContentXpath.srcXpath"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tdLabel" colspan="2">
+                        <label for="executeTime" class="label">执行时间:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <table>
+                            <tbody id="exeTimeTable">
+                                <tr id="tr0">
+                                    <td>
+                                        <input type="text" name="executeHour" onblur="checkHour(this)"/>时
+                                    </td>
+                                    <td>
+                                        <input type="text" name="executeMinute" onblur="checkMinute(this)"/>分
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" onclick="addExeTime()" value="增加执行时间"/></td> 
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div align="right">
+                            <input type="submit" id="commit" name="commit" value="提交"/>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
