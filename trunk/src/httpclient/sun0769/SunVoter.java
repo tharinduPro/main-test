@@ -37,6 +37,7 @@ public class SunVoter {
 	public static void main(String[] args) throws Exception {
 		int successCounter = 0;
 		int sleepCounter = 0;
+        int cycleCounter = 0;
 		for( int voteIndex = 0; voteIndex < 3000; voteIndex++ ) {
 			DefaultHttpClient httpclient = new DefaultHttpClient();
 			//HttpHost proxy = new HttpHost("59.36.98.154", 80);
@@ -65,7 +66,13 @@ public class SunVoter {
 		    	System.out.println( "failed!" );
 		    }else if( resultPage.indexOf( "成功" ) > -1 ) {
 		    	successCounter ++;
+                cycleCounter ++;
 		    	System.out.println( "success:" +  successCounter);
+                if( cycleCounter == 9 ) { 
+                    cycleCounter = 0;
+                    System.out.println( "睡眠六分钟");
+                    Thread.sleep( 360000 );
+                }
 		    }
 		    if( resultPage.indexOf( "重复" ) > -1 ) {
 		    	sleepCounter ++;
