@@ -2,9 +2,27 @@
     <head>
         <title>任务添加</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <script type="text/javascript" src='task.js'></script>
+        <script src="jquery-1.4.min.js" type="text/javascript"></script>
+        <script src="task.js" type="text/javascript"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+              $(".advanceTr").hide();
+              $("span[name=advanceSpan]").toggle(
+                  function(){
+                      $(this).parents("tr").nextAll(":lt(2)").show();
+                      $(this).children("small").text("▲");
+                  },
+                  function(){
+                      $(this).parents("tr").nextAll(":lt(2)").hide();
+                      $(this).children("small").text("▼");
+                  }
+              );
+              $("span[name=addItem]").click( addSubItemXpath );
+              $("span[name=addTimeSpan]").click( addExeTime );
+          });
+        </script>
         <style>
-            .advanceTag {
+            .linkHand {
                 color:blue;
                 cursor:pointer;
             }
@@ -31,21 +49,21 @@
                 <tr id="taskUrlTr">
                     <td class="tdLabel"><label for="task_url" class="label">远程URL:</label></td>
                     <td><input type="text" name="task.url" value="" id="task_url"/>
-                        <span onclick='advanceOption(this, "taskUrlTr");' class="advanceTag" name="advanceSpan" >
+                        <span class="linkHand" name="advanceSpan" >
                             <u>高级</u>
                             <small>▼</small>
                         </span>
                     </td>
                 </tr>
 
-                <tr>
+                <tr class="advanceTr">
                     <td colspan="2">
                         分页参数:<input type="text" name="task.pageParamName" />
                         截取条目关键字:<input type="text" name="task.keyword" />
                     </td>
                 </tr>
 
-                <tr>
+                <tr class="advanceTr">
                     <td colspan="2">
                         起始页码:<input type="text" name="task.pageParamStart" />
                         结束页码:<input type="text" name="task.pageParamEnd" />
@@ -61,21 +79,42 @@
                     <td colspan="3">
                         <table>
                             <tbody id="xpathTable">
-                                <tr id="xpathtr0">
+                                <tr>
                                     <td>
                                         主xpath: <input type="text" name="htmlItemXpathArray[0].mainXpath"/>
                                     </td>
                                     <td>
                                         子xpath: <input type="text" name="htmlItemXpathArray[0].subXpath"/>
                                     </td>
+                                    <td>
+                                        <span class="linkHand" name="advanceSpan" >
+                                            <u>高级</u>
+                                            <small>▼</small>
+                                        </span>
+                                    </td>
                                 </tr>
+
+                                <tr class="advanceTr">
+                                    <td colspan="3">
+                                        分页参数:<input type="text" name="htmlItemXpathArray[0].pageParamName" />
+                                        截取条目关键字:<input type="text" name="htmlItemXpathArray[0].keyword" />
+                                    </td>
+                                </tr>
+
+                                <tr class="advanceTr">
+                                    <td colspan="3">
+                                        起始页码:<input type="text" name="htmlItemXpathArray[0].pageParamStart" />
+                                        结束页码:<input type="text" name="htmlItemXpathArray[0].pageParamEnd" />
+                                    </td>
+                                </tr>
+
                             </tbody>
                         </table>
                     </td>
                 </tr>
 
                 <tr>
-                    <td colspan="3"><input type="button" onclick="addSubItemXpath()" value="添加下一级条目xpath"/></td> 
+                    <td colspan="3"><span class="linkHand" name="addItem" ><u>添加下一级条目xpath</u></span></td> 
                 </tr>
 
                 <tr>
@@ -123,7 +162,11 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2"><input type="button" onclick="addExeTime()" value="增加执行时间"/></td> 
+                    <td colspan="2">
+                        <span class="linkHand" name="addTimeSpan" >
+                            <u>增加执行时间</u>
+                        </span>
+                    </td>
                 </tr>
                 <tr>
                     <td colspan="2">

@@ -1,28 +1,30 @@
-var i = 1;
+var exeTimeIndex = 1;
 function addExeTime() {
-    var exeTimeTd1 = document.createElement("td");
-    exeTimeTd1.innerHTML = '<input type="text" name="executeHour" onblur="checkHour(this)"/>时';
+    $("span[name=exeTimeDelSpan]").remove();
+    var exeTimeTd1 = $('<td><input type="text" name="executeHour" onblur="checkHour(this)"/>时</td>');
 
-    var trId = "tr"+i;
-    var trIdStr = "'" + trId + "'";
-    var exeTimeTableStr= "'" + "exeTimeTable" + "'";
-    var exeTimeTd2 = document.createElement("td");
-    exeTimeTd2.innerHTML = '<input type="text" name="executeMinute" onblur="checkMinute(this)"  />分 <input type="button" value="删除" onclick="delTrItem(' + exeTimeTableStr + ',' +  trIdStr + ')" />';
+    var exeTimeTd2 = $('<td><input type="text" name="executeMinute" onblur="checkMinute(this)"  />分</td>');
 
-    var exeTimeTr = document.createElement("tr");
-    exeTimeTr.id = trId;
-    exeTimeTr.appendChild( exeTimeTd1 );
-    exeTimeTr.appendChild( exeTimeTd2 );
+    var delElement = $( '<span class="linkHand" name="exeTimeDelSpan" ><u>删除</u></span>' );
+    exeTimeTd2.append( delElement );
 
-    var exeTimeTable = document.getElementById( "exeTimeTable" );
-    exeTimeTable.appendChild( exeTimeTr );
-    i++;
-}
+    var exeTimeTr =$('<tr></tr>');
+    exeTimeTr.append( exeTimeTd1 );
+    exeTimeTr.append( exeTimeTd2 );
 
-function delTrItem( tableId,trId ) {
-    var Table = document.getElementById( tableId );
-    var trObj = document.getElementById( trId );
-    Table.removeChild( trObj );
+    var exeTimeTable = $( "#exeTimeTable" );
+    exeTimeTable.append( exeTimeTr );
+    exeTimeIndex++;
+
+    $("span[name=exeTimeDelSpan]").click( function() {
+            var thisTr = $(this).parents("tr:first");
+            var prevAdvanceTd = thisTr.prev().children("td:eq(1)");
+            if( exeTimeIndex!= 2 ) {
+                prevAdvanceTd.append( delElement );
+            }
+            thisTr.remove();
+            exeTimeIndex--;
+    });
 }
 
 function checkHour( obj ) {
@@ -38,32 +40,66 @@ function checkMinute( obj ) {
         obj.value="";
     }
 }
-xpathTrIndex=1
+var xpathTrIndex = 1;
 function addSubItemXpath() {
-    var xpathTd1 = document.createElement("td");
-    var space = "&nbsp;&nbsp;";
-    for( i = 1; i < xpathTrIndex; i++ ) {
-        space = space + "&nbsp;&nbsp;";
-    }
-    xpathTd1.innerHTML = space + '主xpath: <input type="text" name="htmlItemXpathArray[' + xpathTrIndex + '].mainXpath""/>';
 
-    var trId = "xpathtr"+xpathTrIndex;
-    var trIdStr = "'" + trId + "'";
-    var xpathTableStr= "'" + "xpathTable" + "'";
-    var xpathTd2 = document.createElement("td");
-    xpathTd2.innerHTML = '子xpath: <input type="text" name="htmlItemXpathArray[' + xpathTrIndex + '].subXpath" /> <input type="button" value="删除" onclick="delTrItem(' + xpathTableStr + ',' +  trIdStr + ')" />';;
+    $("span[name=delSpan]").remove();
 
-    var xpathTr = document.createElement("tr");
-    xpathTr.id = trId;
-    xpathTr.appendChild( xpathTd1 );
-    xpathTr.appendChild( xpathTd2 );
+    var xpathTd1 = $( '<td>主xpath: <input type="text" name="htmlItemXpathArray[' + xpathTrIndex + '].mainXpath"/></td>');
 
-    var xpathTable = document.getElementById( "xpathTable" );
-    xpathTable.appendChild( xpathTr );
+    var xpathTd2 = $( '<td>子xpath: <input type="text" name="htmlItemXpathArray[' + xpathTrIndex + '].subXpath" /></td>');
+
+    var xpathTd3 = $( '<td><span class="linkHand" name="advanceSpan" ><u>高级</u><small>▼</small></span></td>');
+
+    var delElement = $( '<span class="linkHand" name="delSpan" ><u>删除</u></span>' );
+
+    xpathTd3.append( delElement );
+
+    var xpathTr = $('<tr></tr>');
+    xpathTr.append( xpathTd1 );
+    xpathTr.append( xpathTd2 );
+    xpathTr.append( xpathTd3 );
+
+    var xpathTable = $( "#xpathTable" );
+    xpathTable.append( xpathTr );
+    var xpathTrAdvance = $( 
+        '<tr class="advanceTr">' +
+            '<td colspan="3">' +
+                '分页参数:<input type="text" name="htmlItemXpathArray[' + xpathTrIndex + '].pageParamName" />' +
+                '截取条目关键字:<input type="text" name="htmlItemXpathArray[' + xpathTrIndex + '].keyword" />' +
+            '</td>' +
+        '</tr>' +
+        '<tr class="advanceTr">' +
+            '<td colspan="3">' +
+                '起始页码:<input type="text" name="htmlItemXpathArray[' + xpathTrIndex + '].pageParamStart" />' +
+                '结束页码:<input type="text" name="htmlItemXpathArray[' + xpathTrIndex + '].pageParamEnd" />' +
+            '</td>' +
+        '</tr>' );
+
+    xpathTable.append( xpathTrAdvance );
+    xpathTrAdvance.hide();
+
     xpathTrIndex++;
-}
 
-function advanceOption( obj, trId ) {
-    var trObj = document.getElementById( trId );
-    alert( trObj.lastChild.firstChild.innerHTML );
+    $("span[name=advanceSpan]").toggle(
+        function(){
+            $(this).parents("tr").nextAll(":lt(2)").show();
+            $(this).children("small").text("▲");
+        },
+        function(){
+            $(this).parents("tr").nextAll(":lt(2)").hide();
+            $(this).children("small").text("▼");
+        }
+    );
+
+    $("span[name=delSpan]").click( function() {
+            var thisTr = $(this).parents("tr:first");
+            var prevAdvanceTd = thisTr.prevAll(":eq(2)").children("td:eq(2)");
+            if( xpathTrIndex != 2 ) {
+                prevAdvanceTd.append( delElement );
+            }
+            thisTr.nextAll(":lt(2)").remove();
+            thisTr.remove();
+            xpathTrIndex--;
+    });
 }
