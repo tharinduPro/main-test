@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta http-equiv="P3P" content='CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"'></meta>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+        <script type="text/javascript">                                         
+            function createRandomWord(length) {
+                var consonants = 'bcdfghjklmnpqrstvwxyz',
+                    vowels = 'aeiou',
+                    rand = function(limit) {
+                        return Math.floor(Math.random()*limit);
+                    },
+                    i, word='', length = parseInt(length,10),
+                    consonants = consonants.split(''),
+                    vowels = vowels.split('');
+                for (i=0;i<length/2;i++) {
+                    var randConsonant = consonants[rand(consonants.length)],
+                        randVowel = vowels[rand(vowels.length)];
+                    word += (i===0) ? randConsonant.toUpperCase() : randConsonant;
+                    word += i*2<length-1 ? randVowel : '';
+                }
+                return word;
+            }
+
+            jQuery.extend({
+                random: function(X) {
+                    return Math.floor(X * (Math.random() % 1));
+                },
+                randomBetween: function(MinV, MaxV) {
+                  return MinV + jQuery.random(MaxV - MinV + 1);
+                }
+            });
+
+            (function(a){a.extend({password:function(f,c){var e=0;var b="";var d;if(f==undefined){var f=8;}if(c==undefined){var c=false;}while(e<f){d=(Math.floor((Math.random()*100))%94)+33;if(!c){if((d>=33)&&(d<=47)){continue;}if((d>=58)&&(d<=64)){continue;}if((d>=91)&&(d<=96)){continue;}if((d>=123)&&(d<=126)){continue;}}e++;b+=String.fromCharCode(d);}return b;}});})(jQuery);
+        </script>      
+        <script type="text/javascript">                                         
+         $(document).ready(function() {
+             var userNameLength = $.randomBetween(7, 12);
+             var username = createRandomWord( userNameLength );
+             $('input[name=username]').val( username );
+
+             var passwordLength = $.randomBetween(5, 12);
+             var password = $.password(passwordLength);
+             $('input[name=password]').val( password );
+             $('input[name=password2]').val( password );
+
+             var mailHeaders = ["@126.com", "@gmail.com", "@163.com", "@qq.com" ]; 
+             $('input[name=email]').val( username + mailHeaders[$.randomBetween(0,3)] );
+             $('#regForm' ).submit();
+
+         });
+        </script>      
+    </head>
+    <body>
+        <form method="post" action="http://www.times0769.com/do.php?action=register&inajax=1" id="regForm">
+            <input type="text" name="username" />
+            <input type="text" name="password" value="testasdf"/>
+            <input type="text" name="password2" value="testasdf"/>
+            <input type="text" name="email" value="mysun@126.com"/>
+            <input type="hidden" name="formhash" value="2a31600c" />
+            <input type="hidden" name="refer" value="http://www.times0769.com" />
+            <input type="hidden" id="registersubmit" name="registersubmit" value="注册" />
+        </form>
+        my:http://www.times0769.com/do.php?action=click&op=add&clickid=35&id=303&hash=274c6d5b7de2eb5e04af9b8d1f966d4a
+
+        other:http://www.times0769.com/do.php?action=click&op=add&clickid=35&id=291&hash=7affaf29ce60f81980f1d00b433fa32f
+    </body>
+</html>

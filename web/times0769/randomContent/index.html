@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Random Content Generator - Powered by jQuery (featuring Chuck Norris)</title>
+    
+    <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="js/jquery.randomContent.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function(){
+    		$('.chuck').randomContent({xmlPath: "chuck.xml", nodeName: "fact"});
+		});
+    </script>
+    
+    <link href="theme/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+	
+    <div id="wrapper">
+    	<div id="content">
+        	<h1>Random Content Generator</h1>
+			<h2>- Powered by jQuery (and Chuck Norris)</h2>
+            <p>Click <a href="#">here</a> to download jquery.randomContent.js v.1</p>
+            <p>The jQuery Random Content Generator takes <a href="http://en.wikipedia.org/wiki/Placeholder_text" title="View definition at Wikipedia.com">placeholder text</a> to the next level by randomly inserting text of varying sizes from an XML file. The random content is appended to any element that has the specified class name.</p>
+            <p>See the plugin in action by refreshing the page (f5).</p>
+        	<p>There are two parameters that can be passed into this plugin. <strong>xmlPath</strong>, obviously, takes the path to the XML file that has been prepared with filler text. <strong>nodeName</strong> specifies which XML node(s) the content will be pulled from. This is done so that multiple types of content can be stored in one XML file. For example, you can use two different node names to distinquish between short and long content and attach them to two different class names.</p>
+        	<p>To use this plugin, use the following code (you will want to ajust the classname and XML file info to meet your needs):</p>
+            <textarea cols="30" rows="2">$('.chuck').randomContent({xmlPath: "chuck.xml", nodeName: "fact"});</textarea>
+            <p>The defaults for these are <strong>xmlPath: "randomContent.xml", nodeName: "content"</strong></p>
+            <p>The XML structure is very simple. Just one parent node with all its children inside. Like this:</p>
+        	<textarea cols="30" rows="4"><randomcontent><content>word</content><content>...</content></randomContent></textarea>
+        	<p>Enjoy :)</p>
+        </div>
+        <div id="columns">
+        	<div class="column chuck"><h2>Fact 1</h2></div>
+            <div class="column chuck"><h2>Fact 2</h2></div>
+            <div class="column chuck"><h2>Fact 3</h2></div>
+        </div>
+    </div>
+
+</body>
+</html>
