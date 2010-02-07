@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta http-equiv="P3P" content='CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"'></meta>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+        <script type="text/javascript">                                         
+        jQuery.extend({
+            random: function(X) {
+                return Math.floor(X * (Math.random() % 1));
+            },
+            randomBetween: function(MinV, MaxV) {
+              return MinV + jQuery.random(MaxV - MinV + 1);
+            }
+        });
+         $(document).ready(function() {
+            window.setTimeout(function () {
+                location.reload();
+            }, 1000*60*($.randomBetween(1, 5)));
+         });
+        </script>      
+    </head>
+    <body>
+        <iframe src="http://www.times0769.com/index.php?action-model-name-coll-itemid-303" />
+    </body>
+</html>
