@@ -88,8 +88,24 @@ public class Tools {
 
 		return pwd.toString();
 	}
-
+	/**
+	 * 
+	 * @param min
+	 * @param max
+	 * @return 产生固定范围的随机数
+	 */
 	public static Integer createRandom( Integer min, Integer max ) {
 		return min + new Random().nextInt( max - min + 1);
 	}
+
+	public static void runCmd( String cmd ) throws IOException {
+		Process process = Runtime.getRuntime().exec("cmd /c " + cmd ); 	
+		BufferedReader in = new BufferedReader(  
+		new InputStreamReader( process.getInputStream() ) );  
+		String line = null;  
+		while ((line = in.readLine()) != null) {  
+			System.out.println(line);  
+		}
+	}
+	
 }
