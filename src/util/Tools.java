@@ -101,7 +101,7 @@ public class Tools {
 	public static void runCmd( String cmd ) throws IOException {
 		Process process = Runtime.getRuntime().exec("cmd /c " + cmd ); 	
 		BufferedReader in = new BufferedReader(  
-		new InputStreamReader( process.getInputStream() ) );  
+		new InputStreamReader( process.getInputStream(), "GB2312" ) );  
 		String line = null;  
 		while ((line = in.readLine()) != null) {  
 			System.out.println(line);  

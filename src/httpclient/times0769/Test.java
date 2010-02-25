@@ -1,10 +1,8 @@
 package httpclient.times0769;
 
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpGet;
@@ -23,6 +21,16 @@ import util.Tools;
 public class Test {
 
 	public static void main(String[] args) throws Exception {
+		for( int i=0; i< 35; i++ ) {
+			new Test().vote();	
+			int minutes = Tools.createRandom( 6, 16 );
+			Thread.sleep( 1000*60*minutes );
+			Tools.runCmd( "rasdial /disconnect" );
+		}
+	}
+
+	public void vote() throws Exception {
+		Tools.runCmd( "rasdial adsl dg5916197 12345678" );
         HttpParams params = new BasicHttpParams();
         HttpProtocolParams.setUserAgent(params, "Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.1.7) Gecko/20091221 Firefox/3.5.7"); 
 		DefaultHttpClient httpclient = new DefaultHttpClient(params);
@@ -53,18 +61,19 @@ public class Test {
 		nvps.add(new BasicNameValuePair("registersubmit", "注册" ) );
 		
 		times0769Reg.setEntity(new UrlEncodedFormEntity(nvps, HTTP.UTF_8));
-		HttpResponse rs	= httpclient.execute(times0769Reg);
-		InputStream is = rs.getEntity().getContent();
-		System.out.println( Tools.InputStreamToString( is , "utf-8" ));
+		httpclient.execute(times0769Reg);
+//		HttpResponse rs	= httpclient.execute(times0769Reg);
+//		InputStream is = rs.getEntity().getContent();
+//		System.out.println( Tools.InputStreamToString( is , "utf-8" ));
 		times0769Reg.abort();
 		
 		HttpGet httpvote = new HttpGet("http://www.times0769.com/do.php?action=click&op=add&clickid=35&id=303&hash=274c6d5b7de2eb5e04af9b8d1f966d4a");
-		HttpResponse rsVote	= httpclient.execute( httpvote );
-		InputStream isVote = rsVote.getEntity().getContent();
-		System.out.println( Tools.InputStreamToString( isVote , "utf-8" ));
+		httpclient.execute( httpvote );
+//		HttpResponse rsVote	= httpclient.execute( httpvote );
+//		InputStream isVote = rsVote.getEntity().getContent();
+//		System.out.println( Tools.InputStreamToString( isVote , "utf-8" ));
 		httpvote.abort();
 		
 		httpclient.getConnectionManager().shutdown();
 	}
-
 }
