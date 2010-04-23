@@ -6,19 +6,16 @@
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-#a::Run http://10.145.199.114
-#b::Run http://localhost:8081/dgcredit/index/test.action
+#a::Run http://61.145.199.114
+#b::Run http://localhost:8081/dgcredit/login.jsp
 #l::Run http://localhost:8081/dgcredit/task2add/list.action
-#u::Run http://localhost:8081/dgcredit/userManager/list.action
+#u::Run http://localhost:8081/netmeeting/manager/preFileUpload
 #f::Run D:\ProgramFiles\Net\freegate.exe
 #i::Run http://localhost:8081/dgcredit/index/index.action
 #j::Run https://ibsbjstar.ccb.com.cn/app/V5/CN/STY1/login.jsp
-#m::Run D:\ProgramFiles\Program\MyEclipse 7.0M1\eclipse\eclipse.exe
 #s::Run D:\ProgramFiles\System\Close LCD_PConline.exe 
 #t::Run D:\ProgramFiles\Net\Thunder Network\Thunder\Program\Thunder.exe
-#v::Run G:\Games\VS\VSLoader.exe
-#p::Run C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe
-#q::Run D:\ProgramFiles\Net\Tencent\QQ\Bin\qq.exe
+#n::Run http://localhost:8081/netmeeting/manager/index
 
 !d:: Run G:\Download
 !e:: Run explorer
@@ -50,6 +47,9 @@ test() {
     Send ^v
     return
 
+::/cmbcard::
+    Send 6225887692161199
+    return
 
 :::w::
     runSelf()
