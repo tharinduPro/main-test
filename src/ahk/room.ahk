@@ -3,9 +3,10 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 
 SetTitleMatchMode, 3
+runIntoRoom := true 
 goIntoRoom()
 {
-    MouseGetPos, xpos, ypos 
+    MouseGetPos, xpos, ypos,,vsHWND,2 
     ControlGetPos,xctr,yctr,,,List1
     loop
     {
@@ -13,24 +14,24 @@ goIntoRoom()
         IfWinExist, VS竞技游戏平台
         {
             WinClose
-            dbClickRoom(xpos,ypos,xctr,yctr)
         }
         IfWinExist, VSClient
         {
             WinClose
-            dbClickRoom(xpos,ypos,xctr,yctr)
         }
+        dbClickRoom(xpos,ypos,xctr,yctr,vsHWND)
     }
 }
 
-dbClickRoom(xp,yp,xc,yc)
+dbClickRoom(xp,yp,xc,yc,hwnd)
 {
         IfWinExist,VS竞技游戏平台 -- 正式版-3.0.16
         {
-            Xmsg := xp - xc
-            Ymsg := yp - yc
-            Position:=makeLparam(Xmsg,Ymsg)
-            PostMessage, 0x203, 0x1,%Position%,List1 
+            xmsg := xp - xc
+            ymsg := yp - yc
+            position:=makeLparam(xp,yp)
+            PostMessage, 0x200,0x1,%position%,List1 
+            PostMessage, 0x203,0x1,%position%,List1 
         }
 }
 

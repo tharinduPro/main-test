@@ -6,9 +6,8 @@
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-#a::Run http://61.145.199.114
-#b::Run http://localhost:8081/dgcredit/login.jsp
-#l::Run http://localhost:8081/dgcredit/task2add/list.action
+#a::Run http://localhost:8081/cs
+#l::Run http://localhost:8081/cs/company/index.action?company.comUserId=6
 #u::Run http://localhost:8081/netmeeting/manager/preFileUpload
 #f::Run D:\ProgramFiles\Net\freegate.exe
 #i::Run http://localhost:8081/dgcredit/index/index.action
