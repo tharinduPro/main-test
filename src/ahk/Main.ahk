@@ -1,15 +1,15 @@
-#Include FilePathCopier.ahk
+﻿#Include FilePathCopier.ahk
 #Include MyEclipse.ahk
 #Include MyJava.ahk
 #SingleInstance force 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-#a::Run http://localhost:8081/cs
-#l::Run http://localhost:8081/cs/company/index.action?company.comUserId=6
+#a::Run http://localhost:8081/cplogistics/lgst
+#b::Run http://localhost:8081/cs
+#l::Run http://113.105.152.62
 #u::Run http://localhost:8081/netmeeting/manager/preFileUpload
 #i::Run http://localhost:8081/dgcredit/index/index.action
-#j::Run https://ibsbjstar.ccb.com.cn/app/V5/CN/STY1/login.jsp
 #s::Run D:\ProgramFiles\System\Close LCD_PConline.exe 
 #t::Run D:\ProgramFiles\Net\Thunder Network\Thunder\Program\Thunder.exe
 #n::Run http://localhost:8081/netmeeting/manager/index
@@ -17,7 +17,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
     Run D:\ProgramFiles\Net\Mozilla Firefox Test\firefox.exe
     Run D:\ProgramFiles\Net\Tencent\QQ\Bin\qq.exe
     EnvGet, JAVA_HOME,JAVA_HOME 
-    Run %comspec% /c D:\ProgramFiles\Program\EclipseJ2EE\eclipse\eclipse.exe -vm "%JAVA_HOME%/jre/bin/javaw.exe"
+    Run %comspec% /c D:\ProgramFiles\Program\EclipseJ2EE\eclipse\eclipse.exe -vm "%JAVA_HOME%/jre/bin/javaw.exe" -vmargs -Duser.timezone=Asia/Shanghai
     return
 
 !d:: Run G:\Download
@@ -33,7 +33,12 @@ $F3::Run %comspec% /c gVim E:\TestWork\Test\src\ahk\Main.ahk
 
 
 ::/gcp::
-    clipboard = KM4Yg4CP7KD9
+    clipboard =KM4Yg4CP7KD9
+    Send ^v
+    return
+
+#c::
+    clipboard =chashan.dg.gov.cn
     Send ^v
     return
 
